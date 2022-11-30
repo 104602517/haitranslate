@@ -1,0 +1,2 @@
+undefinedexport default {
+  index: {
