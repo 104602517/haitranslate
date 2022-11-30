@@ -1,11 +1,7 @@
 export default {
   errorLog: {
-undefinedundefinedqueDing: "Xác nhận", 
-tiShi: "Gợi ý", 
-undefinedyiChangXiangQing: "Chi tiết ngoại lệ", 
-zhaKanXiangQing: "Kiểm tra chi tiết", 
-chuangJianRiQi: "Ngày tạo", 
-undefinedundefinedundefinedundefinedundefinedundefinedundefined    sureEmpty2: `确认清空所有异常日志吗?`
+nullnullnullnullyiChangRiZhi: "Nhật ký bất thường", yiChangXiangQing: "Chi tiết bất thường", yiChangXiangQing: "Chi tiết bất thường", zhaKanXiangQing: "Kiểm tra chi tiết", zhaKanXiangQing: "Kiểm tra chi tiết", 
+    sureEmpty2: `确认清空所有异常日志吗?`
   },
   index: {
 riZhi: "Nhật ký", 

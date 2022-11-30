@@ -34,7 +34,7 @@ async function transfile({fileUrl, fileName, TRANSLATION_ORIGINN_DATA}) {
       if(preInfo && !prepreInfo){
          
          // 处理第一行
-         newLine = handleRow({handleInfo: preInfo, afterInfo: lineInfo, fileName, TRANSLATION_ORIGINN_DATA})
+         newLine = handleRow({handleInfo: preInfo, afterInfo: lineInfo, line, fileName, TRANSLATION_ORIGINN_DATA})
    
          // 重置
          prepreInfo = preInfo
@@ -45,7 +45,7 @@ async function transfile({fileUrl, fileName, TRANSLATION_ORIGINN_DATA}) {
       if(preInfo && prepreInfo){
         
          // 处理前一行
-         newLine = handleRow({handleInfo: preInfo, preLine: prepreInfo, afterLine: lineInfo , fileName, TRANSLATION_ORIGINN_DATA})
+         newLine = handleRow({handleInfo: preInfo, preLine: prepreInfo, afterLine: lineInfo , line, fileName, TRANSLATION_ORIGINN_DATA})
          
          //重置
          prepreInfo = preInfo
@@ -74,7 +74,7 @@ async function transfile({fileUrl, fileName, TRANSLATION_ORIGINN_DATA}) {
  
       if(preInfo){
          // 处理最后一行
-         newLine = handleRow({handleInfo: preInfo, preLine: prepreInfo, afterLine: {} , fileName, TRANSLATION_ORIGINN_DATA})
+         newLine = handleRow({handleInfo: preInfo, preLine: prepreInfo, afterLine: {} , line, fileName, TRANSLATION_ORIGINN_DATA})
           newData += newLine;
          newLine = '';
       }

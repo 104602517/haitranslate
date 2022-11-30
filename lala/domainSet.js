@@ -1,10 +1,7 @@
 export default {
   index: {
-chengGong: "Thành công", 
-chengGong: "Thành công", 
-tiShi: "Gợi ý", 
-gangWeiShiFouJi: "Vị trí, tiếp tục?", 
-undefinedundefinedundefinedundefinedchuangJianRiQi: "Ngày tạo", 
-chuangJianRen: "Người tạo", 
-undefinedundefinedundefinedundefinedundefinedundefined  },
+nullnullnullgangWeiShiFouJi: "Vị trí, tiếp tục?", nullyuMing: "Tên miền", xiuGaiRiQi: "Ngày chỉnh sửa", xiuGaiRiQi: "Ngày chỉnh sửa", xiuGaiRen: "Người chỉnh sửa", xiuGaiRen: "Người chỉnh sửa", 
+yuMingLeiXing: "Loại miền", 
+yuMingFuWu: "Dịch vụ tên miền", 
+yuMingDiZhi: "Địa chỉ tên miền", 
 };

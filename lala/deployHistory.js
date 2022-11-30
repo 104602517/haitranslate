@@ -1,5 +1,7 @@
 export default {
   index: {
-undefinedundefinedqueDing: "Xác nhận", 
-undefinedundefinedundefined  },
+buShuLiShi: "Lịch sử triển khai", 
+buShuLiShi: "Lịch sử triển khai", 
+buShuLiShi: "Lịch sử triển khai", 
+buShuLiShi: "Lịch sử triển khai", 
 };

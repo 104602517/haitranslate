@@ -1,38 +1,20 @@
 export default {
   CustomerTypeColumn: {
-pingTaiKeHu: "Nền tảng khách hàng", 
-pingTaiKeHu: "Nền tảng khách hàng", 
-tuiGuangShangKeHu: "Khách hàng của nhà quảng cáo", 
-  },
+pingTaiKeHu: "Khách hàng nền tảng", 
+pingTaiKeHu: "Khách hàng nền tảng", 
+null  },
   EndType: {
 null  },
   EvaluateType: {
-zhuDongPingJia: "Chủ động đánh giá", 
-zhuDongPingJia: "Chủ động đánh giá", 
-yaoQingPingJia: "Mời đánh giá·", 
-  },
+nullnullnull  },
   langs: {
-language: "Ngôn ngữ", 
-  },
-  HeadProxyIdColumn: {
-null  },
+    language: '语言'  },  HeadProxyIdColumn: {zongDaiID: "ID Tổng đại lý",   },
   IsDone: {
-weiJieJue: "Chưa giải quyết", 
-weiJieJue: "Chưa giải quyết", 
-yiJieJue: "Đã giải quyết", 
-  },
+nullnullnull  },
   IsEvaluate: {
-yiPingJia: "Đã đánh giá", 
-yiPingJia: "Đã đánh giá", 
-weiPingJia: "Chưa đánh giá", 
-  },
+nullnullnull  },
   ParentProxyColumn: {
-null  },
-  ServerProxyColumn: {
-null  },
-  ServerTypeColumn: {
-pingTaiKeFu: "Nền tảng chăm sóc khách hàng", 
-pingTaiKeFu: "Nền tảng chăm sóc khách hàng", 
-tuiGuangShangKeFu: "chăm sóc khách hàng quảng cáo", 
+    shangJiDaiLi: '上级代理'  },  ServerProxyColumn: {    keFuDaiLi: '客服代理'  },  ServerTypeColumn: {pingTaiKeFu: "Dịch vụ khách hàng nền tảng", pingTaiKeFu: "Dịch vụ khách hàng nền tảng", 
+pingTaiKeFu: "Dịch vụ khách hàng nền tảng", 
   }
 }

@@ -1,4 +1,4 @@
 export default {
   index: {
-undefined  },
+null  },
 };

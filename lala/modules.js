@@ -1,46 +1,44 @@
 export default {
   editDialog: {
-nullnullundefinedtouXiangXiuGaiCheng: "Sửa đổi hình đại diện thành công", 
-shangChuanTouXiangTu: "Kích thước của ảnh đại diện tải lên không vượt quá 2MB!", 
-qingXuanZe: "Chọn", 
-undefinedundefinedqueRen: "Xác nhận", 
-    liRuGaiKeFu:
-      '例如：该客服新增技能组1，则该客服技能组1的欢迎语为该默认配置。',
-undefinedundefinedundefinedundefinedundefinedjiNengZu: "Nhóm kỹ năng", 
-nullkeFuFenZu: "Nhóm dịch vụ khách hàng", 
-undefinedkeFuNiCheng: "Biệt danh chăm sóc khách hàng", 
-qingXianXuanZe: "Chọn trước", 
-nullundefinednullundefined  },
+nullnulltouXiangXiuGaiShi: "Sửa đổi hình đại diện thất bại", touXiangXiuGaiCheng: "Sửa đổi hình đại diện thành công", touXiangXiuGaiCheng: "Sửa đổi hình đại diện thành công", shangChuanTouXiang: "Tải hình đại diện", null    liRuGaiKeFu:      '例如：该客服新增技能组1，则该客服技能组1的欢迎语为该默认配置。',
+peiZhiLeXinDe: "Nếu 1 nhóm kỹ năng mới được cấu hình, hệ thống sẽ tự động gắn lời chào mừng cho nhóm kỹ năng mới của bộ phận chăm sóc khách hàng", 
+peiZhiLeXinDe: "Nếu 1 nhóm kỹ năng mới được cấu hình, hệ thống sẽ tự động gắn lời chào mừng cho nhóm kỹ năng mới của bộ phận chăm sóc khách hàng", 
+peiZhiLeXinDe: "Nếu 1 nhóm kỹ năng mới được cấu hình, hệ thống sẽ tự động gắn lời chào mừng cho nhóm kỹ năng mới của bộ phận chăm sóc khách hàng", 
+peiZhiLeXinDe: "Nếu 1 nhóm kỹ năng mới được cấu hình, hệ thống sẽ tự động gắn lời chào mừng cho nhóm kỹ năng mới của bộ phận chăm sóc khách hàng", 
   limitDialog: {
-undefinedundefinedzuiDaJieDaiShang: "Giới hạn tiếp nhận tối đa", 
-zhiNengShuRuDa: "Chỉ những số dương lớn hơn 0 mới có thể được nhập", 
-qingShuRu: "Nhập vào", 
-undefinednull  },
+jieDaiShangXianShe: "Giới hạn của việc tiếp nhận đã cài đặt thành công!", 
+jieDaiShangXianShe: "Giới hạn của việc tiếp nhận đã cài đặt thành công!", 
+jieDaiShangXianShe: "Giới hạn của việc tiếp nhận đã cài đặt thành công!", 
+nullnullnullnull  },
   addDialog: {
-nullnullnullnullundefinedundefinedundefined    xianShiZeYongHu:
+nullnullnullnullqingShuRuJiNeng: "Chào mừng bạn tham gia nhóm kỹ năng", jiNengZuHuanYing: "Lời chào mừng cho nhóm kỹ năng mới:", jiNengZuHuanYing: "Lời chào mừng cho nhóm kỹ năng mới:",     xianShiZeYongHu:
       '显示则用户能看到该问题；不显示则用户看不到该问题\n        ',
-undefinedundefinedundefinedshiFouXianShi: "Có hiển thị không", 
-  },
+xianShiZeYongHu2: "Nếu hiển thị, người dùng có thể thấy câu hỏi; nếu không hiển thị, người dùng không thể thấy câu hỏi \ n", 
+xianShiZeYongHu2: "Nếu hiển thị, người dùng có thể thấy câu hỏi; nếu không hiển thị, người dùng không thể thấy câu hỏi \ n", 
+nullnull  },
   addMember: {
-nullnullundefinedundefinedundefinedundefinedundefined  },
-  deleteDialog: {
-undefinedundefinedundefinedundefinedundefinedundefined  },
+nullnullnullnullmeiYeVAL: "Mỗi trang {val1}", qingShuRuGeRen: "Nhập lời chào mừng cá nhân của bạn", null  },  deleteDialog: {
+qingXuanZeYaoYi: "Chọn thành viên để loại bỏ", 
+qingXuanZeYaoYi: "Chọn thành viên để loại bỏ", 
+qingXuanZeYaoYi: "Chọn thành viên để loại bỏ", 
+qingXuanZeYaoYi: "Chọn thành viên để loại bỏ", 
+yiChuChengGong: "Gỡ bỏ thành công!", 
+yiChu: "Gỡ bỏ", 
+  },
   members: {
-undefinedundefinedundefinedundefinedundefined  },
+chengYuanYiChu: "Loại bỏ thành viên", 
+chengYuanYiChu: "Loại bỏ thành viên", 
+chengYuanYiChu: "Loại bỏ thành viên", 
+chengYuanYiChu: "Loại bỏ thành viên", 
+congGaiJiNengZu: "] Xóa khỏi bộ kỹ năng này? \N", 
+  },
   skillDialog: {
-guanBi: "Đóng 111", 
-guanBi: "Đóng 111", 
-undefinedchuangJianRiQi: "Ngày tạo", 
-shiFouXianShi: "Có hiển thị không", 
-jiNengZuID: "ID nhóm kỹ năng", 
+nullnulljiNengZuGuanLi: "Quản lý nhóm kỹ năng dịch vụ khách hàng:", nullnulljiNengZuID: "ID nhóm kỹ năng:", null  },  form: {
+nullnullnullnullxuanZeBuMen: "Chọn bộ phận", nullnullnull  },  header: {
+shuRuGangWeiMing: "Nhập chức danh công việc để tìm kiếm", 
+shuRuGangWeiMing: "Nhập chức danh công việc để tìm kiếm", 
+shuRuGangWeiMing: "Nhập chức danh công việc để tìm kiếm", 
 null  },
-  form: {
-undefinedundefinedqueRen: "Xác nhận", 
-undefinedundefinedqingXuanZe: "Chọn", 
-qingShuRu: "Nhập vào", 
-null  },
-  header: {
-undefinedundefinedundefinedundefined  },
   infoDetail1: {
 fuZhiChengGong: "Sao chép thành công", 
     keHuDuanLeiBie:
@@ -51,6 +49,8 @@ fuZhiChengGong: "Sao chép thành công",
       '\n          客户端IP: {val1}\n          接入域名: {val2}\n          联网类型: {val3}\n          客户端地理位置: {val4}\n          ',
     keHuDuanLeiBie2:
       '\n          客户端类别: {val1}\n          客户端版本: {val2}\n          发起请求界面: {val3}\n          发起请求路径: {val4}\n          咨询问题类型: {val5}\n          ',
-undefinedundefinedundefinednullundefinedundefinedundefinednullnullundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefined  },
+nullnullnullnullnullnullyongHuShangChuan: "Tài khoản tải lên", nullnullnullsheBeiXinXi: "Thông tin thiết bị", wangLuoXinXi: "Thông tin đường mạng", wangLuoXinXi: "Thông tin đường mạng", yingYongXinXi: "Thông tin ứng dụng", yingYongXinXi: "Thông tin ứng dụng", 
+quanBuFuZhi: "Sao chép tất cả", 
+  },
   
 }

@@ -1,4 +1,8 @@
 export default {
   PanelGroup: {
-undefinedundefinedundefinedundefined  },
+zhouIPLiang: "IP hàng tuần", 
+zhouIPLiang: "IP hàng tuần", 
+zhouIPLiang: "IP hàng tuần", 
+zhouIPLiang: "IP hàng tuần", 
+  },
 };

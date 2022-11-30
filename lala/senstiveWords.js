@@ -1,20 +1,3 @@
 export default {
   index: {
-shangChuanWenJianNeng: "Tệp tải lên có thể ở định dạng txt!", 
-shangChuanWenJianNeng: "Tệp tải lên có thể ở định dạng txt!", 
-minGanCiDaoRu: "Đã nhập thành công các từ nhạy cảm", 
-nullyiXiaMinGanCi: "Các từ nhạy cảm sau đã tồn tại và chưa được nhập:", 
-minGanCiDaoRu2: "Đã nhập thành công các từ nhạy cảm", 
-minGanCiDuYi: "Các từ nhạy cảm đã tồn tại", 
-minGanCiDaoRu3: "Nhập từ nhạy cảm thất bại", 
-minGanCiDaoRu4: "Nhập từ nhạy cảm thất bại", 
-changDuZaiBuNeng: "Chiều dài không được lớn hơn 10", 
-qingShuRuMinGan: "Nhập các từ nhạy cảm", 
-minGanCi: "Từ nhạy cảm", 
-queDingYaoShanChu: "Chắc chắn muốn xóa từ nhạy cảm này không?", 
-minGanCiID: "ID từ nhạy cảm", 
-meiHangMinGanCi: "Mỗi dòng từ nhạy cảm phải bằng tiếng Trung, kết thúc.", 
-meiGeMinGanCi: "Mỗi từ nhạy cảm cần được tách biệt trong tiếng Trung Quốc;", 
-benMinGanCiZhi: "Từ nhạy cảm này chỉ hỗ trợ nhập các tệp txt;", 
-null  },
-};
+    shangChuanWenJianNeng: '上传文件能是 txt 格式!',    minGanCiDaoRu: '敏感词导入成功',    haoDe: '好的',null    minGanCiDaoRu2: '敏感词导入成功。',    minGanCiDuYi: '敏感词都已存在',    minGanCiDaoRu3: '敏感词导入失败。',    minGanCiDaoRu4: '敏感词导入失败',    changDuZaiBuNeng: '长度在 不能大于 10',    qingShuRuMinGan: '请输入敏感词',    minGanCi: '敏感词',    queDingYaoShanChu: '确定要删除该敏感词吗？',    minGanCiID: '敏感词ID',    meiHangMinGanCi: '每行敏感词必须中文，结束.',    meiGeMinGanCi: '每个敏感词需要以中文，隔开；',    benMinGanCiZhi: '本敏感词只支持txt文件的导入；',    zhongZhi: '重置',null  },};

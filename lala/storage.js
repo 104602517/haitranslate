@@ -1,6 +1,3 @@
 export default {
   index: {
-qiNiuYunCunChu: "Lưu trữ Qiniu Cloud", 
-qiNiuYunCunChu: "Lưu trữ Qiniu Cloud", 
-  },
-};
+    qiNiuYunCunChu: '七牛云存储',    benDiCunChu: '本地存储',  },};

@@ -1,8 +1,7 @@
 export default {
   CustomerTypeAddModal: {
-undefinedundefinedundefinedqingXuanZe: "Chọn", 
-undefinedtuiGuangShangKeHu: "Khách hàng của nhà quảng cáo", 
-queRen: "Xác nhận", 
-undefinedundefinedchaXun: "Kiểm tra", 
-nullundefined  },
+yiJingQuanBuGou: "Tất cả đã được kiểm tra và không thể được thêm vào!", 
+yiJingQuanBuGou: "Tất cả đã được kiểm tra và không thể được thêm vào!", 
+yiJingQuanBuGou: "Tất cả đã được kiểm tra và không thể được thêm vào!", 
+yiJingQuanBuGou: "Tất cả đã được kiểm tra và không thể được thêm vào!", 
 };

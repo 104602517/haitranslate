@@ -1,10 +1,32 @@
 export default {
-undefinedundefinedxiuGaiChengGong: "Chỉnh sửa thành công", 
-  duoGeYingYongShang:
+wEBSO: "Xảy ra lỗi với kết nối WebSocket", 
+wEBSO: "Xảy ra lỗi với kết nối WebSocket", 
+null  duoGeYingYongShang:
     '多个应用上传文件名称为all.zip,数据库更新脚本扩展名为.sql,上传成功后系统自动部署系统。',
-undefined  index: {
-undefinedundefinedundefinedundefinedundefinedundefinedqingXuanZe: "Chọn", 
-undefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefined  },
+yingYongBuShu: "Triển khai ứng dụng", 
+  index: {
+fuWuQiBuNeng: "Máy chủ không để trống", 
+fuWuQiBuNeng: "Máy chủ không để trống", 
+fuWuQiBuNeng: "Máy chủ không để trống", 
+fuWuQiBuNeng: "Máy chủ không để trống", 
+yingYongBuNengWei: "Ứng dụng không để trống", 
+buShu: "Triển khai", 
+buShuRiQi: "Ngày triển khai", 
+fuWuQiLieBiao: "Danh sách hệ thống", 
+yiJianBuShu: "Triển khai 1 cú nhấp chuột", 
+yiJianBuShu2: "Triển khai 1 cú nhấp chuột", 
+tingZhi: "Dừng lại", 
+tingZhi2: "Dừng lại", 
+qiDong: "Khởi động", 
+qiDong2: "Khởi động", 
+zhuangTaiChaXun: "Truy vấn trạng thái", 
+zhuangTaiChaXun2: "Truy vấn trạng thái", 
+  },
   sysRestore: {
-undefinedundefinedundefinedundefinedundefined  },
+qingXuanZeYaoHai: "Chọn 1 bản sao lưu để khôi phục", 
+qingXuanZeYaoHai: "Chọn 1 bản sao lưu để khôi phục", 
+qingXuanZeYaoHai: "Chọn 1 bản sao lưu để khôi phục", 
+qingXuanZeYaoHai: "Chọn 1 bản sao lưu để khôi phục", 
+buShuRenYuan: "Người triển khai", 
+  },
 };

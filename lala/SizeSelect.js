@@ -1,4 +1,5 @@
 export default {
   index: {
-undefined  },
+buJuSheZhiCheng: "Thiết lập bố cục thành công", 
+  },
 };

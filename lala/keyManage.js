@@ -1,13 +1,6 @@
 export default {
   addKey: {
-xiuGaiChengGong: "Chỉnh sửa thành công", 
-xiuGaiChengGong: "Chỉnh sửa thành công", 
-undefinedundefinednullnullundefinednullundefinedzhuangTai: "Trạng thái", 
-undefinedundefinedundefinedundefinedundefined  },
+nullnulltianJiaChanPin: "Thêm sản phẩm", xiuGaiChanPin: "Chỉnh sửa sản phẩm", xiuGaiChanPin: "Chỉnh sửa sản phẩm", nullnullnullsiYao: "Khóa cá nhân", gongYao: "Khóa công chúng", gongYao: "Khóa công chúng", moRenHuanYingYu: "Mặc định lời chào mừng", moRenHuanYingYu: "Mặc định lời chào mừng", 
+  },
   keyIndex: {
-ninQueDingShanChu: "Bạn chắc chắn muốn xóa thẻ [{val1}]", 
-ninQueDingShanChu: "Bạn chắc chắn muốn xóa thẻ [{val1}]", 
-nullundefinedxiuGai: "Chỉnh sửa", 
-undefinedchuangJianShiJian: "Ngày tạo", 
-undefinedundefinedundefinedundefinedundefined  },
-};
+nullnullnullchanPinLieBiao: "Danh sách sản phẩm", nullnullnullqingShuRuChanPin: "Nhập tên sản phẩm", nullnullsuoYouYingYongLei: "Tất cả các loại ứng dụng", suoYouZhuangTai: "Tất cả trạng thái",   },};

@@ -1,5 +1,7 @@
 export default {
   index: {
-undefinedundefinedundefinedguanBi: "Đóng 111", 
-  },
+guanBiQuanBu: "Đóng tất cả", 
+guanBiQuanBu: "Đóng tất cả", 
+guanBiQuanBu: "Đóng tất cả", 
+null  },
 };

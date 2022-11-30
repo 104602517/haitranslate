@@ -1,6 +1,2 @@
 export default {
-shanChuTuiGuangShang: "Xóa cấu hình nhà quảng cáo", 
-shanChuTuiGuangShang: "Xóa cấu hình nhà quảng cáo", 
-bianJiTuiGuangShang: "Chỉnh sửa cấu hình nhà quảng cáo", 
-tianJiaTuiGuangShang: "Thêm cấu hình nhà quảng cáo", 
-};
+  shanChuTuiGuangShang: '删除推广商配置',  bianJiTuiGuangShang: '编辑推广商',  tianJiaTuiGuangShang: '添加推广商',  tuiGuangShangPeiZhi: '推广商配置列表',};

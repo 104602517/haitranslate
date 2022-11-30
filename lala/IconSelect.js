@@ -1,4 +1,5 @@
 export default {
   index: {
-undefined  },
+qingShuRuTuBiao: "Nhập tên biểu tượng", 
+  },
 };

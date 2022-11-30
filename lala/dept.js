@@ -1,13 +1,4 @@
 export default {
   index: {
-undefinedundefinedchengGong: "Thành công", 
-undefinedqueDing: "Xác nhận", 
-tiShi: "Gợi ý", 
-undefinedundefinedundefinedundefinedundefinednullundefinedundefinedcaoZuo: "Thao tác", 
-chuangJianRiQi: "Ngày tạo", 
-zhuangTai: "Trạng thái", 
-undefinedkeFu: "Chăm sóc khách hàng", 
-undefinedmingCheng: "Tên", 
-queRen: "Xác nhận", 
-undefinedundefinedundefinednullnull  }
+    vipDengji: 'VIP等级',    chengGong: '成功',nullnullnullnullbuMenShiFouJi: "Bộ phận, tiếp tục?·", nullshangJiBuMenBu: "Bộ phận cấp trên không được để trống", nullzhengChang: "Bình thường", nullbuMen: "Bộ phận", queDingShanChuMa: "Chắc chắn xóa, nếu có các chi tiết sẽ xóa chung và không thể phục hồi", queDingShanChuMa: "Chắc chắn xóa, nếu có các chi tiết sẽ xóa chung và không thể phục hồi", nullbuMenLeiXing: "Phân loại bộ phận", mingCheng: "Tên", mingCheng: "Tên", zanWuPiPeiShu: "Không khớp dữ liệu", zanWuPiPeiShu: "Không khớp dữ liệu", nullnull  }
 }

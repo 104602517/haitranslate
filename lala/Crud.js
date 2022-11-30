@@ -1,17 +1,10 @@
 export default {
   CRUD: {
-undefinedundefinedundefinedqueDing: "Xác nhận", 
-tiShi: "Gợi ý", 
-undefinedundefinedqueRen: "Xác nhận", 
-undefinedqingShuRuMiMa: "Nhập mật khẩu", 
-undefinedundefinedundefinednullundefinedundefinedxiuGai: "Chỉnh sửa", 
-  },
+nullnullnullnullnullnullnullnullnullnullnullnullnullnullnullnullnull  },
   RR: {
-undefinedundefinednull  },
+nullnullnull  },
   UD: {
 nullnull  },
   crud: {
-undefinedundefinedundefinedshanChuChengGong: "Xóa thành công", 
-nullxinZengChengGong: "Thêm thành công", 
-undefinedundefined  },
+nullnullnullnullnullnullnullnull  },
 };

@@ -1,13 +1,35 @@
 export default {
   config: {
-xiuGaiChengGong: "Chỉnh sửa thành công", 
-xiuGaiChengGong: "Chỉnh sửa thành công", 
-undefinedundefinedundefinedundefinedundefinedbaoCunPeiZhi: "Lưu cấu hình", 
-undefinedundefinedundefinedundefinedundefinedundefinedundefinedundefined  },
+nullnullhuiTiaoDiZhiBu: "Địa chỉ gọi lại không để trống", zhiFuBaoGongYao: "khóa của Alipay không để trống", zhiFuBaoGongYao: "khóa của Alipay không để trống", shangHuSiYaoBu: "Khóa cá nhân của merchant không được để trống", shangHuSiYaoBu: "Khóa cá nhân của merchant không được để trống", 
+qingShuRuShangJia: "Nhập tài khoản merchant", 
+qingShuRuAP: "Nhập appID", 
+baoCunPeiZhi: "Lưu cấu hình", 
+zhiFuJieGuoYi: "Địa chỉ thông báo không đồng bộ kết quả thanh toán", 
+yiBuTongZhi: "Thông không đồng nhất", 
+dingDanWanChengHou: "Địa chỉ để quay lại sau khi hoàn tất đơn", 
+huiTiaoDiZhi: "Địa chỉ gọi lại", 
+zhiFuBaoGongYao2: "Khóa của alipay", 
+shangHuSiYaoNi: "Khóa của merchant, Khóa cá nhân của bạn RSA2 định dạng PKCS8", 
+  },
   index: {
-undefined    ruXuFuKuanCe:
+zhiFuSheZhi: "Thanh toán cài đặt", 
+    ruXuFuKuanCe:
       '\n如需付款测试，请使用\n账号：uuxesw9745@sandbox.com\n密码与支付密码：111111',
-undefinedundefinedundefinedundefinedundefinedundefined  },
+zhiFuBaoKaiFa: "Nền tảng phát triển Alipay", 
+zhiFuBaoKaiFa: "Nền tảng phát triển Alipay", 
+zhiFuBaoKaiFa: "Nền tảng phát triển Alipay", 
+zhiFuBaoKaiFa: "Nền tảng phát triển Alipay", 
+ceShiSuoYongCan: "Tất cả tham số sử dụng trong testing là môi trường thử nghiệm và chỉ sử dụng để thử nghiệm. Địa chỉ y:", 
+zhuYi: "Ghi chú", 
+  },
   toPay: {
-undefinedundefinedundefinedundefinedundefinedundefinedundefinedundefined  },
+shangPinMiaoShuBu: "Mô tả sản phẩm không để trống", 
+shangPinMiaoShuBu: "Mô tả sản phẩm không để trống", 
+shangPinMiaoShuBu: "Mô tả sản phẩm không để trống", 
+shangPinMiaoShuBu: "Mô tả sản phẩm không để trống", 
+shangPinJiaGeBu: "Giá sản phẩm không để trống", 
+shangPinMingChengBu: "Tên sản phẩm không để trống", 
+quZhiFu: "Đi thanh toán", 
+shangPinMiaoShu: "Mô tả sản phẩm", 
+  },
 };

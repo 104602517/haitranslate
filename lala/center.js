@@ -1,12 +1,42 @@
 export default {
   setFunction: {
-undefinedundefinedundefinedundefinedundefined  },
+zhiNengXiuGaiCheng: "Chỉnh sửa chức năng thành công", 
+zhiNengXiuGaiCheng: "Chỉnh sửa chức năng thành công", 
+zhiNengXiuGaiCheng: "Chỉnh sửa chức năng thành công", 
+zhiNengXiuGaiCheng: "Chỉnh sửa chức năng thành công", 
+zhiNengBuNengWei: "Chức năng không để trống", 
+  },
   updateEmail: {
-undefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefined  },
+huoQuYanZhengMa: "Lấy mã xác minh", 
+huoQuYanZhengMa: "Lấy mã xác minh", 
+huoQuYanZhengMa: "Lấy mã xác minh", 
+huoQuYanZhengMa: "Lấy mã xác minh", 
+youXiangXiuGaiCheng: "Chỉnh sửa email thành công", 
+chongXinFaSong: "Gửi lại", 
+miaoHouChongXinFa: "Gửi sau mấy giây", 
+faSongChengGongYan: "Gửi thành công, mã xác minh có hiệu lực trong 5p", 
+yanZhengMaFaSong: "Đang gửi mã xác minh", 
+xiuGaiYouXiang: "Chỉnh sửa email", 
+youXiangGeShiCuo: "Lỗi định dạng email", 
+xinYouXiangBuNeng: "Email mới không được giống Email cũ", 
+null  },
   updatePass: {
-undefined    weiYiShangMiMa:
+miMaXiuGaiCheng: "Mật khẩu thay đổi thành công, vui lòng đăng nhập lại", 
+    weiYiShangMiMa:
       '8-20位以上密码,数字,字母,字符至少包含两种,不能包含中文和空格',
-undefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefined    weiLeNinDeZhang:
+weiShuZiZiMu: "8-20 ký tự gồm chữ và số và không có tiếng Trung và dấu cách", 
+weiShuZiZiMu: "8-20 ký tự gồm chữ và số và không có tiếng Trung và dấu cách", 
+weiShuZiZiMu: "8-20 ký tự gồm chữ và số và không có tiếng Trung và dấu cách", 
+weiShuZiZiMu: "8-20 ký tự gồm chữ và số và không có tiếng Trung và dấu cách", 
+qingShuRuXinMi: "Nhập mật khẩu mới", 
+qingShuRuJiuMi: "Nhập mật khẩu cũ", 
+qingZaiCiShuRu: "Nhập lại mật khẩu", 
+liangCiShuRuDe: "Hai mật khẩu nhập không khớp", 
+queRenMiMa: "Xác nhận mật khẩu", 
+xinMiMa: "Mật khẩu mới", 
+    weiLeNinDeZhang:
       '为了您的账号安全，请您修改登录密码。修改完成后，需要重新登录。',
-undefinedundefined  },
+xiuGaiMiMa: "Đổi mật khẩu", 
+xiuGaiMiMa: "Đổi mật khẩu", 
+  },
 };

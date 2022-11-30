@@ -1,9 +1,10 @@
 export default {
   index: {
-undefinedundefinedundefinedundefinedundefinedundefinedshanChuChengGong: "Xóa thành công", 
-undefinedbuYunXuShuRu: "Không sử dụng ký tự không cho phép", 
-qingShuRuLaHei: "Nhập lý do chặn", 
-qingXuanZe: "Chọn", 
-undefinedqueRen: "Xác nhận", 
-undefinedundefinedundefinedundefinedundefinedundefinedundefinednull  },
+laHeiROW: "Danh sách đen {val1}", 
+laHeiROW: "Danh sách đen {val1}", 
+laHeiROW: "Danh sách đen {val1}", 
+laHeiROW: "Danh sách đen {val1}", 
+shanChuYongHuR: "Xóa tài khoản {val1} xác nhận", 
+queDingShanChuR: "Chắc chắn muốn xóa hồ sơ người dùng {val1} ? Sau khi xóa, không thể thu hồi.", 
+shiFouLaHei: "Muốn chặn không?", null  },
 };

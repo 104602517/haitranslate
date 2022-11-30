@@ -1,7 +1,6 @@
 export default {
   BarMore: {
-undefinedundefinedundefinedundefinedundefinedundefineddengLuShiChang: "Thời gian đăng nhập:", 
-undefinedundefined  },
-  tapChart: {
-undefined  },
+nullnullnullnullnullnullnullnullfanMang: "Bận",   },  tapChart: {
+dengLuShiChangM: "Thời gian đăng nhập/min", 
+  },
 };

@@ -1,16 +1,2 @@
 export default {
-bianJiJiNengZu: "Chỉnh sửa nhóm kỹ năng", 
-bianJiJiNengZu: "Chỉnh sửa nhóm kỹ năng", 
-yiChuJiNengZu: "Xóa thành viên nhóm kỹ năng", 
-tianJiaChengYuanDao: "Thêm thành viên vào", 
-zuChengYuan: "Nhóm thành viên", 
-tianJiaJiNengZu: "Thêm nhóm kỹ năng", 
-rOWNA: "[{val1}] đã được liên kết với [{val2}] và không thể bị xóa!", 
-shanChuChengGong: "Xóa thành công", 
-youKeWenTiJi: "Không thể xóa nhóm kỹ năng giải quyết vấn đề du khách", 
-youKe: "Du khách", 
-nulljiNengZuLieBiao: "Danh sách nhóm kỹ năng", 
-yiChuChengYuan: "Loại bỏ thành viên", 
-nulltianJiaChengYuan: "Thêm thành viên", 
-jiNengZuID: "ID nhóm kỹ năng", 
-nullnull};
+  bianJiJiNengZu: '编辑技能组',  yiChuJiNengZu: '移除技能组成员-',  tianJiaChengYuanDao: '添加成员到',  zuChengYuan: '组成员',  tianJiaJiNengZu: '添加技能组',  rOWNA: '【{val1}】已被【{val2}】关联，不可删除！',  shanChuChengGong: '删除成功',null  youKe: '游客',  ninShiFouQueRen: '您是否确认删除【{val1}】的技能组?',ninShiFouQueRen: "Xác nhận {val1} {val2}?",   yiChuChengYuan: '移除成员',  shanChu: '删除',null  jiNengZuID: '技能组ID',jiNengZuID: "ID nhóm kỹ năng:", nullnull};

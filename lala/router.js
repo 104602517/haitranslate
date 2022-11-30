@@ -1,4 +1,6 @@
 export default {
   routers: {
-undefinedundefinedundefinedundefined  },
+keHuXiangQing: "Khách hàng chi tiết", 
+keHuXiangQing: "Khách hàng chi tiết", 
+nullnull  },
 };

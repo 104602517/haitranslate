@@ -1,27 +1,6 @@
 export default {
   index: {
-qingShuRuMiMa: "Nhập mật khẩu", 
-qingShuRuMiMa: "Nhập mật khẩu", 
-qingShuRuZhangHao: "Nhập tài khoản", 
-qingShuRuDuanKou: "Nhập cổng nhập", 
-qingShuRuIP: "Nhập IP", 
-nullzhangHao: "Tài khoản", 
-duanKou: "Cổng nhập", 
-mingCheng: "Tên", 
-ceShiLianJie: "Thử nghiệm kết nối", 
-null
-jianKong: "Giám sát", 
-jianKong: "Giám sát", 
-jiaoHuanKongJian: "hoán đổi không gian", 
-ciPanShiYongQing: "Tình trạng sử dụng đĩa", 
-wuLiNeiCun: "Bộ nhớ vật lý", 
-cPUNeiHe: "Số lỗi CPU", 
+nullnull    qingShuRuDuanKou: '请输入端口',    qingShuRuIP: '请输入IP',    qingShuRuMingCheng: '请输入名称',nullzhangHao: "Tài khoản",     mingCheng: '名称',mingCheng: "Tên", mingCheng: "Tên", 
 
-diZhi: "Địa chỉ", 
-
-zhuangTai: "Trạng thái", 
-zhuangTai: "Trạng thái", 
-queRen: "Xác nhận", 
-    // todo
-undefined  }
-}
+    jianKong: '监控',    jiaoHuanKongJian: '交换空间',    ciPanShiYongQing: '磁盘使用情况',    wuLiNeiCun: '物理内存',    cPUNeiHe: 'CPU内核数',    cPUShiYong: 'CPU使用率',    diZhi: '地址',nullnullnull    // todo
+    shuRuMingChengHuoFuWu: '输入名称或者服务地址'  }}

@@ -52,10 +52,10 @@ module.exports = function handleRow({handleInfo, preInfo, afterInfo, line, fileN
                  newInfo = preAfterMatches[0]
              }else{
                     // 这种情况极少， 不做替换
-                    newLine = line
+                    
     
                      // 写入到文件夹
-                 appenFile('./nonMacthes.js', newLine + ' \\\\' + fileName  + ' \n  ',)
+                 appenFile('./nonMacthes.js', line + ' \\\\' + fileName  + ' \n  ',)
 
                      
              }
@@ -64,7 +64,7 @@ module.exports = function handleRow({handleInfo, preInfo, afterInfo, line, fileN
              newInfo = PreMatches[0]
          }else{
             // 写入到文件夹
-             appenFile('./nonMacthes.js', newLine + ' \\\\' + fileName  + ' \n  ',)
+             appenFile('./nonMacthes.js', line + ' \\\\' + fileName  + ' \n  ',)
 
          }
 
@@ -72,10 +72,9 @@ module.exports = function handleRow({handleInfo, preInfo, afterInfo, line, fileN
     else if(matchedResults.length === 1) {
         newInfo = matchedResults[0]
     }else{
-        //没有匹配到
-        newLine = line
+
         // 写入到文件夹
-        appenFile('./nonMacthes.js', newLine + ' \\\\' + fileName  + ' \n  ',)
+        appenFile('./nonMacthes.js', line + ' \\\\' + fileName  + ' \n  ',)
 
     }
    

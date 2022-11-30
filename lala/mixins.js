@@ -1,10 +1,9 @@
 export default {
   crud: {
-undefinedundefinedundefinedundefinedshanChuChengGong: "Xóa thành công", 
-undefinedqueDing: "Xác nhận", 
-tiShi: "Gợi ý", 
-undefinednullxinZengChengGong: "Thêm thành công", 
-  },
+nullnullbianJiTHI: "Chỉnh sửa t{val1}", xinZengTHI: "Thêm {val1}", xinZengTHI: "Thêm {val1}", nullnull  },
   qualityInfo: {
-undefinedundefinedundefined  },
+keHuROW: "Đối thoại của khách hàng {val1} ({val2} / {val3})", 
+keHuROW: "Đối thoại của khách hàng {val1} ({val2} / {val3})", 
+keHuROW: "Đối thoại của khách hàng {val1} ({val2} / {val3})", 
+  },
 };

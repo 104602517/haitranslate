@@ -1,10 +1,9 @@
 export default {
   BarChart: {
-undefinedundefined  },
-  index: {
-nullnullnullkeFuRenYuan: "Nhân viên chăm sóc khách hàng", 
-undefinedundefinedundefinedundefinedundefinedundefinedzanWuShuJuQing: "Không có dữ liệu, chọn lại điều kiện tìm kiếm!", 
-undefinedchaXun: "Kiểm tra", 
-quanBuKeFu: "Tất cả chăm sóc khách hàng", 
+zhiJianFenXi: "Kiểm duyệt phân tích", 
+zhiJianFenXi: "Kiểm duyệt phân tích", 
   },
+  index: {
+nullnullnullkeFuRenYuan: "Dịch vụ khách hàng", nullbuHeGeLu: "Tỷ lệ không hợp lệ", jiGeLu: "Tỷ lệ hợp lệ", jiGeLu: "Tỷ lệ hợp lệ", liangHaoLu: "Tỷ lệ tốt", liangHaoLu: "Tỷ lệ tốt", 
+nullnullnullnull  },
 };

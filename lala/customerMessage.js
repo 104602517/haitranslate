@@ -1,20 +1,13 @@
 export default {
   index: {
-tiShi: "Gợi ý", 
-tiShi: "Gợi ý", 
-undefinedundefinedundefinednullundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefined
-undefinedundefinedundefinednu: "Quý bà", 
-nan: "Quý ông", 
-undefinedundefinedundefinedundefinedquanBuKeFu: "Tất cả chăm sóc khách hàng", 
-nullnullundefinedquanBuJiNengZu: "Tất cả nhóm kỹ năng", 
-undefined  },
+nullnullqueDingYaoZhiXing: "Chắc chắn muốn thực hiện {val1} thao tác này?", buChuLi: "Không xử lý", buChuLi: "Không xử lý", yiHuiFang: "Đã trả lại", yiHuiFang: "Đã trả lại", 
+weiShouLi: "Không chấp nhận", 
+chuLiRen: "Người xử lý", 
+nullnullnull
+nullnullshouJi: "Điện thoại", nu: "Ông", nu: "Ông", nan: "Bà", nan: "Bà", 
+  },
   lookPicture: {
-undefined  },
+null  },
   passwordvalite: {
-qingShuRuMiMa: "Nhập mật khẩu", 
-qingShuRuMiMa: "Nhập mật khẩu", 
-qingShuRuNinDe: "Nhập mật khẩu đăng nhập", 
-dengLuMiMa: "Mật khẩu đăng nhập", 
-dengLuYongHuMing: "Tài khoản đăng nhập", 
-  }
+nullnullqingShuRuNinDe: "Nhập mật khẩu đăng nhập", dengLuMiMa: "Mật khẩu đăng hập", dengLuMiMa: "Mật khẩu đăng hập",   }
 }
