@@ -1,8 +1,4 @@
-undefinedexport default {
+export default {
   routers: {
-undefinedexport default {
-  routers: {
-undefinedexport default {
-  routers: {
-undefinedexport default {
-  routers: {
+undefinedundefinedundefinedundefined  },
+};

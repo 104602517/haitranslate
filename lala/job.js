@@ -1,9 +1,7 @@
-gangWeiShiFouJi: "Vị trí, tiếp tục?", 
 export default {
   index: {
 gangWeiShiFouJi: "Vị trí, tiếp tục?", 
-export default {
-  index: {
+gangWeiShiFouJi: "Vị trí, tiếp tục?", 
 gangWei: "Vị trí", 
-export default {
-  index: {
+  },
+};

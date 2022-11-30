@@ -1,64 +1,10 @@
-undefinedexport default {
-  BarChart: {
-undefinedexport default {
-  BarChart: {
-nullexport default {
-  BarChart: {
-  },
-  index: {
-nullexport default {
-  BarChart: {
-  },
-  index: {
-nullexport default {
-  BarChart: {
-  },
-  index: {
-keFuRenYuan: "Nhân viên chăm sóc khách hàng", 
 export default {
   BarChart: {
-  },
+undefinedundefined  },
   index: {
-undefinedexport default {
-  BarChart: {
-  },
-  index: {
-undefinedexport default {
-  BarChart: {
-  },
-  index: {
-undefinedexport default {
-  BarChart: {
-  },
-  index: {
-undefinedexport default {
-  BarChart: {
-  },
-  index: {
-undefinedexport default {
-  BarChart: {
-  },
-  index: {
-undefinedexport default {
-  BarChart: {
-  },
-  index: {
-zanWuShuJuQing: "Không có dữ liệu, chọn lại điều kiện tìm kiếm!", 
-export default {
-  BarChart: {
-  },
-  index: {
-undefinedexport default {
-  BarChart: {
-  },
-  index: {
-chaXun: "Kiểm tra", 
-export default {
-  BarChart: {
-  },
-  index: {
+nullnullnullkeFuRenYuan: "Nhân viên chăm sóc khách hàng", 
+undefinedundefinedundefinedundefinedundefinedundefinedzanWuShuJuQing: "Không có dữ liệu, chọn lại điều kiện tìm kiếm!", 
+undefinedchaXun: "Kiểm tra", 
 quanBuKeFu: "Tất cả chăm sóc khách hàng", 
-export default {
-  BarChart: {
   },
-  index: {
+};

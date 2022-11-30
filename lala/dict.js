@@ -1,42 +1,8 @@
-undefinedexport default {
-  dictDetail: {
-undefinedexport default {
-  dictDetail: {
-undefinedexport default {
-  dictDetail: {
-undefinedexport default {
-  dictDetail: {
-undefinedexport default {
-  dictDetail: {
-paiXu: "Lọc", 
 export default {
   dictDetail: {
-undefinedexport default {
-  dictDetail: {
-undefinedexport default {
-  dictDetail: {
-undefinedexport default {
-  dictDetail: {
-undefinedexport default {
-  dictDetail: {
-undefinedexport default {
-  dictDetail: {
-  },
+undefinedundefinedundefinedundefinedundefinedpaiXu: "Lọc", 
+undefinedundefinedundefinedundefined  },
   index: {
-undefinedexport default {
-  dictDetail: {
+undefinedundefinedundefinedundefinedxinZeng: "Thêm", 
   },
-  index: {
-undefinedexport default {
-  dictDetail: {
-  },
-  index: {
-undefinedexport default {
-  dictDetail: {
-  },
-  index: {
-xinZeng: "Thêm", 
-export default {
-  dictDetail: {
-  },
-  index: {
+};

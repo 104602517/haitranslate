@@ -1,23 +1,7 @@
-undefinedexport default {
-  BarMore: {
-undefinedexport default {
-  BarMore: {
-undefinedexport default {
-  BarMore: {
-undefinedexport default {
-  BarMore: {
-undefinedexport default {
-  BarMore: {
-undefinedexport default {
-  BarMore: {
-dengLuShiChang: "Thời gian đăng nhập:", 
 export default {
   BarMore: {
-undefinedexport default {
-  BarMore: {
-undefinedexport default {
-  BarMore: {
-undefinedexport default {
-  BarMore: {
-  },
+undefinedundefinedundefinedundefinedundefinedundefineddengLuShiChang: "Thời gian đăng nhập:", 
+undefinedundefined  },
   tapChart: {
+undefined  },
+};

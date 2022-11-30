@@ -1,13 +1,9 @@
-qingXuanZe: "Chọn", 
 export default {
   HSelect: {
-nullexport default {
-  HSelect: {
+qingXuanZe: "Chọn", 
   },
   MSelect: {
-nullexport default {
-  HSelect: {
-  },
-  MSelect: {
-  },
+null  },
   ServerProxySelect: {
+null  },
+};

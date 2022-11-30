@@ -1,85 +1,11 @@
-zhiXingChengGong: "Thực hiện thành công", 
 export default {
   execute: {
 zhiXingChengGong: "Thực hiện thành công", 
-export default {
-  execute: {
+zhiXingChengGong: "Thực hiện thành công", 
 guanBi: "Đóng 111", 
-export default {
-  execute: {
-undefinedexport default {
-  execute: {
-undefinedexport default {
-  execute: {
-undefinedexport default {
-  execute: {
-undefinedexport default {
-  execute: {
-  },
+undefinedundefinedundefined  },
   index: {
-undefinedexport default {
-  execute: {
-  },
-  index: {
-undefinedexport default {
-  execute: {
-  },
-  index: {
-undefinedexport default {
-  execute: {
-  },
-  index: {
-nullexport default {
-  execute: {
-  },
-  index: {
-undefinedexport default {
-  execute: {
-  },
-  index: {
-undefinedexport default {
-  execute: {
-  },
-  index: {
-undefinedexport default {
-  execute: {
-  },
-  index: {
-undefinedexport default {
-  execute: {
-  },
-  index: {
-undefinedexport default {
-  execute: {
-  },
-  index: {
-undefinedexport default {
-  execute: {
-  },
-  index: {
-miMa: "Mật khẩu", 
-export default {
-  execute: {
-  },
-  index: {
+undefinedundefinedundefinedundefinednullundefinedundefinedundefinedundefinedundefinedundefinedmiMa: "Mật khẩu", 
 yongHu: "Tài khoản", 
-export default {
-  execute: {
-  },
-  index: {
-undefinedexport default {
-  execute: {
-  },
-  index: {
-undefinedexport default {
-  execute: {
-  },
-  index: {
-undefinedexport default {
-  execute: {
-  },
-  index: {
-undefinedexport default {
-  execute: {
-  },
-  index: {
+undefinedundefinedundefinedundefined  },
+};

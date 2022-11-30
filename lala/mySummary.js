@@ -1,18 +1,4 @@
-undefinedexport default {
+export default {
   index: {
-undefinedexport default {
-  index: {
-undefinedexport default {
-  index: {
-undefinedexport default {
-  index: {
-nullexport default {
-  index: {
-undefinedexport default {
-  index: {
-undefinedexport default {
-  index: {
-undefinedexport default {
-  index: {
-undefinedexport default {
-  index: {
+undefinedundefinedundefinedundefinednullundefinedundefinedundefinedundefined  },
+};

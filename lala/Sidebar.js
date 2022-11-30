@@ -1,4 +1,4 @@
-undefinedexport default {
+export default {
   Logo: {
-undefinedexport default {
-  Logo: {
+undefinedundefined  },
+};

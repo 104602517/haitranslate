@@ -17,7 +17,7 @@ async function transfile({fileUrl, fileName, TRANSLATION_ORIGINN_DATA}) {
 
     let preInfo = null;
     let prepreInfo = null;
-    let otherLines = '';
+    let preUnNeedHandleLines = '';
     let newLine = null;
 
     rl.on('line', (line) => {
@@ -26,8 +26,8 @@ async function transfile({fileUrl, fileName, TRANSLATION_ORIGINN_DATA}) {
 
       // console.log("lineInfo", lineInfo)
       // 如果line是第一行
-      if(!preInfo){
-         preInfo = getKeyValue(line)
+      if(!preInfo && lineInfo){
+         preInfo = lineInfo
       }
 
       // 如果line是第二行
@@ -55,16 +55,36 @@ async function transfile({fileUrl, fileName, TRANSLATION_ORIGINN_DATA}) {
       // 如果当前行不是 key:value, 缓存起来
       if(!lineInfo){
          line = line + '\n'
-         otherLines += line
+         preUnNeedHandleLines += line
       }else{
+         newData += preUnNeedHandleLines;
+
          newData += newLine;
-         newData += otherLines;
-         newLine = null;
+         newLine = '';
+         
+         preUnNeedHandleLines = '';
+
       }
 
     });
 
+
     await events.once(rl, 'close');
+
+ 
+      if(preInfo){
+         // 处理最后一行
+         newLine = handleRow({handleInfo: preInfo, preLine: prepreInfo, afterLine: {} , fileName, TRANSLATION_ORIGINN_DATA})
+          newData += newLine;
+         newLine = '';
+      }
+   
+   
+       // 处理结尾
+       if(preUnNeedHandleLines){
+         newData += preUnNeedHandleLines;
+         preUnNeedHandleLines = ''
+       }
 
     return newData;
 

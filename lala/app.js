@@ -1,63 +1,9 @@
-undefinedexport default {
-  index: {
-undefinedexport default {
-  index: {
-undefinedexport default {
-  index: {
-undefinedexport default {
-  index: {
-undefinedexport default {
-  index: {
-undefinedexport default {
-  index: {
-undefinedexport default {
-  index: {
-undefinedexport default {
-  index: {
-undefinedexport default {
-  index: {
-caoZuo: "Thao tác", 
 export default {
   index: {
+undefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedcaoZuo: "Thao tác", 
 chuangJianRiQi: "Ngày tạo", 
-export default {
-  index: {
-undefinedexport default {
-  index: {
-undefinedexport default {
-  index: {
-undefinedexport default {
-  index: {
-undefinedexport default {
-  index: {
-undefinedexport default {
-  index: {
-queRen: "Xác nhận", 
-export default {
-  index: {
-undefinedexport default {
-  index: {
-undefinedexport default {
-  index: {
-undefinedexport default {
-  index: {
-undefinedexport default {
-  index: {
-undefinedexport default {
-  index: {
-undefinedexport default {
-  index: {
-undefinedexport default {
-  index: {
-undefinedexport default {
-  index: {
-undefinedexport default {
-  index: {
-undefinedexport default {
-  index: {
-jieShuRiQi: "Ngày kết thúc", 
-export default {
-  index: {
+undefinedundefinedundefinedundefinedundefinedqueRen: "Xác nhận", 
+undefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedjieShuRiQi: "Ngày kết thúc", 
 kaiShiRiQi: "Ngày bắt đầu", 
-export default {
-  index: {
+  }
+}

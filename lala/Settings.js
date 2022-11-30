@@ -1,12 +1,4 @@
-undefinedexport default {
+export default {
   index: {
-undefinedexport default {
-  index: {
-undefinedexport default {
-  index: {
-undefinedexport default {
-  index: {
-undefinedexport default {
-  index: {
-undefinedexport default {
-  index: {
+undefinedundefinedundefinedundefinedundefinedundefined  },
+};

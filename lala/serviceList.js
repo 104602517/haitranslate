@@ -1,49 +1,23 @@
-chengGong: "Thành công", 
 export default {
 chengGong: "Thành công", 
-export default {
+chengGong: "Thành công", 
 queDing: "Xác nhận", 
-export default {
 queDingSTA: "Chắc chắn về '{val1} {val2}' không?", 
-export default {
 sTATE: "Chăm sóc khách hàng của {val1}", 
-export default {
 queRenShanChu: "Xác nhận xóa", 
-export default {
 ruGuoGaiKeFu: "Nếu chăm sóc khách hàng trực tuyến, nó sẽ nhắc rằng tài khoản dịch vụ khách hàng đã bị vô hiệu hóa và đóng bàn dịch vụ khách hàng.", 
-export default {
-nullexport default {
-tingYong: "Vô hiệu", 
-export default {
-nullexport default {
-keFuLieBiao: "Danh sách chăm sóc khách hàng", 
-export default {
+nulltingYong: "Vô hiệu", 
+nullkeFuLieBiao: "Danh sách chăm sóc khách hàng", 
 jieDaiShangXian: "Tiếp nhận giới hạn", 
-export default {
-nullexport default {
-nullexport default {
-qiYong2: "Kích hoạt", 
-export default {
+nullnullqiYong2: "Kích hoạt", 
 tingYong2: "Vô hiệu", 
-export default {
 caoZuo: "Thao tác", 
-export default {
 chuangJianRiQi: "Ngày tạo", 
-export default {
-nullexport default {
-zhangHuZhuangTai: "Trạng thái tài khoản", 
-export default {
+nullzhangHuZhuangTai: "Trạng thái tài khoản", 
 zuiDaJieDaiShang: "Giới hạn tiếp nhận tối đa", 
-export default {
 zaiXianJiNengZu: "Nhóm kỹ năng trực tuyến", 
-export default {
-nullexport default {
-keFuGangWei: "Ví trí chăm sóc khách hàng", 
-export default {
+nullkeFuGangWei: "Ví trí chăm sóc khách hàng", 
 touXiang: "Hình đại diện", 
-export default {
-nullexport default {
-quanBuZhangHuZhuang: "Tất cả trạng thái tài khoản", 
-export default {
+nullquanBuZhangHuZhuang: "Tất cả trạng thái tài khoản", 
 quanBuJiNengZu: "Tất cả nhóm kỹ năng", 
-export default {
+};

@@ -1,2 +1,4 @@
-undefinedexport default {
+export default {
   EditInput: {
+undefined  },
+};

@@ -1,35 +1,4 @@
-undefinedexport default {
-undefinedexport default {
-undefinedexport default {
-undefinedexport default {
-cPUShiYong: "Sử dụng CPU", 
 export default {
-undefinedexport default {
-undefinedexport default {
-undefinedexport default {
-undefinedexport default {
-undefinedexport default {
-undefinedexport default {
-undefinedexport default {
-undefinedexport default {
-undefinedexport default {
-undefinedexport default {
-undefinedexport default {
-undefinedexport default {
-undefinedexport default {
-undefinedexport default {
-undefinedexport default {
-caoZuo: "Thao tác", 
-export default {
-undefinedexport default {
-undefinedexport default {
-undefinedexport default {
-undefinedexport default {
-undefinedexport default {
-undefinedexport default {
-undefinedexport default {
-undefinedexport default {
-nullexport default {
-undefinedexport default {
-nullexport default {
-undefinedexport default {
+undefinedundefinedundefinedundefinedcPUShiYong: "Sử dụng CPU", 
+undefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedcaoZuo: "Thao tác", 
+undefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinednullundefinednullundefined};

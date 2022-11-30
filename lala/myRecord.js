@@ -1,104 +1,28 @@
-undefinedexport default {
-  index: {
-undefinedexport default {
-  index: {
-queDing: "Xác nhận", 
 export default {
   index: {
+undefinedundefinedqueDing: "Xác nhận", 
 tiShi: "Gợi ý", 
-export default {
-  index: {
-undefinedexport default {
-  index: {
-wuXiaoHuiHua: "Đối thoại vô hiệu", 
-export default {
-  index: {
+undefinedwuXiaoHuiHua: "Đối thoại vô hiệu", 
 youXiaoHuiHua: "Đối thoại có hiệu lực", 
-export default {
-  index: {
 weiZongJie: "Chưa tổng kết", 
-export default {
-  index: {
-undefinedexport default {
-  index: {
-weiJieJue: "Chưa giải quyết", 
-export default {
-  index: {
+undefinedweiJieJue: "Chưa giải quyết", 
 yiJieJue: "Đã giải quyết", 
-export default {
-  index: {
 weiZhiJian: "Chưa kiểm chứng", 
-export default {
-  index: {
 yiZhiJian: "Đã kiểm chứng", 
-export default {
-  index: {
-undefinedexport default {
-  index: {
-undefinedexport default {
-  index: {
-zhuDongPingJia: "Chủ động đánh giá", 
-export default {
-  index: {
+undefinedundefinedzhuDongPingJia: "Chủ động đánh giá", 
 yaoQingPingJia: "Mời đánh giá·", 
-export default {
-  index: {
 yiPingJia: "Đã đánh giá", 
-export default {
-  index: {
 weiPingJia: "Chưa đánh giá", 
-export default {
-  index: {
-undefinedexport default {
-  index: {
-zhiJianZhuangTai: "Trạng thái kiểm duyệt", 
-export default {
-  index: {
+undefinedzhiJianZhuangTai: "Trạng thái kiểm duyệt", 
 xing: "Sao", 
-export default {
-  index: {
-undefinedexport default {
-  index: {
-shiFouJieJue: "Đã giải quyết chưa", 
-export default {
-  index: {
-undefinedexport default {
-  index: {
-nullexport default {
-  index: {
-shiFouPingJia: "Đã đánh giá", 
-export default {
-  index: {
+undefinedshiFouJieJue: "Đã giải quyết chưa", 
+undefinednullshiFouPingJia: "Đã đánh giá", 
 keHuPingJia: "Khách hàng đánh giá", 
-export default {
-  index: {
 yeWu: "Doanh nghiệp", 
-export default {
-  index: {
 huiHuaLeiBie: "Phân loại đối thoại", 
-export default {
-  index: {
 keFuZongJie: "Tổng kết chăm sóc khách hàng", 
-export default {
-  index: {
-nullexport default {
-  index: {
-undefinedexport default {
-  index: {
-huiHuaKaiShiShi: "Thời gian bắt đầu đối thoại", 
-export default {
-  index: {
+nullundefinedhuiHuaKaiShiShi: "Thời gian bắt đầu đối thoại", 
 wenTiShiChang: "Câu hỏi / Thời gian", 
-export default {
-  index: {
-undefinedexport default {
-  index: {
-undefinedexport default {
-  index: {
-nullexport default {
-  index: {
-undefinedexport default {
-  index: {
-quanBuJiNengZu: "Tất cả nhóm kỹ năng", 
-export default {
-  index: {
+undefinedundefinednullundefinedquanBuJiNengZu: "Tất cả nhóm kỹ năng", 
+  },
+};

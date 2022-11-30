@@ -1,28 +1,8 @@
-undefinedexport default {
-  CustomerTypeAddModal: {
-undefinedexport default {
-  CustomerTypeAddModal: {
-undefinedexport default {
-  CustomerTypeAddModal: {
-qingXuanZe: "Chọn", 
 export default {
   CustomerTypeAddModal: {
-undefinedexport default {
-  CustomerTypeAddModal: {
-tuiGuangShangKeHu: "Khách hàng của nhà quảng cáo", 
-export default {
-  CustomerTypeAddModal: {
+undefinedundefinedundefinedqingXuanZe: "Chọn", 
+undefinedtuiGuangShangKeHu: "Khách hàng của nhà quảng cáo", 
 queRen: "Xác nhận", 
-export default {
-  CustomerTypeAddModal: {
-undefinedexport default {
-  CustomerTypeAddModal: {
-undefinedexport default {
-  CustomerTypeAddModal: {
-chaXun: "Kiểm tra", 
-export default {
-  CustomerTypeAddModal: {
-nullexport default {
-  CustomerTypeAddModal: {
-undefinedexport default {
-  CustomerTypeAddModal: {
+undefinedundefinedchaXun: "Kiểm tra", 
+nullundefined  },
+};
