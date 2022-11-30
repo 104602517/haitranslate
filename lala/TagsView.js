@@ -1,7 +1,7 @@
 export default {
   index: {
-guanBiQuanBu: "Đóng tất cả", 
-guanBiQuanBu: "Đóng tất cả", 
-guanBiQuanBu: "Đóng tất cả", 
+guanBiQuanBu: "ปิดทั้งหมด", 
+guanBiQuanBu: "ปิดทั้งหมด", 
+guanBiQiTa: "ปิดอื่น ๆ", 
 null  },
 };

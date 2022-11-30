@@ -1,6 +1,8 @@
 export default {
   index: {
-nullnull  },
+nullnullnullnullnullnullnullkeFuHuanYingYu: "ข้อความต้อนรับการบริการลูกค้า", 
+nullnullkeFuZhangHaoNi: "บัญชีบริการลูกค้า/ชื่อเล่น", 
+nullnullnullnull  },
   look: {
-nullnullpeiZhi: "Cấu hình", jieRuHuanYingYu: "Lời chào tiếp đón", jieRuHuanYingYu: "Lời chào tiếp đón",   },
+nullnullnullnullnullnullnull  },
 };

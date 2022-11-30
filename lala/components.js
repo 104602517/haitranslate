@@ -1,35 +1,61 @@
 export default {
   badReason: {
-nullnullnullnullshanChuChaPingYuan: "Xóa loại lý do đánh giá tệ", nullnullyouYiTiaoJiLu: "Một bản ghi đang được chỉnh sửa", tianJiaChaPingYuan: "Thêm loại lý do đánh giá tiêu cực", tianJiaChaPingYuan: "Thêm loại lý do đánh giá tiêu cực", nullnull  },
+nullnullnullnullshanChuChaPingYuan: "ลบประเภทของเหตุผลแบบประเมินที่ไม่ดี", 
+nullnullyouYiTiaoJiLu: "มีหนึ่งบันทึกที่กำลังแก้ไข", 
+tianJiaChaPingYuan: "เพิ่มประเภทเหตุผลแบบประเมินที่ไม่ดี", 
+nullnullnullnullnullqingShuRuChaPing: "กรุณากรอกประเภทเหตุผลแบบประเมินที่ไม่ดี", 
+nullnull  },
   scroreResult: {
-nullnullbuJiGe: "Không hợp lệ", jiGe: "Hợp lệ", jiGe: "Hợp lệ", liangHao: "Tốt", liangHao: "Tốt", 
-youXiu: "Xuất sắc", 
-zuiZhongPingFenJie: "Điểm cuối cùng", 
-deFenFanWei: "Phạm vi điểm", 
-pingFenJieGuo: "Kết quả chấm điểm", 
+nullnullbuJiGe: "ไม่ผ่าน", 
+jiGe: "ผ่าน", 
+liangHao: "ดี", 
+youXiu: "ยอดเยี่ยม", 
+zuiZhongPingFenJie: "ผลคะแนนสุดท้าย", 
+deFenFanWei: "ช่วงคะแนน", 
+pingFenJieGuo: "ผลการให้คะแนน", 
+geiZuiZhongFenShu: "กำหนด 4 ระดับสำหรับคะแนนสุดท้าย", 
+zuiZhongPingFenJie2: "ผลคะแนนสุดท้าย", 
   },
   AppMain: {
-    dot: ' ⋅ '  },  Navbar: {nullnullnullnullqueDingZhuXiaoBing: "Chắc chắn muốn thoát ra hệ thống không?", keFuHouTaiGuan: "Hệ thống quản lý dịch vụ khách hàng", keFuHouTaiGuan: "Hệ thống quản lý dịch vụ khách hàng", jinRu: "Vào", jinRu: "Vào", 
-huanYingNin: "Chào mừng", 
+null  },
+  Navbar: {
+nullnullnullnullqueDingZhuXiaoBing: "แน่ใจว่าจะล็อกเอาท์และออกจากระบบ?", 
+keFuHouTaiGuan: "บริการจัดการระบบหลังบ้านของฝ่ายบริการลูกค้า", 
+jinRu: "เข้าสู่", 
+huanYingNin: "ยินดีต้อนรับ", 
+tuiChuDengLu: "ออกจากระบบ", 
+nullbuJuSheZhi: "การตั้งค่าเค้าโครง", 
 
-    xiaZaiLieBiao: '下載列表(',    shanChu: '刪除',nullxiaZai: "Tải xuống", nullnullnullwenJianMing: "Tên tập tin",     xiaZaiLieBiao2: '下載列表'  },  scroreTarget: {deFenFanWeiBu: "Phạm vi điểm không được trùng lập", deFenFanWeiBu: "Phạm vi điểm không được trùng lập", 
-deFenFanWeiBu: "Phạm vi điểm không được trùng lập", 
-deFenFanWeiBu: "Phạm vi điểm không được trùng lập", 
-pingFenZhiBiaoLie: "Danh sách chỉ số chấm điểm", 
-qingShuRuPingFen2: "Nhập chỉ số chấm điểm", qingShuRuPingFen2: "Nhập chỉ số chấm điểm", 
-pingFenZhiBiao: "Chỉ tiêu chấm điểm", 
+nullnullnullxiaZai: "ดาวน์โหลด", 
+nullnullnullwenJianMing: "ชื่อไฟล์", 
+null  },
+  scroreTarget: {
+deFenFanWeiBu: "ช่วงคะแนนไม่สามารถทับซ้อนกันได้", 
+deFenFanWeiBu: "ช่วงคะแนนไม่สามารถทับซ้อนกันได้", 
+nullshanChuPingFenZhi: "ลบตัวดัชนีการให้คะแนน", 
+pingFenZhiBiaoLie: "รายการตัวดัชนีการให้คะแนน", 
+
+null
+nullnullnullnullnullqingShuRuPingFen: "กรุณาใส่ค่าคะแนน", 
+pingFenBiaoZhun: "เกณฑ์การให้คะแนน", 
+qingShuRuPingFen2: "โปรดกรอกดัชนีการให้คะแนน", 
+pingFenZhiBiao: "ดัชนีการให้คะแนน", 
+nullduoGeZhiBiaoDi: "คะแนนเฉลี่ยของตัวดัชนีหลายตัวคือคะแนนสุดท้ายของบทสนทนา", 
+pingFenZhiBiao2: "ดัชนีการให้คะแนน", 
+  },
   sessionTags: {
-nullnullnullnulltianJiaPingJiaBiao: "Thêm đánh giá thư viện thẻ", nullnullnull  },  Editor: {
+nullnullnullnullnullnullnullnull  },
+  Editor: {
 nullnull  },
   MarkDown: {
-mARKD: "Dựa trên Markdown", 
+mARKD: "ขึ้นอยู่กับ Markdown", 
   },
   YamlEdit: {
     zhanShiShuJuRu:
       '# 展示数据，如需更换主题，请在src/components/YamlEdit 目录中搜索原主题名称进行替换\n',
-zhuTiYuLanDi: "Xem trước địa chỉ chủ đề", 
-zhuTiYuLanDi: "Xem trước địa chỉ chủ đề", 
-zhuTiYuLanDi: "Xem trước địa chỉ chủ đề", 
-zhuTiYuLanDi: "Xem trước địa chỉ chủ đề", 
+zhuTiYuLanDi: "ที่อยู่ดูตัวอย่างธีม", 
+zhuTiYuLanDi: "ที่อยู่ดูตัวอย่างธีม", 
+zhuTiYuLanDi2: "ที่อยู่ดูตัวอย่างธีม", 
+yAMLBian: "โปรแกรมแก้ไข Yaml ขึ้นอยู่กับ", 
   }
 }

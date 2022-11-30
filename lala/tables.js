@@ -1,20 +1,23 @@
 export default {
   CustomerTypeColumn: {
-pingTaiKeHu: "Khách hàng nền tảng", 
-pingTaiKeHu: "Khách hàng nền tảng", 
-null  },
+nullnullnull  },
   EndType: {
 null  },
   EvaluateType: {
 nullnullnull  },
   langs: {
-    language: '语言'  },  HeadProxyIdColumn: {zongDaiID: "ID Tổng đại lý",   },
+language: "ภาษา", 
+  },
+  HeadProxyIdColumn: {
+null  },
   IsDone: {
 nullnullnull  },
   IsEvaluate: {
 nullnullnull  },
   ParentProxyColumn: {
-    shangJiDaiLi: '上级代理'  },  ServerProxyColumn: {    keFuDaiLi: '客服代理'  },  ServerTypeColumn: {pingTaiKeFu: "Dịch vụ khách hàng nền tảng", pingTaiKeFu: "Dịch vụ khách hàng nền tảng", 
-pingTaiKeFu: "Dịch vụ khách hàng nền tảng", 
-  }
+null  },
+  ServerProxyColumn: {
+null  },
+  ServerTypeColumn: {
+nullnullnull  }
 }

@@ -1,6 +1,20 @@
 export default {
   index: {
-nullnull    qingShuRuDuanKou: '请输入端口',    qingShuRuIP: '请输入IP',    qingShuRuMingCheng: '请输入名称',nullzhangHao: "Tài khoản",     mingCheng: '名称',mingCheng: "Tên", mingCheng: "Tên", 
+nullnullqingShuRuZhangHao: "กรอกชื่อบัญชี", 
+qingShuRuDuanKou: "กรุณาใส่พอร์ต", 
+qingShuRuIP: "กรุณากรอก IP", 
+nullnullduanKou: "พอร์ต", 
+nullceShiLianJie: "ทดสอบการเชื่อมต่อ", 
+null
+jianKong: "ตรวจสอบ", 
+jianKong: "ตรวจสอบ", 
+jiaoHuanKongJian: "สลับพื้นที่", 
+ciPanShiYongQing: "การใช้ดิสก์", 
+wuLiNeiCun: "หน่วยความจำกายภาพ", 
+cPUNeiHe: "จำนวนคอร์ CPU", 
 
-    jianKong: '监控',    jiaoHuanKongJian: '交换空间',    ciPanShiYongQing: '磁盘使用情况',    wuLiNeiCun: '物理内存',    cPUNeiHe: 'CPU内核数',    cPUShiYong: 'CPU使用率',    diZhi: '地址',nullnullnull    // todo
-    shuRuMingChengHuoFuWu: '输入名称或者服务地址'  }}
+diZhi: "ที่อยู่", 
+
+nullnullnull    // todo
+null  }
+}

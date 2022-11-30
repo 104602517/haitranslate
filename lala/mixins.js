@@ -1,9 +1,12 @@
 export default {
   crud: {
-nullnullbianJiTHI: "Chỉnh sửa t{val1}", xinZengTHI: "Thêm {val1}", xinZengTHI: "Thêm {val1}", nullnull  },
+nullnullbianJiTHI: "แก้ไข {val1}", 
+xinZengTHI: "เพิ่ม {val1}", 
+nullnullnullnullniQueDingShanChu: "คุณแน่ใจหรือไม่ว่าต้องการลบข้อมูลที่เลือก", 
+nullnull  },
   qualityInfo: {
-keHuROW: "Đối thoại của khách hàng {val1} ({val2} / {val3})", 
-keHuROW: "Đối thoại của khách hàng {val1} ({val2} / {val3})", 
-keHuROW: "Đối thoại của khách hàng {val1} ({val2} / {val3})", 
+keHuROW: "บทสนทนาของลูกค้า {val1}({val2}/{val3})", 
+keHuROW: "บทสนทนาของลูกค้า {val1}({val2}/{val3})", 
+keHuUSE: "บทสนทนาของลูกค้า {val1}", 
   },
 };

@@ -1,6 +1,18 @@
 export default {
   addKey: {
-nullnulltianJiaChanPin: "Thêm sản phẩm", xiuGaiChanPin: "Chỉnh sửa sản phẩm", xiuGaiChanPin: "Chỉnh sửa sản phẩm", nullnullnullsiYao: "Khóa cá nhân", gongYao: "Khóa công chúng", gongYao: "Khóa công chúng", moRenHuanYingYu: "Mặc định lời chào mừng", moRenHuanYingYu: "Mặc định lời chào mừng", 
+nullnulltianJiaChanPin: "เพิ่มสินค้า", 
+xiuGaiChanPin: "แก้ไขสินค้า", 
+nullnullshiFouJieRuZhong: "เข้าสู่ระบบหลังบ้านหรือไม่", 
+nullnullnullsiYao: "คีย์ส่วนตัว", 
+gongYao: "คีย์สาธารณะ", 
+moRenHuanYingYu: "ข้อความต้อนรับเริ่มต้น", 
+zhuTiSe: "สีของธีม", 
+yingYongLeiXing: "ประเภทแอปพลิเคชัน", 
   },
   keyIndex: {
-nullnullnullchanPinLieBiao: "Danh sách sản phẩm", nullnullnullqingShuRuChanPin: "Nhập tên sản phẩm", nullnullsuoYouYingYongLei: "Tất cả các loại ứng dụng", suoYouZhuangTai: "Tất cả trạng thái",   },};
+nullnullnullchanPinLieBiao: "รายการสินค้า", 
+nullnullnullqingShuRuChanPin: "กรุณาใส่ชื่อสินค้า", 
+nullnullsuoYouYingYongLei: "แอปพลิเคชันทุกประเภท", 
+suoYouZhuangTai: "สถานะทั้งหมด", 
+  },
+};

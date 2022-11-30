@@ -1,7 +1,12 @@
 export default {
   index: {
-nullnullnullgangWeiShiFouJi: "Vị trí, tiếp tục?", nullyuMing: "Tên miền", xiuGaiRiQi: "Ngày chỉnh sửa", xiuGaiRiQi: "Ngày chỉnh sửa", xiuGaiRen: "Người chỉnh sửa", xiuGaiRen: "Người chỉnh sửa", 
-yuMingLeiXing: "Loại miền", 
-yuMingFuWu: "Dịch vụ tên miền", 
-yuMingDiZhi: "Địa chỉ tên miền", 
+nullnullnullnullnullyuMing: "ชื่อโดเมน", 
+xiuGaiRiQi: "แก้ไขวันที่", 
+xiuGaiRen: "แก้ไขโดย", 
+nullnullyuMingLeiXing: "ประเภทโดเมน", 
+yuMingFuWu: "บริการชื่อโดเมน", 
+yuMingDiZhi: "ที่อยู่โดเมน", 
+nullyingYongID: "ไอดี แอปพลิเคชัน", 
+chanPinMingCheng: "ชื่อสินค้า", 
+  },
 };

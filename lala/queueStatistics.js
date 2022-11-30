@@ -1,14 +1,19 @@
 export default {
   BarChart: {
-paiDuiTongJi: "Thống kê hàng chờ", 
-paiDuiTongJi: "Thống kê hàng chờ", 
-paiDuiTongJi: "Thống kê hàng chờ", 
+paiDuiTongJi: "สถิติการเข้าคิว", 
+paiDuiTongJi: "สถิติการเข้าคิว", 
+null  },
   LineChart: {
 nullnull  },
   index: {
-nullnullpaiDuiLiKaiShu: "Tỷ lệ/số lượng hàng chờ rời đi", paiDuiJinRuHui: "Tỷ lệ/ số lượng hàng chờ vào đối thoại", paiDuiJinRuHui: "Tỷ lệ/ số lượng hàng chờ vào đối thoại", zongHuiHuaShu: "Tổng số lượng đối thoại", zongHuiHuaShu: "Tổng số lượng đối thoại", 
-paiDuiTongJiShi: "Thời gian thống kê hàng chờ", 
-paiDuiBaoBiao: "Báo cáo hàng chờ", 
-daNianALL: "allContents", 
-paiDuiZhong: "Đang trong hàng chờ", 
+nullnullpaiDuiLiKaiShu: "อัตรา/จำนวนคิวที่จะออก", 
+paiDuiJinRuHui: "อัตรา/จำนวนที่เข้าคิวบทสนทนา", 
+zongHuiHuaShu: "จำนวนบทสนทนาทั้งหมด", 
+paiDuiTongJiShi: "สถิติเวลาคิว", 
+paiDuiBaoBiao: "รายงานการเข้าคิว", 
+nullpaiDuiZhong: "อยู่ในคิว", 
+nullpaiDuiJieGuo: "ผลการจัดคิว", 
+nullpaiDuiKaiShiShi: "เวลาที่เริ่มเข้าคิว", 
+ziXunLaiYuan: "ที่มาสอบถาม", 
+nullnullnull  },
 };

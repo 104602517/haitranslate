@@ -1,2 +1,14 @@
 export default {
-  bianJiJiNengZu: '编辑技能组',  yiChuJiNengZu: '移除技能组成员-',  tianJiaChengYuanDao: '添加成员到',  zuChengYuan: '组成员',  tianJiaJiNengZu: '添加技能组',  rOWNA: '【{val1}】已被【{val2}】关联，不可删除！',  shanChuChengGong: '删除成功',null  youKe: '游客',  ninShiFouQueRen: '您是否确认删除【{val1}】的技能组?',ninShiFouQueRen: "Xác nhận {val1} {val2}?",   yiChuChengYuan: '移除成员',  shanChu: '删除',null  jiNengZuID: '技能组ID',jiNengZuID: "ID nhóm kỹ năng:", nullnull};
+bianJiJiNengZu: "แก้ไขกลุ่มทักษะ", 
+bianJiJiNengZu: "แก้ไขกลุ่มทักษะ", 
+yiChuJiNengZu: "ลบสมาชิกชุดทักษะ -", 
+tianJiaChengYuanDao: "เพิ่มสมาชิกใน", 
+zuChengYuan: "สมาชิกกลุ่ม", 
+tianJiaJiNengZu: "เพิ่มกลุ่มทักษะ", 
+rOWNA: "[{val1}] เชื่อมโยงกับ [{val2}] แล้วและไม่สามารถลบได้!", 
+nullyouKeWenTiJi: "คำถามผู้เยี่ยมชมกลุ่มทักษะไม่สามารถลบได้", 
+youKe: "ผู้เยี่ยมชม", 
+nulljiNengZuLieBiao: "รายการกลุ่มทักษะ", 
+yiChuChengYuan: "ลบสมาชิก", 
+nulltianJiaChengYuan: "เพิ่มสมาชิก", 
+nullnullnull};

@@ -1,11 +1,19 @@
 export default {
   custChart: {
-guangGao: "Quảng cáo", 
+guangGao: "โฆษณา", 
   },
   index: {
-nullnullzhongGuo: "Trung Quốc", laHeiTianYongHu: "Chặn 7 ngày", laHeiTianYongHu: "Chặn 7 ngày", yongJiuLaHeiYong: "Chặn mãi mãi", yongJiuLaHeiYong: "Chặn mãi mãi", 
-keHuShu: "Số lượng khách hàng", 
-xinKeHuShu: "Số lượng khách hàng mới", 
+nullnullzhongGuo: "จีน", 
+laHeiTianYongHu: "บล็อกผู้ใช้ 7 วัน", 
+yongJiuLaHeiYong: "บล็อกผู้ใช้ถาวร", 
+keHuShu: "จำนวนลูกค้า", 
+xinKeHuShu: "จำนวนลูกค้าใหม่", 
+nulljinRiKeHuQu: "การกระจายภูมิภาคของลูกค้าในวันนี้", 
+laHeiKeHuFen: "การวิเคราะห์ลูกค้าที่ถูกบล็อก", 
+  },
   mapEchart: {
-    'con': '：',    shuJuShuLiang: '数据数量',shuJuShuLiang: "Số lượng dữ liệu", di: "Thấp", di: "Thấp",   },
+nullnullshuJuShuLiang: "จำนวนข้อมูล", 
+di: "ต่ำ", 
+gao: "สูง", 
+  },
 };

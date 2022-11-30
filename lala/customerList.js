@@ -1,10 +1,13 @@
 export default {
   index: {
-laHeiROW: "Danh sách đen {val1}", 
-laHeiROW: "Danh sách đen {val1}", 
-laHeiROW: "Danh sách đen {val1}", 
-laHeiROW: "Danh sách đen {val1}", 
-shanChuYongHuR: "Xóa tài khoản {val1} xác nhận", 
-queDingShanChuR: "Chắc chắn muốn xóa hồ sơ người dùng {val1} ? Sau khi xóa, không thể thu hồi.", 
-shiFouLaHei: "Muốn chặn không?", null  },
+laHeiROW: "บล็อก {val1}", 
+laHeiROW: "บล็อก {val1}", 
+shanChuYongHuR: "ยืนยันการลบผู้ใช้ {val1}", 
+queDingShanChuR: "ต้องการลบโปรไฟล์ผู้ใช้ {val1} หรือไม่ จะไม่สามารถกู้คืนได้หลังจากการลบ", 
+nulllaHeiChengGong: "บล็อกเรียบร้อย!", 
+nullnullnullnullnullnullnullnullnullnulllaHeiYongHu: "ผู้ใช้บัญชีที่ถูกบล็อก", 
+laHei: "บล็อก", 
+shiFouLaHei: "ต้องการบล็อกหรือไม่", 
+liShiZiXunShu: "จำนวนการตรวจสอบประวัติ", 
+null  },
 };

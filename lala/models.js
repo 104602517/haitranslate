@@ -1,16 +1,13 @@
 export default {
   addSeoConfig: {
-qingXuanZeDaiLi: "Chọn tài khoản đại lý", 
-qingXuanZeDaiLi: "Chọn tài khoản đại lý", 
-qingXuanZeDaiLi: "Chọn tài khoản đại lý", 
+nullnullqingXuanZeTuiGuang: "โปรดเลือกไอดีตัวแทนทั่วไปขอผู้สนับสนุน", 
     shuoMingTongGuoTian:
       '\n        说明：通过添加推广商的代理账号，系统会将添加的代理账号线下的会员标记为「推广商客户」\n      ',
-quanBuDaiLiZhang: "Tất cả các tài khoản đại lý", 
-quanBuDaiLiZhang: "Tất cả các tài khoản đại lý", 
-quanBuDaiLiZhang: "Tất cả các tài khoản đại lý", 
-  },
+quanBuDaiLiZhang: "บัญชีตัวแทนทั้งหมด", 
+quanBuDaiLiZhang: "บัญชีตัวแทนทั้งหมด", 
+null  },
   agentAccount: {
-tuiGuangShangDaiLi: "Tài khoản đại lý của nhà quảng cáo", 
+tuiGuangShangDaiLi: "บัญชีตัวแทนผู้สนับสนุน", 
   },
   
 };

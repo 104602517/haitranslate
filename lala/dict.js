@@ -1,9 +1,15 @@
 export default {
   dictDetail: {
-nullnullqingShuRuZiDian: "Nhập giá trị từ điển", qingShuRuZiDian2: "Nhập thẻ từ điển", qingShuRuZiDian2: "Nhập thẻ từ điển", ziDianXiangQing: "Chi tiết từ điển", ziDianXiangQing: "Chi tiết từ điển", 
-paiXu: "Sắp xếp", 
-ziDianZhi: "Giá trị từ điển", 
-ziDianBiaoQian: "Thẻ từ điển", 
+nullnullqingShuRuZiDian: "กรุณาใส่ค่าพจนานุกรม", 
+qingShuRuZiDian2: "กรุณากรอกแท็กพจนานุกรม", 
+ziDianXiangQing: "รายละเอียดพจนานุกรม", 
+nullziDianZhi: "ค่าพจนานุกรม", 
+ziDianBiaoQian: "แท็กพจนานุกรม", 
+suoShuZiDian: "พจนานุกรม", 
+shuRuZiDianBiao: "กรอกแท็กพจนานุกรมเพื่อค้นหา", 
   },
   index: {
-nullnullziDianMingCheng: "Tên từ điển", ziDian: "Từ điển", null  },};
+nullnullziDianMingCheng: "ชื่อพจนานุกรม", 
+ziDian: "พจนานุกรม", 
+null  },
+};

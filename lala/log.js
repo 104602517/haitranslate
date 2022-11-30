@@ -1,12 +1,15 @@
 export default {
   errorLog: {
-nullnullnullnullyiChangRiZhi: "Nhật ký bất thường", yiChangXiangQing: "Chi tiết bất thường", yiChangXiangQing: "Chi tiết bất thường", zhaKanXiangQing: "Kiểm tra chi tiết", zhaKanXiangQing: "Kiểm tra chi tiết", 
+nullnullnullnullyiChangRiZhi: "บันทึกผิดปกติ", 
+nullnullnullliuLanQi: "เบราว์เซอร์", 
+nulliPLaiYuan: "ที่มาของ IP", 
+nullqingQiuCanShu: "ขอพารามิเตอร์", 
+qingQiuFangFa: "วิธีการขอ", 
+qingKong: "\n ลบ \n", 
     sureEmpty2: `确认清空所有异常日志吗?`
   },
   index: {
-riZhi: "Nhật ký", 
-riZhi: "Nhật ký", 
-  },
+nullnull  },
   search: {
 nullnull  }
 }

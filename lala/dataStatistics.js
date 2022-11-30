@@ -1,6 +1,8 @@
 export default {
   BarMore: {
-nullnullnullnullnullnullnullnullfanMang: "Bận",   },  tapChart: {
-dengLuShiChangM: "Thời gian đăng nhập/min", 
+nullnullnullnullnullnullnullnullfanMang: "ยุ่ง", 
+  },
+  tapChart: {
+dengLuShiChangM: "เวลาเข้าสู่ระบบ/นาที", 
   },
 };

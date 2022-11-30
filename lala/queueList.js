@@ -1,5 +1,17 @@
 export default {
   index: {
-nullnullnullnullnullnullnullnullnullnullchongZhiMa: "Mã gửi tiền", nullnullnullnullnullnullnullnullkeHuMingCheng: "Tên khách hàng", keHuID: "ID khách hàng", keHuID: "ID khách hàng", suoYouKeHuDeng: "Tất cả cấp độ khách hàng", suoYouKeHuDeng: "Tất cả cấp độ khách hàng", suoYouKeHuDeng: "Tất cả cấp độ khách hàng", 
-suoYouKeHuDeng: "Tất cả cấp độ khách hàng", null  },  look: {
-nullnullnullnullnullnullnullnullnullkeHuMingChengI: "Tên khách hàng & ID",   }}
+nullnullnullnullnullnullnullnullnullnullchongZhiMa: "รหัสเติมเงิน", 
+nullnullnullnullnullnullnullnullkeHuMingCheng: "ชื่อลูกค้า", 
+keHuID: "ไอดี ลูกค้า", 
+nullnullqingXuanZeVI: "กรุณาเลือกระดับ VIP", 
+suoYouKeHuDeng: "ลูกค้าทุกระดับ", 
+nullnullnullnullnullnullnullnullnullnullnullchongZhiMa: "รหัสเติมเงิน", 
+nullnullnullnullnullnullnullnullkeHuMingCheng: "ชื่อลูกค้า", 
+keHuID: "ไอดี ลูกค้า", 
+nullqingXuanZeVI: "กรุณาเลือกระดับ VIP", 
+suoYouKeHuDeng: "ลูกค้าทุกระดับ", 
+null  },
+  look: {
+nullnullnullnullnullnullnullnullnullkeHuMingChengI: "ชื่อและไอดี ลูกค้า:", 
+  }
+}

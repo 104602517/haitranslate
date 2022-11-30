@@ -17,7 +17,6 @@ const appenFile = function(filePath, data){
             }
         })
     }else{
-
         fs.writeFile(filePath,data,{flag:"a"},function (err) {
             if(err){
                 console.log(err);
@@ -26,8 +25,6 @@ const appenFile = function(filePath, data){
             }
         })
     }
-
- 
   
 }
 

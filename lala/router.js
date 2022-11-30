@@ -1,6 +1,6 @@
 export default {
   routers: {
-keHuXiangQing: "Khách hàng chi tiết", 
-keHuXiangQing: "Khách hàng chi tiết", 
+keHuXiangQing: "รายละเอียดลูกค้า", 
+keHuXiangQing: "รายละเอียดลูกค้า", 
 nullnull  },
 };

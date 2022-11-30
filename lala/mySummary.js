@@ -1,4 +1,9 @@
 export default {
   index: {
-nullnullbianJiGengXin: "Cập nhật chỉnh sửa", nullnullwoDeYeWuLei2: "Loại hình doanh nghiệp của tôi \n", woDeYeWuLei3: "Loại hình doanh nghiệp của tôi", woDeYeWuLei3: "Loại hình doanh nghiệp của tôi", woDeYeWu: "Doanh nghiệp của tôi\n",   },
+nullnullbianJiGengXin: "อัปเดตการแก้ไข", 
+nullnullwoDeYeWuLei2: "ประเภทธุรกิจของฉัน \n", 
+woDeYeWuLei3: "ประเภทธุรกิจของฉัน", 
+woDeYeWu: "ธุรกิจของฉัน\n", 
+woDeYeWu2: "ธุรกิจของฉัน", 
+  },
 };

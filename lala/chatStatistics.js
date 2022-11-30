@@ -1,9 +1,13 @@
 export default {
   BarChart: {
-zhiJianFenXi: "Kiểm duyệt phân tích", 
-zhiJianFenXi: "Kiểm duyệt phân tích", 
+zhiJianFenXi: "การวิเคราะห์การควบคุมคุณภาพ", 
+zhiJianFenXi: "การวิเคราะห์การควบคุมคุณภาพ", 
   },
   index: {
-nullnullnullkeFuRenYuan: "Dịch vụ khách hàng", nullbuHeGeLu: "Tỷ lệ không hợp lệ", jiGeLu: "Tỷ lệ hợp lệ", jiGeLu: "Tỷ lệ hợp lệ", liangHaoLu: "Tỷ lệ tốt", liangHaoLu: "Tỷ lệ tốt", 
+nullnullnullnullnullbuHeGeLu: "อัตราไม่ผ่าน", 
+jiGeLu: "อัตราการผ่าน", 
+liangHaoLu: "อัตราดี", 
+youXiuLu: "อัตราที่ยอดเยี่ยม", 
+gaiKeFuZuZan2: "ไม่มีบริการลูกค้าออนไลน์ในกลุ่มบริการลูกค้านี้", 
 nullnullnullnull  },
 };

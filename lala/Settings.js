@@ -1,10 +1,10 @@
 export default {
   index: {
-caiDanUNI: "Mục lục UniqueOpened", 
-caiDanUNI: "Mục lục UniqueOpened", 
-caiDanUNI: "Mục lục UniqueOpened", 
-caiDanUNI: "Mục lục UniqueOpened", 
-xianShiLOG: "Hiển thị logo", 
-guDingTouBu: "Đầu trang cố định", 
+caiDanUNI: "เมนู UniqueOpened", 
+caiDanUNI: "เมนู UniqueOpened", 
+xianShiLOG: "แสดงโลโก้", 
+guDingTouBu: "ส่วนหัวคงที่", 
+xianShiBiaoQian: "แสดงแท็บ", 
+zhuTiYanSe: "สีของธีม", 
   },
 };

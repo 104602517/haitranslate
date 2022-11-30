@@ -11,13 +11,12 @@ module.exports = function(){
         const matches = getKeyValue(curRow)
 
         if(matches){
-         
             translationArray.push(matches)
         }
          
     }
 
-
+    console.log('length: ' + translationArray.length)
  
     return translationArray
     
