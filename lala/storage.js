@@ -1,6 +1,6 @@
 export default {
   index: {
-qiNiuYunCunChu: "ที่เก็บข้อมูลบน Qiniu Cloud", 
-qiNiuYunCunChu: "ที่เก็บข้อมูลบน Qiniu Cloud", 
+    qiNiuYunCunChu: '七牛云存储',
+    benDiCunChu: '本地存储',
   },
 };

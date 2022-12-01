@@ -1,4 +1,4 @@
-var update = require('./util/entry.js')
 
-// 更新这个目录文件
+const update = require('./util/entry')
+
 update('lala')

@@ -1,5 +1,5 @@
 export default {
   index: {
-buJuSheZhiCheng: "ตั้งค่าเค้าโครงเรียบร้อยแล้ว", 
+    buJuSheZhiCheng: '布局设置成功',
   },
 };

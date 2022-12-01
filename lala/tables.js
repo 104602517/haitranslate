@@ -1,23 +1,42 @@
 export default {
   CustomerTypeColumn: {
-nullnullnull  },
+    pingTaiKeHu: '平台客户',
+    tuiGuangShangKeHu: '推广商客户',
+    keHuLeiXing: '客户类型'
+  },
   EndType: {
-null  },
+    jieShuFangShi: '结束方式'
+  },
   EvaluateType: {
-nullnullnull  },
+    zhuDongPingJia: '主动评价',
+    yaoQingPingJia: '邀请评价',
+    pingJiaLeiXing: '评价类型'
+  },
   langs: {
-language: "ภาษา", 
+    language: '语言'
   },
   HeadProxyIdColumn: {
-null  },
+    zongDaiID: '总代id'
+  },
   IsDone: {
-nullnullnull  },
+    weiJieJue: '未解决',
+    yiJieJue: '已解决',
+    shiFouJieJue: '是否解决'
+  },
   IsEvaluate: {
-nullnullnull  },
+    yiPingJia: '已评价',
+    weiPingJia: '未评价',
+    shiFouPingJia: '是否评价'
+  },
   ParentProxyColumn: {
-null  },
+    shangJiDaiLi: '上级代理'
+  },
   ServerProxyColumn: {
-null  },
+    keFuDaiLi: '客服代理'
+  },
   ServerTypeColumn: {
-nullnullnull  }
+    pingTaiKeFu: '平台客服',
+    tuiGuangShangKeFu: '推广商客服',
+    keFuLeiXing: '客服类型'
+  }
 }

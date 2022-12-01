@@ -1,0 +1,167 @@
+export default {
+
+  Category: {
+
+diSanChanYe: "อุตสาหกรรมระดับตติยภูมิ", 
+diSanChanYe: "อุตสาหกรรมระดับตติยภูมิ", 
+diErChanYe: "อุตสาหกรรมทุติยภูมิ", 
+diYiChanYe: "อุตสาหกรรมหลัก", 
+quanGuoHongGuanJing: "เครื่องชี้เศรษฐกิจมหภาคแห่งชาติ พ.ศ. 2554", 
+quanGuoHongGuanJing2: "เครื่องชี้เศรษฐกิจมหภาคแห่งชาติ พ.ศ. 2553", 
+quanGuoHongGuanJing3: "เครื่องชี้เศรษฐกิจมหภาคแห่งชาติ พ.ศ. 2552", 
+quanGuoHongGuanJing4: "เครื่องชี้เศรษฐกิจมหภาคแห่งชาติ พ.ศ. 2551", 
+quanGuoHongGuanJing5: "เครื่องชี้เศรษฐกิจมหภาคแห่งชาติ พ.ศ. 2550", 
+quanGuoHongGuanJing6: "เครื่องชี้เศรษฐกิจมหภาคแห่งชาติ พ.ศ. 2549", 
+quanGuoHongGuanJing7: "เครื่องชี้เศรษฐกิจมหภาคแห่งชาติ พ.ศ. 2548", 
+quanGuoHongGuanJing8: "เครื่องชี้เศรษฐกิจมหภาคแห่งชาติ พ.ศ. 2547", 
+quanGuoHongGuanJing9: "เครื่องชี้เศรษฐกิจมหภาคแห่งชาติ พ.ศ. 2546", 
+quanGuoHongGuanJing10: "เครื่องชี้เศรษฐกิจมหภาคแห่งชาติ พ.ศ. 2545", 
+gDPZhanBi: "อัตราส่วน GDP", 
+fangDiChan: "อสังหาริมทรัพย์", 
+jinRong: "การเงิน", 
+gDPYiYuan: "GDP (พันล้านหยวน)", 
+xinJiang: "ซินเจียง", 
+ningXia: "หนิงเซี่ย", 
+qingHai: "ชิงไห่", 
+ganSu: "กานซู", 
+shanXi: "ส่านซี", 
+xiZang: "ซีซาง", 
+yunNan: "ยูนนาน", 
+guiZhou: "กุ้ยโจว", 
+siChuan: "เสฉวน", 
+chongQing: "ฉงชิ่ง", 
+haiNan: "ไหหลำ", 
+guangXi: "กวางสี", 
+guangDong: "กวางตุ้ง", 
+huNan: "หูหนาน", 
+huBei: "หูเป่ย", 
+heNan: "เหอหนาน", 
+shanDong: "ซานตง", 
+jiangXi: "เจียงซี", 
+    anHui: '\n安徽',
+
+anHui: "อานฮุย", 
+zheJiang: "เจ้อเจียง", 
+jiangSu: "เจียงซู", 
+shangHai: "เซี่ยงไฮ้", 
+heiLongJiang: "เฮยหลงเจียง", 
+jiLin: "จี๋หลิน", 
+liaoNing: "เหลียวหนิง", 
+neiMengGu: "มองโกเลีย", 
+shanXi2: "ซานซี", 
+heBei: "เหอเป่ย์", 
+tianJin: "เทียนจิน", 
+beiJing: "ปักกิ่ง", 
+shuJuLaiZiGuo: "ข้อมูลจากสำนักงานสถิติแห่งชาติ", 
+gDPDaDao: "GDP พุ่งสูงขึ้นไปอีกขั้น", 
+bGDPDa: "{b}GDP เข้าสู่ระดับสูง", 
+ningXia2: "หนิงเซี่ย", 
+ganSu2: "กานซู", 
+xiZang2: "ซีซาง", 
+guiZhou2: "กุ้ยโจว", 
+chongQing2: "ฉงชิ่ง", 
+guangXi2: "กวางสี", 
+huNan2: "หูหนาน", 
+heNan2: "ซานตง", 
+jiangXi2: "เจียงซี", 
+anHui2: "อานฮุย", 
+jiangSu2: "เจียงซู", 
+heiLongJiang2: "เฮยหลงเจียง", 
+liaoNing2: "เหลียวหนิง", 
+shanXi3: "ซานซี", 
+  },
+
+  Funnel: {
+
+tianJin2: "เทียนจิน", 
+zhanXian: "แสดง", 
+dianJi: "คลิก", 
+dingDan: "รายการ", 
+    fangWen: '访问',
+
+fangWen: "เข้าถึง", 
+louDouTu: "แผนภูมิกรวย", 
+  },
+
+  Gauge: {
+
+chunShuXuGou: "เป็นเรื่องสมมติล้วนๆ", 
+wanChengLu: "อัตราความสำเร็จ", 
+  },
+
+  Graph: {
+
+yeWuZhiBiao: "ดัชนีธุรกิจ", 
+diKaErZuoBiao: "กราฟบนระบบพิกัดคาร์ทีเซียน", 
+zhouRi: "วันอาทิตย์", 
+zhouLiu: "วันเสาร์", 
+zhouWu: "วันศุกร์", 
+henChangHenChangDe: "วันพฤหัสบดีที่ยาวนาน", 
+zhouSan: "วันพุธ", 
+zhouEr: "วันอังคาร", 
+  },
+
+  Point: {
+
+zhouYi: "วันจันทร์", 
+jieDian: "โหนด 4", 
+jieDian2: "โหนด 1", 
+jieDian3: "โหนด 3", 
+jieDian4: "โหนด 2", 
+  },
+
+  Rich: {
+
+gRAPH: "ตัวอย่างกราฟอย่างง่าย", 
+    biYing: '必应',
+
+biYing: "Bing", 
+    baiDu: '百度',
+
+baiDu: "Baidu", 
+shiPinGuangGao: "โฆษณาวิดีโอ", 
+lianMengGuangGao: "โฆษณาพันธมิตร", 
+youJianYingXiao: "อีเมลการตลาด", 
+zhiDa: "โดยตรง", 
+    fangWenLaiYuan: '访问来源',
+
+    souSuoYinQing: '搜索引擎',
+
+souSuoYinQing: "เครื่องมือค้นหา", 
+  },
+
+  Scatter: {
+
+yingXiaoGuangGao: "การโฆษณาทางการตลาด", 
+  },
+
+  WordCloud: {
+
+yuNianGeGuoJia: "อายุขัยและ GDP ของประเทศต่างๆ ในปี 2533 และ 2558", 
+chuGuoYou: "เดินทางไปต่างประเทศ", 
+luYouWangZhanPian: "การตั้งค่าเว็บไซต์ท่องเที่ยว", 
+guanZhuJingDian: "เน้นสถานที่ท่องเที่ยว", 
+jiuDian: "โรงแรม", 
+yuanTuChuXingFang: "การเดินทางไกล", 
+guoNeiYou: "ทัวร์ในประเทศ", 
+jingDianLeiXing: "ประเภทสถานที่ท่องเที่ยว", 
+luYouChuXing: "การท่องเที่ยว", 
+wangLuoQiWen: "ความอยากรู้อยากเห็นทางอินเทอร์เน็ต", 
+shiShang: "แฟชั่น", 
+sheHuiShiZheng: "สังคมและเหตุการณ์ปัจจุบัน", 
+keJiZiXun: "เทคโนโลยี", 
+junShi: "ทหาร", 
+yuLeBaGua: "ซุบซิบบันเทิง", 
+shangYeCaiJing: "ธุรกิจการเงิน", 
+    geiMoShengDeNi: '给陌生的你听',
+
+geiMoShengDeNi: "สำหรับคุณ", 
+yanChuPiaoWu: "การออกตั๋วการแสดง", 
+xiQuQuYi: "โอเปร่าและดนตรี", 
+guangBoDianTai: "สถานีวิทยุ", 
+zhiBo: "ถ่ายทอดสด", 
+yinYue: "เพลง", 
+dongMan: "อนิเมะ", 
+dianShi: "ทีวี", 
+shiPin: "วิดีโอ", 
+qiChe: "รถยนต์", 

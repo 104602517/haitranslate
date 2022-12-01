@@ -1,6 +1,6 @@
 export default {
-shanChuTuiGuangShang: "ลบการกำหนดค่าผู้สนับสนุน", 
-shanChuTuiGuangShang: "ลบการกำหนดค่าผู้สนับสนุน", 
-bianJiTuiGuangShang: "แก้ไขผู้สนับสนุน", 
-tianJiaTuiGuangShang: "เพิ่มผู้สนับสนุน", 
+  shanChuTuiGuangShang: '删除推广商配置',
+  bianJiTuiGuangShang: '编辑推广商',
+  tianJiaTuiGuangShang: '添加推广商',
+  tuiGuangShangPeiZhi: '推广商配置列表',
 };

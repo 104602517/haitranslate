@@ -1,8 +1,11 @@
 export default {
   HSelect: {
-null  },
+    qingXuanZe: '请选择',
+  },
   MSelect: {
-null  },
+    quanBu: '全部',
+  },
   ServerProxySelect: {
-null  },
+    qingShuRuKeFu: '请输入客服代理',
+  },
 };

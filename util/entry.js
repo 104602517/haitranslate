@@ -6,6 +6,7 @@ const TRANSLATION_ORIGINN_DATA = require('./getTranslationArr')();
  
 // 具体转换
 const transfile = require('./transfile')
+const {createFile} = require('./file')
 
 
 
@@ -14,6 +15,7 @@ function resolve(fakepath) {
 }
 
 function update(rootpath) {
+    createFile(resolve('lalanew'))
     
     fs.readdir(resolve(rootpath), 'utf8', function(err, dirList) {
 
@@ -22,6 +24,8 @@ function update(rootpath) {
     }
     dirList.forEach(function(fileName) {
       const curFileUrl = resolve(`${rootpath}/${fileName}`);
+      const newFileUrl = resolve(`${rootpath}new/${fileName}`);
+
 
       let stats = fs.statSync(curFileUrl)
 
@@ -29,17 +33,19 @@ function update(rootpath) {
      
         update(`${rootpath}/${fileName}`)
       } else {
-        fs.readFile(curFileUrl, 'utf8', async function(err, file) {
+        fs.readFile(curFileUrl, 'utf8',  function(err, file) {
           if (err) {
             throw err
           }
-          // 文件
           let newFile = ''
 
-          newFile = await transfile({fileUrl:curFileUrl, fileName, TRANSLATION_ORIGINN_DATA})
+          newFile =  transfile({fileData:file, fileName, TRANSLATION_ORIGINN_DATA})
       
+          // 直接替换
           if (newFile) {
-            fs.writeFile(curFileUrl, newFile, 'utf8', function(err) {
+
+           
+            fs.writeFile(newFileUrl, newFile, 'utf8', function(err) {
               if (err) {
                 console.log(err)
                 throw err

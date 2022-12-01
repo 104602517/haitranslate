@@ -1,96 +1,75 @@
 
-const  fs = require('fs');
-const readline = require('readline');
-const events = require('events');
+
 const handleRow = require('./handleRow')
 const getKeyValue = require('./getKeyValue')
  
 
-async function transfile({fileUrl, fileName, TRANSLATION_ORIGINN_DATA}) {
+ function transfile({fileData, fileName, TRANSLATION_ORIGINN_DATA}) {
 
    // console.log(fileUrl)
    let newData = ''
-   const rl = readline.createInterface({
-      input: fs.createReadStream(fileUrl),
-      crlfDelay: Infinity
-    });
+    
 
     let preInfo = null;
     let prepreInfo = null;
     let preUnNeedHandleLines = '';
     let newLine = null;
+    let line = '';
+    let lineInfo = {}
 
-    rl.on('line', (line) => {
+    for(let i =0; i< fileData.length; i++){
+      const item = fileData[i];
+      line += item
 
-      const lineInfo = getKeyValue(line)
+      if(item === '\n' || item === '\r'){
+         lineInfo = getKeyValue(line)
 
-      // console.log("lineInfo", lineInfo)
-      // 如果line是第一行
-      if(!preInfo && lineInfo){
-         preInfo = lineInfo
-      }
+          // 如果line是第一行
+         if(!preInfo && lineInfo){
+            preInfo = lineInfo
+         }
 
-      // 如果line是第二行
-      if(preInfo && !prepreInfo){
+         // 如果line是第二行
+         if(preInfo && !prepreInfo && lineInfo){
+            
+            // 处理第一行
+            newLine = handleRow({preInfo: {}, handleInfo: preInfo, afterInfo: lineInfo, line, fileName, TRANSLATION_ORIGINN_DATA})
+      
+            prepreInfo = preInfo
+            preInfo = lineInfo
+         }
+
+         // 如果是第三行和第三行后面的line
+         if(preInfo && prepreInfo && lineInfo){
          
-         // 处理第一行
-         newLine = handleRow({handleInfo: preInfo, afterInfo: lineInfo, line, fileName, TRANSLATION_ORIGINN_DATA})
-   
-         // 重置
-         prepreInfo = preInfo
-         preInfo = lineInfo
-      }
+            // 处理前一行
+            newLine = handleRow({handleInfo: preInfo, preInfo: prepreInfo, afterInfo: lineInfo , line, fileName, TRANSLATION_ORIGINN_DATA})
+            
+            prepreInfo = preInfo
+            preInfo = lineInfo;
+         }
 
-      // 如果是第三行和第三行后面的line
-      if(preInfo && prepreInfo){
-        
-         // 处理前一行
-         newLine = handleRow({handleInfo: preInfo, preLine: prepreInfo, afterLine: lineInfo , line, fileName, TRANSLATION_ORIGINN_DATA})
-         
-         //重置
-         prepreInfo = preInfo
-         preInfo = lineInfo;
-      }
+         // 如果当前行不是 key:value, 缓存起来
+         if(!lineInfo){
+            line = line + '\n'
+            preUnNeedHandleLines += line
+         }else{
+            newData += preUnNeedHandleLines;
 
-      // 如果当前行不是 key:value, 缓存起来
-      if(!lineInfo){
-         line = line + '\n'
-         preUnNeedHandleLines += line
-      }else{
-         newData += preUnNeedHandleLines;
+            newData += newLine;
+            newLine = '';
+            
+            preUnNeedHandleLines = '';
 
-         newData += newLine;
-         newLine = '';
-         
-         preUnNeedHandleLines = '';
+         }
+
+         line = ''
 
       }
-
-    });
-
-
-    await events.once(rl, 'close');
-
- 
-      if(preInfo){
-         // 处理最后一行
-         newLine = handleRow({handleInfo: preInfo, preLine: prepreInfo, afterLine: {} , line, fileName, TRANSLATION_ORIGINN_DATA})
-          newData += newLine;
-         newLine = '';
-      }
-   
-   
-       // 处理结尾
-       if(preUnNeedHandleLines){
-         newData += preUnNeedHandleLines;
-         preUnNeedHandleLines = ''
-       }
+    }
 
     return newData;
 
 }
-
-
-
 
 module.exports = transfile;
