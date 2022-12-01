@@ -5,7 +5,7 @@ export default {
 laiYuanZhongHouTai: "ที่มาระบบหลังบ้าน", 
 laiYuanYouKe: "ที่มาผู้เยี่ยมชม", 
     jinYong: '禁用',
-    keHuMOM: '客户 momo699 与客服 shirry 的会话详情',
+jinYong: "ปิดการใช้งาน", 
 keHuMOM: "รายละเอียดบทสนทนาของลูกค้า momo699 และเชอร์รีฝ่ายบริการลูกค้า", 
 laHeiLiShiJi: "ประวัติการถูกบล็อก", 
 lianXiKeFuJi: "ติดต่อบันทึกการบริการลูกค้า", 

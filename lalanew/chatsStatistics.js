@@ -29,7 +29,7 @@ huiHuaQuDaoTong: "สถิติช่องทางกานสนทนา",
     gengDuo: '更多',
 gengDuo: "มากกว่านี้", 
     chaXun: '查询',
-    quanBuKeFuZu: '全部客服组'
+chaXun: "ตรวจสอบ", 
 
   }
 }

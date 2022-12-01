@@ -13,7 +13,7 @@ export default {
     pingJiaLeiXing: '评价类型'
   },
   langs: {
-    language: '语言'
+pingJiaLeiXing: "ประเภทการประเมิน", 
   },
   HeadProxyIdColumn: {
 language: "ภาษา", 
@@ -21,12 +21,12 @@ language: "ภาษา",
   IsDone: {
     weiJieJue: '未解决',
     yiJieJue: '已解决',
-    shiFouJieJue: '是否解决'
+yiJieJue: "แก้ไขแล้ว", 
   },
   IsEvaluate: {
     yiPingJia: '已评价',
     weiPingJia: '未评价',
-    shiFouPingJia: '是否评价'
+weiPingJia: "ยังไม่ประเมิน", 
   },
   ParentProxyColumn: {
     shangJiDaiLi: '上级代理'

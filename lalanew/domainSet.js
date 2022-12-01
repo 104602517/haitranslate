@@ -2,7 +2,7 @@ export default {
   index: {
     chengGong: '成功',
     tiShi: '提示',
-    gangWeiShiFouJi: '岗位, 是否继续？',
+tiShi: "แจ้งเตือน", 
     ciCaoZuoJiang: '此操作将 "',
     yuMing: '域名',
 yuMing: "ชื่อโดเมน", 

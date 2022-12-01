@@ -38,7 +38,7 @@ daoChu: "ส่งออก",
     riZhiZhuangTai: '日志状态',
 riZhiZhuangTai: "สถานะบันทึก", 
     kaiShiRiQi: '开始日期',
-    zhiXingRiZhi: '执行日志',
+kaiShiRiQi: "วันที่เริ่มต้น", 
 zhiXingRiZhi: "บันทึกการดำเนินการ", 
   },
 };

@@ -1,11 +1,12 @@
 
 const update = require('./logic/entry')
-const {createFile} = require('./util/file')
+const {createFile,createDir} = require('./util/file')
 const path = require('path')
 
 
   
-createFile(resolve('lalanew'))
+createDir(resolve('lalanew'))
+createFile(resolve('noMatch.js'))
 
 update('lala')
 

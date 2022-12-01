@@ -1,6 +1,7 @@
 
 const {appenFile} = require('../util/file.js')
 
+ const noMatchPath = './noMatch.js'
  
 
 
@@ -15,16 +16,9 @@ module.exports = function handleRow({handleInfo, preInfo, afterInfo, line, fileN
 
     
     matchedResults = TRANSLATION_ORIGINN_DATA.filter((translation) =>  {
-        // if(translation.key === 'shouYe' && handleInfo && handleInfo.key === 'shouYe'){
-        //     console.log(translation.key.length, handleInfo ? handleInfo.key.length : 55)
-        //     console.log(translation.key ===   handleInfo && handleInfo.key)
-        //     return true
-        // }
-
+      
         handleInfo = handleInfo || {}
         const res = translation.key.replace(/\s*(.+)\s*/g, '$1') ===   handleInfo.key
-
-    
 
         return res;
     })
@@ -32,7 +26,8 @@ module.exports = function handleRow({handleInfo, preInfo, afterInfo, line, fileN
 
         PreMatches = TRANSLATION_ORIGINN_DATA.filter((translation, index) =>   {
             const preTranslation = TRANSLATION_ORIGINN_DATA[index -1] ||{}
-            return translation.key === handleInfo.key && preTranslation.key === preInfo && preInfo.key
+            preInfo = preInfo || {}
+            return translation.key === handleInfo.key && preTranslation.key ===    preInfo.key
         })
 
         
@@ -43,13 +38,15 @@ module.exports = function handleRow({handleInfo, preInfo, afterInfo, line, fileN
 
          if(PreMatches.length > 1){
 
+            preInfo = preInfo || {}
+            afterInfo = afterInfo || {}
           
             preAfterMatches = TRANSLATION_ORIGINN_DATA.filter( (translation, index) =>
          {
             const preTranslation = TRANSLATION_ORIGINN_DATA[index -1] ||{}
             const afterTranslation =  TRANSLATION_ORIGINN_DATA[index +1] ||{}
-            return translation.key === handleInfo.key && preTranslation.key ===  preInfo && preInfo.key
-            && afterTranslation.key === afterInfo && afterInfo.key
+            return translation.key === handleInfo.key && preTranslation.key ===   preInfo.key
+            && afterTranslation.key ===   afterInfo.key
          }
              )
 
@@ -60,7 +57,7 @@ module.exports = function handleRow({handleInfo, preInfo, afterInfo, line, fileN
                     
                 // 如果找不到或者有多个写入到文件夹
                 if(line){
-                    appenFile('./nonMacthes.js', line + ' \\\\' + fileName  + ' \n  ',)
+                    appenFile(noMatchPath, line + ' \\\\' + fileName  + ' \n  ',)
 
                 }
 
@@ -73,7 +70,7 @@ module.exports = function handleRow({handleInfo, preInfo, afterInfo, line, fileN
          }else{
              // 如果找不到或者有多个写入到文件夹
              if(line){
-                appenFile('./nonMacthes.js', line + ' \\\\' + fileName  + ' \n  ',)
+                appenFile(noMatchPath, line + ' \\\\' + fileName  + ' \n  ',)
 
             }
 
@@ -87,7 +84,7 @@ module.exports = function handleRow({handleInfo, preInfo, afterInfo, line, fileN
     }else{
    // 如果找不到或者有多个写入到文件夹
    if(line){
-     appenFile('./nonMacthes.js', line + ' \\\\' + fileName  + ' \n  ',)
+     appenFile(noMatchPath, line + ' \\\\' + fileName  + ' \n  ',)
 
     }
 

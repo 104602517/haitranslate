@@ -10,7 +10,7 @@ export default {
 miao2: "(วินาที)", 
     quXiao: '取消',
     queDing: '确定',
-    qiangZhiXiaXian: '强制下线',
+queDing: "ยืนยัน", 
 qiangZhiXiaXian: "บังคับออฟไลน์", 
 queRenJiangGaiKe: "คุณแน่ใจหรือไม่ว่าจะบังคับบริการลูกค้านี้ให้ออฟไลน์", 
     tuiChuPaiDui: '退出排队',

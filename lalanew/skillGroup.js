@@ -15,7 +15,7 @@ yiChuChengYuan: "ลบสมาชิก",
   tianJiaChengYuan: '添加成员',
 tianJiaChengYuan: "เพิ่มสมาชิก", 
   jiNengZuMingCheng: '技能组名称',
-  quanBu: '全部',
+jiNengZuMingCheng: "ชื่อกลุ่มทักษะ", 
   shiFouXianShi: '是否显示：',
 
 };

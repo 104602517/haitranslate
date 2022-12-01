@@ -14,7 +14,7 @@ export default {
     zaiXian: '在线',
   },
   LineChart: {
-    huiHuaXiaoXiShu: '会话消息数',
+zaiXian: "ออนไลน์", 
     huiHuaShu: '会话数',
     huiHuaXiaoXiShu2: '会话消息数（个）',
 huiHuaXiaoXiShu2: "จำนวนข้อความบทสนทนา (อัน)", 
@@ -40,7 +40,7 @@ woDeShuJu: "ข้อมูลของฉัน",
     sheZhiKanBanCan: '设置看板参数',
     zhongZhi: '重置',
     chaXun: '查询',
-    suoYouKeFu: '所有客服',
+chaXun: "ตรวจสอบ", 
 
   },
 };

@@ -7,7 +7,7 @@ export default {
     zhanBi: '占比：',
     dengLuShiChang: '登录时长:',
     zaiXian: '在线',
-    fanMang: '繁忙',
+zaiXian: "ออนไลน์", 
 fanMang: "ยุ่ง", 
   },
   tapChart: {

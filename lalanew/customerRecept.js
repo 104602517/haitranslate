@@ -3,7 +3,7 @@ export default {
     shanChuChengGong: '删除成功',
     quXiao: '取消',
     queDing: '确定',
-    sERGR: '【{val1}】自动接待【{val2}】的配置？',
+queDing: "ยืนยัน", 
     shiFouShanChu: '是否删除',
 shiFouShanChu: "ลบหรือไม่", 
     yaoQingJieDaiLie: '邀请接待列表',

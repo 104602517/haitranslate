@@ -15,7 +15,7 @@ liangHaoLu: "อัตราดี",
 youXiuLu: "อัตราที่ยอดเยี่ยม", 
 gaiKeFuZuZan2: "ไม่มีบริการลูกค้าออนไลน์ในกลุ่มบริการลูกค้านี้", 
     zaiXianKeFu: '在线客服',
-    chaXun: '查询',
+zaiXianKeFu: "ฝ่ายบริการลูกค้าออนไลน์", 
     quanBuKeFu: '全部客服',
     tongJiWeiDu: '统计维度',
 

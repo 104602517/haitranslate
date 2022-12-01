@@ -19,7 +19,7 @@ qingShuRuBuXiao2: "กรุณาป้อนจำนวนเต็มไม�
   xingShuoMing: '星说明:',
 xingShuoMing: "คำอธิบายดาว:", 
   xing2: '星',
-  xingJiPingJiaShe: '星级评价设置',
+xing2: "ดาว", 
 xingJiPingJiaShe: "การตั้งค่าการประเมินระดับดาว", 
 quanBuShanChu: "ลบทั้งหมด", 
 yiTianJiaBiaoQian: "เพิ่มแท็กแล้ว: (", 

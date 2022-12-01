@@ -20,7 +20,7 @@ yaoQingKeHuPei: "เชิญกำหนดค่าลูกค้า",
   inviteSetting: {
 yaoQingKeHuLei: "เชิญกำหนดค่าประเภทลูกค้า", 
     tiShi: '提示',
-    ninShiFouQueRen: '您是否确认{val1}{val2}?',
+tiShi: "แจ้งเตือน", 
     youXianYaoQingGao: '优先邀请高等级排队用户',
 youXianYaoQingGao: "เชิญผู้ใช้คิวระดับสูงก่อน", 
     kaiQi: '开启',

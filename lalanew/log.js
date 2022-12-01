@@ -3,7 +3,7 @@ export default {
     quXiao: '取消',
     queDing: '确定',
     tiShi: '提示',
-    yiChangRiZhi: '异常日志',
+tiShi: "แจ้งเตือน", 
 yiChangRiZhi: "บันทึกผิดปกติ", 
     zhaKanXiangQing: '查看详情',
     chuangJianRiQi: '创建日期',
