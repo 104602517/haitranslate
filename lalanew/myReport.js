@@ -1,7 +1,7 @@
 export default {
   index: {
-    woDeBaoBiao: '我的报表',
-    xiangYingShiChang: '响应时长',
+woDeBaoBiao: "คำชี้แจงของฉัน", 
+woDeBaoBiao: "คำชี้แจงของฉัน", 
     pingJunHuiHuaShi: '平均会话时长',
     jieDaiYaLiZhi: '接待压力值',
     huiFuLu: '回复率',

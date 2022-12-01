@@ -2,25 +2,25 @@ export default {
   index: {
     tiShi: '提示',
     queDingYaoZhiXing: "确定要执行'{val1}'该操作?",
-    buChuLi: '不处理',
-    yiHuiFang: '已回访',
-    haoDe: '好的',
+queDingYaoZhiXing: "แน่ใจไหมว่าต้องการดำเนินการ {val1} นี้", 
+buChuLi: "ไม่ดำเนินการ", 
+yiHuiFang: "ตอบกลับ", 
     zhaKanLiuYan: '查看留言',
-    weiShouLi: '未受理',
-    chuLiRen: '处理人',
-    chuLiJieGuo: '处理结果',
-    liuYanRiQi: '留言日期',
-    zhaKan: '查看',
+zhaKanLiuYan: "ดูข้อความ", 
+weiShouLi: "ไม่ผ่านการประมวลผล", 
+chuLiRen: "คนดำเนินการ", 
+chuLiJieGuo: "ผลดำเนินการ", 
+liuYanRiQi: "วันที่ข้อความ", 
     liuYanTuPian: '留言图片',
     liuYanNeiRong: '留言内容',
     lianxufangshi: '联系方式',
 
     weiXin: '微信',
     shouJi: '手机',
-    nu: '女',
+shouJi: "โทรศัพท์มือถือ", 
     nan: '男',
     xingMingXingBie: '姓名/性别',
-    ziXunWenTi: '咨询问题',
+xingMingXingBie: "ชื่อ/เพศ", 
     keHuDengJiV: '客户等级/VIP级别',
     keHuZhangHuNi: '客户账户/昵称',
     quanBuKeFu: '全部客服',
@@ -29,10 +29,10 @@ export default {
     quanXuanJiNengZu: '全选技能组',
     quanBuJiNengZu: '全部技能组',
     quanBuKeHuV: '全部客户VIP级别',
-    quanBuKeHuDeng: '全部客户等级'
+quanBuKeHuV: "ระดับวีไอพีของลูกค้าทั้งหมด", 
   },
   lookPicture: {
-    jiaZaiZhong: '加载中'
+quanBuKeHuDeng: "ลูกค้าทุกระดับ", 
   },
   passwordvalite: {
     qingShuRuMiMa: '请输入密码',
@@ -40,6 +40,6 @@ export default {
     dengLuMiMa: '登录密码',
     dengLuYongHuMing: '登录用户名',
     zhaKanXiangQingMi: '查看详情密码验证'
-
+zhaKanXiangQingMi: "ตรวจดูรายละเอียดการยืนยันรหัสผ่าน", 
   }
 }

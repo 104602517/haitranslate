@@ -1,25 +1,25 @@
 export default {
   custChart: {
-    guangGao: '广告',
+guangGao: "โฆษณา", 
   },
   index: {
-    qiTa: '其他',
+guangGao: "โฆษณา", 
     zhongGuo: '中国',
-    laHeiTianYongHu: '拉黑7天用户',
-    yongJiuLaHeiYong: '永久拉黑用户',
-    keHuShu: '客户数',
-    xinKeHuShu: '新客户数',
-    qingXuanZe: '请选择',
+zhongGuo: "จีน", 
+laHeiTianYongHu: "บล็อกผู้ใช้ 7 วัน", 
+yongJiuLaHeiYong: "บล็อกผู้ใช้ถาวร", 
+keHuShu: "จำนวนลูกค้า", 
+xinKeHuShu: "จำนวนลูกค้าใหม่", 
     jinRiKeHuQu: '今日客户区域分布',
-    laHeiKeHuFen: '拉黑客户分析',
-    keHuLaiYuan: '客户来源',
+jinRiKeHuQu: "การกระจายภูมิภาคของลูกค้าในวันนี้", 
+laHeiKeHuFen: "การวิเคราะห์ลูกค้าที่ถูกบล็อก", 
   },
   mapEchart: {
-    'con': '：',
+keHuLaiYuan: "ที่มาของลูกค้า", 
     shuJuShuLiang: '数据数量',
-    di: '低',
-    gao: '高',
-    'con0': '：0',
+shuJuShuLiang: "จำนวนข้อมูล", 
+di: "ต่ำ", 
+gao: "สูง", 
 
   },
 };

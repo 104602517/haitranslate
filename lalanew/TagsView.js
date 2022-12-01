@@ -1,8 +1,8 @@
 export default {
   index: {
-    guanBiQuanBu: '关闭全部',
-    guanBiQiTa: '关闭其他',
-    guanBi: '关闭',
+guanBiQuanBu: "ปิดทั้งหมด", 
+guanBiQuanBu: "ปิดทั้งหมด", 
+guanBiQiTa: "ปิดอื่น ๆ", 
     shuaXin: '刷新',
 
   },

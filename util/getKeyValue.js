@@ -4,7 +4,7 @@ module.exports = function(str){
 
     if(matches){
 
-        const key = matches[1]
+        const key = matches[1].replace(/\s*(.+)\s*/g, '$1')
         const value = matches[2]
 
         return {

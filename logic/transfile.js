@@ -6,8 +6,7 @@ const getKeyValue = require('../util/getKeyValue')
 
  function transfile({fileData, fileName, TRANSLATION_ORIGINN_DATA}) {
 
-   let newData = ''
-   
+    let newData = ''
     let preInfo = null;
     let prepreInfo = null;
     let preUnNeedHandleLines = '';
@@ -55,7 +54,7 @@ const getKeyValue = require('../util/getKeyValue')
 
             newData += newLine;
             newLine = '';
-            
+         
             preUnNeedHandleLines = '';
 
          }

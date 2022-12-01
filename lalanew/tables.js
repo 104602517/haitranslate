@@ -16,7 +16,7 @@ export default {
     language: '语言'
   },
   HeadProxyIdColumn: {
-    zongDaiID: '总代id'
+language: "ภาษา", 
   },
   IsDone: {
     weiJieJue: '未解决',

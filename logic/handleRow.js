@@ -14,14 +14,21 @@ module.exports = function handleRow({handleInfo, preInfo, afterInfo, line, fileN
     TRANSLATION_ORIGINN_DATA = [...TRANSLATION_ORIGINN_DATA]
 
     
-    console.log(handleInfo)
     matchedResults = TRANSLATION_ORIGINN_DATA.filter((translation) =>  {
-        const res = translation.key === handleInfo && handleInfo.key
+        // if(translation.key === 'shouYe' && handleInfo && handleInfo.key === 'shouYe'){
+        //     console.log(translation.key.length, handleInfo ? handleInfo.key.length : 55)
+        //     console.log(translation.key ===   handleInfo && handleInfo.key)
+        //     return true
+        // }
+
+        handleInfo = handleInfo || {}
+        const res = translation.key.replace(/\s*(.+)\s*/g, '$1') ===   handleInfo.key
+
+    
 
         return res;
     })
     if(matchedResults.length > 1){
-
 
         PreMatches = TRANSLATION_ORIGINN_DATA.filter((translation, index) =>   {
             const preTranslation = TRANSLATION_ORIGINN_DATA[index -1] ||{}

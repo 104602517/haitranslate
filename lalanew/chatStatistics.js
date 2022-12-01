@@ -1,7 +1,7 @@
 export default {
   BarChart: {
-    zhiJianFenXi: '质检分析',
-    tHISB: '{val1}质检分析',
+zhiJianFenXi: "การวิเคราะห์การควบคุมคุณภาพ", 
+zhiJianFenXi: "การวิเคราะห์การควบคุมคุณภาพ", 
   },
   index: {
     qingXuanZeKeFu: '请选择客服或配置该客服组客服',
@@ -9,11 +9,11 @@ export default {
     keFuRenYuan: '客服人员',
     gaiKeFuZuZan: '该客服组暂无在线客服',
     buHeGeLu: '不合格率',
-    jiGeLu: '及格率',
-    liangHaoLu: '良好率',
-    youXiuLu: '优秀率',
-    gaiKeFuZuZan2: '该客服组暂无在线客服！',
-    zanWuShuJuQing: '\n      暂无数据，请重新选择搜索条件进行查询！\n    ',
+buHeGeLu: "อัตราไม่ผ่าน", 
+jiGeLu: "อัตราการผ่าน", 
+liangHaoLu: "อัตราดี", 
+youXiuLu: "อัตราที่ยอดเยี่ยม", 
+gaiKeFuZuZan2: "ไม่มีบริการลูกค้าออนไลน์ในกลุ่มบริการลูกค้านี้", 
     zaiXianKeFu: '在线客服',
     chaXun: '查询',
     quanBuKeFu: '全部客服',

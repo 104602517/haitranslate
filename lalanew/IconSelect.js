@@ -1,6 +1,6 @@
 export default {
   index: {
-    qingShuRuTuBiao: '请输入图标名称',
-
+qingShuRuTuBiao: "กรุณากรอกชื่อไอคอน", 
+qingShuRuTuBiao: "กรุณากรอกชื่อไอคอน", 
   },
 };

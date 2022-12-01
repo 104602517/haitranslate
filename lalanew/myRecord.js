@@ -8,7 +8,7 @@ export default {
     youXiaoHuiHua: '有效会话',
     weiZongJie: '未总结',
     yiZongJie: '已总结',
-    weiJieJue: '未解决',
+yiZongJie: "สรุปผลแล้ว", 
     yiJieJue: '已解决',
     weiZhiJian: '未质检',
     yiZhiJian: '已质检',

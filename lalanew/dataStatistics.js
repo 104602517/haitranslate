@@ -8,10 +8,10 @@ export default {
     dengLuShiChang: '登录时长:',
     zaiXian: '在线',
     fanMang: '繁忙',
-    tHISB: '{val1}登录时长',
+fanMang: "ยุ่ง", 
   },
   tapChart: {
     dengLuShiChangM: '登录时长/min',
-
+dengLuShiChangM: "เวลาเข้าสู่ระบบ/นาที", 
   },
 };
