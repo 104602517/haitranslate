@@ -2,13 +2,18 @@ export default {
 
   index: {
 
-laHeiROW: "บล็อก {val1}", 
-laHeiROW: "บล็อก {val1}", 
-shanChuYongHuR: "ยืนยันการลบผู้ใช้ {val1}", 
-queDingShanChuR: "ต้องการลบโปรไฟล์ผู้ใช้ {val1} หรือไม่ จะไม่สามารถกู้คืนได้หลังจากการลบ", 
+    laHeiROW: '拉黑 {val1}',
+
+    shanChuYongHuR: '删除用户 {val1} 确认',
+
+    queDingShanChuR: '确定删除 {val1} 用户资料？删除后将无法恢复。',
+
+    queDingJiangGaiYong: '确定将该用户 {val1} 解除黑名单？',
+
     laHeiChengGong: '拉黑成功！',
 
-laHeiChengGong: "บล็อกเรียบร้อย!", 
+    shanChuChengGong: '删除成功！',
+
     keHuZhangHu: '客户账户',
 
     buYunXuShuRu: '不允许输入非法字符',
@@ -29,9 +34,18 @@ laHeiChengGong: "บล็อกเรียบร้อย!",
 
     laHeiYongHu: '拉黑用户：',
 
-laHeiYongHu: "ผู้ใช้บัญชีที่ถูกบล็อก", 
-laHei: "บล็อก", 
-shiFouLaHei: "ต้องการบล็อกหรือไม่", 
-liShiZiXunShu: "จำนวนการตรวจสอบประวัติ", 
+    laHei: '拉黑',
+
+    shiFouLaHei: '是否拉黑',
+
+    liShiZiXunShu: '历史咨询数',
+
+    zhongZhi: '重置',
+
     chaXun: '查询',
+
+
+  },
+
+};
 

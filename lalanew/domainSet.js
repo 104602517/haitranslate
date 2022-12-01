@@ -12,17 +12,30 @@ export default {
 
     yuMing: '域名',
 
-yuMing: "ชื่อโดเมน", 
-xiuGaiRiQi: "แก้ไขวันที่", 
-xiuGaiRen: "แก้ไขโดย", 
+    xiuGaiRiQi: '修改日期',
+
+    xiuGaiRen: '修改人',
+
+    chuangJianRiQi: '创建日期',
+
     chuangJianRen: '创建人',
 
     yuMingLeiXing: '域名类型',
 
-yuMingLeiXing: "ประเภทโดเมน", 
-yuMingFuWu: "บริการชื่อโดเมน", 
-yuMingDiZhi: "ที่อยู่โดเมน", 
+    yuMingFuWu: '域名服务',
+
+    yuMingDiZhi: '域名地址',
+
+    yingYongMingCheng: '应用名称',
+
     yingYongID: '应用ID',
 
-yingYongID: "ไอดี แอปพลิเคชัน", 
-chanPinMingCheng: "ชื่อสินค้า", 
+    chanPinMingCheng: '产品名称',
+
+    chanPinID: '产品ID',
+
+
+  },
+
+};
+

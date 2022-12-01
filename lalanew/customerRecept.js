@@ -12,16 +12,20 @@ export default {
 
     shiFouShanChu: '是否删除',
 
-shiFouShanChu: "ลบหรือไม่", 
+    queRenShanChu: '确认删除',
+
     yaoQingJieDaiLie: '邀请接待列表',
 
-yaoQingJieDaiLie: "รายการรับเชิญ", 
+    shanChu: '删除',
+
     caoZuo: '操作',
 
     zuiHouXiuGaiRen: '最后修改人',
 
-zuiHouXiuGaiRen: "แก้ไขล่าสุดโดย", 
-zuiHouXiuGaiRi: "วันที่แก้ไขล่าสุด", 
+    zuiHouXiuGaiRi: '最后修改日期',
+
+    tuiGuangShangZongDai: '推广商总代id',
+
     keHuLeiXing: '客户类型',
 
     keFuLeiXing: '客服类型',
@@ -30,27 +34,42 @@ zuiHouXiuGaiRi: "วันที่แก้ไขล่าสุด",
 
     suoYouKeHuLei: '所有客户类型',
 
-suoYouKeHuLei: "ประเภทลูกค้าทั้งหมด", 
+    suoYouKeFuLei: '所有客服类型',
+
   },
 
   receptSet: {
 
-suoYouKeFuLei: "ประเภทการบริการลูกค้าทั้งหมด", 
-qingNinQueRen: "คุณช่วยยืนยัน？", 
-shanChuHouSE: "หลังจากลบ {val1} แล้ว คุณจะไม่สามารถรับ {val2} ได้", 
-keJieDaiKeHu: "คลิกเลือกลูกค้าที่สามารถรับได้ ไม่สามารถเพิ่มได้！", 
-keHuJieDaiLie: "รายการรับลูกค้า", 
+    qingNinQueRen: '请您确认？',
+
+    shanChuHouSE: '删除后{val1}将不能接待{val2}。',
+
+    keJieDaiKeHu: '可接待客户已勾选，无法再添加！',
+
+    keHuJieDaiLie: '客户接待列表',
+
+    chuangJianRiQi: '创建日期',
+
     keHuZuMing: '客户组名',
 
-keHuZuMing: "ชื่อกลุ่มลูกค้า", 
-keFuZuMing: "ชื่อกลุ่มบริการลูกค้า", 
-keJieDaiDeKe: "ลูกค้าที่มีอยู่", 
+    keFuZuMing: '客服组名',
+
+    keJieDaiDeKe: '可接待的客户',
+
+    qingXuanZeKeFu: '请选择客服组',
+
     keHuJieDaiPei: '客户接待配置',
 
-keHuJieDaiPei: "การกำหนดค่าการรับลูกค้า", 
+    quanBuKeHuZu: '全部客户组',
+
     quanBuKeFuZu: '全部客服组',
 
     ziDongJieDaiKe: '自动接待客户组',
 
     ziDongJieDaiKe2: '自动接待客户类型',
+
+
+  },
+
+};
 

@@ -22,7 +22,8 @@ export default {
 
     chongZhiMa: '充值码',
 
-chongZhiMa: "รหัสเติมเงิน", 
+    tuPian: '图片',
+
     paiDuiShiChang: '排队时长',
 
     kaiShiPaiDuiShi: '开始排队时间',
@@ -39,14 +40,18 @@ chongZhiMa: "รหัสเติมเงิน",
 
     keHuMingCheng: '客户名称',
 
-keHuMingCheng: "ชื่อลูกค้า", 
-keHuID: "ไอดี ลูกค้า", 
+    keHuID: '客户ID',
+
+    qingShuRuKeHu: '请输入客户名称',
+
     quanBu: '全部',
 
     qingXuanZeVI: '请选择VIP级别',
 
-qingXuanZeVI: "กรุณาเลือกระดับ VIP", 
-suoYouKeHuDeng: "ลูกค้าทุกระดับ", 
+    suoYouKeHuDeng: '所有客户等级',
+
+    quanBuJiNengZu: '全部技能组',
+
     suoYouJiNengZu: '所有技能组',
 
     puTongKeHu: '普通客户',
@@ -69,7 +74,8 @@ suoYouKeHuDeng: "ลูกค้าทุกระดับ",
 
     chongZhiMa: '充值码',
 
-chongZhiMa: "รหัสเติมเงิน", 
+    tuPian: '图片',
+
     paiDuiShiChang: '排队时长',
 
     kaiShiPaiDuiShi: '开始排队时间',
@@ -86,12 +92,16 @@ chongZhiMa: "รหัสเติมเงิน",
 
     keHuMingCheng: '客户名称',
 
-keHuMingCheng: "ชื่อลูกค้า", 
-keHuID: "ไอดี ลูกค้า", 
+    keHuID: '客户ID',
+
+    qingShuRuKeHu: '请输入客户名称',
+
     qingXuanZeVI: '请选择VIP级别',
 
-qingXuanZeVI: "กรุณาเลือกระดับ VIP", 
-suoYouKeHuDeng: "ลูกค้าทุกระดับ", 
+    suoYouKeHuDeng: '所有客户等级',
+
+    quanBuJiNengZu: '全部技能组',
+
     suoYouJiNengZu: '所有技能组'
 
   },
@@ -116,4 +126,10 @@ suoYouKeHuDeng: "ลูกค้าทุกระดับ",
 
     keHuMingChengI: '客户名称&ID:',
 
-keHuMingChengI: "ชื่อและไอดี ลูกค้า:", 
+    keHuPaiDuiXin: '客户排队信息'
+
+
+  }
+
+}
+

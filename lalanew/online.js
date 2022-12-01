@@ -8,16 +8,28 @@ export default {
 
     zaiXianYongHu: '在线用户',
 
-zaiXianYongHu: "ผู้ใช้ที่กำลังออนไลน์", 
-qiangTui: "บังคับออก", 
-queDingQiangZhiTui: "คุณแน่ใจหรือไม่ว่าต้องการบังคับให้ผู้ใช้รายนี้ออกจากระบบ？", 
+    qiangTui: '强退',
+
+    queDingQiangZhiTui: '确定强制退出该用户吗？',
+
+    caoZuo: '操作',
+
     dengLuShiJian: '登录时间',
 
-dengLuShiJian: "ระยะเวลาเข้าสู่ระบบ", 
-dengLuDiDian: "ที่ตั้งเข้าสู่ระบบ", 
-dengLuIP: "IP เข้าสู่ระบบ", 
+    dengLuDiDian: '登录地点',
+
+    dengLuIP: '登录IP',
+
+    gangWei: '岗位',
+
     yongHuNiCheng: '用户昵称',
 
     qiangTui2: '\n          强退\n        ',
 
-qiangTui2: "\n บังคับออก \n", 
+    quanBiaoMoHuSou: '全表模糊搜索',
+
+
+  },
+
+};
+

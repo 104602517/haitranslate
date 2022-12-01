@@ -74,3 +74,8 @@ export default {
 
     xinZengCRU: '新增{val1}',
 
+
+  },
+
+};
+

@@ -18,10 +18,16 @@ export default {
 
     fanMang: '繁忙',
 
-fanMang: "ยุ่ง", 
+    tHISB: '{val1}登录时长',
+
   },
 
   tapChart: {
 
     dengLuShiChangM: '登录时长/min',
+
+
+  },
+
+};
 

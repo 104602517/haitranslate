@@ -2,8 +2,10 @@ export default {
 
   index: {
 
-woDeBaoBiao: "คำชี้แจงของฉัน", 
-woDeBaoBiao: "คำชี้แจงของฉัน", 
+    woDeBaoBiao: '我的报表',
+
+    xiangYingShiChang: '响应时长',
+
     pingJunHuiHuaShi: '平均会话时长',
 
     jieDaiYaLiZhi: '接待压力值',
@@ -51,4 +53,9 @@ woDeBaoBiao: "คำชี้แจงของฉัน",
     keFuFenZu: '客服分组：',
 
     keFuZhangHuNi: '客服账户/昵称：',
+
+
+  },
+
+};
 

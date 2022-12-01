@@ -2,8 +2,10 @@ export default {
 
   index: {
 
-qiangJieChengGong: "แย่งการเชื่อมต่อสำเร็จ!", 
-qiangJieChengGong: "แย่งการเชื่อมต่อสำเร็จ!", 
+    qiangJieChengGong: '抢接成功！',
+
+    haoDe: '好的',
+
     tiShi: '提示',
 
     fuWuYiChangQing: '服务异常，请安排接待客服主动关闭该会话！',
@@ -14,28 +16,44 @@ qiangJieChengGong: "แย่งการเชื่อมต่อสำเร
 
     pCWangZhan: 'PC网站',
 
-pCWangZhan: "เว็บไซต์คอมพิวเตอร์", 
-yiDongWangZhan: "เว็บไซต์มือถือ", 
-yiDongAPP: "แอพมือถือ", 
+    yiDongWangZhan: '移动网站',
+
+    yiDongAPP: '移动APP',
+
+    fou: '否',
+
     shi: '是',
 
     huiHuaJianKong: '会话监控',
 
-huiHuaJianKong: "ตรวจสอบบทสนทนา", 
-qiangZhiGuanBi: "บังคับปิด", 
-zhaKanHuiHua: "ตรวจดูบทสนทนา", 
-qiangJie: "แย่งรับ", 
-shiFouYiChang: "ผิดปกติหรือไม่", 
-keHuXingBiao: "ลูกค้าติดดาว", 
-xiangYingChaoShi: "หมดเวลาการตอบสนอง", 
-huiHuaChaoShi: "หมดเวลาบทสนทนา", 
-shouXiangChaoShi: "หมดเวลาเสียงกริ่งแรก", 
-jingBaoZhuangTai: "สถานะการเตือน", 
-ziXunQuDaoXi: "ระบบ/ช่องทางสอบถาม", 
+    qiangZhiGuanBi: '强制关闭',
+
+    zhaKanHuiHua: '查看会话',
+
+    qiangJie: '抢接',
+
+    shiFouYiChang: '是否异常',
+
+    keHuXingBiao: '客户星标',
+
+    xiangYingChaoShi: '响应超时',
+
+    huiHuaChaoShi: '会话超时',
+
+    shouXiangChaoShi: '首响超时',
+
+    jingBaoZhuangTai: '警报状态',
+
+    ziXunQuDaoXi: '咨询渠道/系统',
+
+    huiHuaLeiXing: '会话类型',
+
     huiHuaJianLiShi: '会话建立时间',
 
-huiHuaJianLiShi: "เวลาในการสร้างบทสนทนา", 
-keHuYongHuMing: "ชื่อผู้ใช้ของลูกค้า", 
+    keHuYongHuMing: '客户用户名',
+
+    huiHuaShiChang: '会话时长',
+
     jiNengZu: '技能组',
 
     keFuZu: '客服组',
@@ -44,19 +62,32 @@ keHuYongHuMing: "ชื่อผู้ใช้ของลูกค้า",
 
     miaoZiDongShuaXin: ' 10 秒自动刷新',
 
-miaoZiDongShuaXin: "รีเฟรชอัตโนมัติ 10 วินาที", 
-jingBaoHuiHuaZhi: "\nแจ้งเตือนบทสนทนาสูงสุด\n", 
-tiao: "บทความ \n", 
-tiaoZaiXianHuiHua: "\n บทสนทนาออนไลน์ บทสนทนาการแจ้งเตือน", 
-gong: "\n รวม \n", 
+    jingBaoHuiHuaZhi: '\n            警报会话置顶\n          ',
+
+    tiao: ' 条\n        ',
+
+    tiaoZaiXianHuiHua: '\n          条在线会话，警报会话 ',
+
+    gong: '\n          共\n          ',
+
+    qingShuRuKeHu: '请输入客户用户名',
+
     quanBuZiXunLai: '全部咨询来源',
 
-quanBuZiXunLai: "ที่มาการสอบถามทั้งหมด", 
+    quanBuKeHuZu: '全部客户组',
+
     suoYouKeHuZu: '所有客户组',
 
     quanBuKeFu: '全部客服',
 
     quanBuJingBaoZhuang: '全部警报状态',
 
-quanBuJingBaoZhuang: "สถานะการแจ้งเตือนทั้งหมด", 
-suoYouHuiHuaLei: "ประเภทบทสนทนาทั้งหมด", 
+    suoYouHuiHuaLei: '所有会话类型',
+
+    qingShuRuHuiHua: '请输入会话ID',
+
+
+  },
+
+};
+

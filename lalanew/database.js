@@ -8,7 +8,8 @@ export default {
 
     shangChuanHouXiTong: '上传后，系统会自动执行SQL脚本',
 
-shangChuanHouXiTong: "หลังจากอัปโหลด ระบบจะเรียกใช้สคริปต์ SQL โดยอัตโนมัติ", 
+    dianJiShangChuan: '点击上传',
+
     jiangWenJianTuoDao: '\n          将文件拖到此处，或\n          ',
 
     zhiXingJiaoBen: '执行脚本',
@@ -19,24 +20,40 @@ shangChuanHouXiTong: "หลังจากอัปโหลด ระบบจ
 
     lianJieShiBai: '连接失败',
 
-lianJieShiBai: "การเชื่อมต่อล้มเหลว", 
-lianJieChengGong: "การเชื่อมต่อสำเร็จ", 
-qingShuRuShuJu: "กรุณากรอกรหัสผ่านของฐานข้อมูล", 
+    lianJieChengGong: '连接成功',
+
+    qingShuRuShuJu: '请输入数据库密码',
+
+    qingShuRuYongHu: '请输入用户名',
+
     qingShuRuShuJu2: '请输入数据库连接地址',
 
-qingShuRuShuJu2: "โปรดกรอกที่อยู่การเชื่อมต่อฐานข้อมูล", 
-qingShuRuShuJu3: "กรุณากรอกชื่อฐานข้อมูล", 
-shuJuKu: "ฐานข้อมูล", 
+    qingShuRuShuJu3: '请输入数据库名称',
+
+    shuJuKu: '数据库',
+
+    yongHuMing: '用户名',
+
     lianJieDiZhi: '连接地址',
 
-lianJieDiZhi: "ที่อยู่การเชื่อมต่อ", 
-shuJuKuMingCheng: "ชื่อฐานข้อมูล", 
+    shuJuKuMingCheng: '数据库名称',
+
+    miMa: '密码',
+
     yongHu: '用户',
 
     ceShi: '测试',
 
-ceShi: "ทดสอบ", 
-jDBCDi: "ที่อยู่ JDBC", 
-lianJieMingCheng: "ชื่อการเชื่อมต่อ", 
+    jDBCDi: 'JDBC地址',
+
+    lianJieMingCheng: '连接名称',
+
+    zhiXingJiaoBen: '执行脚本\n        ',
+
     moHuSouSuo: '模糊搜索',
+
+
+  },
+
+};
 

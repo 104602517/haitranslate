@@ -34,7 +34,8 @@ export default {
 
   HeadProxyIdColumn: {
 
-language: "ภาษา", 
+    zongDaiID: '总代id'
+
   },
 
   IsDone: {
@@ -76,4 +77,9 @@ language: "ภาษา",
     tuiGuangShangKeFu: '推广商客服',
 
     keFuLeiXing: '客服类型'
+
+
+  }
+
+}
 

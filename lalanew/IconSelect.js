@@ -2,4 +2,10 @@ export default {
 
   index: {
 
-qingShuRuTuBiao: "กรุณากรอกชื่อไอคอน", 
+    qingShuRuTuBiao: '请输入图标名称',
+
+
+  },
+
+};
+

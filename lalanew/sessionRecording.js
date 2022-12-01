@@ -8,10 +8,12 @@ export default {
 
     cHANG: 'change业务',
 
-cHANG: "เปลี่ยนธุรกิจ", 
+    qiangTuiChengGong: '强退成功！',
+
     you: '有',
 
-you: "มี", 
+    wuXiaoHuiHua: '无效会话',
+
     youXiaoHuiHua: '有效会话',
 
     weiZongJie: '未总结',
@@ -40,12 +42,14 @@ you: "มี",
 
     xiaoXiShu: '消息数',
 
-xiaoXiShu: "จำนวนข้อความ", 
+    zhiJianZhuangTai: '质检状态',
+
     jieShuFangShi: '结束方式',
 
     kaiShiShiJian: '开始时间',
 
-kaiShiShiJian: "เวลาเริ่มต้น", 
+    huiHuaLeiXing: '会话类型',
+
     fou: '否',
 
     shi: '是',
@@ -60,11 +64,16 @@ kaiShiShiJian: "เวลาเริ่มต้น",
 
     zhiNengShuRuZheng: '只能输入正数',
 
-zhiNengShuRuZheng: "ป้อนได้เฉพาะตัวเลขจำนวนเต็ม", 
-zuiDaXianZhiS: "ขีดจำกัดสูงสุด 1800 วินาที", 
-youCeBuNengXiao: "ด้านขวาต้องไม่เล็กกว่าด้านซ้าย", 
-zuoCeBuNengDa: "ด้านซ้ายต้องไม่ใหญ่กว่าด้านขวา", 
-huiHuaJiLu: "บันทึกบทสนทนา", 
+    zuiDaXianZhiS: '最大限制1800s',
+
+    youCeBuNengXiao: '右侧不能小于左侧',
+
+    zuoCeBuNengDa: '左侧不能大于右侧',
+
+    huiHuaJiLu: '会话记录',
+
+    shouXiangShiChang: '首响时长',
+
     xiangYingShiChang: '响应时长11',
 
     xiaoXiShuKeHu: '消息数（客户/客服）',
@@ -79,18 +88,30 @@ huiHuaJiLu: "บันทึกบทสนทนา",
 
     wenTiShiChang2: '问题 / 时长',
 
-wenTiShiChang2: "คำถาม/ระยะเวลา", 
-sheZhiZhanShiZi: "ตั้งค่าฟิลด์แสดงผล", 
+    sheZhiZhanShiZi: '设置展示字段',
+
+    gengDuoShaiXuanTiao: '更多筛选条件\n          ',
+
     gengDuoShaiXuanTiao2: '更多筛选条件',
 
     qingShuRuKeHu: '请输入客户/客服聊天关键词',
 
     quanBuYeWuLei: '全部业务类型',
 
-quanBuYeWuLei: "ประเภทธุรกิจทั้งหมด", 
-quanBuYeWu: "ธุรกิจทั้งหมด", 
-zuiChangXiangYingShi: "ระยะเวลาตอบสนองที่ยาวที่สุด", 
+    quanBuYeWu: '全部业务',
+
+    zuiChangXiangYingShi: '最长响应时长',
+
+    qingShuRuKeFu: '请输入客服代理',
+
     qingShuRuKeHu2: '请输入客户上级代理',
 
-qingShuRuKeHu2: "โปรดป้อนหัวหน้าตัวแทนของลูกค้า", 
-qingShuRuKeHu3: "กรุณากรอกชื่อบัญชีลูกค้า", 
+    qingShuRuKeHu3: '请输入客户账户名',
+
+    qingShuRuHuiHua: '请输入会话ID'
+
+
+  }
+
+}
+

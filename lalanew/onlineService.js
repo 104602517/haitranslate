@@ -16,26 +16,32 @@ export default {
 
   index: {
 
-miao2: "(วินาที)", 
+    caoZuoChengGong: '操作成功!',
+
     quXiao: '取消',
 
     queDing: '确定',
 
     qiangZhiXiaXian: '强制下线',
 
-qiangZhiXiaXian: "บังคับออฟไลน์", 
-queRenJiangGaiKe: "คุณแน่ใจหรือไม่ว่าจะบังคับบริการลูกค้านี้ให้ออฟไลน์", 
+    queRenJiangGaiKe: '确认将该客服强制下线吗？',
+
+    shu: '数',
+
     tuiChuPaiDui: '退出排队',
 
-tuiChuPaiDui: "ออกจากคิว", 
-jinRuHuiHua: "ออกจากบทสนทนา", 
+    jinRuHuiHua: '进入会话',
+
+    zhuanJieJieRu: '转接接入',
+
     paiDuiJieRu: '排队接入',
 
     ziDongJieRu: '自动接入',
 
     zongPaiDuiShiChang: '总排队时长',
 
-zongPaiDuiShiChang: "ระยะเวลาการเข้าคิว", 
+    pingJunPaiDuiShi: '平均排队时长',
+
     huiHuaShu: '会话数',
 
     zaiXianKeFu: '在线客服',
@@ -44,10 +50,12 @@ zongPaiDuiShiChang: "ระยะเวลาการเข้าคิว",
 
     pingJiaLu: '评价率',
 
-pingJiaLu: "อัตราการประเมิน", 
+    yaoQingPingJiaLu: '邀请评价率',
+
     zongJieLu: '总结率',
 
-zongJieLu: "อัตราผลสรุป", 
+    liKaiShiChang: '离开时长',
+
     zhuangtaiShiChang2:'登录时长 \n 当前状态持续时长',
 
     jiedaiRenshuShangXian:'接待人数 \n 接待上限',
@@ -56,7 +64,8 @@ zongJieLu: "อัตราผลสรุป",
 
     
 
-liKaiShiChang: "ระยะเวลาที่ออก", 
+    zaiXianJiNengZu: '在线技能组',
+
     keFuFenZu: '客服分组',
 
     mangLu: '忙碌',
@@ -75,19 +84,28 @@ liKaiShiChang: "ระยะเวลาที่ออก",
 
     qingShuRuKeFu2: '请输入客服账号',
 
-qingShuRuKeFu2: "กรุณากรอกบัญชีบริการลูกค้า", 
+    iTEML: 'item.label != `离线`',
+
     quanBu: '全部',
 
     qingXuanZeZaiXian: '请选择在线状态',
 
-qingXuanZeZaiXian: "กรุณาเลือกสถานะออนไลน์", 
+    qingXuanZeKeFu: '请选择客服技能组',
+
     quanBuKeFuZu: '全部客服组',
 
     dangQianZaiXianJie: '\n      当前在线接待概况\n    ',
 
-dangQianZaiXianJie: "สถานการณ์การรับลูกค้าปัจุจบัน", 
+    zanWuShuJu: '暂无数据',
+
     chaXun: '查询',
 
     jinRiHuiHuaGai: '今日会话概况',
 
-jinRiHuiHuaGai: "สถานการณ์บทสนทนาของวันนี้", 
+    shiShiShuJu: '实时数据',
+
+
+  },
+
+};
+

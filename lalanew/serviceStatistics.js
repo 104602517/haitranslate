@@ -2,11 +2,14 @@ export default {
 
   index: {
 
-qingPeiZhiGaiKe: "โปรดกำหนดค่าบริการลูกค้ากลุ่มนี้!", 
-qingPeiZhiGaiKe: "โปรดกำหนดค่าบริการลูกค้ากลุ่มนี้!", 
+    qingPeiZhiGaiKe: '请配置该客服组客服！',
+
+    jianTing: '监听11111',
+
     keFuBaoBiao: '客服报表',
 
-keFuBaoBiao: "รายงานการบริการลูกค้า", 
+    qieHuan: '切换',
+
     ge: '/个',
 
     xing: '/星',
@@ -17,7 +20,8 @@ keFuBaoBiao: "รายงานการบริการลูกค้า",
 
     zaiXianQieHuan: '在线切换',
 
-zaiXianQieHuan: "การสลับออนไลน์", 
+    xiangYingShiChang: '响应时长',
+
     pingJunHuiHuaShi: '平均会话时长',
 
     jieDaiYaLiZhi: '接待压力值',
@@ -38,10 +42,12 @@ zaiXianQieHuan: "การสลับออนไลน์",
 
     tongJiZhi: '统计值',
 
-tongJiZhi: "ค่าทางสถิติ", 
+    suoYouKeFu: '所有客服',
+
     renYuan: '人员',
 
-renYuan: "บุคลากร", 
+    keFuRenYuan: '客服人员',
+
     keHuPingJiaPing: '客户评价平均分',
 
     keHuPingJiaLu: '客户评价率/数',
@@ -66,16 +72,26 @@ renYuan: "บุคลากร",
 
     mangLu2: '忙碌',
 
-mangLu2: "ยุ่ง", 
+    sheZhiXianShiCan: '设置显示参数',
+
     quanBuKeFuZhang: '全部客服账户',
 
-quanBuKeFuZhang: "บัญชีบริการลูกค้าทั้งหมด", 
-keFuTongJi: "สถิติการบริการลูกค้า", 
-suoYouKeFuBao: "รายงานการบริการลูกค้าทั้งหมด", 
+    keFuTongJi: '客服统计',
+
+    suoYouKeFuBao: '所有客服报表',
+
+    danGeKeFuBao: '单个客服报表',
+
   },
 
   moreBar: {
 
-danGeKeFuBao: "รายงานการบริการลูกค้ารายบุคคล", 
+    ziDongJieRu: '自动接入',
+
     zhuanJieJieRu: '转接接入',
+
+
+  },
+
+};
 

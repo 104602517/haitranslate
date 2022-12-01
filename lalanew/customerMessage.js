@@ -6,16 +6,24 @@ export default {
 
     queDingYaoZhiXing: "确定要执行'{val1}'该操作?",
 
-queDingYaoZhiXing: "แน่ใจไหมว่าต้องการดำเนินการ {val1} นี้", 
-buChuLi: "ไม่ดำเนินการ", 
-yiHuiFang: "ตอบกลับ", 
+    buChuLi: '不处理',
+
+    yiHuiFang: '已回访',
+
+    haoDe: '好的',
+
     zhaKanLiuYan: '查看留言',
 
-zhaKanLiuYan: "ดูข้อความ", 
-weiShouLi: "ไม่ผ่านการประมวลผล", 
-chuLiRen: "คนดำเนินการ", 
-chuLiJieGuo: "ผลดำเนินการ", 
-liuYanRiQi: "วันที่ข้อความ", 
+    weiShouLi: '未受理',
+
+    chuLiRen: '处理人',
+
+    chuLiJieGuo: '处理结果',
+
+    liuYanRiQi: '留言日期',
+
+    zhaKan: '查看',
+
     liuYanTuPian: '留言图片',
 
     liuYanNeiRong: '留言内容',
@@ -28,12 +36,14 @@ liuYanRiQi: "วันที่ข้อความ",
 
     shouJi: '手机',
 
-shouJi: "โทรศัพท์มือถือ", 
+    nu: '女',
+
     nan: '男',
 
     xingMingXingBie: '姓名/性别',
 
-xingMingXingBie: "ชื่อ/เพศ", 
+    ziXunWenTi: '咨询问题',
+
     keHuDengJiV: '客户等级/VIP级别',
 
     keHuZhangHuNi: '客户账户/昵称',
@@ -50,12 +60,14 @@ xingMingXingBie: "ชื่อ/เพศ",
 
     quanBuKeHuV: '全部客户VIP级别',
 
-quanBuKeHuV: "ระดับวีไอพีของลูกค้าทั้งหมด", 
+    quanBuKeHuDeng: '全部客户等级'
+
   },
 
   lookPicture: {
 
-quanBuKeHuDeng: "ลูกค้าทุกระดับ", 
+    jiaZaiZhong: '加载中'
+
   },
 
   passwordvalite: {
@@ -69,4 +81,9 @@ quanBuKeHuDeng: "ลูกค้าทุกระดับ",
     dengLuYongHuMing: '登录用户名',
 
     zhaKanXiangQingMi: '查看详情密码验证'
+
+
+  }
+
+}
 

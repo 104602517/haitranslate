@@ -2,26 +2,42 @@ export default {
 
   index: {
 
-xiTongNeiZhi: "ระบบในตัว", 
-xiTongNeiZhi: "ระบบในตัว", 
-canShuJianMing: "ชื่อคีย์พารามิเตอร์", 
-canShuMingCheng: "ชื่อพารามิเตอร์", 
-canShuJianZhiBu: "ค่าคีย์พารามิเตอร์ ห้ามเว้นว่าง", 
-canShuJianMingBu: "ชื่อคีย์พารามิเตอร์ ห้ามเว้นว่าง", 
-canShuMingChengBu: "ชื่อพารามิเตอร์ ห้ามเว้นว่าง", 
+    xiTongNeiZhi: '系统内置',
+
+    canShuJianMing: '参数键名',
+
+    canShuMingCheng: '参数名称',
+
+    canShuJianZhiBu: '参数键值不能为空',
+
+    canShuJianMingBu: '参数键名不能为空',
+
+    canShuMingChengBu: '参数名称不能为空',
+
+    miMaBuNengWei: '密码不能为空',
+
     xiTongCanShuPei: '系统参数配置',
 
-xiTongCanShuPei: "การกำหนดค่าระบบพารามิเตอร์", 
+    beiZhu: '备注',
+
     chuangJianShiJian: '创建时间',
 
     canShuJianZhi: '参数键值',
 
-canShuJianZhi: "ชื่อคีย์พารามิเตอร์", 
-canShuZhuJian: "คีย์หลักของพารามิเตอร์", 
+    canShuZhuJian: '参数主键',
+
+    qingShuRuMiMa: '请输入密码',
+
     yongHuMiMa: '用户密码',
 
     yongHuMing: '用户名',
 
     shuRuCanShuJian: '输入参数键名',
 
-shuRuCanShuJian: "กรอกชื่อคีย์พารามิเตอร์", 
+    shuRuCanShuMing: '输入参数名称',
+
+
+  },
+
+};
+

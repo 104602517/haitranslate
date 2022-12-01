@@ -1,7 +1,9 @@
 export default {
 
-wEBSO: "เกิดข้อผิดพลาดในการเชื่อมต่อ WebSocket", 
-wEBSO: "เกิดข้อผิดพลาดในการเชื่อมต่อ WebSocket", 
+  wEBSO: 'WebSocket连接发生错误',
+
+  xiuGaiChengGong: '修改失败',
+
   tianJiaChengGong: '添加成功',
 
   duoGeYingYongShang:
@@ -12,32 +14,58 @@ wEBSO: "เกิดข้อผิดพลาดในการเชื่อ
 
   index: {
 
-yingYongBuShu: "การปรับใช้แอปพลิเคชัน", 
-fuWuQiBuNeng: "เซิร์ฟเวอร์ (ห้ามเว้นว่าง)", 
-yingYongBuNengWei: "แอปพลิเคชัน (ห้ามเว้นว่าง)", 
-buShu: "การปรับใช้", 
-buShuRiQi: "วันที่ปรับใช้", 
-fuWuQiLieBiao: "รายการเซิร์ฟเวอร์", 
+    fuWuQiBuNeng: '服务器不能为空',
+
+    yingYongBuNengWei: '应用不能为空',
+
+    buShu: '部署',
+
+    buShuRiQi: '部署日期',
+
+    fuWuQiLieBiao: '服务器列表',
+
+    qingXuanZe: '请选择',
+
     fuWuQi: '服务器',
 
-fuWuQi: "เซิร์ฟเวอร์", 
-yiJianBuShu: "ปรับใช้คลิกเดียว", 
-yiJianBuShu2: "ปรับใช้คลิกเดียว", 
-tingZhi: "หยุด", 
-tingZhi2: "หยุด", 
-qiDong: "เริ่ม", 
-qiDong2: "เริ่ม", 
-zhuangTaiChaXun: "ตรวจสอบสถานะ", 
-zhuangTaiChaXun2: "ตรวจสอบสถานะ", 
-xiTongHuanYuan: "ระบบการเรียกคืน", 
-xiTongHuanYuan2: "ระบบการเรียกคืน", 
+    yiJianBuShu: '一键部署\n          ',
+
+    yiJianBuShu2: '一键部署',
+
+    tingZhi: '停止\n          ',
+
+    tingZhi2: '停止',
+
+    qiDong: '启动\n          ',
+
+    qiDong2: '启动',
+
+    zhuangTaiChaXun: '状态查询\n          ',
+
+    zhuangTaiChaXun2: '状态查询',
+
+    xiTongHuanYuan: '系统还原\n          ',
+
+    xiTongHuanYuan2: '系统还原',
+
+    shuRuYingYongMing: '输入应用名称查询',
+
   },
 
   sysRestore: {
 
     qingXuanZeYaoHai: '请选择要还原的备份',
 
-qingXuanZeYaoHai: "โปรดเลือกข้อมูลสำรองที่จะกู้คืน", 
-buShuRenYuan: "ปรับใช้โดย", 
-buShuShiJian: "เวลาปรับใช้", 
-buShuIP: "IP การปรับใช้", 
+    buShuRenYuan: '部署人员',
+
+    buShuShiJian: '部署时间',
+
+    buShuIP: '部署IP',
+
+    souSuo: '搜索',
+
+
+  },
+
+};
+

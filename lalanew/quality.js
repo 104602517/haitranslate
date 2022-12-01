@@ -34,3 +34,8 @@ export default {
 
     keHuLeiXing: '客户类型',
 
+
+  },
+
+};
+

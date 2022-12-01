@@ -18,7 +18,8 @@ export default {
 
     yiZongJie: '已总结',
 
-yiZongJie: "สรุปผลแล้ว", 
+    weiJieJue: '未解决',
+
     yiJieJue: '已解决',
 
     weiZhiJian: '未质检',
@@ -80,4 +81,9 @@ yiZongJie: "สรุปผลแล้ว",
     quanBuJiNengZu: '全部技能组',
 
     qingShuRuHuiHua: '请输入会话ID',
+
+
+  },
+
+};
 

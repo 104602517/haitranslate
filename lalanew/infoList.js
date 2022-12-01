@@ -1,45 +1,71 @@
 export default {
 
-caiJiNeiRongXiang: "รายละเอียดเนื้อหาคอลเลกชัน", 
-caiJiNeiRongXiang: "รายละเอียดเนื้อหาคอลเลกชัน", 
+  caiJiNeiRongXiang: '采集内容详情',
+
+  'dota': '…',
+
   neiCunXinXi: '内存信息',
 
-neiCunXinXi: "ข้อมูลหน่วยความจำ", 
+  cPUShiYong: 'CPU使用比例 ',
+
   cPUZongShu: 'CPU总数目',
 
-cPUZongShu: "จำนวนซีพียูทั้งหมด", 
-shiFouYouSD: "มี SD การ์ดหรือไม่", 
-pingMuGaoDu: "ความสูงของหน้าจอ", 
-pingMuKuanDu: "ความกว้างของหน้าจอ", 
-keHuDuanDiLi: "ที่ตั้งทางภูมิศาสตร์ของหน้าลูกค้า", 
-lianWangLeiXing: "ประเภทเครือข่าย", 
-jieRuYuMing: "เข้าถึงชื่อโดเมน", 
+  shiFouYouSD: '是否有SD卡',
+
+  pingMuGaoDu: '屏幕高度',
+
+  pingMuKuanDu: '屏幕宽度',
+
+  keHuDuanDiLi: '客户端地理位置',
+
+  lianWangLeiXing: '联网类型',
+
+  jieRuYuMing: '接入域名',
+
+  keHuDuanIP: '客户端IP',
+
   ziXunWenTiLei: '咨询问题类型',
 
-ziXunWenTiLei: "ประเภทคำถามให้คำปรึกษา", 
-faQiQingQiuLu: "เส้นทางขอ", 
-faQiQingQiuJie: "เริ่มต้นอินเทอร์เฟซคำขอ", 
-keHuDuanBanBen: "เวอร์ชันหน้าลูกค้า", 
+  faQiQingQiuLu: '发起请求路径',
+
+  faQiQingQiuJie: '发起请求界面',
+
+  keHuDuanBanBen: '客户端版本',
+
+  keHuDuanLeiBie: '客户端类别',
+
   caiJiLieBiao: '采集列表',
 
-caiJiLieBiao: "รายการรวบรวม", 
-caiJiXiangQing: "รายละเอียดรวบรวม", 
+  caiJiXiangQing: '采集详情',
+
+  caoZuo: '操作',
+
   fuJian: '附件',
 
   diLiWeiZhi: '地理位置',
 
-diLiWeiZhi: "ที่ตั้ง", 
-caiJiJieMianMing: "ชื่อส่วนต่อประสานรวบรวม", 
-xiTongHuanJing: "สภาพแวดล้อมของระบบ", 
-zhongDuanLeiBie: "ประเภทเทอร์มินัล", 
+  caiJiJieMianMing: '采集界面名称',
+
+  xiTongHuanJing: '系统环境',
+
+  zhongDuanLeiBie: '终端类别',
+
+  wenTiLeiXing: '问题类型',
+
   zhangHuMing: '账户名',
 
   tiJiaoShiJian: '提交时间',
 
-tiJiaoShiJian: "เวลายื่น", 
+  quanBu: '全部',
+
   qingXuanZeZhongDuan: '请选择终端类别',
 
-qingXuanZeZhongDuan: "โปรดเลือกประเภทเทอร์มินัล", 
+  qingShuRuKeHu: '请输入客户端版本',
+
   qingXuanZeXiTong: '请选择系统环境',
 
-qingXuanZeXiTong: "กรุณาเลือกสภาพแวดล้อมของระบบ", 
+  qingShuRuZhangHu: '请输入账户名',
+
+
+};
+

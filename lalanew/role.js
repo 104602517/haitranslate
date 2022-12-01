@@ -2,36 +2,60 @@ export default {
 
   index: {
 
-ziDingYi: "กำหนดเอง", 
-ziDingYi: "กำหนดเอง", 
-ziDingYiShuJu: "สิทธิ์ในข้อมูลที่กำหนดเอง ห้ามเว้นว่าง", 
+    ziDingYi: '自定义',
+
+    ziDingYiShuJu: '自定义数据权限不能为空',
+
+    qingXuanZe: '请选择',
+
     zhiNengShuRuDa: '只能输入大于1的整数哦',
 
     qingXuanZeJueSe: '请选择角色级别',
 
     benJi: '本级',
 
-benJi: "ระดับนี้", 
-qingShuRuDaYu: "กรุณากรอกจำนวนเต็มมากกว่า 1", 
-jueSe: "บทบาท", 
-caiDanFenPei: "การกำหนดเมนู", 
-xuanZeZhiDingJiao: "เลือกบทบาทที่กำหนดเพื่อกำหนดเมนู", 
-keFuJueSe: "บทบาทการบริการลูกค้า", 
-jueSeJiBie: "ระดับบทบาท", 
+    qingShuRuDaYu: '请输入大于1的整数',
+
+    jueSe: '角色',
+
+    caiDanFenPei: '菜单分配',
+
+    xuanZeZhiDingJiao: '选择指定角色分配菜单',
+
+    keFuJueSe: '客服角色',
+
+    jueSeJiBie: '角色级别 ',
+
+    jueSeJiBie2: '角色级别',
+
     liRuKeFuJing:
 
       '例如：客服经理角色级别是3，客服经理能够创建和管理角色级别数字大于3的角色，不能创建和管理角色级别数字小于3的.',
 
-jueSeJiBie2: "ระดับบทบาท", 
-jueSeJiBieShu: "ยิ่งจำนวนระดับบทบาทน้อยลงเท่าใด ระดับบทบาทก็จะยิ่งมากขึ้นเท่านั้น", 
-jueSeQuanXian: "สิทธิ์ในบทบาท", 
-shuJuQuanXian: "สิทธิ์ข้อมูล", 
-jueSeLieBiao: "รายการบทบาท", 
-miaoShuXinXi: "คำอธิบายข้อมูล", 
+    jueSeJiBieShu: '角色级别数字越小，角色级别越大。',
+
+    jueSeQuanXian: '角色权限',
+
+    shuJuQuanXian: '数据权限',
+
+    jueSeLieBiao: '角色列表',
+
+    miaoShuXinXi: '描述信息',
+
+    qingXuanZeShuJu: '请选择数据范围',
+
     shuJuFanWei: '数据范围',
 
-shuJuFanWei: "ช่วงข้อมูล", 
-jueSeMingCheng: "ชื่อบทบาท", 
+    jueSeMingCheng: '角色名称',
+
+    chaXun: '查询',
+
     jueSeLeiXing: '角色类型',
 
-jueSeLeiXing: "ประเภทบทบาท", 
+    qingXuanZeJueSe2: '请选择角色',
+
+
+  },
+
+};
+

@@ -6,42 +6,56 @@ export default {
 
   queDingSTA: "确定'{val1}{val2}' 吗？",
 
-queDingSTA: "แน่ใจเกี่ยวกับ '{val1}{val2}' ไหม", 
-sTATE: "{val1}ฝ่ายบริการลูกค้า", 
+  sTATE: '{val1}客服',
+
+  queRenShanChu: '确认删除',
+
   ruGuoGaiKeFu: '如果该客服在线，会提示该客服账户已停用并关闭客服工作台。',
 
-ruGuoGaiKeFu: "หากฝ่ายบริการลูกค้าออนไลน์ ระบบจะแจ้งว่าบัญชีฝ่ายบริการลูกค้าถูกปิดใช้งานและปิดโต๊ะบริการลูกค้าลูกค้า", 
+  qiYong: '启用',
+
   tingYong: '停用',
 
-tingYong: "ปิดการใช้งาน", 
+  keFuZhangHao: '客服账号',
+
   keFuLieBiao: '客服列表',
 
   jieDaiShangXian: '接待上限',
 
-jieDaiShangXian: "ขีดจำกัดการรับ", 
+  jieSuo: '解 锁',
+
   bianJi: '编辑',
 
   qiYong2: '启 用',
 
-qiYong2: "เปิดใช้งาน", 
-tingYong2: "ปิดการใช้งาน", 
+  tingYong2: '停 用',
+
+  caoZuo: '操作',
+
   chuangJianRiQi: '创建日期',
 
   suoDing: '锁 定',
 
   zhangHuZhuangTai: '账户状态',
 
-zhangHuZhuangTai: "สถานะบัญชี", 
+  zuiDaJieDaiShang: '最大接待上限',
+
   zaiXianJiNengZu: '在线技能组',
 
   keFuZu: '客服组',
 
   keFuGangWei: '客服岗位',
 
-keFuGangWei: "ตำแหน่งบริการลูกค้า", 
-touXiang: "รูปโปรไฟล์", 
+  touXiang: '头像',
+
+  qingShuRuKeFu: '请输入客服代理',
+
   quanBuZhangHuZhuang: '全部账户状态',
 
-quanBuZhangHuZhuang: "สถานะบัญชีทั้งหมด", 
+  quanBuJiNengZu: '全部技能组',
+
   quanBuKeFuZu: '全部客服组',
+
+
+};
 

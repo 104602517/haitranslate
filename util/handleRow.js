@@ -13,7 +13,7 @@ module.exports = function handleRow({handleInfo, preInfo, afterInfo, line, fileN
     let preAfterMatches = []
     
 
-    matchedResults = TRANSLATION_ORIGINN_DATA.filter((translation) =>  translation.key === handleInfo.key)
+    matchedResults = TRANSLATION_ORIGINN_DATA.filter((translation) =>  translation.key === handleInfo && handleInfo.key)
 
     if(matchedResults.length > 1){
  

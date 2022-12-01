@@ -38,3 +38,8 @@ export default {
 
     huanYingYuPeiZhi: '欢迎语配置',
 
+
+  },
+
+};
+

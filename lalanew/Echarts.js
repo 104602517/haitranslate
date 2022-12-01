@@ -2,166 +2,292 @@ export default {
 
   Category: {
 
-diSanChanYe: "อุตสาหกรรมระดับตติยภูมิ", 
-diSanChanYe: "อุตสาหกรรมระดับตติยภูมิ", 
-diErChanYe: "อุตสาหกรรมทุติยภูมิ", 
-diYiChanYe: "อุตสาหกรรมหลัก", 
-quanGuoHongGuanJing: "เครื่องชี้เศรษฐกิจมหภาคแห่งชาติ พ.ศ. 2554", 
-quanGuoHongGuanJing2: "เครื่องชี้เศรษฐกิจมหภาคแห่งชาติ พ.ศ. 2553", 
-quanGuoHongGuanJing3: "เครื่องชี้เศรษฐกิจมหภาคแห่งชาติ พ.ศ. 2552", 
-quanGuoHongGuanJing4: "เครื่องชี้เศรษฐกิจมหภาคแห่งชาติ พ.ศ. 2551", 
-quanGuoHongGuanJing5: "เครื่องชี้เศรษฐกิจมหภาคแห่งชาติ พ.ศ. 2550", 
-quanGuoHongGuanJing6: "เครื่องชี้เศรษฐกิจมหภาคแห่งชาติ พ.ศ. 2549", 
-quanGuoHongGuanJing7: "เครื่องชี้เศรษฐกิจมหภาคแห่งชาติ พ.ศ. 2548", 
-quanGuoHongGuanJing8: "เครื่องชี้เศรษฐกิจมหภาคแห่งชาติ พ.ศ. 2547", 
-quanGuoHongGuanJing9: "เครื่องชี้เศรษฐกิจมหภาคแห่งชาติ พ.ศ. 2546", 
-quanGuoHongGuanJing10: "เครื่องชี้เศรษฐกิจมหภาคแห่งชาติ พ.ศ. 2545", 
-gDPZhanBi: "อัตราส่วน GDP", 
-fangDiChan: "อสังหาริมทรัพย์", 
-jinRong: "การเงิน", 
-gDPYiYuan: "GDP (พันล้านหยวน)", 
-xinJiang: "ซินเจียง", 
-ningXia: "หนิงเซี่ย", 
-qingHai: "ชิงไห่", 
-ganSu: "กานซู", 
-shanXi: "ส่านซี", 
-xiZang: "ซีซาง", 
-yunNan: "ยูนนาน", 
-guiZhou: "กุ้ยโจว", 
-siChuan: "เสฉวน", 
-chongQing: "ฉงชิ่ง", 
-haiNan: "ไหหลำ", 
-guangXi: "กวางสี", 
-guangDong: "กวางตุ้ง", 
-huNan: "หูหนาน", 
-huBei: "หูเป่ย", 
-heNan: "เหอหนาน", 
-shanDong: "ซานตง", 
-jiangXi: "เจียงซี", 
+    diSanChanYe: '第三产业',
+
+    diErChanYe: '第二产业',
+
+    diYiChanYe: '第一产业',
+
+    quanGuoHongGuanJing: '2011全国宏观经济指标',
+
+    quanGuoHongGuanJing2: '2010全国宏观经济指标',
+
+    quanGuoHongGuanJing3: '2009全国宏观经济指标',
+
+    quanGuoHongGuanJing4: '2008全国宏观经济指标',
+
+    quanGuoHongGuanJing5: '2007全国宏观经济指标',
+
+    quanGuoHongGuanJing6: '2006全国宏观经济指标',
+
+    quanGuoHongGuanJing7: '2005全国宏观经济指标',
+
+    quanGuoHongGuanJing8: '2004全国宏观经济指标',
+
+    quanGuoHongGuanJing9: '2003全国宏观经济指标',
+
+    quanGuoHongGuanJing10: '2002全国宏观经济指标',
+
+    gDPZhanBi: 'GDP占比',
+
+    fangDiChan: '房地产',
+
+    jinRong: '金融',
+
+    gDPYiYuan: 'GDP（亿元）',
+
+    xinJiang: '新疆',
+
+    ningXia: '\n宁夏',
+
+    qingHai: '青海',
+
+    ganSu: '\n甘肃',
+
+    shanXi: '陕西',
+
+    xiZang: '\n西藏',
+
+    yunNan: '云南',
+
+    guiZhou: '\n贵州',
+
+    siChuan: '四川',
+
+    chongQing: '\n重庆',
+
+    haiNan: '海南',
+
+    guangXi: '\n广西',
+
+    guangDong: '广东',
+
+    huNan: '\n湖南',
+
+    huBei: '湖北',
+
+    heNan: '\n河南',
+
+    shanDong: '山东',
+
+    jiangXi: '\n江西',
+
+    fuJian: '福建',
+
     anHui: '\n安徽',
 
-anHui: "อานฮุย", 
-zheJiang: "เจ้อเจียง", 
-jiangSu: "เจียงซู", 
-shangHai: "เซี่ยงไฮ้", 
-heiLongJiang: "เฮยหลงเจียง", 
-jiLin: "จี๋หลิน", 
-liaoNing: "เหลียวหนิง", 
-neiMengGu: "มองโกเลีย", 
-shanXi2: "ซานซี", 
-heBei: "เหอเป่ย์", 
-tianJin: "เทียนจิน", 
-beiJing: "ปักกิ่ง", 
-shuJuLaiZiGuo: "ข้อมูลจากสำนักงานสถิติแห่งชาติ", 
-gDPDaDao: "GDP พุ่งสูงขึ้นไปอีกขั้น", 
-bGDPDa: "{b}GDP เข้าสู่ระดับสูง", 
-ningXia2: "หนิงเซี่ย", 
-ganSu2: "กานซู", 
-xiZang2: "ซีซาง", 
-guiZhou2: "กุ้ยโจว", 
-chongQing2: "ฉงชิ่ง", 
-guangXi2: "กวางสี", 
-huNan2: "หูหนาน", 
-heNan2: "ซานตง", 
-jiangXi2: "เจียงซี", 
-anHui2: "อานฮุย", 
-jiangSu2: "เจียงซู", 
-heiLongJiang2: "เฮยหลงเจียง", 
-liaoNing2: "เหลียวหนิง", 
-shanXi3: "ซานซี", 
+    zheJiang: '浙江',
+
+    jiangSu: '\n江苏',
+
+    shangHai: '上海',
+
+    heiLongJiang: '\n黑龙江',
+
+    jiLin: '吉林',
+
+    liaoNing: '\n辽宁',
+
+    neiMengGu: '内蒙古',
+
+    shanXi2: '\n山西',
+
+    heBei: '河北',
+
+    tianJin: '\n天津',
+
+    beiJing: '北京',
+
+    shuJuLaiZiGuo: '数据来自国家统计局',
+
+    gDPDaDao: 'GDP达到又一个高度',
+
+    bGDPDa: '{b} GDP达到一个高度',
+
+    ningXia2: '宁夏',
+
+    ganSu2: '甘肃',
+
+    xiZang2: '西藏',
+
+    guiZhou2: '贵州',
+
+    chongQing2: '重庆',
+
+    guangXi2: '广西',
+
+    huNan2: '湖南',
+
+    heNan2: '河南',
+
+    jiangXi2: '江西',
+
+    anHui2: '安徽',
+
+    jiangSu2: '江苏',
+
+    heiLongJiang2: '黑龙江',
+
+    liaoNing2: '辽宁',
+
+    shanXi3: '山西',
+
+    tianJin2: '天津',
+
   },
 
   Funnel: {
 
-tianJin2: "เทียนจิน", 
-zhanXian: "แสดง", 
-dianJi: "คลิก", 
-dingDan: "รายการ", 
+    zhanXian: '展现',
+
+    dianJi: '点击',
+
+    dingDan: '订单',
+
+    ziXun: '咨询',
+
     fangWen: '访问',
 
-fangWen: "เข้าถึง", 
-louDouTu: "แผนภูมิกรวย", 
+    louDouTu: '漏斗图',
+
+    chunShuXuGou: '纯属虚构',
+
   },
 
   Gauge: {
 
-chunShuXuGou: "เป็นเรื่องสมมติล้วนๆ", 
-wanChengLu: "อัตราความสำเร็จ", 
+    wanChengLu: '完成率',
+
+    yeWuZhiBiao: '业务指标',
+
   },
 
   Graph: {
 
-yeWuZhiBiao: "ดัชนีธุรกิจ", 
-diKaErZuoBiao: "กราฟบนระบบพิกัดคาร์ทีเซียน", 
-zhouRi: "วันอาทิตย์", 
-zhouLiu: "วันเสาร์", 
-zhouWu: "วันศุกร์", 
-henChangHenChangDe: "วันพฤหัสบดีที่ยาวนาน", 
-zhouSan: "วันพุธ", 
-zhouEr: "วันอังคาร", 
+    diKaErZuoBiao: '笛卡尔坐标系上的 Graph',
+
+    zhouRi: '周日',
+
+    zhouLiu: '周六',
+
+    zhouWu: '周五',
+
+    henChangHenChangDe: '很长很长的周四',
+
+    zhouSan: '周三',
+
+    zhouEr: '周二',
+
+    zhouYi: '周一',
+
   },
 
   Point: {
 
-zhouYi: "วันจันทร์", 
-jieDian: "โหนด 4", 
-jieDian2: "โหนด 1", 
-jieDian3: "โหนด 3", 
-jieDian4: "โหนด 2", 
+    jieDian: '节点4',
+
+    jieDian2: '节点1',
+
+    jieDian3: '节点2',
+
+    jieDian4: '节点3',
+
+    gRAPH: 'Graph 简单示例',
+
   },
 
   Rich: {
 
-gRAPH: "ตัวอย่างกราฟอย่างง่าย", 
+    qiTa: '其他',
+
     biYing: '必应',
 
-biYing: "Bing", 
+    guGe: '谷歌',
+
     baiDu: '百度',
 
-baiDu: "Baidu", 
-shiPinGuangGao: "โฆษณาวิดีโอ", 
-lianMengGuangGao: "โฆษณาพันธมิตร", 
-youJianYingXiao: "อีเมลการตลาด", 
-zhiDa: "โดยตรง", 
+    shiPinGuangGao: '视频广告',
+
+    lianMengGuangGao: '联盟广告',
+
+    youJianYingXiao: '邮件营销',
+
+    zhiDa: '直达',
+
+    aAABG: '{a|{a}}{abg|}\n{hr|}\n  {b|{b}：}{c}  {per|{d}%}  ',
+
     fangWenLaiYuan: '访问来源',
 
     souSuoYinQing: '搜索引擎',
 
-souSuoYinQing: "เครื่องมือค้นหา", 
+    yingXiaoGuangGao: '营销广告',
+
   },
 
   Scatter: {
 
-yingXiaoGuangGao: "การโฆษณาทางการตลาด", 
+    yuNianGeGuoJia: '1990 与 2015 年各国家人均寿命与 GDP',
+
   },
 
   WordCloud: {
 
-yuNianGeGuoJia: "อายุขัยและ GDP ของประเทศต่างๆ ในปี 2533 และ 2558", 
-chuGuoYou: "เดินทางไปต่างประเทศ", 
-luYouWangZhanPian: "การตั้งค่าเว็บไซต์ท่องเที่ยว", 
-guanZhuJingDian: "เน้นสถานที่ท่องเที่ยว", 
-jiuDian: "โรงแรม", 
-yuanTuChuXingFang: "การเดินทางไกล", 
-guoNeiYou: "ทัวร์ในประเทศ", 
-jingDianLeiXing: "ประเภทสถานที่ท่องเที่ยว", 
-luYouChuXing: "การท่องเที่ยว", 
-wangLuoQiWen: "ความอยากรู้อยากเห็นทางอินเทอร์เน็ต", 
-shiShang: "แฟชั่น", 
-sheHuiShiZheng: "สังคมและเหตุการณ์ปัจจุบัน", 
-keJiZiXun: "เทคโนโลยี", 
-junShi: "ทหาร", 
-yuLeBaGua: "ซุบซิบบันเทิง", 
-shangYeCaiJing: "ธุรกิจการเงิน", 
+    chuGuoYou: '出国游',
+
+    luYouWangZhanPian: '旅游网站偏好',
+
+    guanZhuJingDian: '关注景点',
+
+    jiuDian: '酒店',
+
+    yuanTuChuXingFang: '远途出行方式',
+
+    guoNeiYou: '国内游',
+
+    jingDianLeiXing: '景点类型',
+
+    luYouChuXing: '旅游出行',
+
+    wangLuoQiWen: '网络奇闻',
+
+    shiShang: '时尚',
+
+    sheHuiShiZheng: '社会时政',
+
+    keJiZiXun: '科技资讯',
+
+    junShi: '军事',
+
+    yuLeBaGua: '娱乐八卦',
+
+    shangYeCaiJing: '商业财经',
+
+    ziXun: '资讯',
+
     geiMoShengDeNi: '给陌生的你听',
 
-geiMoShengDeNi: "สำหรับคุณ", 
-yanChuPiaoWu: "การออกตั๋วการแสดง", 
-xiQuQuYi: "โอเปร่าและดนตรี", 
-guangBoDianTai: "สถานีวิทยุ", 
-zhiBo: "ถ่ายทอดสด", 
-yinYue: "เพลง", 
-dongMan: "อนิเมะ", 
-dianShi: "ทีวี", 
-shiPin: "วิดีโอ", 
-qiChe: "รถยนต์", 
+    yanChuPiaoWu: '演出票务',
+
+    xiQuQuYi: '戏曲曲艺',
+
+    guangBoDianTai: '广播电台',
+
+    zhiBo: '直播',
+
+    yinYue: '音乐',
+
+    dongMan: '动漫',
+
+    dianShi: '电视',
+
+    shiPin: '视频',
+
+    qiChe: '汽车',
+
+    huaNiaoShiChang: '花鸟市场',
+
+
+  },
+
+};
+

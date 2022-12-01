@@ -8,7 +8,8 @@ export default {
 
     jieChuYongHuHei: '解除用户黑名单',
 
-jieChuYongHuHei: "ปลดบล็อกรายการบัญชีผู้ใช้", 
+    queDingJiangGaiYong: '确定将该用户 {val1} 解除黑名单？',
+
     puTongKeHu: '普通客户',
 
     fou: '否',
@@ -25,13 +26,16 @@ jieChuYongHuHei: "ปลดบล็อกรายการบัญชีผ�
 
     heiMingDan: '黑名单',
 
-heiMingDan: "บล็อก", 
-jieJin: "ปลดบล็อก", 
+    jieJin: '解禁',
+
+    xiangQing: '详情',
+
     caoZuo: '操作',
 
     chuangJianGengXinRi: '创建/更新日期',
 
-chuangJianGengXinRi: "วันที่สร้าง/อัปเดต", 
+    laHeiLeiXing: '拉黑类型',
+
     keHuFenZu: '客户分组',
 
     vIPJiBie: 'VIP级别',
@@ -40,8 +44,14 @@ chuangJianGengXinRi: "วันที่สร้าง/อัปเดต",
 
     shiFouXinKeHu: '是否新客户',
 
-shiFouXinKeHu: "ใช่ลูกค้าใหม่หรือไม่", 
+    jieShuRiQi: '结束日期',
+
     kaiShiRiQi: '开始日期',
 
     qingShuRuSouSuo: '请输入搜索内容',
+
+
+  },
+
+};
 

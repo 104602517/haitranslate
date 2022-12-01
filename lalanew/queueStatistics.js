@@ -2,42 +2,60 @@ export default {
 
   BarChart: {
 
-paiDuiTongJi: "สถิติการเข้าคิว", 
-paiDuiTongJi: "สถิติการเข้าคิว", 
+    paiDuiTongJi: '排队统计',
+
+    zhan: '，占',
+
     zaiCiXuanRan: '再次渲染',
 
   },
 
   LineChart: {
 
-zaiCiXuanRan: "แสดงผลอีกครั้ง", 
+    paiDuiJieRu: '排队接入',
+
     paiDuiShu: '排队数',
 
   },
 
   index: {
 
-paiDuiShu: "จำนวนคิว", 
+    pingJunPaiDuiShi: '平均排队时长',
+
     paiDuiLiKaiShu: '排队离开数/率',
 
-paiDuiLiKaiShu: "อัตรา/จำนวนคิวที่จะออก", 
-paiDuiJinRuHui: "อัตรา/จำนวนที่เข้าคิวบทสนทนา", 
-zongHuiHuaShu: "จำนวนบทสนทนาทั้งหมด", 
-paiDuiTongJiShi: "สถิติเวลาคิว", 
-paiDuiBaoBiao: "รายงานการเข้าคิว", 
+    paiDuiJinRuHui: '排队进入会话数/率',
+
+    zongHuiHuaShu: '总会话数',
+
+    paiDuiTongJiShi: '排队统计时间',
+
+    paiDuiBaoBiao: '排队报表',
+
+    daNianALL: '大年allContents',
+
     paiDuiZhong: '排队中',
 
-paiDuiZhong: "อยู่ในคิว", 
+    tongJiWeiDu: '统计维度',
+
     paiDuiJieGuo: '排队结果',
 
-paiDuiJieGuo: "ผลการจัดคิว", 
+    paiDuiShiChang: '排队时长',
+
     paiDuiKaiShiShi: '排队开始时间',
 
-paiDuiKaiShiShi: "เวลาที่เริ่มเข้าคิว", 
-ziXunLaiYuan: "ที่มาสอบถาม", 
+    ziXunLaiYuan: '咨询来源',
+
+    keHuZu: '客户组',
+
     keHu: '客户',
 
     qingShuRuKeHu: '请输入客户账户',
 
     paiDuiJiLu: '排队记录',
+
+
+  },
+
+};
 

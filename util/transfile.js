@@ -68,6 +68,12 @@ const getKeyValue = require('./getKeyValue')
       }
     }
 
+    newLine = handleRow({handleInfo: preInfo, preInfo: prepreInfo, afterInfo: {} , line, fileName, TRANSLATION_ORIGINN_DATA})
+
+    newData += newLine;
+
+    newData += preUnNeedHandleLines;
+
     return newData;
 
 }

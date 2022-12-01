@@ -6,7 +6,8 @@ export default {
 
     dengYu: '等于',
 
-dengYu: "เท่ากับ", 
+    daYu: '大于',
+
     tuiGuangShangKeHu: '推广商客户',
 
     pingTaiKeHu: '平台客户',
@@ -27,11 +28,16 @@ dengYu: "เท่ากับ",
 
     laHeiGuanBi: '拉黑关闭',
 
-laHeiGuanBi: "บล็อกแล้วปิดทิ้ง", 
-zhuanJieGuanBi: "โอนแล้วปิดทิ้ง", 
-keHuGuanBi: "ลูกค้าปิดทิ้ง", 
-keFuGuanBi: "ฝ่ายบริการลูกค้าปิดทิ้ง", 
-chaoShiGuanBi: "หมดเวลาปิดทิ้ง", 
+    zhuanJieGuanBi: '转接关闭',
+
+    keHuGuanBi: '客户关闭',
+
+    keFuGuanBi: '客服关闭',
+
+    chaoShiGuanBi: '超时关闭',
+
+    yiJieJue: '已解决',
+
     weiJieJue: '未解决',
 
     weiZongJie: '未总结',
@@ -65,4 +71,9 @@ chaoShiGuanBi: "หมดเวลาปิดทิ้ง",
     en: 'English',
 
     vietnam: 'Tiếng Việt'
+
+
+  }
+
+}
 

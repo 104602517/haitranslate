@@ -10,12 +10,18 @@ export default {
 
     kuanDu: '宽度',
 
-kuanDu: "ความกว้าง", 
-gaoDu: "ความสูง", 
-wenJianDaXiao: "ขนาดไฟล์", 
-suoLueTu: "ภาพขนาดย่อ", 
-shangChuanZhe: "ผู้อัปโหลด", 
-wenJianMing: "ชื่อไฟล์", 
+    gaoDu: '高度',
+
+    wenJianDaXiao: '文件大小',
+
+    suoLueTu: '缩略图',
+
+    shangChuanZhe: '上传者',
+
+    wenJianMing: '文件名',
+
+    queRen: '确认',
+
     shangChuan: '上传',
 
     tongBu: '同步',
@@ -29,4 +35,9 @@ wenJianMing: "ชื่อไฟล์",
     kaiShiRiQi: '开始日期',
 
     shuRuWenJianMing: '输入文件名',
+
+
+  },
+
+};
 

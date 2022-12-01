@@ -16,3 +16,8 @@ export default {
 
     qingShuRuKeFu: '请输入客服代理',
 
+
+  },
+
+};
+

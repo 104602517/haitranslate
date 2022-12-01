@@ -6,7 +6,8 @@ export default {
 
     feiTiaoZhuan: '非跳转',
 
-feiTiaoZhuan: "ไม่สามารถโดดข้าม", 
+    weiJieJue: '未解决',
+
     yiJieJue: '已解决',
 
     wuXiaoHuiHua: '无效会话',
@@ -17,9 +18,12 @@ feiTiaoZhuan: "ไม่สามารถโดดข้าม",
 
     keFuZhuanJie: '客服转接',
 
-keFuZhuanJie: "การโอนบริการลูกค้า", 
-yaoQingHuiHua: "เชิญบทสนทนา", 
-ziDongFenPei: "การจัดสรรอัตโนมัติ", 
+    yaoQingHuiHua: '邀请会话',
+
+    ziDongFenPei: '自动分配',
+
+    paiDuiLiKai: '排队离开',
+
     paiDuiJinRu: '排队进入',
 
     weiPaiDui: '未排队',
@@ -52,27 +56,40 @@ ziDongFenPei: "การจัดสรรอัตโนมัติ",
 
     yiZhiJianHuiHua: '已质检会话',
 
-yiZhiJianHuiHua: "การสทนาที่ผ่านการตรวจสอบ", 
-weiZhiJianHuiHua: "การสทนาที่ยังไม่ผ่านการตรวจสอบ", 
-buHeGeLuShu: "อัตราไม่ผ่าน/จำนวน", 
-jiGeLuShu: "อัตราการผ่าน/จำนวน", 
-liangHaoLuShu: "อัตราดี/จำนวน", 
-youXiuLuShu: "อัตราที่ยอดเยี่ยม/จำนวน", 
-heGeLuShu: "อัตราผ่าน/จำนวน", 
-zhiJianLuShu: "อัตราการตรวจสอบคุณภาพ/จำนวน", 
-sheZhiXianShiZi: "ตั้งค่าฟิลด์แสดงผล", 
+    weiZhiJianHuiHua: '未质检会话',
+
+    buHeGeLuShu: '不合格率/数',
+
+    jiGeLuShu: '及格率/数',
+
+    liangHaoLuShu: '良好率/数',
+
+    youXiuLuShu: '优秀率/数',
+
+    heGeLuShu: '合格率/数',
+
+    zhiJianLuShu: '质检率/数',
+
+    sheZhiXianShiZi: '设置显示字段',
+
+    gengDuoShaiXuanTiao: '更多筛选条件\n          ',
+
     gengDuoShaiXuanTiao2: '更多筛选条件',
 
     qingShuRuZhiJian: '请输入质检人',
 
     huiHuaJieShuLei: '会话结束类型',
 
-huiHuaJieShuLei: "ประเภทการสิ้นสุดบทสนทนา", 
-huiHuaShiFouJie: "บทสนทนาได้รับการแก้ไขแล้วหรือไม่", 
-keFuZongJieLei: "หมวดหมู่สรุปผลการบริการลูกค้า", 
+    huiHuaShiFouJie: '会话是否解决',
+
+    keFuZongJieLei: '客服总结类别',
+
+    pingJiaLeiXing: '评价类型',
+
     xingJiPingJia: '星级评价',
 
-xingJiPingJia: "ระดับดาว", 
+    miao: '秒',
+
     pingJunXiangYingShi: '平均响应时长',
 
     shouCiXiangYingShi: '首次响应时长',
@@ -89,7 +106,8 @@ xingJiPingJia: "ระดับดาว",
 
   session_table: {
 
-quanBuJieDaiKe: "ฝ่ายบริการลูกค้าทั้งหมด", 
+    yiPingJia: '已评价',
+
     weiPingJia: '未评价',
 
     jieShuFangShi: '结束方式',
@@ -113,4 +131,9 @@ quanBuJieDaiKe: "ฝ่ายบริการลูกค้าทั้งห
     yeWu: '业务',
 
     huiHuaLeiBie: '会话类别',
+
+
+  },
+
+};
 

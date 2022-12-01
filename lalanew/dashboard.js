@@ -2,7 +2,16 @@ export default {
 
   PanelGroup: {
 
-zhouIPLiang: "ปริมาณ IP รายสัปดาห์", 
-zhouIPLiang: "ปริมาณ IP รายสัปดาห์", 
-zhouLiuLiang: "ปริมาณรายสัปดาห์", 
-riIPLiang: "ปริมาณ IP รายวัน", 
+    zhouIPLiang: '周IP量',
+
+    zhouLiuLiang: '周流量',
+
+    riIPLiang: '日IP量',
+
+    riLiuLiang: '日流量',
+
+
+  },
+
+};
+

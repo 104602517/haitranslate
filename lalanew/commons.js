@@ -30,8 +30,10 @@ export default {
 
     language: '语言',
 
-language: "ภาษา", 
-anZhuo: "แอนดรอยด์", 
+    anZhuo: '安卓',
+
+    haoDe: '好的',
+
     tiShi: '提示',
 
     fuWuYiChangQing: '服务异常，请安排接待客服主动关闭该会话！',
@@ -62,27 +64,36 @@ anZhuo: "แอนดรอยด์",
 
     keHuZiXunCi: '客户咨询次数：',
 
-keHuZiXunCi: "จำนวนครั้งที่ลูกค้าสอบถาม", 
+    keHuZiXunCiByDay: '当日客户咨询次数：',
+
     keHuDuanKeFu: '客户端/客服系统版本：',
 
-keHuDuanKeFu: "หน้าลูกค้า/เวอร์ชันระบบบริการลูกค้า", 
-jinRuYuMing: "เข้าถึงชื่อโดเมน：", 
-iPDiZhi: "ที่อยู่ IP.", 
-fangWenLiuLanQi: "เข้าถึงเบราว์เซอร์：", 
+    jinRuYuMing: 'PC/H5访问网址：',
+
+    iPDiZhi: 'IP地址：',
+
+    fangWenLiuLanQi: '访问浏览器：',
+
+    fangWenDi: '访问地区：',
+
     jinRuYeMian: '进入页面：',
 
-jinRuYeMian: "หน้าการเข้าถึง", 
+    keHuNiCheng: '客户昵称：',
+
     keHuXingMing: '客户姓名：',
 
     keHuXinXi: '客户信息',
 
-keHuXinXi: "ข้อมูลลูกค้า", 
+    keHuLevel: '用户星级：',
+
     pingJiaNeiRong: '评价内容：',
 
-pingJiaNeiRong: "เนื้อหาการประเมิน", 
+    pingJiaBiaoQian: '评价标签：',
+
     pingJiaXingJi: '评价星级：',
 
-pingJiaXingJi: "การประเมินระดับดาว", 
+    shiFouJieJue: '是否解决：',
+
     zhuDongPingJia: '主动评价',
 
     yaoQingPingJia: '邀请评价',
@@ -93,13 +104,18 @@ pingJiaXingJi: "การประเมินระดับดาว",
 
     fuWuZongJie: '服务总结',
 
-fuWuZongJie: "สรุปบริการ", 
-weiZhiJian2: "ยังไม่ผ่านการตรวจสอบ", 
-yiZhiJian2: "ตรวจสอบแล้ว", 
+    weiZhiJian2: '\n                  未质检\n                ',
+
+    yiZhiJian2: '\n                  已质检\n                ',
+
+    chuangJianShiJian: '创建时间:',
+
     xiaZhuZhangHao: '下注账号:',
 
-xiaZhuZhangHao: "วางบัญชี:", 
-dingDanZhuangTai: "สถานะรายการ:", 
+    dingDanZhuangTai: '订单状态:',
+
+    tixianLeixing: '提现类型',
+
     yuyueDaozhang: '预约到账',
 
     xiaoshi: '小时',
@@ -110,27 +126,40 @@ dingDanZhuangTai: "สถานะรายการ:",
 
     shuYingJieGuo: '输赢结果:',
 
-shuYingJieGuo: "ผลการชนะ/แพ้:", 
-xiaZhuJinE: "จำนวนเงินเดิมพัน:", 
-youXiChanPin: "สินค้าเกม:", 
-tiXianZhangHao: "หมายเลขบัญชีถอน:", 
-daoZhangShuLiang: "จำนวนเงินที่เข้าบัญชี:", 
-tiXianJinE: "จำนวนเงินที่ถอน:", 
-tiXianFangShi: "วิธีการถอนเงิน:", 
+    xiaZhuJinE: '下注金额:',
+
+    youXiChanPin: '游戏产品:',
+
+    tiXianZhangHao: '提现账号:',
+
+    daoZhangShuLiang: '到账数量:',
+
+    tiXianJinE: '提现金额:',
+
+    tiXianFangShi: '提现方式:',
+
+    tixianBiZhong: '提现币种:',
+
     chongzhiBiZhong: '充值币种:',
 
     xiazhuBiZhong: '下注币种:',
 
     chongZhiZhangHao: '充值账号:',
 
-chongZhiZhangHao: "เลขที่บัญชีเงินฝาก:", 
+    chongZhiJinE: '充值金额:',
+
     zhiFuFangShi: '支付方式:',
 
-zhiFuFangShi: "วิธีการชำระ", 
-chongZhiFangShi: "วิธีการ ฝากเงิน", 
-dingDanHao: "เลขรายการ", 
-yiChangGuanBi: "ปิดผิดปกติ", 
-chiXuShiChang: "ระยะเวลา:", 
+    chongZhiFangShi: '充值方式:',
+
+    dingDanHao: '订单号:',
+
+    yiChangGuanBi: '异常关闭',
+
+    chiXuShiChang: '\n                    持续时长:',
+
+    jieShuFangShi: '\n                    结束方式：',
+
     huiHuaZhong: '(会话中)',
 
     huiHuaXiaoXiShu: '\n                    会话消息数',
@@ -143,24 +172,30 @@ chiXuShiChang: "ระยะเวลา:",
 
     jieRuFangShi: '\n                    接入方式：',
 
-jieRuFangShi: "วิธีการเข้าถึง", 
+    huiHuaID: '\n                    会话ID：',
+
     chaXun: '查询',
 
     zongJieLeiXing: '总结类型',
 
-zongJieLeiXing: "ประเภทสรุป", 
+    tian: '7天',
+
     zuoTian: '昨天',
 
-zuoTian: "เมื่อวาน", 
-jinTian: "วันนี้", 
+    jinTian: '今天',
+
+    quanBu: '全部'
+
   },
 
   chatInfoResult: {
 
     zhiJianShiJian: '质检时间：',
 
-zhiJianShiJian: "เวลาตรวจสอบคุณภาพ", 
-zhiJianRen: "คนตรวจสอบคุณภาพ", 
+    zhiJianRen: '质检人：',
+
+    keHuChaPingYuan: '客户差评原因备注：',
+
     keHuChaPingYuan2: '客户差评原因：',
 
     zhiJianYiJian: '质检意见：',
@@ -173,16 +208,20 @@ zhiJianRen: "คนตรวจสอบคุณภาพ",
 
     fen2: '分)',
 
-fen2: "คะแนน", 
+    zhiJianJieGuo: ' 质检结果：',
+
     huiHuaZhiJian: '会话质检'
 
   },
 
   chatInfoSubmit: {
 
-huiHuaZhiJian: "การตรวจสอบคุณภาพบทสนทนา", 
-zhiJianChengGong: "การควบคุมคุณภาพสำเร็จ", 
-fenShuBuZaiZhi: "คะแนนไม่อยู่กฎเกณฑ์ที่ตั้งไว้", 
+    zhiJianChengGong: '质检成功',
+
+    fenShuBuZaiZhi: '分数不在指标范围内',
+
+    buManYi: '不满意',
+
     yiBan: '一般',
 
     manYi: '满意',
@@ -217,8 +256,10 @@ fenShuBuZaiZhi: "คะแนนไม่อยู่กฎเกณฑ์ที
 
   dateCommon: {
 
-zhiJianJieGuo2: "ผลการตรวจสอบคุณภาพ.", 
-shiJianXuanZeFan: "ช่วงเวลาเลือกได้ไม่เกิน 31 วัน!", 
+    shiJianXuanZeFan: '时间选择范围不能超过31天哦！',
+
+    jieShuRiQi: '结束日期',
+
     kaiShiRiQi: '开始日期'
 
   },
@@ -237,53 +278,72 @@ shiJianXuanZeFan: "ช่วงเวลาเลือกได้ไม่เ�
 
     chuFa: '11触发',
 
-chuFa: "11 ทริกเกอร์", 
+    zhongZhi: '重置',
+
     shaiXuan: '筛选'
 
   },
 
   onlineServer: {
 
-shaiXuan: "กรอง", 
+    gaiKeFuZuZan: '该客服组暂无在线客服',
+
     zhaKanZaiXianKe: '查看在线客服'
 
   },
 
   serviceSummary: {
 
-zhaKanZaiXianKe: "ตรวจดูการบริการลูกค้าออนไลน์", 
-feiKeFuWuFa: "ไม่ใช่ฝ่ายบริการลูกค้าไม่สามารถส่งได้!", 
-qingXuanZeYeWu: "กรุณาเลือกธุรกิจ", 
-iDPaiXu: "การเรียงลำดับ ไอดี", 
+    feiKeFuWuFa: '非客服无法提交哦！',
+
+    qingXuanZeYeWu: '请选择业务',
+
+    iDPaiXu: 'ID排序',
+
+    yeWuLeiXing: '业务类型',
+
     yeWu: '业务',
 
     xuanZeYeWu: '选择业务',
 
-xuanZeYeWu: "เลือกธุรกิจ", 
+    aBaChaDaE: '阿八嚓哒妸发旮哈讥咔垃痳拏噢妑七呥扨它穵夕丫帀',
+
     qingXuanZeSuoShu: '请选择所属业务',
 
-qingXuanZeSuoShu: "กรุณาเลือกธุรกิจของคุณ", 
-zongJie: "สรุป", 
+    zongJie: '总结',
+
+    bianJi: '编辑',
+
     zongJie2: '\n        总结\n      ',
 
-zongJie2: "สรุป", 
-yu: "ใน", 
+    yu: ' 于\n        ',
+
+    chuLiZhuangTai: '处理状态:',
+
     beiZhuShuoMing: '备注说明:',
 
-beiZhuShuoMing: "หมายเหตุ:", 
-yeWuLeiXing2: "ประเภทธุรกิจ:", 
+    yeWuLeiXing2: '业务类型:',
+
+    suoShuYeWu: '所属业务:',
+
     youXiaoHuiHua: '有效会话',
 
     huiHuaLeiXing: '会话类型:',
 
     zheShiGeWuXiao: '这是个无效会话',
 
-zheShiGeWuXiao: "นี่เป็นบทสนทนาที่ไม่มีประสิทธิภาพ", 
-youXiaoHuiHuaTi: "บทสนทนาที่มีประสิทธิภาพ ส่งสรุป", 
-qingTianXieBeiZhu: "กรุณากรอกหมายเหตุ", 
-benYeWuWeiPei: "ไม่มีการกำหนดค่าประเภทสำหรับบริการนี้", 
-qingXuanZeYeWu2: "กรุณาเลือกประเภทบริการ", 
-wo: "ฉัน", 
+    youXiaoHuiHuaTi: '有效会话，提交总结',
+
+    qingTianXieBeiZhu: '请填写备注',
+
+    benYeWuWeiPei: ' 本业务未配置类型 ',
+
+    qingXuanZeYeWu2: '请选择业务类型',
+
+    wo: '我',
+
+    suo: '所'
+
   },
 
   setBoard: {
@@ -291,4 +351,9 @@ wo: "ฉัน",
     zuiShaoYaoPeiZhi: '最少要配置5个哦',
 
     kePeiZhiDeBan: '\n              可配置的板块\n              '
+
+
+  }
+
+}
 

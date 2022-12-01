@@ -6,36 +6,52 @@ export default {
 
     laiYuanZhongHouTai: '来源中后台',
 
-laiYuanZhongHouTai: "ที่มาระบบหลังบ้าน", 
-laiYuanYouKe: "ที่มาผู้เยี่ยมชม", 
+    laiYuanYouKe: '来源游客',
+
+    qiYong: '启用',
+
     jinYong: '禁用',
 
     keHuMOM: '客户 momo699 与客服 shirry 的会话详情',
 
-keHuMOM: "รายละเอียดบทสนทนาของลูกค้า momo699 และเชอร์รีฝ่ายบริการลูกค้า", 
-laHeiLiShiJi: "ประวัติการถูกบล็อก", 
-lianXiKeFuJi: "ติดต่อบันทึกการบริการลูกค้า", 
-keHuXiangQingLie: "รายการรายละเอียดลูกค้า", 
-jieChuKeFu: "ยกเลิกบริการลูกค้า", 
-jieChuLeiXing: "ประเภทการยกเลิก", 
+    laHeiLiShiJi: '拉黑历史记录',
+
+    lianXiKeFuJi: '联系客服记录',
+
+    keHuXiangQingLie: '客户详情列表',
+
+    jieChuKeFu: '解除客服',
+
+    jieChuLeiXing: '解除类型',
+
+    laHeiYuanYin: '拉黑原因',
+
     laHeiLaiYuan: '拉黑来源',
 
-laHeiLaiYuan: "ที่มาการบล็อก", 
-laHeiKeFu: "บริการลูกค้าบล็อก", 
-laHeiShiJian: "เวลาบล็อก", 
+    laHeiKeFu: '拉黑客服',
+
+    laHeiShiJian: '拉黑时间',
+
+    huiHuaZhong: '会话中',
+
     renGongXiaoXiShu: '人工消息数',
 
-renGongXiaoXiShu: "จำนวนข้อความของพนังงาน", 
+    weiPingJia: '未评价',
+
     manYiDu: '满意度',
 
-manYiDu: "ความพึงพอใจ", 
-weiChuLi: "ยังไม่ดำเนินการ", 
-yiChuLi: "ดำเนินการแล้ว", 
+    weiChuLi: '未处理',
+
+    yiChuLi: '已处理',
+
+    chuLiZhuangTai: '处理状态',
+
     suoShuYeWu: '所属业务',
 
     huiHuaLaiYuan: '会话来源',
 
-huiHuaLaiYuan: "ที่มาบทสนทนา", 
+    jieDaiKeFu: '接待客服',
+
     jiNengZu: '技能组',
 
     paiDuiShiChang: '排队时长',
@@ -54,4 +70,10 @@ huiHuaLaiYuan: "ที่มาบทสนทนา",
 
     liXian: '离线',
 
-liXian: "ออฟไลน์", 
+    zaiXianHuiHuaZhong: '在线会话中',
+
+
+  },
+
+};
+

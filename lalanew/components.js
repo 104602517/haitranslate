@@ -10,13 +10,16 @@ export default {
 
     shanChuChaPingYuan: '删除差评原因类型',
 
-shanChuChaPingYuan: "ลบประเภทของเหตุผลแบบประเมินที่ไม่ดี", 
+    caoZuoChengGong: '操作成功',
+
     qingShuRu: '请输入',
 
     youYiTiaoJiLu: '有一条记录正在编辑中',
 
-youYiTiaoJiLu: "มีหนึ่งบันทึกที่กำลังแก้ไข", 
-tianJiaChaPingYuan: "เพิ่มประเภทเหตุผลแบบประเมินที่ไม่ดี", 
+    tianJiaChaPingYuan: ' 添加差评原因类型\n      ',
+
+    shanChu: '删除',
+
     baoCun: '保存',
 
     bianJi: '编辑',
@@ -27,7 +30,8 @@ tianJiaChaPingYuan: "เพิ่มประเภทเหตุผลแบ�
 
     qingShuRuChaPing: '请输入差评原因类型',
 
-qingShuRuChaPing: "กรุณากรอกประเภทเหตุผลแบบประเมินที่ไม่ดี", 
+    feiWuXingDuSuan: '非五星都算差评',
+
     keHuChaPingYuan2: '\n      客户差评原因\n      ',
 
     keHuChaPingYuan3: '\n      客户差评原因'
@@ -36,23 +40,34 @@ qingShuRuChaPing: "กรุณากรอกประเภทเหตุผ�
 
   scroreResult: {
 
-keHuChaPingYuan3: "เหตุผลสำหรับแบบประเมินที่ไม่ดีจากลูกค้า:", 
+    zuiDaZhiBuNeng: '最大值不能小于最小值',
+
     buJiGe: '不及格',
 
-buJiGe: "ไม่ผ่าน", 
-jiGe: "ผ่าน", 
-liangHao: "ดี", 
-youXiu: "ยอดเยี่ยม", 
-zuiZhongPingFenJie: "ผลคะแนนสุดท้าย", 
-deFenFanWei: "ช่วงคะแนน", 
-pingFenJieGuo: "ผลการให้คะแนน", 
-geiZuiZhongFenShu: "กำหนด 4 ระดับสำหรับคะแนนสุดท้าย", 
-zuiZhongPingFenJie2: "ผลคะแนนสุดท้าย", 
+    jiGe: '及格',
+
+    liangHao: '良好',
+
+    youXiu: '优秀',
+
+    zuiZhongPingFenJie: '最终评分结果',
+
+    deFenFanWei: '得分范围',
+
+    pingFenJieGuo: '评分结果',
+
+    geiZuiZhongFenShu: '给最终分数设置4个等级',
+
+    zuiZhongPingFenJie2: '\n      最终评分结果\n      ',
+
+    zuiZhongPingFenJie3: '\n      最终评分结果'
+
   },
 
   AppMain: {
 
-zuiZhongPingFenJie3: "ผลคะแนนสุดท้าย", 
+    dot: ' ⋅ '
+
   },
 
   Navbar: {
@@ -65,29 +80,38 @@ zuiZhongPingFenJie3: "ผลคะแนนสุดท้าย",
 
     queDingZhuXiaoBing: '确定注销并退出系统吗？',
 
-queDingZhuXiaoBing: "แน่ใจว่าจะล็อกเอาท์และออกจากระบบ?", 
-keFuHouTaiGuan: "บริการจัดการระบบหลังบ้านของฝ่ายบริการลูกค้า", 
-jinRu: "เข้าสู่", 
-huanYingNin: "ยินดีต้อนรับ", 
-tuiChuDengLu: "ออกจากระบบ", 
+    keFuHouTaiGuan: '客服后台管理系统',
+
+    jinRu: '\n      进入',
+
+    huanYingNin: '\n      欢迎您',
+
+    tuiChuDengLu: '\n              退出登录\n            ',
+
+    geRenZhongXin: '\n              个人中心\n            ',
+
     buJuSheZhi: '布局设置',
 
-buJuSheZhi: "การตั้งค่าเค้าโครง", 
+    quanPingSuoFang: '全屏缩放',
 
 
-quanPingSuoFang: "ซูมเต็มหน้าจอ", 
+
+    xiaZaiLieBiao: '下載列表(',
+
     shanChu: '刪除',
 
     xiaZai: '下載',
 
-xiaZai: "ดาวน์โหลด", 
+    caoZuo: '操作',
+
     zhuangTai: '状态',
 
     chuangJianRiQi: '创建日期',
 
     wenJianMing: '文件名',
 
-wenJianMing: "ชื่อไฟล์", 
+    quanBuQingChu: '全部清除',
+
     xiaZaiLieBiao2: '下載列表'
 
   },
@@ -96,14 +120,18 @@ wenJianMing: "ชื่อไฟล์",
 
     deFenFanWeiBu: '得分范围不能重叠',
 
-deFenFanWeiBu: "ช่วงคะแนนไม่สามารถทับซ้อนกันได้", 
+    zuiDaZhiBuNeng: '最大值不能超过评分标准',
+
     shanChuPingFenZhi: '删除评分指标',
 
-shanChuPingFenZhi: "ลบตัวดัชนีการให้คะแนน", 
-pingFenZhiBiaoLie: "รายการตัวดัชนีการให้คะแนน", 
+    pingFenZhiBiaoLie: '评分指标列表',
+
+    tianJiaPingFenZhi: ' 添加评分指标\n      ',
 
 
-tianJiaPingFenZhi: "เพิ่มดัชนีการให้คะแนน", 
+
+    sureDeleteScore: '您确定删除此评分指标吗?',
+
 
 
     buManYi: '不满意',
@@ -116,19 +144,26 @@ tianJiaPingFenZhi: "เพิ่มดัชนีการให้คะแน
 
     qingShuRuPingFen: '请输入评分数值',
 
-qingShuRuPingFen: "กรุณาใส่ค่าคะแนน", 
-pingFenBiaoZhun: "เกณฑ์การให้คะแนน", 
-qingShuRuPingFen2: "โปรดกรอกดัชนีการให้คะแนน", 
-pingFenZhiBiao: "ดัชนีการให้คะแนน", 
+    pingFenBiaoZhun: '评分标准',
+
+    qingShuRuPingFen2: '请输入评分指标',
+
+    pingFenZhiBiao: '评分指标',
+
+    xuHao: '序号',
+
     duoGeZhiBiaoDi: '多个指标的平均分就是该条会话的最终分数',
 
-duoGeZhiBiaoDi: "คะแนนเฉลี่ยของตัวดัชนีหลายตัวคือคะแนนสุดท้ายของบทสนทนา", 
-pingFenZhiBiao2: "ดัชนีการให้คะแนน", 
+    pingFenZhiBiao2: '\n      评分指标\n      ',
+
+    pingFenZhiBiao3: '\n      评分指标'
+
   },
 
   sessionTags: {
 
-pingFenZhiBiao3: "ดัชนีการให้คะแนน", 
+    shanChuBiaoQian: '删除标签',
+
     xinZengChengGong: '新增成功！',
 
     qingQianWangCanShu: '请前往参数配置，配置chatField',
@@ -155,7 +190,8 @@ pingFenZhiBiao3: "ดัชนีการให้คะแนน",
 
   MarkDown: {
 
-fuWenBenJiYu: "ขึ้นอยู่กับ Rich Text", 
+    mARKD: '\n      Markdown 基于\n      '
+
   },
 
   YamlEdit: {
@@ -164,7 +200,16 @@ fuWenBenJiYu: "ขึ้นอยู่กับ Rich Text",
 
       '# 展示数据，如需更换主题，请在src/components/YamlEdit 目录中搜索原主题名称进行替换\n',
 
-mARKD: "ขึ้นอยู่กับ Markdown", 
-zhuTiYuLanDi: "ที่อยู่ดูตัวอย่างธีม", 
-zhuTiYuLanDi2: "ที่อยู่ดูตัวอย่างธีม", 
-yAMLBian: "โปรแกรมแก้ไข Yaml ขึ้นอยู่กับ", 
+    zhuTiYuLanDi: '，\n      主题预览地址 ',
+
+    zhuTiYuLanDi2: '，\n      主题预览地址',
+
+    yAMLBian: '\n      Yaml编辑器 基于\n      ',
+
+    yAMLBian2: '\n      Yaml编辑器 基于'
+
+
+  }
+
+}
+

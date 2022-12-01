@@ -14,35 +14,50 @@ export default {
 
     buMenShiFouJi: '部门, 是否继续？',
 
-buMenShiFouJi: "แผนก คุณต้องการดำเนินการต่อหรือไม่?", 
+    ciCaoZuoJiang: '此操作将 "',
+
     shangJiBuMenBu: '上级部门不能为空',
 
-shangJiBuMenBu: "หัวหน้าแผนก ห้ามเว้นว่าง", 
+    jinYong: '禁用',
+
     zhengChang: '正常',
 
-zhengChang: "ปกติ", 
+    qingShuRuMingCheng: '请输入名称',
+
     buMen: '部门',
 
-buMen: "แผนก", 
-queDingShanChuMa: "คุณแน่ใจหรือไม่ที่จะลบ หากมีโหนดรอง ให้ลบพร้อมกัน การดำเนินการนี้ไม่สามารถยกเลิกได้!", 
+    queDingShanChuMa: '确定删除吗,如果存在下级节点则一并删除，此操作不能撤销！',
+
+    caoZuo: '操作',
+
     chuangJianRiQi: '创建日期',
 
     zhuangTai: '状态',
 
     feiKeFu: '非客服',
 
-feiKeFu: "บริการที่ไม่ใช่ลูกค้า", 
+    keFu: '客服',
+
     buMenLeiXing: '部门类型',
 
-buMenLeiXing: "ประเภทแผนก", 
+    mingCheng: '名称',
+
     queRen: '确认',
 
     xuanZeShangJiLei: '选择上级类目',
 
-xuanZeShangJiLei: "เลือกหมวดหมู่หลัก", 
-zanWuPiPeiShu: "ไม่มีข้อมูลที่ตรงกัน", 
-shangJiBuMen: "หัวหน้าแผนก", 
+    zanWuPiPeiShu: '暂无匹配数据',
+
+    shangJiBuMen: '上级部门',
+
+    zhongZhi: '重置',
+
     quanBu: '全部',
 
     shuRuBuMenMing: '输入部门名称搜索'
+
+
+  }
+
+}
 

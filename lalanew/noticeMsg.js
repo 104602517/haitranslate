@@ -6,69 +6,98 @@ export default {
 
     tuPianShangChuanCheng: '图片上传成功！',
 
-tuPianShangChuanCheng: "อัปโหลดรูปภาพสำเร็จแล้ว!", 
-shangChuanDeTuPian: "อัตราส่วนของภาพที่อัพโหลดต้องเป็น 2:3 และความกว้างสูงสุดต้องไม่เกิน 120px", 
+    shangChuanDeTuPian: '上传的图片宽高比列必须是2:3且最宽不能超过120px',
+
+    shangChuanTouXiangTu: '上传头像图片大小不能超过 2MB!',
+
     biaoTiBuNengWei: '标题不能为空',
 
     waiBuLianJie: '外部链接',
 
-waiBuLianJie: "ลิงก์ภายนอก", 
-neiBuLianJie: "ลิงค์ภายใน", 
+    neiBuLianJie: '内部链接',
+
+    wu: '无',
+
     luJingBuNengBao: '路径不能包含中文',
 
-luJingBuNengBao: "เส้นทางต้องไม่มีภาษาจีน", 
-luJingBiXuYi: "เส้นทางต้องขึ้นต้นด้วย /", 
+    luJingBiXuYi: '路径必须以/开头',
+
+    qingShuRuYiH: '请输入以http或https开头的url地址',
+
     qingShuRuZhengQue: '请输入正确的格式',
 
     qingShuRuLianJie: '请输入链接url，例:http或https://www.baidu.com',
 
     qingShuRuUR: '请输入url路径，例:/systemSetting',
 
-qingShuRuUR: "โปรดป้อนเส้นทาง URL เช่น:/systemSetting", 
+    lianJieURL: '链接url',
+
     lianJieURL2: '链接url路径',
 
     lianJieLeiXing: '链接类型',
 
     jianYiShangChuanDe: '建议上传120*180的图片',
 
-jianYiShangChuanDe: "แนะนำให้อัพโหลดภาพขนาด 120*180", 
-kuanGaoBiZuiDa: "อัตราส่วนภาพ 2:3 ความกว้างสูงสุด 120", 
+    kuanGaoBiZuiDa: '宽高比2:3，最大宽度120',
+
+    shuoMing: '说明：',
+
     tianJiaTuPian: '添加图片',
 
-tianJiaTuPian: "เพิ่มรูปภาพ", 
-qingShuRuBiaoTi: "กรุณากรอกหัวข้อเรื่องไม่เกิน 6 ตัวอักษร!", 
+    qingShuRuBiaoTi: '请输入标题,最多6个字符！',
+
+    biaoTi: '标题',
+
     tianJiaTuWenTong: '添加图文通知',
 
   },
 
   index: {
 
-tianJiaTuWenTong: "เพิ่มการแจ้งเตือนกราฟิก", 
-ninQueRenYaoShan: "คุณแน่ใจหรือไม่ว่าต้องการลบประกาศนี้", 
+    ninQueRenYaoShan: '您确认要删除该通告？',
+
+    queRenShanChu: '确认删除',
+
     xiaJia: '下架',
 
-xiaJia: "เอาออก", 
+    chengGong: '成功！',
+
     shangJia: '上架',
 
-shangJia: "เอาขึ้น", 
-gaiTongGao: "ประกาศนี้?", 
-ninQueRenYao: "คุณยืนยันที่จะ", 
+    gaiTongGao: '该通告？',
+
+    ninQueRenYao: '您确认要',
+
+    xiangQing: '详情',
+
     xiaJiaShiJian: '下架时间',
 
-xiaJiaShiJian: "เวลาที่เอาออก", 
-shangJiaShiJian: "เวลาที่เอาขึ้น", 
-tongZhiGuanLi: "การจัดการการแจ้งเตือน", 
-yunWeiXiaJia: "ลบผู้ดูแลระบบ", 
-yunWeiShangJia: "ผู้ดูแลระบบอัปโหลด", 
-sheZhiShangJiaShi: "การตั้งค่าเวลาขึ้น", 
-gengXinShangJiaShi: "อัปเดตเวลาขึ้น", 
+    shangJiaShiJian: '上架时间',
+
+    tongZhiGuanLi: '通知管理',
+
+    yunWeiXiaJia: '运维下架',
+
+    yunWeiShangJia: '运维上架',
+
+    sheZhiShangJiaShi: '设置上架时间',
+
+    gengXinShangJiaShi: '更新上架时间',
+
+    gengXinRiQi: '更新日期',
+
     guanLianJiNengZu: '关联技能组',
 
-guanLianJiNengZu: "กลุ่มทักษะที่เกี่ยวข้อง", 
-yiXiaJia: "เอาลงแล้ว", 
-weiShangJia: "ยังไม่เอาขึ้น", 
-yiShangJia: "เอาขึ้นแล้ว", 
-tongZhiZhuangTai: "สถานะการแจ้งเตือน", 
+    yiXiaJia: '已下架',
+
+    weiShangJia: '未上架',
+
+    yiShangJia: '已上架',
+
+    tongZhiZhuangTai: '通知状态',
+
+    tongZhiLeiXing: '通知类型',
+
     tongZhiMingCheng: '通知名称',
 
     tongZhiID: '通知ID',
@@ -77,35 +106,46 @@ tongZhiZhuangTai: "สถานะการแจ้งเตือน",
 
       '说明: 普通通知&图文通知只能上架一类，不能同时上架，滚动通知可以和普通通知/图文通知同时上架。',
 
-tongZhiID: "ไอดี ผู้แจ้ง", 
+    quanXuanJiNengZu: '全选技能组',
+
     quanBuJiNengZu: '全部技能组',
 
     quanBuTongZhiLei: '全部通知类型',
 
-quanBuTongZhiLei: "ประเภทการแจ้งเตือนทั้งหมด", 
+    quanBuKeFu: '全部客服',
+
     qingShuRuTongZhi: '请输入通知名称',
 
   },
 
   richText: {
 
-qingShuRuTongZhi: "กรุณากรอกชื่อผู้แจ้ง", 
+    danXuan: '单选',
+
     quanXuan: '全选',
 
     zuiDuoZhiNengTian: '最多只能添加3个图文通知哦！',
 
     qingXuanZhongLianJie: '请选中链接文字！',
 
-qingXuanZhongLianJie: "กรุณาตรวจสอบข้อความลิงค์!", 
+    buYunXuShuRu: '不允许输入特殊字符',
+
     qingTianJiaTuWen: '请添加图文',
 
-qingTianJiaTuWen: "กรุณาเพิ่มกราฟิก", 
-qingXuanZeShiJian: "กรุณาเลือกเวลา", 
-buShangJia: "ไม่เอาขึ้น", 
-xiaJiaShiJianBi: "เวลาเอาลงต้องนานกว่าเวลาเอาขึ้น 5 นาที", 
-shangJiaShiJianBu: "เวลาเอาขึ้นต้องไม่น้อยกว่าเวลาปัจจุบัน!", 
-qingShuRuXiangQing: "กรุณากรอกรายละเอียด!", 
-puTongTongZhiXiang: "รายละเอียดการประกาศทั่วไปต้องมีความยาวไม่เกิน 100", 
+    qingXuanZeShiJian: '请选择时间',
+
+    buShangJia: '不上架',
+
+    xiaJiaShiJianBi: '下架时间必须比上架时间大5分钟',
+
+    shangJiaShiJianBu: '上架时间不得小于当前时间！',
+
+    qingShuRuXiangQing: '请输入详情内容！',
+
+    puTongTongZhiXiang: '普通通知详情长度不得超过100',
+
+    qingShuRuYiH: '请输入以http开头的url地址',
+
     qingShuRuLianJie: '请输入链接url，例:http://www.baidu.com',
 
     lianJieURL: '链接url:',
@@ -116,17 +156,24 @@ puTongTongZhiXiang: "รายละเอียดการประกาศ�
 
     lianJieWenZi: '链接文字',
 
-lianJieWenZi: "ข้อความลิงค์", 
+    jieShuRiQi: '结束日期',
+
     kaiShiRiQi: '开始日期',
 
     shangJiaShiDuan: '上架时段：',
 
-shangJiaShiDuan: "ระยะเวลาการเอาขึ้น", 
-buShangJia2: "\n ไม่เอาขึ้น \n", 
-shiFouShangJia: "เอาขึ้นหรือไม่", 
-xuTongZhiDeJi: "กลุ่มทักษที่ต้องการแจ้งให้ทราบ:", 
-lianJieLuJing: "เส้นทางลิงก์", 
-tongZhiXiangQing: "รายละเอียดการแจ้งเตือน:", 
+    buShangJia2: '\n            不上架\n          ',
+
+    shiFouShangJia: '是否上架：',
+
+    xuTongZhiDeJi: '需通知的技能组：',
+
+    lianJieLuJing: '链接路径：',
+
+    tongZhiXiangQing: '通知详情：',
+
+    tongZhiLeiXing: '通知类型：',
+
     tongZhiMingCheng: '通知名称：',
 
     tongZhiPeiZhi: '通知配置',
@@ -135,5 +182,12 @@ tongZhiXiangQing: "รายละเอียดการแจ้งเตื�
 
   upTime: {
 
-tongZhiPeiZhi: "การกำหนดค่าการแจ้งเตือน", 
-shangJiaShiJianShe: "ตั้งค่าเวลาขึ้นเรียบร้อยแล้ว", 
+    shangJiaShiJianShe: '上架时间设置成功',
+
+    shangJiaSheZhi: '上架设置',
+
+
+  },
+
+};
+

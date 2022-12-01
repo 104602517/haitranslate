@@ -2,31 +2,40 @@ export default {
 
   addAwake: {
 
-sCEEN: "[{val1}] เชื่อมโยงกับ [{val2}]!", 
-sCEEN: "[{val1}] เชื่อมโยงกับ [{val2}]!", 
+    sCEEN: '【{val1}】已关联【{val2}】！',
+
+    bianJiChengGong: '编辑成功！',
+
     tianJiaChengGong: '添加成功！',
 
     qingXuanZeGuanLian: '请选择关联技能组',
 
-qingXuanZeGuanLian: "โปรดเลือกกลุ่มทักษะที่เกี่ยวข้อง", 
-qingXuanZeHuanXing: "โปรดเลือกสถานการณ์ปลุก", 
+    qingXuanZeHuanXing: '请选择唤醒场景',
+
+    queRen: '确认',
+
     quXiao: '取消',
 
     beiZhu: '备注',
 
     ruoYouDuoGeYe: "若有多个页面，请用','隔开",
 
-ruoYouDuoGeYe: "หากมีหลายหน้า โปรดใช้", 
-huanXingYeMian: "หน้าปลุก", 
+    huanXingYeMian: '唤醒页面',
+
+    qingXuanZeJiNeng: '请选择技能组',
+
     guanLianJiNeng: '关联技能',
 
-guanLianJiNeng: "ทักษะที่เกี่ยวข้อง", 
-huanXingChangJing: "หน้าปลุก", 
+    huanXingChangJing: '唤醒场景',
+
+    huanXingID: '唤醒ID',
+
   },
 
   awakenIndex: {
 
-huanXingID: "ไอดี ปลุก", 
+    shanChuChengGong: '删除成功',
+
     queDing: '确定',
 
     shuoMingRuGuoShang:
@@ -39,10 +48,14 @@ huanXingID: "ไอดี ปลุก",
 
     shanChuHuanXingChang: '删除唤醒场景',
 
-shanChuHuanXingChang: "ลบหน้าปลุก", 
-tianJiaHuanXingChang: "เพิ่มหน้าปลุก", 
-bianJiHuanXingChang: "แก้ไขหน้าปลุก", 
-huanXingChangJingLie: "รายการหน้าปลุก", 
+    tianJiaHuanXingChang: '添加唤醒场景',
+
+    bianJiHuanXingChang: '编辑唤醒场景',
+
+    huanXingChangJingLie: '唤醒场景列表',
+
+    shanChu: '删除',
+
     bianJi: '编辑',
 
     caoZuo: '操作',
@@ -53,4 +66,10 @@ huanXingChangJingLie: "รายการหน้าปลุก",
 
     suoYouHuanXingChang: '所有唤醒场景',
 
-suoYouHuanXingChang: "หน้าปลุกทั้งหมด", 
+    suoYouHuanXingI: '所有唤醒ID',
+
+
+  },
+
+};
+

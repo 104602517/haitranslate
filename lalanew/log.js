@@ -10,35 +10,48 @@ export default {
 
     yiChangRiZhi: '异常日志',
 
-yiChangRiZhi: "บันทึกผิดปกติ", 
+    yiChangXiangQing: '异常详情',
+
     zhaKanXiangQing: '查看详情',
 
     chuangJianRiQi: '创建日期',
 
     liuLanQi: '浏览器',
 
-liuLanQi: "เบราว์เซอร์", 
+    miaoShu: '描述',
+
     iPLaiYuan: 'IP来源',
 
-iPLaiYuan: "ที่มาของ IP", 
+    yongHuMing: '用户名',
+
     qingQiuCanShu: '请求参数',
 
-qingQiuCanShu: "ขอพารามิเตอร์", 
-qingQiuFangFa: "วิธีการขอ", 
-qingKong: "\n ลบ \n", 
+    qingQiuFangFa: '请求方法',
+
+    qingKong: '\n          清空\n        ',
+
+    sureEmpty: '确认清空所有操作日志吗?',
+
     sureEmpty2: `确认清空所有异常日志吗?`
 
   },
 
   index: {
 
-sureEmpty: "ยืนยันที่จะล้างบันทึกการดำเนินการทั้งหมดหรือไม่", 
+    riZhi: '日志',
+
     qingQiuHaoShi: '请求耗时'
 
   },
 
   search: {
 
-qingQiuHaoShi: "คำขอที่ใช้เวลานาน", 
+    zhongZhi: '重置',
+
     qingShuRuNiYao: '请输入你要搜索的内容'
+
+
+  }
+
+}
 

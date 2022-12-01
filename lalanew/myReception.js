@@ -36,7 +36,8 @@ export default {
 
     huiHuaXiaoXiShu2: '会话消息数（个）',
 
-huiHuaXiaoXiShu2: "จำนวนข้อความบทสนทนา (อัน)", 
+    huiHuaShuGe: '会话数（个）',
+
   },
 
   index: {
@@ -45,16 +46,20 @@ huiHuaXiaoXiShu2: "จำนวนข้อความบทสนทนา (�
 
     dengLuZhuangTai: '登录状态',
 
-dengLuZhuangTai: "สถานะการเข้าสู่ระบบ", 
+    ge: '(个)',
+
     fen: '(分)',
 
     shu: '/数',
 
     huiHuaGuanBiFen: '会话关闭分析',
 
-huiHuaGuanBiFen: "การวิเคราะห์การปิดบทสนทนา", 
-huiHuaJieRuFang: "วิธีการเข้าถึงบทสนทนา", 
-huiHuaQuDaoFen: "การวิเคราะห์ช่องทางบทสนทนา", 
+    huiHuaJieRuFang: '会话接入方式',
+
+    huiHuaQuDaoFen: '会话渠道分析',
+
+    huiHuaJiNengZu: '会话技能组分析',
+
     qingXuanZe: '请选择',
 
     zuiShaoYaoPeiZhi: '最少要配置5个哦',
@@ -65,9 +70,12 @@ huiHuaQuDaoFen: "การวิเคราะห์ช่องทางบท
 
     huiHuaFenXi: '会话分析',
 
-huiHuaFenXi: "การวิเคราะห์บทสนทนา", 
-huiHuaQuXian: "เส้นโค้งบทสนทนา", 
-woDeShuJu: "ข้อมูลของฉัน", 
+    huiHuaQuXian: '会话曲线',
+
+    woDeShuJu: '我的数据',
+
+    shuaXin: '刷新',
+
     sheZhiKanBanCan: '设置看板参数',
 
     zhongZhi: '重置',
@@ -75,4 +83,9 @@ woDeShuJu: "ข้อมูลของฉัน",
     chaXun: '查询',
 
     suoYouKeFu: '所有客服',
+
+
+  },
+
+};
 

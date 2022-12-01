@@ -16,18 +16,24 @@ export default {
 
     shiFouBiTian: '是否必填',
 
-shiFouBiTian: "จำเป็นต้องกรอกหรือไม่", 
-lianXiFangShi: "ข้อมูลติดต่อ", 
+    lianXiFangShi: '联系方式',
+
+    liuYanTuPian: '留言图片',
+
     qingShuRuNeiRong: '请输入内容提示语',
 
-qingShuRuNeiRong: "โปรดป้อนการแจ้งเตือนเนื้อหา", 
+    liuYanNeiRong: '留言内容',
+
     ziXunWenTi: '咨询问题',
 
     xingXingBie: '姓(性别)',
 
-xingXingBie: "นามสกุล(เพศ)", 
-keHuZhangHao: "หมายเลขบัญชีลูกค้า", 
-liuYanBanZiDuan: "กระดานฝากข้อความ", 
+    keHuZhangHao: '客户账号',
+
+    liuYanBanZiDuan: '留言板字段',
+
+    tianXieShengR: '请必须填写你生日'
+
   },
 
   index: {
@@ -36,25 +42,42 @@ liuYanBanZiDuan: "กระดานฝากข้อความ",
 
     languageTemplate: '（语言：{val1}）',
 
-languageTemplate: "(ภาษา: {val1})", 
-sheZhi: "ตั้งค่า", 
-xuanTian: "ไม่จำเป็น", 
+    sheZhi: '设置',
+
+    xuanTian: '选填',
+
+    biTian: '必填',
+
     liuYanZiDuanShe: '留言字段设置',
 
-liuYanZiDuanShe: "การตั้งค่าฝากข้อความ", 
-keHuLiuYanDang: "หากข้อความของลูกค้าเกินจำนวนครั้งในวันนั้น จะไม่สามารถทิ้งข้อความได้อีก", 
-shiFouKaiQiLiu: "ต้องการเปิดฟังก์ชั่นฝากข้อความหรือไม่", 
-liuYanSheZhi: "การตั้งค่าฝากข้อความ", 
+    keHuLiuYanDang: '客户留言当天超过该次数，则不能再留言。',
+
+    shiFouKaiQiLiu: '是否开启留言功能',
+
+    liuYanSheZhi: '留言设置',
+
+    zhiNengShuRuDa: '只能输入大于0的正数',
+
     qingShuRu: '请输入',
 
     liuYanTuPian: '\n                留言图片\n              ',
 
     liuYanNeiRongBi: '\n                留言内容（必填）\n              ',
 
-liuYanNeiRongBi: "\n เนื้อหาข้อความ (จำเป็น)\n", 
-ziXunWenTiBi: "\n คำถามปัญหา (จำเป็น)\n", 
-xingXingBieBiTian: "\n นามสกุล(เพศ)\n(จำเป็น)\n", 
-keHuZhangHaoBi: "\n หมายเลขบัญชีลูกค้า (จำเป็น)\n", 
-meiRiZuiDuoLiu: "จำนวนข้อความสูงสุดต่อวัน", 
+    ziXunWenTiBi: '\n              咨询问题（必填)\n            ',
+
+    xingXingBieBiTian: '\n              姓(性别)（必填)\n            ',
+
+    keHuZhangHaoBi: '\n              客户账号（必填）\n            ',
+
+    meiRiZuiDuoLiu: '每日最多留言次数：',
+
+    bianJi: '编辑',
+
     baoCun: '保存'
+
+
+  }
+
+}
 

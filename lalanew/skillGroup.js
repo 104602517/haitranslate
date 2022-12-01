@@ -1,26 +1,41 @@
 export default {
 
-bianJiJiNengZu: "แก้ไขกลุ่มทักษะ", 
-bianJiJiNengZu: "แก้ไขกลุ่มทักษะ", 
-yiChuJiNengZu: "ลบสมาชิกชุดทักษะ -", 
-tianJiaChengYuanDao: "เพิ่มสมาชิกใน", 
-zuChengYuan: "สมาชิกกลุ่ม", 
-tianJiaJiNengZu: "เพิ่มกลุ่มทักษะ", 
-rOWNA: "[{val1}] เชื่อมโยงกับ [{val2}] แล้วและไม่สามารถลบได้!", 
+  bianJiJiNengZu: '编辑技能组',
+
+  yiChuJiNengZu: '移除技能组成员-',
+
+  tianJiaChengYuanDao: '添加成员到',
+
+  zuChengYuan: '组成员',
+
+  tianJiaJiNengZu: '添加技能组',
+
+  rOWNA: '【{val1}】已被【{val2}】关联，不可删除！',
+
+  shanChuChengGong: '删除成功',
+
   youKeWenTiJi: '游客问题技能组不能删除哦！',
 
-youKeWenTiJi: "คำถามผู้เยี่ยมชมกลุ่มทักษะไม่สามารถลบได้", 
-youKe: "ผู้เยี่ยมชม", 
+  youKe: '游客',
+
+  ninShiFouQueRen: '您是否确认删除【{val1}】的技能组?',
+
   jiNengZuLieBiao: '技能组列表',
 
-jiNengZuLieBiao: "รายการกลุ่มทักษะ", 
-yiChuChengYuan: "ลบสมาชิก", 
+  yiChuChengYuan: '移除成员',
+
+  shanChu: '删除',
+
   tianJiaChengYuan: '添加成员',
 
-tianJiaChengYuan: "เพิ่มสมาชิก", 
+  jiNengZuID: '技能组ID',
+
   jiNengZuMingCheng: '技能组名称',
 
   quanBu: '全部',
 
   shiFouXianShi: '是否显示：',
+
+
+};
 

@@ -20,55 +20,78 @@ export default {
 
     xingBie: '性别',
 
-xingBie: "เพศ", 
-shouJiHaoMaBu: "หมายเลขโทรศัพท์มือถือไม่สามารถซ้ำได้", 
+    shouJiHaoMaBu: '手机号码不能重复',
+
+    shouJiHao: '手机号',
+
     yongHuNiChengBu: '用户昵称不作为登录使用',
 
-yongHuNiChengBu: "ชื่อเล่นผู้ใช้ไม่ได้ใช้สำหรับการเข้าสู่ระบบ", 
-niCheng: "ชื่อเล่น", 
-yongHuZiLiao: "ข้อมูลผู้ใช้", 
+    niCheng: '昵称',
+
+    yongHuZiLiao: '用户资料',
+
+    miMa: '密码',
+
     xiuGai: '修改',
 
     anQuanSheZhi: ' 安全设置\n                ',
 
-anQuanSheZhi: "การตั้งค่าความปลอดภัย\n", 
+    suoShuBuMen: ' 所属部门 ',
+
     yongHuYouXiang: ' 用户邮箱 ',
 
-yongHuYouXiang: "อีเมลผู้ใช้", 
-shouJiHaoMa: "หมายเลขโทรศัพท์", 
+    shouJiHaoMa: ' 手机号码 ',
+
+    yongHuNiCheng: ' 用户昵称 ',
+
     dengLuZhangHao: ' 登录账号',
 
-dengLuZhangHao: "เข้าสู่ระบบบัญชี", 
-dianJiShangChuanTou: "คลิกเพื่ออัปโหลดโปรไฟล์ต้อง", 
+    dianJiShangChuanTou: '点击上传头像',
+
+    geRenXinXi: '个人信息',
+
   },
 
   index: {
 
-geRenXinXi: "ข้อมูลส่วนตัว", 
-jueSeBuNengWei: "บทบาท ห้ามเว้นว่าง", 
-gangWeiBuNengWei: "ตำแหน่ง ห้ามเว้นว่าง", 
-buMenBuNengWei: "แผนก ห้ามเว้นว่าง", 
-zhuangTaiXiuGaiCheng: "แก้ไขสถานะสำเร็จ", 
+    jueSeBuNengWei: '角色不能为空',
+
+    gangWeiBuNengWei: '岗位不能为空',
+
+    buMenBuNengWei: '部门不能为空',
+
+    zhuangTaiXiuGaiCheng: '状态修改失败',
+
+    kaiQiChengGong: '开启成功',
+
     shiFouJiXu: '是否继续？',
 
-shiFouJiXu: "ดำเนินการต่อหรือไม่?", 
+    'wenHao': '？',
+
     queDingKaiQi: '确定开启',
 
-queDingKaiQi: "ตกลงเพื่อเปิด", 
-tuPianYanZheng: "ยืนยันรูปภาพ", 
-guGeYanZheng: "ยืนยันของ Google", 
+    tuPianYanZheng: '图片验证',
+
+    guGeYanZheng: '谷歌验证',
+
+    xiuGaiChengGong: '修改失败！',
+
     queDingYaoZhongZhi: '确定要重置谷歌验证，重新绑定？',
 
-queDingYaoZhongZhi: "แน่ใจไหมว่าต้องการรีเซ็ตการยืนยันของ Google และเชื่อมต่อใหม่", 
+    qingShuRuZhengQue: '请输入正确手机号',
+
     qingShuRuShouJi: '请输入手机号',
 
-qingShuRuShouJi: "กรอกหมายเลขโทรศัพท์", 
+    qingShuRuZhengQue2: '请输入正确的邮箱地址',
+
     qingShuRuYouXiang: '请输入邮箱地址',
 
-qingShuRuYouXiang: "กรุณากรอกอีเมลของคุณ", 
+    changDuZaiDaoGe: '长度在 2 到 15 个字符',
+
     zhiNengShuRuZi: '只能输入字母、数字',
 
-zhiNengShuRuZi: "สามารถป้อนได้เฉพาะตัวอักษรและตัวเลขเท่านั้น", 
+    qingShuRuYongHu: '请输入用户名',
+
     qingXuanZeJueSe: '请选择角色,若无法选择，表示级别不够',
 
     qingXuanZeZongDai: '请选择总代id',
@@ -79,32 +102,44 @@ zhiNengShuRuZi: "สามารถป้อนได้เฉพาะตัว
 
     qingXuanZeGangWei: '请选择岗位',
 
-qingXuanZeGangWei: "กรุณาเลือกตำแหน่ง", 
-qingXuanZeBuMen: "กรุณาเลือกแผนก", 
+    qingXuanZeBuMen: '请选择部门',
+
+    suoDing: '锁定',
+
     jiHuo: '激活',
 
-jiHuo: "เปิดใช้งาน", 
+    yongHu: '用户',
+
     zhongZhiMiMa: '重置密码',
 
-zhongZhiMiMa: "รีเซ็ตรหัสผ่าน", 
+    jieSuo: '解锁',
+
     zhongZhiYanZhengMa: '重置验证码',
 
-zhongZhiYanZhengMa: "รีเซ็ตรหัสยืนยัน", 
+    tuPian: '图片',
+
     guGe: '谷歌',
 
     yanZhengMaLeiXing: '验证码类型',
 
-yanZhengMaLeiXing: "ประเภทรหัสยืนยัน", 
-buMenGangWei: "แผนก/ตำแหน่ง", 
+    buMenGangWei: '部门 / 岗位',
+
+    yongHuMingNiCheng: '用户名/昵称',
+
     ruGuoYuanKeFu:
 
       '如果原客服类部门的用户修改为非客服类的用户，将会将该客服账号自动停用，客服如果已登录，将会自动下线。',
 
-yongHuMingNiCheng: "ชื่อผู้ใช้/ชื่อเล่น", 
-qingXianXuanZeA: "กรุณาเลือก app ก่อน", 
-qingXianXuanZeChan: "กรุณาเลือกสินค้าก่อน", 
-chanPin: "สินค้า", 
-zhiNengChuangJianXiu: "คุณสามารถสร้าง/แก้ไขบทบาทผู้ใช้ที่มีระดับน้อยกว่าระดับบทบาทของคุณเท่านั้น", 
+    qingXianXuanZeA: '请先选择app',
+
+    qingXianXuanZeChan: '请先选择产品',
+
+    chanPin: '产品',
+
+    zhiNengChuangJianXiu: '只能创建/修改级别小于自己角色级别的角色用户',
+
+    qingXianXuanZe: '请先选择',
+
     zongDaiID: '总代id',
 
     daiLiZhangHao: '代理账号',
@@ -113,24 +148,38 @@ zhiNengChuangJianXiu: "คุณสามารถสร้าง/แก้ไ�
 
     qingXianXuanZeBu: '请先选择部门',
 
-qingXianXuanZeBu: "กรุณาเลือกแผนกก่อน", 
-youXiang: "อีเมล", 
-dianHua: "หมายเลขโทรศัพท์", 
+    youXiang: '邮箱',
+
+    dianHua: '电话',
+
+    shuRuMingChengHuo: '输入名称或者邮箱搜索',
+
   },
 
   updatePass: {
 
     xiuGaiChengGongT: '修改失败，{val1}的新密码默认为{val2}',
 
-xiuGaiChengGongT: "การแก้ไขสำเร็จ และรหัสผ่านใหม่ของ {val1} มีค่าเริ่มต้นเป็น {val2}", 
-tHISE: "ปลดล็อก {val1} สำเร็จแล้ว", 
-qingShuRuGuanLi: "กรุณาใส่รหัสผ่านผู้ดูแลระบบ", 
-zhongZhiMiMaWei: "รีเซ็ตรหัสผ่านเป็น", 
+    tHISE: '{val1}解锁成功',
+
+    qingShuRuGuanLi: '请输入管理员密码',
+
+    zhongZhiMiMaWei: '重置密码为',
+
+    qingShuRuNinDe: '请输入您的登录密码',
+
     dengLuMiMa: '登录密码',
 
     dengLuYongHuMing: '登录用户名',
 
     xuYaoYanZhengNin: '需要验证您的身份。',
 
-xuYaoYanZhengNin: "จำเป็นต้องมีการยืนยันตัวตนของคุณ", 
-jieSuoZhangHu: "ปลดล็อกบัญชีของคุณ", 
+    jieSuoZhangHu: '解锁账户',
+
+    weiLeBaoZhengZhang: '为了保证账户安全，',
+
+
+  },
+
+};
+
