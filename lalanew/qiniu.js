@@ -28,8 +28,8 @@ qiNiuYunPeiZhi: "การกำหนดค่าQiniu Cloud",
 shuJuTongBuCheng: "การซิงค์ข้อมูลสำเร็จ", 
 qiNiuYunWenJian: "ไฟล์ Qiniu Cloud", 
 qingWuShangChuanWei: "โปรดอย่าอัปโหลดไฟล์ที่ผิดกฎหมาย และไฟล์ไม่ควรเกิน 15M", 
-    peiZhi: '配置',
-    shuRuWenJianMing: '输入文件名称搜索',
+dianJiShangChuan: "คลิกอัปโหลด", 
+peiZhi: "การกำหนดค่า", 
 
   },
 };

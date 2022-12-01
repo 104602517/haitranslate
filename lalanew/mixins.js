@@ -1,7 +1,7 @@
 export default {
   crud: {
     shuJu: '数据',
-    bianJiTHI: '编辑{val1}',
+shuJu: "ข้อมูล", 
 bianJiTHI: "แก้ไข {val1}", 
 xinZengTHI: "เพิ่ม {val1}", 
     quXiao: '取消',

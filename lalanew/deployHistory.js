@@ -2,8 +2,8 @@ export default {
   index: {
 buShuLiShi: "ประวัติการปรับใช้", 
 buShuLiShi: "ประวัติการปรับใช้", 
-    queDingShanChuBen: '确定删除本条数据吗？',
-    buShuJieShuRi: '部署结束日期',
+queDing: "ยืนยัน", 
+queDingShanChuBen: "คุณแน่ใจหรือไม่ว่าต้องการลบข้อมูลนี้", 
 buShuJieShuRi: "วันที่สิ้นสุดการปรับใช้", 
 buShuKaiShiRi: "วันที่เริ่มต้นการปรับใช้", 
 shuRuSouSuoNei: "กรอกเนื้อหาการค้นหา", 

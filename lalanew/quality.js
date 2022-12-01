@@ -1,9 +1,9 @@
 export default {
   common: {
     jieShuFangShi: '结束方式',
-    xiangYingShiChang: '响应时长',
-    keHuPingJia: '客户评价',
-    xiaoXiShuKeHu: '消息数（客户/客服）',
+jieShuFangShi: "วิธีการสิ้นสุด", 
+xiangYingShiChang: "ระยะเวลาตอบสนอง", 
+keHuPingJia: "การประเมินของลูกค้า", 
     keFuZongJie: '客服总结',
     huiHuaLeiXing: '会话类型',
     paiDuiXinXi: '排队信息',

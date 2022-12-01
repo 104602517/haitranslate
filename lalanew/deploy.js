@@ -1,7 +1,7 @@
 export default {
 wEBSO: "เกิดข้อผิดพลาดในการเชื่อมต่อ WebSocket", 
 wEBSO: "เกิดข้อผิดพลาดในการเชื่อมต่อ WebSocket", 
-  tianJiaChengGong: '添加成功',
+xiuGaiChengGong: "แก้ไขเรียบร้อยแล้ว", 
   duoGeYingYongShang:
     '多个应用上传文件名称为all.zip,数据库更新脚本扩展名为.sql,上传成功后系统自动部署系统。',
   yingYongBuShu: '应用部署',
@@ -12,7 +12,7 @@ yingYongBuNengWei: "แอปพลิเคชัน (ห้ามเว้น�
 buShu: "การปรับใช้", 
 buShuRiQi: "วันที่ปรับใช้", 
 fuWuQiLieBiao: "รายการเซิร์ฟเวอร์", 
-    fuWuQi: '服务器',
+qingXuanZe: "โปรดเลือก", 
 fuWuQi: "เซิร์ฟเวอร์", 
 yiJianBuShu: "ปรับใช้คลิกเดียว", 
 yiJianBuShu2: "ปรับใช้คลิกเดียว", 
@@ -26,7 +26,7 @@ xiTongHuanYuan: "ระบบการเรียกคืน",
 xiTongHuanYuan2: "ระบบการเรียกคืน", 
   },
   sysRestore: {
-    qingXuanZeYaoHai: '请选择要还原的备份',
+shuRuYingYongMing: "กรอกชื่อแอปพลิเคชันเพื่อค้นหา", 
 qingXuanZeYaoHai: "โปรดเลือกข้อมูลสำรองที่จะกู้คืน", 
 buShuRenYuan: "ปรับใช้โดย", 
 buShuShiJian: "เวลาปรับใช้", 

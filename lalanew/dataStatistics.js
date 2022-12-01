@@ -11,7 +11,7 @@ zaiXian: "ออนไลน์",
 fanMang: "ยุ่ง", 
   },
   tapChart: {
-    dengLuShiChangM: '登录时长/min',
+tHISB: "{val1}ระยะเวลาการเข้าสู่ระบบ", 
 dengLuShiChangM: "เวลาเข้าสู่ระบบ/นาที", 
   },
 };

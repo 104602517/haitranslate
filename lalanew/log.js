@@ -5,13 +5,13 @@ export default {
     tiShi: '提示',
 tiShi: "แจ้งเตือน", 
 yiChangRiZhi: "บันทึกผิดปกติ", 
-    zhaKanXiangQing: '查看详情',
-    chuangJianRiQi: '创建日期',
-    liuLanQi: '浏览器',
+yiChangXiangQing: "รายละเอียดผิดปกติ", 
+zhaKanXiangQing: "ดูรายละเอียด", 
+chuangJianRiQi: "วันที่สร้าง", 
 liuLanQi: "เบราว์เซอร์", 
-    iPLaiYuan: 'IP来源',
+miaoShu: "คำอธิบาย", 
 iPLaiYuan: "ที่มาของ IP", 
-    qingQiuCanShu: '请求参数',
+yongHuMing: "ชื่อผู้ใช้", 
 qingQiuCanShu: "ขอพารามิเตอร์", 
 qingQiuFangFa: "วิธีการขอ", 
 qingKong: "\n ลบ \n", 
@@ -19,11 +19,11 @@ qingKong: "\n ลบ \n",
   },
   index: {
 sureEmpty: "ยืนยันที่จะล้างบันทึกการดำเนินการทั้งหมดหรือไม่", 
-    qingQiuHaoShi: '请求耗时'
+riZhi: "บันทึก", 
   },
   search: {
 qingQiuHaoShi: "คำขอที่ใช้เวลานาน", 
-    qingShuRuNiYao: '请输入你要搜索的内容'
+zhongZhi: "รีเซ็ต", 
 qingShuRuNiYao: "กรุณากรอกเนื้อหาที่คุณต้องการค้นหา", 
   }
 }

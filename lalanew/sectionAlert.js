@@ -12,7 +12,7 @@ huiHuaChaoShiJing: "การแจ้งเตือนหมดเวลาบ
   kaiQiHouKeFu4:
     '开启后，客服和客户单次会话的首次响应时长超过设置时长时，该会话将在“会话监控”页被标识，提醒管理员处理',
 xiangYingChaoShiJing: "การแจ้งเตือนการหมดเวลาตอบสนอง", 
-  miaoShiJiYuJing: '秒时，给予警报提示',
+shouCiXiangYingShi: "เวลาตอบกลับครั้งแรก", 
 miaoShiJiYuJing: "เมื่อเวลาตอบสนองแรกเกินเวลาที่กำหนด จะมีการแจ้งเตือน", 
 xiangYingShiZhangDa: "เวลาตอบสนองนานกว่า", 
 huiHuaJingBaoShe: "การตั้งค่าการแจ้งเตือนบทสนทนา", 
