@@ -1,5 +1,5 @@
 export default {
   EditInput: {
-null    biaoTi: '标题',
+        biaoTi: '标题',
   },
 };

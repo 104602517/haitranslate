@@ -1,10 +1,10 @@
 export default {
   index: {
-nullcaiDanUNI: "เมนู UniqueOpened", 
-xianShiLOG: "แสดงโลโก้", 
-guDingTouBu: "ส่วนหัวคงที่", 
-xianShiBiaoQian: "แสดงแท็บ", 
-zhuTiYanSe: "สีของธีม", 
-xiTongBuJuShe: "การตั้งค่าโครงร่างระบบ", 
+    caiDanUNI: "เมนู UniqueOpened", 
+    xianShiLOG: "แสดงโลโก้", 
+    guDingTouBu: "ส่วนหัวคงที่", 
+    xianShiBiaoQian: "แสดงแท็บ", 
+    zhuTiYanSe: "สีของธีม", 
+    xiTongBuJuShe: "การตั้งค่าโครงร่างระบบ", 
   },
 };

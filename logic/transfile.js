@@ -10,7 +10,7 @@ const getKeyValue = require('../util/getKeyValue')
     let preInfo = null;
     let prepreInfo = null;
     let preUnNeedHandleLines = '';
-    let newLine = null;
+    let newLine = '';
     let line = '';
     let lineInfo = {}
     let lastLine = ''
@@ -45,7 +45,9 @@ const getKeyValue = require('../util/getKeyValue')
          }else{
             newData += preUnNeedHandleLines;
 
-            newData += newLine;
+            if(newLine){
+               newData += '    ' + newLine;
+            }
             newLine = '';
          
             preUnNeedHandleLines = '';
@@ -60,11 +62,18 @@ const getKeyValue = require('../util/getKeyValue')
       }
     }
 
-    newLine = handleRow({handleInfo: preInfo, preInfo: prepreInfo, afterInfo: {} , line:lastLine, fileName, TRANSLATION_ORIGINN_DATA})
+    if(preInfo){
+      newLine = handleRow({handleInfo: preInfo, preInfo: prepreInfo, afterInfo: {} , line:lastLine, fileName, TRANSLATION_ORIGINN_DATA})
+    }
 
-    newData += newLine;
+    if(newLine){
+         newData += '    ' + newLine;
 
-    newData += preUnNeedHandleLines;
+    }
+
+    if(preUnNeedHandleLines){
+      newData += preUnNeedHandleLines;
+    }
 
     return newData;
 

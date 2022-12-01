@@ -1,5 +1,5 @@
 export default {
   index: {
-nullqingShuRuTuBiao: "กรุณากรอกชื่อไอคอน", 
+    qingShuRuTuBiao: "กรุณากรอกชื่อไอคอน", 
   },
 };

@@ -1,42 +1,42 @@
 export default {
   CustomerTypeColumn: {
-nullpingTaiKeHu: "ลูกค้าแพลตฟอร์ม", 
-tuiGuangShangKeHu: "ลูกค้าจากผู้สนับสนุน", 
+    pingTaiKeHu: "ลูกค้าแพลตฟอร์ม", 
+    tuiGuangShangKeHu: "ลูกค้าจากผู้สนับสนุน", 
   },
   EndType: {
-keHuLeiXing: "ประเภทลูกค้า", 
+    keHuLeiXing: "ประเภทลูกค้า", 
   },
   EvaluateType: {
-jieShuFangShi: "วิธีการสิ้นสุด", 
-    yaoQingPingJia: '邀请评价',
-    pingJiaLeiXing: '评价类型'
+    jieShuFangShi: "วิธีการสิ้นสุด", 
+        yaoQingPingJia: '邀请评价',
+        pingJiaLeiXing: '评价类型'
   },
   langs: {
-pingJiaLeiXing: "ประเภทการประเมิน", 
+    pingJiaLeiXing: "ประเภทการประเมิน", 
   },
   HeadProxyIdColumn: {
-language: "ภาษา", 
+    language: "ภาษา", 
   },
   IsDone: {
-zongDaiID: "ไอดี ตัวแทน", 
-    yiJieJue: '已解决',
-yiJieJue: "แก้ไขแล้ว", 
+    zongDaiID: "ไอดี ตัวแทน", 
+        yiJieJue: '已解决',
+    yiJieJue: "แก้ไขแล้ว", 
   },
   IsEvaluate: {
-shiFouJieJue: "แก้ไขแล้วหรือไม่", 
-    weiPingJia: '未评价',
-weiPingJia: "ยังไม่ประเมิน", 
+    shiFouJieJue: "แก้ไขแล้วหรือไม่", 
+        weiPingJia: '未评价',
+    weiPingJia: "ยังไม่ประเมิน", 
   },
   ParentProxyColumn: {
-shiFouPingJia: "ประเมินหรือไม่", 
+    shiFouPingJia: "ประเมินหรือไม่", 
   },
   ServerProxyColumn: {
-shangJiDaiLi: "หัวหน้าตัวแทน", 
+    shangJiDaiLi: "หัวหน้าตัวแทน", 
   },
   ServerTypeColumn: {
-keFuDaiLi: "ตัวแทนบริการลูกค้า", 
-pingTaiKeFu: "บริการลูกค้าบนแพลตฟอร์ม", 
-    keFuLeiXing: '客服类型'
-    keFuLeiXing: '客服类型'
+    keFuDaiLi: "ตัวแทนบริการลูกค้า", 
+    pingTaiKeFu: "บริการลูกค้าบนแพลตฟอร์ม", 
+        keFuLeiXing: '客服类型'
+        keFuLeiXing: '客服类型'
   }
 }

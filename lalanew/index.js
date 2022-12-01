@@ -1,4 +1,3 @@
-
 import tranfers from './tranfers'
 import serviceQueue from './serviceQueue'
 import seoConfig from './seoConfig'

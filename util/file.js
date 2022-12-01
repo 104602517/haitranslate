@@ -16,10 +16,7 @@ const appenFile = function(filePath, data){
 
 const createFile=  async function(filePath){
    
-    if(fs.existsSync(filePath)){
-        removeDir(filePath)
-
-    }
+    
     fs.writeFile(filePath,'' ,function (err) {
         if(err){
             console.log(err);

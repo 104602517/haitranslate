@@ -47,9 +47,16 @@ module.exports = function handleRow({handleInfo, preInfo, afterInfo, line, fileN
         equalAfter} = createEqualFns({handleInfo, preInfo, afterInfo,TRANSLATION_ORIGINN_DATA}) 
 
     
-    matchedResults = TRANSLATION_ORIGINN_DATA.filter((translation,index) =>  equalCur(index))
+    matchedResults = TRANSLATION_ORIGINN_DATA.filter((translation, index) => equalCur(index))
+    const matchedLength = matchedResults.length
 
-    if(matchedResults.length > 1){
+    if (matchedLength === 1) {
+        newInfo = matchedResults[0]
+
+        return getNewLine(newInfo, line)
+    }
+
+    if(matchedLength > 1){
 
         PreMatches = TRANSLATION_ORIGINN_DATA.filter((translation, index) =>  equalCur(index) && equalPre(index-1))
 
@@ -60,7 +67,8 @@ module.exports = function handleRow({handleInfo, preInfo, afterInfo, line, fileN
             if(preAfterMatches.length ===1 ){
              newInfo = preAfterMatches[0]
             }else{
-                appenFile(noMatchPath, line + ' \\\\' + fileName  + ' \n  ')
+                       appendToNoMatch({noMatchPath, line, fileName})
+
 
             }
 
@@ -73,33 +81,36 @@ module.exports = function handleRow({handleInfo, preInfo, afterInfo, line, fileN
               if(afterMatches.length === 1){
                  newInfo = afterMatches[0]
               }else{
-                appenFile(noMatchPath, line + ' \\\\' + fileName  + ' \n  ')
+                appendToNoMatch({noMatchPath, line, fileName})
+ 
               }
          }
 
     }
-    else if(matchedResults.length === 1) {
-        console.log('matchedResults')
+    else {
+        appendToNoMatch({noMatchPath, line, fileName})
+    }
+ 
+    return getNewLine(newInfo, line)
 
-        newInfo = matchedResults[0]
-    }else{
-        // 如果找不到或者有多个写入到文件夹
+}
+
+function  appendToNoMatch({noMatchPath, line, fileName}){
+     // 如果找不到或者有多个写入到文件夹
         if(line){
             appenFile(noMatchPath, line + ' \\\\' + fileName  + ' \n  ')
-
         }
-    }
-   
-    // 组合newLine
+}
+
+function getNewLine(newInfo, line) {
+    let newLine = ''
+       // 组合newLine
     if(newInfo){
         newLine = newInfo.key + ': "' + newInfo.value + '", \n'
     }else{
-        newLine = line + '\n'
+        newLine = line ?  line + '\n' : ' '
     }
 
-
-    // console.log("newline" ,newLine)
-
-    return newLine;
+    return newLine
 
 }

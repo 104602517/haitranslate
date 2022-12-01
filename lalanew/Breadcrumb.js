@@ -1,5 +1,5 @@
 export default {
   index: {
-null    shouYe: '首页',
+        shouYe: '首页',
   },
 };

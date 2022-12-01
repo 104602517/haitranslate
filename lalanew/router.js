@@ -1,8 +1,8 @@
 export default {
   routers: {
-nullkeHuXiangQing: "รายละเอียดลูกค้า", 
-geRenZhongXin: "บัญชีของฉัน", 
-shouYe: "หน้าหลัก", 
-    dengLu: '登录',
+    keHuXiangQing: "รายละเอียดลูกค้า", 
+    geRenZhongXin: "บัญชีของฉัน", 
+    shouYe: "หน้าหลัก", 
+        dengLu: '登录',
   },
 };
