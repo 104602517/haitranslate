@@ -1,15 +1,13 @@
 
 
 const handleRow = require('./handleRow')
-const getKeyValue = require('./getKeyValue')
+const getKeyValue = require('../util/getKeyValue')
  
 
  function transfile({fileData, fileName, TRANSLATION_ORIGINN_DATA}) {
 
-   // console.log(fileUrl)
    let newData = ''
-    
-
+   
     let preInfo = null;
     let prepreInfo = null;
     let preUnNeedHandleLines = '';
@@ -23,12 +21,12 @@ const getKeyValue = require('./getKeyValue')
       if(item === '\n' || item === '\r'){
          lineInfo = getKeyValue(line)
 
-          // 如果line是第一行
+          // 读到第一行
          if(!preInfo && lineInfo){
             preInfo = lineInfo
          }
 
-         // 如果line是第二行
+         // 读到第二行
          if(preInfo && !prepreInfo && lineInfo){
             
             // 处理第一行
@@ -38,7 +36,7 @@ const getKeyValue = require('./getKeyValue')
             preInfo = lineInfo
          }
 
-         // 如果是第三行和第三行后面的line
+         // 读到后面
          if(preInfo && prepreInfo && lineInfo){
          
             // 处理前一行

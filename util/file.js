@@ -15,9 +15,7 @@ const appenFile = function(filePath, data){
         fs.writeFile(filePath,data,{flag:"a"},function (err) {
             if(err){
                 console.log(err);
-            }else {
-                console.log("写入成功");
-            }
+            } 
         })
     }
   

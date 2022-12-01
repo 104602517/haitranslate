@@ -1,5 +1,5 @@
 
-const update = require('./util/entry')
+const update = require('./logic/entry')
 const {createFile} = require('./util/file')
 const path = require('path')
 
