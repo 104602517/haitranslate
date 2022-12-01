@@ -1,7 +1,6 @@
 export default {
   index: {
-    baoCunChengGong: '保存成功',
-baoCunChengGong: "บันทึกสำเร็จ", 
+nullbaoCunChengGong: "บันทึกสำเร็จ", 
 qingXuanZeShuJu: "โปรดเลือกการอนุญาตข้อมูล", 
 qingShuRuZhiNeng: "กรุณาใส่ชื่อฟังก์ชั่น", 
 zhiNeng: "ฟังก์ชั่น", 

@@ -1,6 +1,5 @@
 export default {
-wEBSO: "เกิดข้อผิดพลาดในการเชื่อมต่อ WebSocket", 
-wEBSO: "เกิดข้อผิดพลาดในการเชื่อมต่อ WebSocket", 
+nullwEBSO: "เกิดข้อผิดพลาดในการเชื่อมต่อ WebSocket", 
 xiuGaiChengGong: "แก้ไขเรียบร้อยแล้ว", 
   duoGeYingYongShang:
     '多个应用上传文件名称为all.zip,数据库更新脚本扩展名为.sql,上传成功后系统自动部署系统。',
@@ -31,6 +30,6 @@ qingXuanZeYaoHai: "โปรดเลือกข้อมูลสำรอง�
 buShuRenYuan: "ปรับใช้โดย", 
 buShuShiJian: "เวลาปรับใช้", 
 buShuIP: "IP การปรับใช้", 
-
+    souSuo: '搜索',
   },
 };

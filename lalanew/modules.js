@@ -1,7 +1,6 @@
 export default {
   editDialog: {
-    bianJiChengGong: '编辑成功',
-bianJiChengGong: "แก้ไขสำเร็จ!", 
+nullbianJiChengGong: "แก้ไขสำเร็จ!", 
 touXiangXiuGaiShi: "แก้ไขรูปโปรไฟล์ล้มเหลว", 
     shangChuanTouXiangTu: '上传头像图片大小不能超过 2MB!',
 shangChuanTouXiangTu: "อัพโหลดรูปโปรไฟล์ต้องไม่เกิน 2MB!", 
@@ -127,7 +126,7 @@ quanBuFuZhi: "คัดลอกทั้งหมด",
 xiTongCaiJi: "ระบบรวบรวม", 
 wenTiLeiXing: "ประเภทปัญหา", 
 caiJiShiJian: "เวลารวบรวม", 
-
+    zhangHuMing: '账户名：',
   },
   
 }

@@ -1,7 +1,6 @@
 export default {
   form: {
-kongJianLeiXingBu: "ประเภทพื้นที่ ห้ามเว้นว่าง", 
-kongJianLeiXingBu: "ประเภทพื้นที่ ห้ามเว้นว่าง", 
+nullkongJianLeiXingBu: "ประเภทพื้นที่ ห้ามเว้นว่าง", 
 qingShuRuWaiLian: "โปรดป้อนชื่อโดเมนลิงก์ภายนอก", 
 qingShuRuKongJian: "กรุณากรอกชื่อช่องว่าง", 
 qingShuRuSE: "กรุณากรอก secretKey", 
@@ -30,6 +29,6 @@ qiNiuYunWenJian: "ไฟล์ Qiniu Cloud",
 qingWuShangChuanWei: "โปรดอย่าอัปโหลดไฟล์ที่ผิดกฎหมาย และไฟล์ไม่ควรเกิน 15M", 
 dianJiShangChuan: "คลิกอัปโหลด", 
 peiZhi: "การกำหนดค่า", 
-
+    shuRuWenJianMing: '输入文件名称搜索',
   },
 };

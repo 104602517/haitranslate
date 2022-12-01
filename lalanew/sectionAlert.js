@@ -1,6 +1,5 @@
 export default {
-zhiNengShuRuHuo: "คุณสามารถป้อนได้เฉพาะ 0 หรือตัวเลขที่ไม่ขึ้นต้นด้วย 0", 
-  kaiQiHouKeFu:
+null  kaiQiHouKeFu:
     '开启后，客服在工作台标记为指定会话点击”星标“后，该会话将在”会话监控“页被标识，提醒管理员处理',
 zhiNengShuRuHuo: "คุณสามารถป้อนได้เฉพาะ 0 หรือตัวเลขที่ไม่ขึ้นต้นด้วย 0", 
   kaiQiHouKeFu2:

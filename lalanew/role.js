@@ -1,7 +1,6 @@
 export default {
   index: {
-ziDingYi: "กำหนดเอง", 
-ziDingYi: "กำหนดเอง", 
+nullziDingYi: "กำหนดเอง", 
 ziDingYiShuJu: "สิทธิ์ในข้อมูลที่กำหนดเอง ห้ามเว้นว่าง", 
 qingXuanZe: "โปรดเลือก", 
 zhiNengShuRuDa: "สามารถป้อนจำนวนเต็มที่มากกว่า 1 เท่านั้น", 

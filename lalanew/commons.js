@@ -1,7 +1,6 @@
 export default {
   PieChart: {
-    bCGeZhanD: '{b} : {c}个(占{d}%)'
-  },
+null  },
   a: {
     danXuan: '单选',
     quanXuan: '全选',

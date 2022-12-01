@@ -1,7 +1,6 @@
 export default {
   index: {
-xiTongNeiZhi: "ระบบในตัว", 
-xiTongNeiZhi: "ระบบในตัว", 
+nullxiTongNeiZhi: "ระบบในตัว", 
 canShuJianMing: "ชื่อคีย์พารามิเตอร์", 
 canShuMingCheng: "ชื่อพารามิเตอร์", 
 canShuJianZhiBu: "ค่าคีย์พารามิเตอร์ ห้ามเว้นว่าง", 

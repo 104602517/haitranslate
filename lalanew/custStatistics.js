@@ -1,7 +1,6 @@
 export default {
   custChart: {
-guangGao: "โฆษณา", 
-  },
+null  },
   index: {
 guangGao: "โฆษณา", 
 qiTa: "อื่นๆ", 
@@ -20,6 +19,6 @@ keHuLaiYuan: "ที่มาของลูกค้า",
 shuJuShuLiang: "จำนวนข้อมูล", 
 di: "ต่ำ", 
 gao: "สูง", 
-
+    'con0': '：0',
   },
 };

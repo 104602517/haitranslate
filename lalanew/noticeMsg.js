@@ -1,7 +1,6 @@
 export default {
   addInfoDialog: {
-    tuPianShangChuanShi: '图片上传失败',
-tuPianShangChuanShi: "อัพโหลดภาพล้มเหลว", 
+nulltuPianShangChuanShi: "อัพโหลดภาพล้มเหลว", 
 tuPianShangChuanCheng: "อัปโหลดรูปภาพสำเร็จแล้ว!", 
 shangChuanDeTuPian: "อัตราส่วนของภาพที่อัพโหลดต้องเป็น 2:3 และความกว้างสูงสุดต้องไม่เกิน 120px", 
 shangChuanTouXiangTu: "ขนาดรูปโปรไฟล์ที่อัพโหลดต้องไม่เกิน 2MB!", 

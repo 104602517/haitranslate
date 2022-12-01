@@ -1,7 +1,6 @@
 export default {
   dialogChart: {
-    huiHuaJiNengZu: '会话技能组统计'
-  },
+null  },
   index: {
     daoChuBaoBiao: '导出报表',
     fenMiao: '0分0秒',
@@ -30,6 +29,6 @@ zanWuShuJu: "ไม่มีข้อมูลในขณะนี้",
 gengDuo: "มากกว่านี้", 
     chaXun: '查询',
 chaXun: "ตรวจสอบ", 
-
+    quanBuKeFuZu: '全部客服组'
   }
 }

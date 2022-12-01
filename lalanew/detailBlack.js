@@ -1,7 +1,6 @@
 export default {
   index: {
-    qieHuan: '切换',
-qieHuan: "สลับ", 
+nullqieHuan: "สลับ", 
 laiYuanZhongHouTai: "ที่มาระบบหลังบ้าน", 
 laiYuanYouKe: "ที่มาผู้เยี่ยมชม", 
     jinYong: '禁用',

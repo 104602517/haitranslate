@@ -1,7 +1,6 @@
 export default {
   common: {
-    jieShuFangShi: '结束方式',
-jieShuFangShi: "วิธีการสิ้นสุด", 
+nulljieShuFangShi: "วิธีการสิ้นสุด", 
 xiangYingShiChang: "ระยะเวลาตอบสนอง", 
 keHuPingJia: "การประเมินของลูกค้า", 
     keFuZongJie: '客服总结',
@@ -16,6 +15,6 @@ jieDaiKeFu: "ฝ่ายต้อนรับลูกค้า",
   ml: {
     keFuLeiXing: '客服类型',
     keHuLeiXing: '客户类型',
-
+    keHuLeiXing: '客户类型',
   },
 };

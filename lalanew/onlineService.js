@@ -1,7 +1,6 @@
 export default {
   BarChart: {
-    fangWenLaiYuan: '访问来源',
-  },
+null  },
   TimeChart: {
 fangWenLaiYuan: "ที่มาของการเข้าถึง", 
 miao: "วินาที", 

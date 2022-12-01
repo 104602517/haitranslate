@@ -1,7 +1,6 @@
 export default {
   setFunction: {
-zhiNengXiuGaiCheng: "แก้ไขฟังก์ชันเรียบร้อยแล้ว", 
-zhiNengXiuGaiCheng: "แก้ไขฟังก์ชันเรียบร้อยแล้ว", 
+nullzhiNengXiuGaiCheng: "แก้ไขฟังก์ชันเรียบร้อยแล้ว", 
 zhiNengBuNengWei: "ฟังก์ชัน (ห้ามเว้นว่าง)", 
 qingXuanZeZhiNeng: "กรุณาเลือกฟังก์ชั่น", 
 qingXianXuanZeZhi: "กรุณาเลือกฟังก์ชั่นก่อน", 

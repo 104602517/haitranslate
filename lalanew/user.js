@@ -1,7 +1,6 @@
 export default {
   center: {
-    touXiangXiuGaiCheng: '头像修改失败',
-    shangChuanTouXiangTu: '上传头像图片大小不能超过 2MB!',
+null    shangChuanTouXiangTu: '上传头像图片大小不能超过 2MB!',
 shangChuanTouXiangTu: "อัพโหลดรูปโปรไฟล์ต้องไม่เกิน 2MB!", 
 changDuZaiDaoGe: "ความยาวระหว่าง 2 ถึง 20 ตัวอักษร", 
 qingShuRuYongHu: "กรุณากรอกชื่อเล่นผู้ใช้", 

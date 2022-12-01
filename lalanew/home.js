@@ -1,7 +1,6 @@
 export default {
   App: {
-    jianTing: '监听11111',
-  },
+null  },
   home: {
 jianTing: "กำลังฟัง 11111", 
 keFuYiBeiJin: "บริการลูกค้าถูกปิดใช้งาน", 

@@ -1,7 +1,6 @@
 export default {
   index: {
-    dangQianYeVA: '当前页: {val1}',
-dangQianYeVA: "หน้าปัจจุบัน: {val1}", 
+nulldangQianYeVA: "หน้าปัจจุบัน: {val1}", 
 caoZuo: "การดำเนินการ", 
     huanYingYu: '欢迎语',
 huanYingYu: "ข้อความต้อนรับ", 
@@ -18,6 +17,6 @@ queRen: "ยืนยัน",
     keFuNiCheng: '客服昵称：',
     keFuZhangHao: '客服账号：',
     huanYingYuPeiZhi: '欢迎语配置',
-
+    huanYingYuPeiZhi: '欢迎语配置',
   },
 };

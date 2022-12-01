@@ -1,7 +1,6 @@
 export default {
   badReason: {
-    shanChuChengGong: '删除成功',
-    quXiao: '取消',
+null    quXiao: '取消',
     queDing: '确定',
 queDing: "ยืนยัน", 
 shanChuChaPingYuan: "ลบประเภทของเหตุผลแบบประเมินที่ไม่ดี", 

@@ -1,7 +1,6 @@
 export default {
   index: {
-qiangJieChengGong: "แย่งการเชื่อมต่อสำเร็จ!", 
-qiangJieChengGong: "แย่งการเชื่อมต่อสำเร็จ!", 
+nullqiangJieChengGong: "แย่งการเชื่อมต่อสำเร็จ!", 
     tiShi: '提示',
     fuWuYiChangQing: '服务异常，请安排接待客服主动关闭该会话！',
 fuWuYiChangQing: "การบริการผิดปกติ โปรดให้ฝ่ายบริการลูกค้าปิดการสนทนานี้！", 
@@ -42,6 +41,6 @@ suoYouKeHuZu: "กลุ่มลูกค้าทั้งหมด",
 quanBuKeFu: "ฝ่ายบริการลูกค้าทั้งหมด", 
 quanBuJingBaoZhuang: "สถานะการแจ้งเตือนทั้งหมด", 
 suoYouHuiHuaLei: "ประเภทบทสนทนาทั้งหมด", 
-
+    qingShuRuHuiHua: '请输入会话ID',
   },
 };

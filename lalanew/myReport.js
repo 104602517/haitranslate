@@ -1,7 +1,6 @@
 export default {
   index: {
-woDeBaoBiao: "คำชี้แจงของฉัน", 
-woDeBaoBiao: "คำชี้แจงของฉัน", 
+nullwoDeBaoBiao: "คำชี้แจงของฉัน", 
     pingJunHuiHuaShi: '平均会话时长',
     jieDaiYaLiZhi: '接待压力值',
     huiFuLu: '回复率',
@@ -26,6 +25,6 @@ mangLu: "ยุ่ง",
 xianShiYinCangKong: "แสดง/ซ่อนข้อมูลที่ว่างเปล่า", 
 sheZhiXianShiCan: "ตั้งค่าพารามิเตอร์การแสดงผล", 
     keFuZhangHuNi: '客服账户/昵称：',
-
+    keFuZhangHuNi: '客服账户/昵称：',
   },
 };

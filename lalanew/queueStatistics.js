@@ -1,7 +1,6 @@
 export default {
   BarChart: {
-paiDuiTongJi: "สถิติการเข้าคิว", 
-paiDuiTongJi: "สถิติการเข้าคิว", 
+nullpaiDuiTongJi: "สถิติการเข้าคิว", 
     zaiCiXuanRan: '再次渲染',
   },
   LineChart: {

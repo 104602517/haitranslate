@@ -1,7 +1,6 @@
 export default {
   CRUD: {
-    qingZhiShaoXuanZe: '请至少选择一列',
-    quXiao: '取消',
+null    quXiao: '取消',
     queDing: '确定',
     tiShi: '提示',
     queRenShanChuXuan: '确认删除选中的{val1}条数据?',
@@ -36,6 +35,6 @@ export default {
     tiJiaoChengGong: '提交成功',
     bianJiCRU: '编辑{val1}',
     xinZengCRU: '新增{val1}',
-
+    xinZengCRU: '新增{val1}',
   },
 };

@@ -1,7 +1,6 @@
 export default {
   execute: {
-    zhiXingChengGong: '执行成功',
-zhiXingChengGong: "การดำเนินการสำเร็จ", 
+nullzhiXingChengGong: "การดำเนินการสำเร็จ", 
 guanBi: "ปิดทิ้ง", 
 shangChuanHouXiTong: "หลังจากอัปโหลด ระบบจะเรียกใช้สคริปต์ SQL โดยอัตโนมัติ", 
 dianJiShangChuan: "คลิกอัปโหลด", 
@@ -25,6 +24,6 @@ ceShi: "ทดสอบ",
 jDBCDi: "ที่อยู่ JDBC", 
 lianJieMingCheng: "ชื่อการเชื่อมต่อ", 
 zhiXingJiaoBen: "สคริปต์การดำเนินการ", 
-
+    moHuSouSuo: '模糊搜索',
   },
 };

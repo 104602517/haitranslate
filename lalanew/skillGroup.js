@@ -1,6 +1,5 @@
 export default {
-bianJiJiNengZu: "แก้ไขกลุ่มทักษะ", 
-bianJiJiNengZu: "แก้ไขกลุ่มทักษะ", 
+nullbianJiJiNengZu: "แก้ไขกลุ่มทักษะ", 
 yiChuJiNengZu: "ลบสมาชิกชุดทักษะ -", 
 tianJiaChengYuanDao: "เพิ่มสมาชิกใน", 
 zuChengYuan: "สมาชิกกลุ่ม", 
@@ -17,5 +16,5 @@ tianJiaChengYuan: "เพิ่มสมาชิก",
   jiNengZuMingCheng: '技能组名称',
 jiNengZuMingCheng: "ชื่อกลุ่มทักษะ", 
 quanBu: "ทั้งหมด", 
-
+  shiFouXianShi: '是否显示：',
 };

@@ -1,7 +1,6 @@
 export default {
   dictDetail: {
-    qingShuRuXuHao: '请输入序号',
-qingShuRuXuHao: "กรุณากรอกหมายเลขซีเรียล", 
+nullqingShuRuXuHao: "กรุณากรอกหมายเลขซีเรียล", 
 qingShuRuZiDian: "กรุณาใส่ค่าพจนานุกรม", 
 qingShuRuZiDian2: "กรุณากรอกแท็กพจนานุกรม", 
 ziDianXiangQing: "รายละเอียดพจนานุกรม", 
@@ -17,6 +16,6 @@ miaoShu: "คำอธิบาย",
 ziDianMingCheng: "ชื่อพจนานุกรม", 
 ziDian: "พจนานุกรม", 
 xinZeng: "เพิ่มใหม่", 
-
+    shuRuMingChengHuo: '输入名称或者描述搜索',
   },
 };

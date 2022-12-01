@@ -1,7 +1,6 @@
 export default {
   index: {
-    xiangYingCuoWuQing: '响应错误，请稍后重试！',
-xiangYingCuoWuQing: "เกิดข้อผิดพลาดในการตอบกลับ โปรดลองอีกครั้งในภายหลัง!", 
+nullxiangYingCuoWuQing: "เกิดข้อผิดพลาดในการตอบกลับ โปรดลองอีกครั้งในภายหลัง!", 
 feiTiaoZhuan: "ไม่สามารถโดดข้าม", 
     yiJieJue: '已解决',
 yiJieJue: "แก้ไขแล้ว", 
@@ -65,6 +64,6 @@ yaoQingPingJia: "ส่งเชิญประเมิน",
     keHuPingJia: '客户评价',
     yeWu: '业务',
     huiHuaLeiBie: '会话类别',
-
+    huiHuaLeiBie: '会话类别',
   },
 };

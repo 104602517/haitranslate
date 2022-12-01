@@ -1,7 +1,6 @@
 export default {
   index: {
-    queRenQiangTuiXuan: '确认强退选中的{val1}个用户?',
-queRenQiangTuiXuan: "ยืนยันการบังคับออกจากระบบของผู้ใช้ {val1} หรือไม่", 
+nullqueRenQiangTuiXuan: "ยืนยันการบังคับออกจากระบบของผู้ใช้ {val1} หรือไม่", 
 qiangTuiChengGong: "บังคับออกสำเร็จ!", 
 zaiXianYongHu: "ผู้ใช้ที่กำลังออนไลน์", 
 qiangTui: "บังคับออก", 

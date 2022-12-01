@@ -1,7 +1,6 @@
 export default {
   index: {
-    woDeYeWuPei: '我的业务配置',
-woDeYeWuPei: "การกำหนดค่าธุรกิจของฉัน", 
+nullwoDeYeWuPei: "การกำหนดค่าธุรกิจของฉัน", 
 bianJiGengXin: "อัปเดตการแก้ไข", 
 woDeYeWuLei: "การกำหนดค่าประเภทธุรกิจของฉัน", 
 bianJi: "แก้ไข", 

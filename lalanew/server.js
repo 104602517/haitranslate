@@ -1,7 +1,6 @@
 export default {
   index: {
-    qingShuRuMiMa: '请输入密码',
-qingShuRuMiMa: "กรอกรหัสผ่าน", 
+nullqingShuRuMiMa: "กรอกรหัสผ่าน", 
 qingShuRuZhangHao: "กรอกชื่อบัญชี", 
 qingShuRuDuanKou: "กรุณาใส่พอร์ต", 
 qingShuRuIP: "กรุณากรอก IP", 
@@ -26,6 +25,6 @@ zhuangTai: "สถานะ",
 queRen: "ยืนยัน", 
     // todo
     shuRuMingChengHuoFuWu: '输入名称或者服务地址'
-
+    shuRuMingChengHuoFuWu: '输入名称或者服务地址'
   }
 }

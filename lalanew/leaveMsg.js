@@ -1,7 +1,6 @@
 export default {
   editDialog: {
-    bianJiChengGong: '编辑成功',
-bianJiChengGong: "แก้ไขสำเร็จ!", 
+nullbianJiChengGong: "แก้ไขสำเร็จ!", 
 danXuan: "เลือกเดี่ยว", 
 weiXin: "วีแชท", 
 shouJiHao: "หมายเลขโทรศัพท์มือถือ", 
@@ -37,6 +36,6 @@ xingXingBieBiTian: "\n นามสกุล(เพศ)\n(จำเป็น)\n"
 keHuZhangHaoBi: "\n หมายเลขบัญชีลูกค้า (จำเป็น)\n", 
 meiRiZuiDuoLiu: "จำนวนข้อความสูงสุดต่อวัน", 
     baoCun: '保存'
-
+    baoCun: '保存'
   }
 }

@@ -1,7 +1,6 @@
 export default {
   publicEdit: {
-    shanChuNeiRong: '删除内容',
-shanChuNeiRong: "ลบเนื้อหา", 
+nullshanChuNeiRong: "ลบเนื้อหา", 
 xinZengChengGong: "เพิ่มสำเร็จ!", 
 bianJiGongGongKu: "แก้ไขเนื้อหาคลังข้อมูลสาธารณะ", 
 tianJiaGongGongKu: "เพิ่มเนื้อหาคลังข้อมูลสาธารณะ", 

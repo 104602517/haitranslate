@@ -1,7 +1,6 @@
 export default {
   index: {
-shangChuanWenJianNeng: "ไฟล์ที่อัพโหลดสามารถอยู่ในรูปแบบ txt!", 
-shangChuanWenJianNeng: "ไฟล์ที่อัพโหลดสามารถอยู่ในรูปแบบ txt!", 
+nullshangChuanWenJianNeng: "ไฟล์ที่อัพโหลดสามารถอยู่ในรูปแบบ txt!", 
 minGanCiDaoRu: "นำเข้าคำที่ละเอียดอ่อนเรียบร้อยแล้ว", 
 haoDe: "ตกลง", 
 yiXiaMinGanCi: "คำที่ละเอียดอ่อนต่อไปนี้มีอยู่แล้ว ไม่ได้นำเข้า", 

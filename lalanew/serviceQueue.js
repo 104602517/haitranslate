@@ -1,6 +1,5 @@
 export default {
-queDingSTR: "ตกลง {val1} การกำหนดค่านี้หรือไม่", 
-  qiYongGaoDengJi:
+null  qiYongGaoDengJi:
     '启用高等级用户优先接入的规则后，客服会优先自动接入排队咨询用户中的高等级咨询用户',
 queDingSTR: "ตกลง {val1} การกำหนดค่านี้หรือไม่", 
 youXianJieRuGao: "สิทธิ์เข้าถึงผู้ใช้ระดับสูงก่อน", 

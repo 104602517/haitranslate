@@ -13,6 +13,7 @@ const getKeyValue = require('../util/getKeyValue')
     let newLine = null;
     let line = '';
     let lineInfo = {}
+    let lastLine = ''
 
     for(let i =0; i< fileData.length; i++){
       const item = fileData[i];
@@ -23,22 +24,14 @@ const getKeyValue = require('../util/getKeyValue')
           // 读到第一行
          if(!preInfo && lineInfo){
             preInfo = lineInfo
-         }
-
-         // 读到第二行
-         if(preInfo && !prepreInfo && lineInfo){
-            
-            // 处理第一行
+         }else if(preInfo && !prepreInfo && lineInfo){
+            //读到第二行 处理第一行
             newLine = handleRow({preInfo: {}, handleInfo: preInfo, afterInfo: lineInfo, line, fileName, TRANSLATION_ORIGINN_DATA})
       
             prepreInfo = preInfo
             preInfo = lineInfo
-         }
-
-         // 读到后面
-         if(preInfo && prepreInfo && lineInfo){
-         
-            // 处理前一行
+         }else  if(preInfo && prepreInfo && lineInfo){
+             // 读到后面  处理前一行
             newLine = handleRow({handleInfo: preInfo, preInfo: prepreInfo, afterInfo: lineInfo , line, fileName, TRANSLATION_ORIGINN_DATA})
             
             prepreInfo = preInfo
@@ -56,6 +49,7 @@ const getKeyValue = require('../util/getKeyValue')
             newLine = '';
          
             preUnNeedHandleLines = '';
+            lastLine = line
 
          }
 
@@ -66,7 +60,7 @@ const getKeyValue = require('../util/getKeyValue')
       }
     }
 
-    newLine = handleRow({handleInfo: preInfo, preInfo: prepreInfo, afterInfo: {} , line, fileName, TRANSLATION_ORIGINN_DATA})
+    newLine = handleRow({handleInfo: preInfo, preInfo: prepreInfo, afterInfo: {} , line:lastLine, fileName, TRANSLATION_ORIGINN_DATA})
 
     newData += newLine;
 

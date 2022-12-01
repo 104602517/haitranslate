@@ -1,7 +1,6 @@
 export default {
   BarChart: {
-    shiJian: '时间',
-    'con': '：',
+null    'con': '：',
     shiChang: '时长',
   },
   BarMore: {
@@ -41,6 +40,6 @@ shuaXin: "รีเฟรช",
 sheZhiKanBanCan: "ตั้งค่าพารามิเตอร์ Kanban", 
     chaXun: '查询',
 chaXun: "ตรวจสอบ", 
-
+    suoYouKeFu: '所有客服',
   },
 };

@@ -1,7 +1,6 @@
 export default {
   autoAcceptCustomerType: {
-    shanChuChengGong: '删除成功',
-    quXiao: '取消',
+null    quXiao: '取消',
     queDing: '确定',
 queDing: "ยืนยัน", 
 sERGR: "การกำหนดค่าสำหรับ [{val1}] เพื่อรับ [{val2}] โดยอัตโนมัติหรือไม่", 

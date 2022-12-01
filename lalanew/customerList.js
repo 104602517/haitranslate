@@ -1,7 +1,6 @@
 export default {
   index: {
-laHeiROW: "บล็อก {val1}", 
-laHeiROW: "บล็อก {val1}", 
+nulllaHeiROW: "บล็อก {val1}", 
 shanChuYongHuR: "ยืนยันการลบผู้ใช้ {val1}", 
 queDingShanChuR: "ต้องการลบโปรไฟล์ผู้ใช้ {val1} หรือไม่ จะไม่สามารถกู้คืนได้หลังจากการลบ", 
 queDingJiangGaiYong: "แน่ใจว่าจะปลดบล็อกผู้ใช้รายนี้ {val1}?", 
@@ -21,6 +20,6 @@ laHei: "บล็อก",
 shiFouLaHei: "ต้องการบล็อกหรือไม่", 
 liShiZiXunShu: "จำนวนการตรวจสอบประวัติ", 
     chaXun: '查询',
-
+    chaXun: '查询',
   },
 };

@@ -1,7 +1,6 @@
 export default {
   index: {
-qingShuRuBuShu: "โปรดป้อนสคริปต์การปรับใช้", 
-qingShuRuBuShu: "โปรดป้อนสคริปต์การปรับใช้", 
+nullqingShuRuBuShu: "โปรดป้อนสคริปต์การปรับใช้", 
 qingShuRuQiDong: "โปรดป้อนสคริปต์เริ่มต้น", 
 qingShuRuBeiFen: "โปรดป้อนโฟลเดอร์สำรอง", 
 qingShuRuBuShu2: "โปรดป้อนโฟลเดอร์การปรับใช้", 

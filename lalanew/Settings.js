@@ -1,7 +1,6 @@
 export default {
   index: {
-caiDanUNI: "เมนู UniqueOpened", 
-caiDanUNI: "เมนู UniqueOpened", 
+nullcaiDanUNI: "เมนู UniqueOpened", 
 xianShiLOG: "แสดงโลโก้", 
 guDingTouBu: "ส่วนหัวคงที่", 
 xianShiBiaoQian: "แสดงแท็บ", 

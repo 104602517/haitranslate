@@ -1,7 +1,6 @@
 export default {
   index: {
-    puTongKeHu: '普通客户',
-    xingMing: '姓名',
+null    xingMing: '姓名',
     keHuZhangHuMing: '客户账户名',
     gengXinRiQi: '更新日期',
 gengXinRiQi: "วันที่อัปเดต", 
@@ -24,6 +23,6 @@ peiZhi: "การกำหนดค่า",
     keFuNiCheng: '客服昵称：',
     keFuZhangHao: '客服账号：',
     huanYingYuPeiZhi: '欢迎语配置',
-
+    huanYingYuPeiZhi: '欢迎语配置',
   },
 };

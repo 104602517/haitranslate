@@ -1,7 +1,6 @@
 export default {
   transferIndex: {
-sERGR: "การกำหนดค่าคำเชิญสำหรับ [{val1}] เพื่อเชิญ [{val2}]?", 
-sERGR: "[{val1}] ถ่ายโอนการกำหนดค่าของ [{val2}] ไปยัง [{val3}] หรือไม่", 
+nullsERGR: "[{val1}] ถ่ายโอนการกำหนดค่าของ [{val2}] ไปยัง [{val3}] หรือไม่", 
 shanChuQueRen: "ลบการยืนยัน", 
 qingXuanZeKeFu: "กรุณาเลือกกลุ่มบริการลูกค้า!", 
 zhuanJieJieDaiLie: "รายชื่อรับการโอน", 

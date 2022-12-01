@@ -1,7 +1,6 @@
 export default {
   index: {
-    qingXuanZe: '请选择',
-qingXuanZe: "โปรดเลือก", 
+nullqingXuanZe: "โปรดเลือก", 
 qingShuRuMingCheng: "กรุณากรอกชื่อ", 
 qingXuanZeJueSe: "โปรดเลือกระดับบทบาท", 
 zhiJianBaoBiao: "รายงานการตรวจสอบคุณภาพ", 
@@ -26,6 +25,6 @@ zhiJianHuiZong: "สรุปผลการตรวจสอบคุณภา
 zhiJianJieGuo: "ผลการตรวจสอบคุณภาพ", 
 keHuChaPingYuan: "เหตุผลสำหรับแบบประเมินที่ไม่ดีจากลูกค้า:", 
 zhiJianBiaoQian: "แท็กการตรวจสอบคุณภาพ", 
-
+    huiHuaShu: '会话数',
   },
 };

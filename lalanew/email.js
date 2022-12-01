@@ -1,7 +1,6 @@
 export default {
   config: {
-sMTPDuan: "พอร์ต SMTP (ห้ามเว้นว่าง)", 
-sMTPDuan: "พอร์ต SMTP (ห้ามเว้นว่าง)", 
+nullsMTPDuan: "พอร์ต SMTP (ห้ามเว้นว่าง)", 
 sMTPDi: "ที่อยู่ SMTP (ห้ามเว้นว่าง)", 
 miMaBuNengWei: "รหัสผ่าน (ห้ามเว้นว่าง)", 
 qingShuRuFaJian: "กรุณากรอกชื่อผู้ส่ง", 

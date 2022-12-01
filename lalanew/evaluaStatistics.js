@@ -1,7 +1,6 @@
 export default {
   index: {
-zanWuZaiXianKe: "ไม่มีบริการลูกค้าออนไลน์ในขณะนี้!", 
-zanWuZaiXianKe: "ไม่มีบริการลูกค้าออนไลน์ในขณะนี้!", 
+nullzanWuZaiXianKe: "ไม่มีบริการลูกค้าออนไลน์ในขณะนี้!", 
 zanWuZaiXianKe2: "ไม่มีบริการลูกค้าออนไลน์ในขณะนี้!", 
 paiDuiLiKai: "คิวที่จะออก", 
 weiPaiDui: "ไม่มีคิว", 

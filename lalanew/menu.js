@@ -1,7 +1,6 @@
 export default {
   index: {
-dingJiLeiMu: "หมวดหมู่ยอดนิยม", 
-dingJiLeiMu: "หมวดหมู่ยอดนิยม", 
+nulldingJiLeiMu: "หมวดหมู่ยอดนิยม", 
 qingShuRuDiZhi: "กรุณากรอกที่อยู่", 
 caiDan: "เมนู", 
     fou: '否',
@@ -28,6 +27,6 @@ caiDanTuBiao: "ไอคอนเมนู",
 anNiu: "ปุ่ม", 
 muLu: "ไดเรกทอรี", 
 caiDanLeiXing: "ประเภทเมนู", 
-
+    moHuSouSuo: '模糊搜索',
   },
 };

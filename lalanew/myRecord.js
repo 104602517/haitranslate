@@ -1,7 +1,6 @@
 export default {
   index: {
-    quXiao: '取消',
-    queDing: '确定',
+null    queDing: '确定',
     tiShi: '提示',
 tiShi: "แจ้งเตือน", 
 queRenQiangTuiXuan: "ยืนยันการบังคับออกจากระบบของผู้ใช้ {val1} หรือไม่", 
@@ -40,6 +39,6 @@ keHuQuDao: "ลูกค้า/ช่องทาง",
     quanXuanJiNengZu: '全选技能组',
     quanBuJiNengZu: '全部技能组',
 quanBuJiNengZu: "กลุ่มทักษะทั้งหมด", 
-
+    qingShuRuHuiHua: '请输入会话ID',
   },
 };

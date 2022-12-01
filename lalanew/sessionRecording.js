@@ -1,7 +1,6 @@
 export default {
   index: {
-    kehuYuyan: '客户语言',
-
+null
     cHANG: 'change业务',
 cHANG: "เปลี่ยนธุรกิจ", 
 qiangTuiChengGong: "บังคับออกสำเร็จ!", 
@@ -54,6 +53,6 @@ zuiChangXiangYingShi: "ระยะเวลาตอบสนองที่ย
 qingShuRuKeFu: "กรุณาป้อนตัวแทนฝ่ายบริการลูกค้า", 
 qingShuRuKeHu2: "โปรดป้อนหัวหน้าตัวแทนของลูกค้า", 
 qingShuRuKeHu3: "กรุณากรอกชื่อบัญชีลูกค้า", 
-
+    qingShuRuHuiHua: '请输入会话ID'
   }
 }

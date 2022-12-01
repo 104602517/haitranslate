@@ -1,7 +1,6 @@
 export default {
   index: {
-    tongBuChengGong: '同步成功',
-tongBuChengGong: "ซิงค์สำเร็จ", 
+nulltongBuChengGong: "ซิงค์สำเร็จ", 
 tuPian: "รูปภาพ", 
 chuangJianRiQi: "วันที่สร้าง", 
 kuanDu: "ความกว้าง", 
@@ -17,6 +16,6 @@ shangChuan: "อัพโหลด",
     jieShuRiQi: '结束日期',
     kaiShiRiQi: '开始日期',
 kaiShiRiQi: "วันที่เริ่มต้น", 
-
+    shuRuWenJianMing: '输入文件名',
   },
 };

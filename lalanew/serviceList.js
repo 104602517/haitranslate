@@ -1,6 +1,5 @@
 export default {
-  chengGong: '成功！',
-chengGong: "สำเร็จ!", 
+nullchengGong: "สำเร็จ!", 
 queDing: "ยืนยัน", 
 queDingSTA: "แน่ใจเกี่ยวกับ '{val1}{val2}' ไหม", 
 sTATE: "{val1}ฝ่ายบริการลูกค้า", 
@@ -27,5 +26,5 @@ touXiang: "รูปโปรไฟล์",
 qingShuRuKeFu: "กรุณาป้อนตัวแทนฝ่ายบริการลูกค้า", 
 quanBuZhangHuZhuang: "สถานะบัญชีทั้งหมด", 
 quanBuJiNengZu: "กลุ่มทักษะทั้งหมด", 
-
+  quanBuKeFuZu: '全部客服组',
 };

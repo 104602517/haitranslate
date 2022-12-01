@@ -1,7 +1,6 @@
 export default {
   Category: {
-diSanChanYe: "อุตสาหกรรมระดับตติยภูมิ", 
-diSanChanYe: "อุตสาหกรรมระดับตติยภูมิ", 
+nulldiSanChanYe: "อุตสาหกรรมระดับตติยภูมิ", 
 diErChanYe: "อุตสาหกรรมทุติยภูมิ", 
 diYiChanYe: "อุตสาหกรรมหลัก", 
 quanGuoHongGuanJing: "เครื่องชี้เศรษฐกิจมหภาคแห่งชาติ พ.ศ. 2554", 

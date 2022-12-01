@@ -1,7 +1,6 @@
 export default {
   rechargeIndex: {
-    zhiNengShuRuDa: '只能输入大于0的正数',
-    qingShuRu: '请输入',
+null    qingShuRu: '请输入',
 qingShuRu: "กรุณากรอก", 
 keHuNiCheng: "ชื่อเล่นลูกค้า", 
 keHuZhangHuMing: "ชื่อบัญชีลูกค้า", 
@@ -53,6 +52,6 @@ chaXun: "ตรวจสอบ",
 chongZhiJinEFan: "ขอบเขตจำนวนเงินฝาก/หยวน", 
 qingShuRuXiaDan: "โปรดป้อนไอดี บันทึกรายการ", 
 qingShuRuPingTai: "โปรดป้อนหมายเลขรายการบนแพลตฟอร์ม", 
-
+    qingShuRuSouSuo: '请输入搜索内容',
   },
 };

@@ -1,7 +1,6 @@
 export default {
   index: {
-    chengGong: '成功',
-    tiShi: '提示',
+null    tiShi: '提示',
 tiShi: "แจ้งเตือน", 
 gangWeiShiFouJi: "ตำแหน่ง คุณต้องการดำเนินการต่อหรือไม่?", 
 ciCaoZuoJiang: "การดำเนินการนี้จะ", 
@@ -16,6 +15,6 @@ yuMingDiZhi: "ที่อยู่โดเมน",
 yingYongMingCheng: "ชื่อ แอปพลิเคชัน", 
 yingYongID: "ไอดี แอปพลิเคชัน", 
 chanPinMingCheng: "ชื่อสินค้า", 
-
+    chanPinID: '产品ID',
   },
 };

@@ -1,6 +1,5 @@
 export default {
-caiJiNeiRongXiang: "รายละเอียดเนื้อหาคอลเลกชัน", 
-caiJiNeiRongXiang: "รายละเอียดเนื้อหาคอลเลกชัน", 
+nullcaiJiNeiRongXiang: "รายละเอียดเนื้อหาคอลเลกชัน", 
   neiCunXinXi: '内存信息',
 neiCunXinXi: "ข้อมูลหน่วยความจำ", 
 cPUShiYong: "อัตราส่วนการใช้งาน CPU", 
@@ -32,5 +31,5 @@ quanBu: "ทั้งหมด",
 qingXuanZeZhongDuan: "โปรดเลือกประเภทเทอร์มินัล", 
 qingShuRuKeHu: "โปรดป้อนเวอร์ชันหน้าลูกค้า", 
 qingXuanZeXiTong: "กรุณาเลือกสภาพแวดล้อมของระบบ", 
-
+  qingShuRuZhangHu: '请输入账户名',
 };

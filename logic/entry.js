@@ -8,7 +8,6 @@ const TRANSLATION_ORIGINN_DATA = require('../util/getTranslationArr')();
 const transfile = require('./transfile')
 
 
-
 function resolve(fakepath) {
   return path.resolve(__dirname , '..', fakepath)
 }
@@ -41,7 +40,6 @@ function update(rootpath) {
       
           // 直接替换
           if (newFile) {
-
             fs.writeFile(newFileUrl, newFile, 'utf8', function(err) {
               if (err) {
                 console.log(err)

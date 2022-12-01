@@ -1,7 +1,6 @@
 export default {
   index: {
-    zhiXingChengGong: '执行成功',
-zhiXingChengGong: "ดำเนินการสำเร็จ", 
+nullzhiXingChengGong: "ดำเนินการสำเร็จ", 
 qingShuRuCR: "โปรดป้อนการแสดงออกของ Cron", 
 qingShuRuFangFa: "กรุณากรอกชื่อวิธีการ", 
 qingShuRuBE: "กรุณากรอกชื่อBean", 

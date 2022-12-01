@@ -36,7 +36,7 @@ module.exports = function handleRow({handleInfo, preInfo, afterInfo, line, fileN
     let newInfo = null;
     let matchedResults = []
     let PreMatches = []
-     let afterMatches = []
+    let afterMatches = []
     let preAfterMatches = []
 
 

@@ -1,7 +1,6 @@
 export default {
   index: {
-    vipDengji: 'VIP等级',
-    chengGong: '成功',
+null    chengGong: '成功',
 chengGong: "สำเร็จ", 
     queDing: '确定',
     tiShi: '提示',

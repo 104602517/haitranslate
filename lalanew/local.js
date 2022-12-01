@@ -1,7 +1,6 @@
 export default {
   index: {
-shangChuanChengGong: "อัปโหลดสำเร็จ", 
-shangChuanChengGong: "อัปโหลดสำเร็จ", 
+nullshangChuanChengGong: "อัปโหลดสำเร็จ", 
 shangChuanWenJianDa: "ขนาดไฟล์ที่อัพโหลดต้องไม่เกิน 100MB!", 
 wenJian: "ไฟล์", 
 caoZuoRen: "ผู้ดำเนินการ", 

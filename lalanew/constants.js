@@ -1,7 +1,6 @@
 export default {
   index: {
-    xiaoYu: '小于',
-xiaoYu: "ต่ำกว่า", 
+nullxiaoYu: "ต่ำกว่า", 
 dengYu: "เท่ากับ", 
 daYu: "มากกว่า", 
 tuiGuangShangKeHu: "ลูกค้าจากผู้สนับสนุน", 
@@ -35,6 +34,6 @@ zhuDongPingJia: "การประเมินเอง",
     cn: '中文简体',
     en: 'English',
     vietnam: 'Tiếng Việt'
-
+    vietnam: 'Tiếng Việt'
   }
 }

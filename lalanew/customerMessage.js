@@ -1,7 +1,6 @@
 export default {
   index: {
-    tiShi: '提示',
-tiShi: "แจ้งเตือน", 
+nulltiShi: "แจ้งเตือน", 
 queDingYaoZhiXing: "แน่ใจไหมว่าต้องการดำเนินการ {val1} นี้", 
 buChuLi: "ไม่ดำเนินการ", 
 yiHuiFang: "ตอบกลับ", 

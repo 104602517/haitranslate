@@ -1,7 +1,6 @@
 export default {
   BarMore: {
-    zhiMang: '置忙',
-    liKai: '离开',
+null    liKai: '离开',
     xiLie: '系列2',
     dengLuZhuangTaiM: '登录状态(min)',
     zhanBi: '占比：',

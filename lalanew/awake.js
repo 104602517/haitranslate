@@ -1,7 +1,6 @@
 export default {
   addAwake: {
-sCEEN: "[{val1}] เชื่อมโยงกับ [{val2}]!", 
-sCEEN: "[{val1}] เชื่อมโยงกับ [{val2}]!", 
+nullsCEEN: "[{val1}] เชื่อมโยงกับ [{val2}]!", 
 bianJiChengGong: "แก้ไขสำเร็จ!", 
 tianJiaChengGong: "เพิ่มสำเร็จ!", 
 qingXuanZeGuanLian: "โปรดเลือกกลุ่มทักษะที่เกี่ยวข้อง", 

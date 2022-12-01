@@ -1,7 +1,6 @@
 export default {
   CustomerTypeColumn: {
-    pingTaiKeHu: '平台客户',
-pingTaiKeHu: "ลูกค้าแพลตฟอร์ม", 
+nullpingTaiKeHu: "ลูกค้าแพลตฟอร์ม", 
 tuiGuangShangKeHu: "ลูกค้าจากผู้สนับสนุน", 
   },
   EndType: {
@@ -38,6 +37,6 @@ shangJiDaiLi: "หัวหน้าตัวแทน",
 keFuDaiLi: "ตัวแทนบริการลูกค้า", 
 pingTaiKeFu: "บริการลูกค้าบนแพลตฟอร์ม", 
     keFuLeiXing: '客服类型'
-
+    keFuLeiXing: '客服类型'
   }
 }

@@ -1,7 +1,6 @@
 export default {
   'fourToOne': {
-huiShouYe: "\n กลับสู่หน้าหลัก \n", 
-huiShouYe: "\n กลับสู่หน้าหลัก \n", 
+nullhuiShouYe: "\n กลับสู่หน้าหลัก \n", 
 huoZheNiKeYi: "หรือคุณสามารถไปที่:", 
 ruYouBuManQing: "โปรดติดต่อหัวหน้าของคุณหากคุณไม่พอใจ", 
 niMeiYouQuanXian: "คุณไม่ได้รับอนุญาตให้ไปที่หน้านั้น", 

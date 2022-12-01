@@ -1,7 +1,6 @@
 export default {
   addKey: {
-    xiuGaiChengGong: '修改失败！',
-xiuGaiChengGong: "แก้ไขสำเร็จ!", 
+nullxiuGaiChengGong: "แก้ไขสำเร็จ!", 
 tianJiaChanPin: "เพิ่มสินค้า", 
 xiuGaiChanPin: "แก้ไขสินค้า", 
     fou: '否',

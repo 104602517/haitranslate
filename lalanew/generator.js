@@ -1,7 +1,6 @@
 export default {
   config: {
-shengChengChengGong: "สร้างเรียบร้อยแล้ว", 
-shengChengChengGong: "สร้างเรียบร้อยแล้ว", 
+nullshengChengChengGong: "สร้างเรียบร้อยแล้ว", 
 baoCunChengGong: "บันทึกสำเร็จ", 
 tongBuChengGong: "การซิงโครไนซ์สำเร็จ", 
 buNengWeiKong: "(ห้ามเว้นว่าง)", 

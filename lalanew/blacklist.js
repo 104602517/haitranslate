@@ -1,7 +1,6 @@
 export default {
   index: {
-    quXiao: '取消',
-    queDing: '确定',
+null    queDing: '确定',
 queDing: "ยืนยัน", 
 jieChuYongHuHei: "ปลดบล็อกรายการบัญชีผู้ใช้", 
 queDingJiangGaiYong: "ยืนยันเพื่อยกเลิกการบล็อกผู้ใช้รายนี้ {val1}?", 
@@ -24,6 +23,6 @@ keHuDengJi: "ระดับลูกค้า",
 shiFouXinKeHu: "ใช่ลูกค้าใหม่หรือไม่", 
     kaiShiRiQi: '开始日期',
 kaiShiRiQi: "วันที่เริ่มต้น", 
-
+    qingShuRuSouSuo: '请输入搜索内容',
   },
 };
