@@ -30,6 +30,7 @@ function update(rootpath) {
      
         update(`${rootpath}/${fileName}`)
       } else {
+        
         fs.readFile(curFileUrl, 'utf8',  function(err, file) {
           if (err) {
             throw err

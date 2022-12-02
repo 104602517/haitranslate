@@ -1,20 +1,20 @@
 export default {
   transferIndex: {
-    sERGR: "การกำหนดค่าสำหรับ [{val1}] เพื่อรับ [{val2}] โดยอัตโนมัติหรือไม่", 
+        shanChuQueRen: '删除确认',
     shanChuQueRen: "ลบการยืนยัน", 
-    qingXuanZeKeFu: "โปรดเลือกบริการลูกค้าหรือกําหนดค่าการบริการลูกค้ากลุ่มนี้", 
+    qingXuanZeKeFu: "กรุณาเลือกกลุ่มบริการลูกค้า!", 
     zhuanJieJieDaiLie: "รายชื่อรับการโอน", 
     jieShouKeFuZu: "รับชื่อกลุ่มบริการลูกค้า", 
     zhuanJieKeHuZu: "โอนชื่อกลุ่มลูกค้า", 
     zhuanJieKeFuZu: "โอนชื่อกลุ่มบริการลูกค้า", 
     keZhuanJieZhi: "สามารถโอนได้ที่.", 
-    quanXuan: "เลือกทั้งหมด", 
+    quanXuan: "\n เลือกทั้งหมด \n", 
     zhuanJieKeHuPei: "โอนการกำหนดค่าของลูกค้า", 
     suoYouJieShouKe: "กลุ่มลูกค้าที่รับบริการทั้งหมด", 
     suoYouZhuanJieKe: "กลุ่มบริการลูกค้าที่โอนทั้งหมด", 
   },
   transferSetting: {
-    ninShiFouQueRen: "คุณยืนยัน {val1}{val2} หรือไม่", 
+    ninShiFouQueRen: "คุณยืนยันหรือไม่ {val1} จะถูกโอนไปยังฝ่ายบริการลูกค้าที่มีทักษะการจับคู่ก่อน", 
     qiYongBuMangLu:
       '启用不忙碌的客服优先转接规则后，将会将不忙碌的客服靠前排序',
     youXianZhuanJieBu: "โอนไปยังฝ่ายบริการลูกค้าที่ไม่ยุ่งก่อน", 

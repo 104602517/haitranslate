@@ -1,6 +1,6 @@
 export default {
   index: {
-    qingXuanZe: "กรุณาเลือก", 
+        qingShuRuMingCheng: '请输入名称',
     qingShuRuMingCheng: "กรุณากรอกชื่อ", 
     qingXuanZeJueSe: "โปรดเลือกระดับบทบาท", 
     zhiJianBaoBiao: "รายงานการตรวจสอบคุณภาพ", 
@@ -15,15 +15,15 @@ export default {
     zhiJianShu: "จำนวนการตรวจสอบคุณภาพ", 
     keFuZongHuiHua: "จำนวนบทสนทนาฝ่ายบริการลูกค้าทั้งหมด", 
     keFuFenZu: "แบ่งกลุ่มบริการลูกค้า", 
-    keFu: "/บริการลูกค้า:", 
+    keFu: "ฝ่ายบริการลูกค้า", 
     zhongZhi: "รีเซ็ต", 
-    suoYouKeFu: "ฝ่ายบริการลูกค้าทั้งหมด", 
+    suoYouKeFu: "บริการลูกค้าทั้งหมด", 
     quanBuKeFuZu: "กลุ่มบริการลูกค้าทั้งหมด", 
     zhiJianHuiZong: "สรุปผลการตรวจสอบคุณภาพ", 
-    zhiJianJieGuo: "ผลการตรวจสอบคุณภาพ.", 
+    zhiJianJieGuo: "ผลการตรวจสอบคุณภาพ", 
   },
   qualitySummary: {
-    keHuChaPingYuan: "หมายเหตุแบบประเมินที่ไม่ดีจากลูกค้า", 
+    keHuChaPingYuan: "เหตุผลสำหรับแบบประเมินที่ไม่ดีจากลูกค้า:", 
     zhiJianBiaoQian: "แท็กการตรวจสอบคุณภาพ", 
     huiHuaShu: "จำนวนบทสนทนา", 
   },

@@ -1,6 +1,6 @@
 export default {
   badReason: {
-    shanChuChengGong: "ลบสำเร็จ", 
+        quXiao: '取消',
     quXiao: "ยกเลิก", 
     queDing: "ยืนยัน", 
     shanChuChaPingYuan: "ลบประเภทของเหตุผลแบบประเมินที่ไม่ดี", 
@@ -12,7 +12,7 @@ export default {
     baoCun: "บันทึก", 
     bianJi: "แก้ไข", 
     caoZuo: "การดำเนินการ", 
-    keHuChaPingYuan: "หมายเหตุแบบประเมินที่ไม่ดีจากลูกค้า", 
+    keHuChaPingYuan: "ประเภทเหตุผลแบบประเมินที่ไม่ดี", 
     qingShuRuChaPing: "กรุณากรอกประเภทเหตุผลแบบประเมินที่ไม่ดี", 
     feiWuXingDuSuan: "ที่ไม่ใช่ห้าดาวถือเป็นแบบประเมินที่ไม่ดี", 
     keHuChaPingYuan2: "เหตุผลสำหรับแบบประเมินที่ไม่ดีจากลูกค้า:", 
@@ -35,8 +35,8 @@ export default {
         quXiao: '取消',
   },
   Navbar: {
-    quXiao: "ยกเลิก", 
-    queDing: "ยืนยัน", 
+        queDing: '确定',
+        tiShi: '提示',
     tiShi: "แจ้งเตือน", 
     queDingZhuXiaoBing: "แน่ใจว่าจะล็อกเอาท์และออกจากระบบ?", 
     keFuHouTaiGuan: "บริการจัดการระบบหลังบ้านของฝ่ายบริการลูกค้า", 
@@ -48,18 +48,18 @@ export default {
     quanPingSuoFang: "ซูมเต็มหน้าจอ", 
 
         shanChu: '刪除',
-    shanChu: "ลบ", 
+        xiaZai: '下載',
     xiaZai: "ดาวน์โหลด", 
     caoZuo: "การดำเนินการ", 
     zhuangTai: "สถานะ", 
-    chuangJianRiQi: "วันที่สร้าง", 
+        wenJianMing: '文件名',
     wenJianMing: "ชื่อไฟล์", 
         xiaZaiLieBiao2: '下載列表'
         deFenFanWeiBu: '得分范围不能重叠',
   },
   scroreTarget: {
     deFenFanWeiBu: "ช่วงคะแนนไม่สามารถทับซ้อนกันได้", 
-    zuiDaZhiBuNeng: "ค่าสูงสุดต้องไม่น้อยกว่าค่าต่ำสุด", 
+    zuiDaZhiBuNeng: "ค่าสูงสุดต้องไม่เกินเกณฑ์การให้คะแนน", 
     shanChuPingFenZhi: "ลบตัวดัชนีการให้คะแนน", 
     pingFenZhiBiaoLie: "รายการตัวดัชนีการให้คะแนน", 
     tianJiaPingFenZhi: "เพิ่มดัชนีการให้คะแนน", 
@@ -86,8 +86,8 @@ export default {
     tianJiaPingJiaBiao: "เพิ่มคลังแท็กแบบประเมิน", 
     zanWuShuJu: "ไม่มีข้อมูลในขณะนี้", 
     tianJia: "เพิ่ม", 
-    qingShuRuZhiJian: "โปรดกรอกผู้ตรวจสอบคุณภาพ", 
-    zhiJianBiaoQian: "แท็กการตรวจสอบคุณภาพ", 
+    qingShuRuZhiJian: "โปรดป้อนชื่อแท็กตรวสอบคุณภาพ อักษรจีนไม่เกิน 8 ตัว", 
+    zhiJianBiaoQian: "แท็กตรวสอบคุณภาพ", 
   },
   Editor: {
     tuPianShangChuanShi: "กรุณาอัพโหลดภาพเพื่อใช้", 

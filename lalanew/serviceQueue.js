@@ -16,7 +16,7 @@ export default {
     keFuFenPeiShe: "การตั้งค่าการมอบหมายการบริการลูกค้า", 
     keFuJieRuPei: "การกำหนดค่าการเข้าถึงบริการลูกค้า", 
     qingShuRuDeShu: "กรุณากรอกตัวเลขตั้งแต่ 0-59", 
-    shi: "ใช่", 
+    shi: "เวลา", 
     fen: "คะแนน", 
     shi2: "เวลา", 
     shengXiaoShiJian: "เวลาที่มีประสิทธิภาพ", 

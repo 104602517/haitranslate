@@ -14,7 +14,7 @@ export default {
     buShuMuLu: "โฟลเดอร์การปรับใช้", 
     shangChuanMuLu: "อัปโหลดโฟลเดอร์", 
     duanKouHao: "หมายเลขพอร์ต", 
-    yingYongMingCheng: "ชื่อ แอปพลิเคชัน", 
+    yingYongMingCheng: "ชื่อแอปพลิเคชัน", 
     queRen: "ยืนยัน", 
     quXiao: "ยกเลิก", 
     qiDongJiaoBen: "เริ่มสคริปต์", 

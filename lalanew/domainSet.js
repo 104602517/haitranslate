@@ -1,6 +1,6 @@
 export default {
   index: {
-    chengGong: "สำเร็จ", 
+        tiShi: '提示',
     tiShi: "แจ้งเตือน", 
     gangWeiShiFouJi: "ตำแหน่ง คุณต้องการดำเนินการต่อหรือไม่?", 
     ciCaoZuoJiang: "การดำเนินการนี้จะ", 

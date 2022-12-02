@@ -23,8 +23,8 @@ export default {
     paiDuiKaiShiShi: "เวลาที่เริ่มเข้าคิว", 
     ziXunLaiYuan: "ที่มาสอบถาม", 
     keHuZu: "กลุ่มลูกค้า", 
-    keHu: "(ลูกค้า:", 
-    qingShuRuKeHu: "กรุณากรอกบัญชีลูกค้าของคุณ", 
+    keHu: "ลูกค้า", 
+    qingShuRuKeHu: "กรุณากรอกบัญชีลูกค้า", 
     paiDuiJiLu: "บันทึกคิว", 
   },
 };

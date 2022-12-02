@@ -29,6 +29,6 @@ export default {
     qingWuShangChuanWei: "โปรดอย่าอัปโหลดไฟล์ที่ผิดกฎหมาย และไฟล์ไม่ควรเกิน 15M", 
     dianJiShangChuan: "คลิกอัปโหลด", 
     peiZhi: "การกำหนดค่า", 
-    shuRuWenJianMing: "กรอกชื่อไฟล์", 
+    shuRuWenJianMing: "ป้อนชื่อไฟล์เพื่อค้นหา", 
   },
 };

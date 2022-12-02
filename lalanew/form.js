@@ -1,11 +1,11 @@
 export default {
   HSelect: {
-    qingXuanZe: "กรุณาเลือก", 
+        quanBu: '全部',
   },
   MSelect: {
     quanBu: "ทั้งหมด", 
   },
   ServerProxySelect: {
-    qingShuRuKeFu: "โปรดป้อนตัวแทนฝ่ายบริการลูกค้า", 
+        qingShuRuKeFu: '请输入客服代理',
   },
 };

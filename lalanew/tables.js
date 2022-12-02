@@ -35,8 +35,8 @@ export default {
     keFuDaiLi: "ตัวแทนบริการลูกค้า", 
   },
   ServerTypeColumn: {
-    pingTaiKeFu: "ฝ่ายบริการลูกค้าแพลตฟอร์ม", 
-    tuiGuangShangKeFu: "ฝ่ายบริการผู้สนับสนุน", 
+    pingTaiKeFu: "บริการลูกค้าบนแพลตฟอร์ม", 
+    tuiGuangShangKeFu: "บริการลูกค้าของผู้สนับสนุน", 
     keFuLeiXing: "ประเภทการบริการลูกค้า", 
   }
 }

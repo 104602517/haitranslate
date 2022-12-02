@@ -18,7 +18,7 @@ export default {
     zhiJianRenZhiJian: "คนตรวจสอบ/เวลาตรวจสอบ", 
     xiaoXiShuKeHu: "จำนวนข้อความ (ลูกค้า / ฝ่ายบริการลูกค้า)", 
     keFuZongJie: "สรุปผลการบริการลูกค้า", 
-    huiHuaLeiXing: "ประเภทบทสนทนา", 
+        paiDuiXinXi: '排队信息',
     paiDuiXinXi: "ข้อมูลคิว", 
     jieDaiKeFu: "ฝ่ายต้อนรับลูกค้า", 
     huiHuaKaiShiShi: "เวลาเริ่มต้นบทสนทนา", 
@@ -64,6 +64,6 @@ export default {
     shiFouPingJia: "ประเมินหรือไม่", 
     keHuPingJia: "การประเมินของลูกค้า", 
     yeWu: "ธุรกิจ", 
-    huiHuaLeiBie: "หมวดหมู่บทสนทนา", 
+        huiHuaLeiBie: '会话类别',
   },
 };

@@ -1,6 +1,6 @@
 export default {
   execute: {
-    zhiXingChengGong: "การดำเนินการสำเร็จ", 
+        guanBi: '关闭',
     guanBi: "ปิดทิ้ง", 
     shangChuanHouXiTong: "หลังจากอัปโหลด ระบบจะเรียกใช้สคริปต์ SQL โดยอัตโนมัติ", 
     dianJiShangChuan: "คลิกอัปโหลด", 

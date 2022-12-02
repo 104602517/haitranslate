@@ -1,6 +1,6 @@
 export default {
   index: {
-    quXiao: "ยกเลิก", 
+        queDing: '确定',
     queDing: "ยืนยัน", 
     jieChuYongHuHei: "ปลดบล็อกรายการบัญชีผู้ใช้", 
     queDingJiangGaiYong: "ยืนยันเพื่อยกเลิกการบล็อกผู้ใช้รายนี้ {val1}?", 

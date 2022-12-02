@@ -1,9 +1,9 @@
 export default {
   index: {
         chengGong: '成功',
-    chengGong: "สำเร็จ", 
+        quXiao: '取消',
     quXiao: "ยกเลิก", 
-    queDing: "ยืนยัน", 
+        tiShi: '提示',
     tiShi: "แจ้งเตือน", 
     buMenShiFouJi: "แผนก คุณต้องการดำเนินการต่อหรือไม่?", 
     ciCaoZuoJiang: "การดำเนินการนี้จะ", 
@@ -17,7 +17,7 @@ export default {
     chuangJianRiQi: "วันที่สร้าง", 
     zhuangTai: "สถานะ", 
     feiKeFu: "บริการที่ไม่ใช่ลูกค้า", 
-    keFu: "/บริการลูกค้า:", 
+    keFu: "บริการลูกค้า", 
     buMenLeiXing: "ประเภทแผนก", 
     mingCheng: "ชื่อ", 
     queRen: "ยืนยัน", 

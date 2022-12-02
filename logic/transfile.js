@@ -20,6 +20,14 @@ const getKeyValue = require('../util/getKeyValue')
 
       if(item === '\n' || item === '\r'){
          lineInfo = getKeyValue(line)
+ 
+
+         const one = prepreInfo && prepreInfo.key === "qingXuanZeJueSe";
+         const tow = lineInfo && lineInfo.key === "qingXuanZeDaiLi"
+
+         if (one && tow) {
+            console.log('hahha')
+         }
 
           // 读到第一行
          if(!preInfo && lineInfo){
@@ -49,9 +57,7 @@ const getKeyValue = require('../util/getKeyValue')
             }
             newData += preUnNeedHandleLines;
 
-          
             newLine = '';
-         
             preUnNeedHandleLines = '';
             lastLine = line
 
