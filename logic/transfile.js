@@ -23,11 +23,11 @@ const getKeyValue = require('../util/getKeyValue')
          lineInfo = getKeyValue(line)
  
 
-         const tow = preInfo && preInfo.key === "zuoZheMingCheng"
+         const tow = lineInfo && lineInfo.key === "ThreeMenu1"
 
-         // if ( tow) {
-         //    console.log( preInfo.key)
-         // }
+         if (  tow) {
+            console.log( lineInfo.key)
+         }
 
           // 读到第一行
          if(!preInfo && lineInfo){
@@ -70,13 +70,13 @@ const getKeyValue = require('../util/getKeyValue')
       }
     }
 
+    // 处理最后一行
     if(preInfo){
       newLine = handleRow({handleInfo: preInfo, preInfo: prepreInfo, afterInfo: {} , line:lastLine, fileName, TRANSLATION_ORIGINN_DATA})
     }
 
     if(newLine){
          newData += '    ' + newLine;
-
     }
 
     if(preUnNeedHandleLines){

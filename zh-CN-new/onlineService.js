@@ -27,8 +27,8 @@ export default {
     yaoQingPingJiaLu: "อัตรา/จำนวน เชิญประเมิน", 
     zongJieLu: "อัตราผลสรุป", 
     liKaiShiChang: "ระยะเวลาที่ออก", 
-    zhuangtaiShiChang2:'登录时长 \n 当前状态持续时长',
-    jiedaiRenshuShangXian:'接待人数 \n 接待上限',
+        zhuangtaiShiChang2:'登录时长 \n 当前状态持续时长',
+        jiedaiRenshuShangXian:'接待人数 \n 接待上限',
 
     
     zaiXianJiNengZu: "กลุ่มทักษะที่ออนไลน์", 

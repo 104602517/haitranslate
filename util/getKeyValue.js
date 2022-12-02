@@ -1,6 +1,6 @@
 
 module.exports = function(str){
-    const matches = str.match(/([^\s]+):\s+[\'\"](.+)[\'\"].*/)
+    const matches = str.match(/([^\s]+):\s*[\'\"](.+)[\'\"].*/)
 
     if(matches){
 
