@@ -13,6 +13,7 @@ const getKeyValue = require('../util/getKeyValue')
     let newLine = '';
     let line = '';
     let lineInfo = {}
+    // 上一行如果是 key:value 存储到lastline中
     let lastLine = ''
 
     for(let i =0; i< fileData.length; i++){
@@ -22,25 +23,24 @@ const getKeyValue = require('../util/getKeyValue')
          lineInfo = getKeyValue(line)
  
 
-         const one = prepreInfo && prepreInfo.key === "qingXuanZeJueSe";
-         const tow = lineInfo && lineInfo.key === "qingXuanZeDaiLi"
+         const tow = preInfo && preInfo.key === "zuoZheMingCheng"
 
-         if (one && tow) {
-            console.log('hahha')
-         }
+         // if ( tow) {
+         //    console.log( preInfo.key)
+         // }
 
           // 读到第一行
          if(!preInfo && lineInfo){
             preInfo = lineInfo
          }else if(preInfo && !prepreInfo && lineInfo){
             //读到第二行 处理第一行
-            newLine = handleRow({preInfo: {}, handleInfo: preInfo, afterInfo: lineInfo, line, fileName, TRANSLATION_ORIGINN_DATA})
+            newLine = handleRow({preInfo: {}, handleInfo: preInfo, afterInfo: lineInfo, line: lastLine, fileName, TRANSLATION_ORIGINN_DATA})
       
             prepreInfo = preInfo
             preInfo = lineInfo
          }else  if(preInfo && prepreInfo && lineInfo){
              // 读到后面  处理前一行
-            newLine = handleRow({handleInfo: preInfo, preInfo: prepreInfo, afterInfo: lineInfo , line, fileName, TRANSLATION_ORIGINN_DATA})
+            newLine = handleRow({handleInfo: preInfo, preInfo: prepreInfo, afterInfo: lineInfo , line: lastLine, fileName, TRANSLATION_ORIGINN_DATA})
             
             prepreInfo = preInfo
             preInfo = lineInfo;

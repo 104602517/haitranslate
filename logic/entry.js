@@ -21,7 +21,7 @@ function update(rootpath) {
     }
     dirList.forEach(function(fileName) {
       const curFileUrl = resolve(`${rootpath}/${fileName}`);
-      const newFileUrl = resolve(`${rootpath}new/${fileName}`);
+      const newFileUrl = resolve(`${rootpath}-new/${fileName}`);
 
 
       let stats = fs.statSync(curFileUrl)

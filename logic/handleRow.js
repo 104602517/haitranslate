@@ -8,10 +8,7 @@ const {isSameValueInArr} = require('../util/arr')
     const equalCur = (index)=> {
         const curInfo = TRANSLATION_ORIGINN_DATA[index] || {}
         handleInfo = handleInfo || {}
-
-        if (curInfo.key === 'qingXuanZeDaiLi') {
-            console.log(22)
-        }
+ 
         return  curInfo.key === handleInfo.key
     }
 
@@ -104,10 +101,21 @@ function  appendToNoMatch({noMatchPath, line, fileName}){
 
 function getNewLine(newInfo, line) {
     let newLine = ''
+
+
        // 组合newLine
-    if(newInfo){
+    if (newInfo) {
+        
+        if (newInfo.key === 'zuoZheMingCheng') {
+            console.log(newInfo,33)
+        }
         newLine = newInfo.key + ': "' + newInfo.value + '", \n'
-    }else{
+    } else {
+        
+        if (line.includes('zuoZheMingCheng')) {
+             debugger
+            console.log(line,33)
+        }
         newLine = line ?  line + '\n' : ' '
     }
 

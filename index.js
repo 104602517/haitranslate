@@ -5,10 +5,10 @@ const path = require('path')
 
 
   
-createDir(resolve('lalanew'))
+createDir(resolve('zh-CN-new'))
 createFile(resolve('noMatch.js'))
 
-update('lala')
+update('zh-CN')
 
 
 function resolve(fakepath) {

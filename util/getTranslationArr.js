@@ -13,7 +13,6 @@ module.exports = function(){
         if(matches){
             translationArray.push(matches)
         }
-         
     }
 
     console.log('length: ' + translationArray.length)
