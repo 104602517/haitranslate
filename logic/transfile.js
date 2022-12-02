@@ -70,7 +70,7 @@ const getKeyValue = require('../util/getKeyValue')
       }
     }
 
-    // 处理最后一行
+    // 处理最后一个key,value
     if(preInfo){
       newLine = handleRow({handleInfo: preInfo, preInfo: prepreInfo, afterInfo: {} , line:lastLine, fileName, TRANSLATION_ORIGINN_DATA})
     }
@@ -80,7 +80,10 @@ const getKeyValue = require('../util/getKeyValue')
     }
 
     if(preUnNeedHandleLines){
-      newData += preUnNeedHandleLines;
+       newData += preUnNeedHandleLines;
+       
+       //最后一行
+      newData += line;
     }
 
     return newData;

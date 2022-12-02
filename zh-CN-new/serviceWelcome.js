@@ -1,7 +1,7 @@
 export default {
   index: {
     puTongKeHu: "ลูกค้าทั่วไป", 
-    xingMing: "ชื่อ", 
+    xingMing: "ชื่อจริง", 
     keHuZhangHuMing: "ชื่อบัญชีลูกค้า", 
     gengXinRiQi: "วันที่อัปเดต", 
     buYunXuShuRu: "ไม่อนุญาตให้ใช้อักขระที่ผิดกฎ", 
@@ -12,7 +12,7 @@ export default {
     keFuZhangHaoNi: "บัญชีบริการลูกค้า/ชื่อเล่น", 
     zhongZhi: "รีเซ็ต", 
     chaXun: "ตรวจสอบ", 
-    qingShuRuKeFu: "โปรดป้อนตัวแทนฝ่ายบริการลูกค้า", 
+    qingShuRuKeFu: "กรุณากรอกบัญชีบริการลูกค้า", 
     suoYouKeFuZu: "กลุ่มบริการลูกค้าทั้งหมด", 
     suoYouJiNengZu: "กลุ่มทักษะทั้งหมด", 
   },
@@ -20,7 +20,7 @@ export default {
     bianJiChengGong: "แก้ไขสำเร็จ!", 
     peiZhi: "การกำหนดค่า", 
     jieRuHuanYingYu: "เข้าถึงข้อความต้อนรับ", 
-    jiNengZuMingCheng: "ชื่อกลุ่มทักษะ:", 
+    jiNengZuMingCheng: "ชื่อกลุ่มทักษะ", 
     keFuNiCheng: "ชื่อเล่นฝ่ายบริการลูกค้า", 
     keFuZhangHao: "บัญชีบริการลูกค้า:", 
     huanYingYuPeiZhi: "การกำหนดค่าข้อความต้อนรับ", 

@@ -9,7 +9,7 @@ export default {
     yongJiuLaHeiYong: "บล็อกผู้ใช้ถาวร", 
     keHuShu: "จำนวนลูกค้า", 
     xinKeHuShu: "จำนวนลูกค้าใหม่", 
-    qingXuanZe: "กรุณาเลือก", 
+    qingXuanZe: "โปรดเลือก", 
     jinRiKeHuQu: "การกระจายภูมิภาคของลูกค้าในวันนี้", 
     laHeiKeHuFen: "การวิเคราะห์ลูกค้าที่ถูกบล็อก", 
     keHuLaiYuan: "ที่มาของลูกค้า", 

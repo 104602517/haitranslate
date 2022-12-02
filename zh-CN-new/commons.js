@@ -24,7 +24,7 @@ export default {
     fou: "ไม่", 
     shi: "ใช่", 
     weiZongJie: "ยังไม่สรุปผล", 
-    wuXiaoHuiHua: "บทสนทนาไม่มีประสิทธิภาพ", 
+    wuXiaoHuiHua: "บทสนทนไม่มีประสิทธิภาพ", 
     weiJieJue: "ยังไม่ได้แก้ไข", 
     yiJieJue: "แก้ไขแล้ว", 
     weiZhiJian: "ยังไม่ผ่านการตรวจสอบ", 
@@ -142,7 +142,7 @@ export default {
     shaiXuan: "กรอง", 
   },
   onlineServer: {
-    gaiKeFuZuZan: "ไม่มีบริการลูกค้าออนไลน์ในกลุ่มบริการลูกค้านี้", 
+    gaiKeFuZuZan: "ไม่มีบริการลูกค้าออนไลน์สำหรับกลุ่มบริการลูกค้านี้", 
     zhaKanZaiXianKe: "ตรวจดูการบริการลูกค้าออนไลน์", 
   },
   serviceSummary: {
@@ -162,8 +162,8 @@ export default {
     beiZhuShuoMing: "หมายเหตุ:", 
     yeWuLeiXing2: "ประเภทธุรกิจ:", 
     suoShuYeWu: "ธุรกิจ:", 
-    youXiaoHuiHua: "บทสนทนาที่มีประสิทธิภาพ", 
-    huiHuaLeiXing: "ประเภทบทสนทนา", 
+    youXiaoHuiHua: "บทสนทนาที่ถูกต้อง", 
+    huiHuaLeiXing: "ประเภทบทสนทนา:", 
     zheShiGeWuXiao: "นี่เป็นบทสนทนาที่ไม่มีประสิทธิภาพ", 
     youXiaoHuiHuaTi: "บทสนทนาที่มีประสิทธิภาพ ส่งสรุป", 
     qingTianXieBeiZhu: "กรุณากรอกหมายเหตุ", 
@@ -173,7 +173,7 @@ export default {
         suo: '所'
   },
   setBoard: {
-    zuiShaoYaoPeiZhi: "การกำหนดค่าอย่างน้อย 5 รายการ", 
+        zuiShaoYaoPeiZhi: '最少要配置5个哦',
     kePeiZhiDeBan: "บอร์ดที่กำหนดค่าได้", 
   }
 }

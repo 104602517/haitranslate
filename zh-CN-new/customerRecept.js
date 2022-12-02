@@ -1,6 +1,6 @@
 export default {
   autoAcceptCustomerType: {
-    shanChuChengGong: "ลบสำเร็จ", 
+        shanChuChengGong: '删除成功',
     quXiao: "ยกเลิก", 
     queDing: "ยืนยัน", 
     sERGR: "การกำหนดค่าสำหรับ [{val1}] เพื่อรับ [{val2}] โดยอัตโนมัติหรือไม่", 
@@ -27,10 +27,10 @@ export default {
     keHuZuMing: "ชื่อกลุ่มลูกค้า", 
     keFuZuMing: "ชื่อกลุ่มบริการลูกค้า", 
     keJieDaiDeKe: "ลูกค้าที่มีอยู่", 
-    qingXuanZeKeFu: "โปรดเลือกบริการลูกค้าหรือกําหนดค่าการบริการลูกค้ากลุ่มนี้", 
+    qingXuanZeKeFu: "กรุณาเลือกกลุ่มบริการลูกค้า", 
     keHuJieDaiPei: "การกำหนดค่าการรับลูกค้า", 
     quanBuKeHuZu: "ทุกกลุ่มลูกค้า", 
-    quanBuKeFuZu: "กลุ่มบริการลูกค้าทั้งหมด", 
+    quanBuKeFuZu: "ทุกกลุ่มบริการลูกค้า", 
     ziDongJieDaiKe: "การรับกลุ่มลูกค้าโดยอัตโนมัติ", 
     ziDongJieDaiKe2: "การรับประเภทลูกค้าโดยอัตโนมัติ", 
   },

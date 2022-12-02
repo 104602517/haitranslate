@@ -1,6 +1,6 @@
 export default {
   index: {
-    tiShi: "แจ้งเตือน", 
+        tiShi: '提示',
     queDingYaoZhiXing: "แน่ใจไหมว่าต้องการดำเนินการ {val1} นี้", 
     buChuLi: "ไม่ดำเนินการ", 
     yiHuiFang: "ตอบกลับ", 
@@ -27,7 +27,7 @@ export default {
     suoYouKeFu: "ฝ่ายบริการลูกค้าทั้งหมด", 
     qingShuRuKeHu: "กรุณากรอกบัญชีลูกค้าของคุณ", 
     quanXuanJiNengZu: "เลือกกลุ่มทักษะทั้งหมด", 
-    quanBuJiNengZu: "ชุดทักษะทั้งหมด", 
+    quanBuJiNengZu: "กลุ่มทักษะทั้งหมด", 
     quanBuKeHuV: "ระดับวีไอพีของลูกค้าทั้งหมด", 
     quanBuKeHuDeng: "ลูกค้าทุกระดับ", 
   },
@@ -35,7 +35,7 @@ export default {
     jiaZaiZhong: "กำลังโหลด", 
   },
   passwordvalite: {
-    qingShuRuMiMa: "กรุณาใส่รหัสผ่านของคุณ", 
+    qingShuRuMiMa: "กรุณากรอกรหัสผ่านของคุณ", 
     qingShuRuNinDe: "กรุณากรอกรหัสผ่านเข้าสู่ระบบของคุณ", 
     dengLuMiMa: "รหัสผ่านในการเข้าสู่ระบบ", 
     dengLuYongHuMing: "เข้าสู่ระบบด้วยชื่อผู้ใช้", 

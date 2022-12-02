@@ -1,7 +1,7 @@
 export default {
   publicEdit: {
     shanChuNeiRong: "ลบเนื้อหา", 
-    xinZengChengGong: "เพิ่มเรียบร้อยแล้ว!", 
+    xinZengChengGong: "เพิ่มสำเร็จ!", 
     bianJiGongGongKu: "แก้ไขเนื้อหาคลังข้อมูลสาธารณะ", 
     tianJiaGongGongKu: "เพิ่มเนื้อหาคลังข้อมูลสาธารณะ", 
     paiXuZhiBiXu: "ค่าการเรียงลำดับต้องเป็นจำนวนเต็มที่มากกว่า 0 และไม่เกิน 8 ตัว", 
@@ -18,10 +18,10 @@ export default {
   },
   publicIndex: {
     qingXianShanChuNei: "กรุณาลบเนื้อหาออกก่อน", 
-    ninQueDingShanChu: "คุณแน่ใจหรือไม่ที่จะลบบันทึกของ [{val3}] ที่เชื่อมโยงกับ [{val1} (ID{val2})]", 
+    ninQueDingShanChu: "คุณแน่ใจหรือที่จะลบแท็กนี้ [{val1}]?", 
     shanChuBiaoQian: "ลบแท็ก", 
     gongGongKuXL: "คลังข้อมูลสาธารณะ.xlsx", 
-    shangChuanWenJianDa: "ขนาดไฟล์ที่อัพโหลดต้องไม่เกิน 100MB!", 
+    shangChuanWenJianDa: "ขนาดไฟล์อัพโหลดไม่เกิน 10MB!", 
     yiCiZhiYunXu: "อนุญาตให้นำเข้าไฟล์ได้ครั้งละหนึ่งไฟล์เท่านั้น!", 
     daoRuChengGong: "นำเข้าเรียบร้อยแล้ว", 
     qingXianXuanZeWen: "กรุณาเลือกไฟล์ก่อน!", 
@@ -39,7 +39,7 @@ export default {
     biaoQianPaiXuI: "ไอดี การจัดเรียงเนื้อหา", 
     daoChuShuJu: "ส่งออกข้อมูล", 
     daoRuShuJu: "นำเข้าข้อมูล", 
-    shuRuGongGongKu: "ป้อนเนื้อหาคลังข้อมูลสาธารณะเพื่อค้นหา", 
+    shuRuGongGongKu: "ป้อนชื่อแท็กคลังข้อมูลสาธารณะเพื่อค้นหา", 
     quanBuBiaoQian: "แท็กทั้งหมด", 
   },
 };

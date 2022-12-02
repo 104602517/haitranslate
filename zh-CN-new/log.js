@@ -1,7 +1,7 @@
 export default {
   errorLog: {
-    quXiao: "ยกเลิก", 
-    queDing: "ยืนยัน", 
+        quXiao: '取消',
+        queDing: '确定',
     tiShi: "แจ้งเตือน", 
     yiChangRiZhi: "บันทึกผิดปกติ", 
     yiChangXiangQing: "รายละเอียดผิดปกติ", 

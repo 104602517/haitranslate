@@ -1,12 +1,12 @@
 export default {
   dialogChart: {
-    huiHuaJiNengZu: "สถิติบทสนทนาของกลุ่มทักษะ", 
+        huiHuaJiNengZu: '会话技能组统计'
   },
   index: {
     daoChuBaoBiao: "รายงานการส่งออก", 
     fenMiao: "0 นาที 0 วินาที", 
     keHuPingJunPing: "คะแนน/คะแนนการประเมินลูกค้าโดยเฉลี่ย", 
-    pingJunXiangYingShi: "เวลาตอบสนองเฉลี่ย", 
+    pingJunXiangYingShi: "เวลาตอบสนองเฉลี่ย/นาที", 
     huiHuaPingJiaLu: "อัตราการประเมินบทสนทนา %", 
     huiHuaZongJieLu: "อัตราสรุปบทสนทนา %", 
     huiHuaShuGe: "จำนวนบทสนทนา/อัน", 

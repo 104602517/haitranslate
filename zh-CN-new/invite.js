@@ -1,9 +1,9 @@
 export default {
   customerTypeSetting: {
-    sERGR: "การกำหนดค่าสำหรับ [{val1}] เพื่อรับ [{val2}] โดยอัตโนมัติหรือไม่", 
+        sERGR: '【{val1}】邀请【{val2}】的邀请配置？',
   },
   inviteIndex: {
-    sERGR: "การกำหนดค่าสำหรับ [{val1}] เพื่อรับ [{val2}] โดยอัตโนมัติหรือไม่", 
+    sERGR: "การกำหนดค่าคำเชิญสำหรับ [{val1}] เพื่อเชิญ [{val2}]?", 
     qingXianXuanZe: "กรุณาเลือกก่อน!", 
     jiNengZuMing: "ชื่อกลุ่มทักษะ", 
     quanXuan: "เลือกทั้งหมด", 
@@ -22,7 +22,7 @@ export default {
     tiShi: "แจ้งเตือน", 
     ninShiFouQueRen: "คุณยืนยัน {val1}{val2} หรือไม่", 
     youXianYaoQingGao: "เชิญผู้ใช้คิวระดับสูงก่อน", 
-    guanBi: "ปิดทิ้ง", 
+    guanBi: "ปิด", 
     kaiQi: "เปิด", 
     youXianYaoQingYao: "ให้ความสำคัญกับการเชิญผู้ใช้ที่มีทักษะการจับคู่ก่อน", 
     ninShiFouQueDing: "คุณแน่ใจหรือไม่ว่าต้องการให้ {val1}ลูกค้า VIP ได้รับเชิญเป็นกฎข้อแรก", 

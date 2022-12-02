@@ -1,6 +1,6 @@
 export default {
   index: {
-    zhiXingChengGong: "การดำเนินการสำเร็จ", 
+        zhiXingChengGong: '执行成功',
     qingShuRuCR: "โปรดป้อนการแสดงออกของ Cron", 
     qingShuRuFangFa: "กรุณากรอกชื่อวิธีการ", 
     qingShuRuBE: "กรุณากรอกชื่อBean", 
@@ -30,9 +30,9 @@ export default {
   log: {
     shiBai: "ล้มเหลว", 
     renWuRiZhi: "บันทึกงาน", 
-    yiChangXiangQing: "รายละเอียดผิดปกติ", 
+    yiChangXiangQing: "รายละเอียดที่ผิดปกติ", 
     haoShiHaoMiao: "เวลาที่ใช้ (มิลลิวินาที)", 
-    zhaKanXiangQing: "ดูรายละเอียด", 
+    zhaKanXiangQing: "ตรวจดูรายละเอียด", 
     daoChu: "ส่งออก", 
     souSuo: "ค้นหา", 
     riZhiZhuangTai: "สถานะบันทึก", 

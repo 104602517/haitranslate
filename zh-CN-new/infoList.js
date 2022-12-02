@@ -19,7 +19,7 @@ export default {
     caiJiLieBiao: "รายการรวบรวม", 
     caiJiXiangQing: "รายละเอียดรวบรวม", 
     caoZuo: "การดำเนินการ", 
-    fuJian: "ฝูเจี้ยน", 
+    fuJian: "ไฟล์แนบ", 
     diLiWeiZhi: "ที่ตั้ง", 
     caiJiJieMianMing: "ชื่อส่วนต่อประสานรวบรวม", 
     xiTongHuanJing: "สภาพแวดล้อมของระบบ", 
@@ -29,7 +29,7 @@ export default {
     tiJiaoShiJian: "เวลายื่น", 
     quanBu: "ทั้งหมด", 
     qingXuanZeZhongDuan: "โปรดเลือกประเภทเทอร์มินัล", 
-    qingShuRuKeHu: "กรุณากรอกบัญชีลูกค้าของคุณ", 
+    qingShuRuKeHu: "โปรดป้อนเวอร์ชันหน้าลูกค้า", 
     qingXuanZeXiTong: "กรุณาเลือกสภาพแวดล้อมของระบบ", 
-    qingShuRuZhangHu: "กรุณาใส่ชื่อบัญชี", 
+    qingShuRuZhangHu: "กรุณาใส่ชื่อบัญชีของคุณ", 
 };

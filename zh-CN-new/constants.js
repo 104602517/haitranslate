@@ -1,6 +1,6 @@
 export default {
   index: {
-    xiaoYu: "ต่ำกว่า", 
+        xiaoYu: '小于',
     dengYu: "เท่ากับ", 
     daYu: "มากกว่า", 
     tuiGuangShangKeHu: "ลูกค้าจากผู้สนับสนุน", 
@@ -19,16 +19,16 @@ export default {
     chaoShiGuanBi: "หมดเวลาปิดทิ้ง", 
     yiJieJue: "แก้ไขแล้ว", 
     weiJieJue: "ยังไม่ได้แก้ไข", 
-    weiZongJie: "ยังไม่สรุปผล", 
-    wuXiaoHuiHua: "บทสนทนาไม่มีประสิทธิภาพ", 
+    weiZongJie: "ยังไม่ได้สรุปผล", 
+    wuXiaoHuiHua: "บทสนทนไม่มีประสิทธิภาพ", 
     youXiaoHuiHua: "บทสนทนาที่มีประสิทธิภาพ", 
     yaoQingPingJia: "ส่งเชิญประเมิน", 
     zhuDongPingJia: "การประเมินเอง", 
     xing: "1 ดาว", 
-    xing2: "2 ดาว", 
+        xing2: '2星',
     xing3: "3 ดาว", 
-    xing4: "4 ดาว", 
-    xing5: "5 ดาว", 
+        xing4: '4星',
+        xing5: '5星'
   },
   Langs: {
         quanbuYuyang: '全部语言',

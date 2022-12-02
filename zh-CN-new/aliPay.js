@@ -1,6 +1,6 @@
 export default {
   config: {
-    xiuGaiChengGong: "แก้ไขเรียบร้อยแล้ว", 
+        xiuGaiChengGong: '修改失败',
     huiTiaoDiZhiBu: "ที่อยู่ติดต่อกลับ (ห้ามเว้นว่าง)", 
     zhiFuBaoGongYao: "คีย์สาธารณะของอาลีเพย์ (ห้ามเว้นว่าง)", 
     shangHuSiYaoBu: "คีย์ส่วนตัวขอร้านค้า (ห้ามเว้นว่าง)", 

@@ -1,6 +1,6 @@
 export default {
   addKey: {
-    xiuGaiChengGong: "แก้ไขเรียบร้อยแล้ว", 
+        xiuGaiChengGong: '修改失败！',
     tianJiaChanPin: "เพิ่มสินค้า", 
     xiuGaiChanPin: "แก้ไขสินค้า", 
     shi: "ใช่", 
@@ -17,15 +17,15 @@ export default {
     chanPinID: "ไอดี สินค้า", 
   },
   keyIndex: {
-    ninQueDingShanChu: "คุณแน่ใจหรือไม่ที่จะลบบันทึกของ [{val3}] ที่เชื่อมโยงกับ [{val1} (ID{val2})]", 
+    ninQueDingShanChu: "คุณแน่ใจหรือที่จะลบ [{val1}(ID{val2})]?", 
     bianJiChengGong: "แก้ไขสำเร็จ!", 
     chanPinLieBiao: "รายการสินค้า", 
     xiuGai: "แก้ไข", 
     gengXinShiJian: "เวลาอัปเดต", 
     chuangJianShiJian: "เวลาที่สร้าง", 
     qingShuRuChanPin: "กรุณาใส่ชื่อสินค้า", 
-    qingShuRuYingYong: "โปรดป้อนพอร์ตแอปพลิเคชัน", 
-    qingShuRuYingYong2: "กรุณากรอกชื่อแอปพลิเคชัน", 
+    qingShuRuYingYong: "กรุณากรอกชื่อแอปพลิเคชัน", 
+    qingShuRuYingYong2: "กรุณากรอกเลขที่แอปพลิเคชัน", 
     suoYouYingYongLei: "แอปพลิเคชันทุกประเภท", 
     suoYouZhuangTai: "สถานะทั้งหมด", 
     chanPinZhuangTai: "สถานะสินค้า", 

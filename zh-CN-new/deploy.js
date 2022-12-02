@@ -11,7 +11,7 @@ export default {
     buShu: "การปรับใช้", 
     buShuRiQi: "วันที่ปรับใช้", 
     fuWuQiLieBiao: "รายการเซิร์ฟเวอร์", 
-    qingXuanZe: "กรุณาเลือก", 
+    qingXuanZe: "โปรดเลือก", 
     fuWuQi: "เซิร์ฟเวอร์", 
     yiJianBuShu: "ปรับใช้คลิกเดียว", 
     yiJianBuShu2: "ปรับใช้คลิกเดียว", 

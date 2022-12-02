@@ -1,6 +1,6 @@
 export default {
   index: {
-    gangWeiShiFouJi: "ตำแหน่ง คุณต้องการดำเนินการต่อหรือไม่?", 
+        gangWeiShiFouJi: '岗位, 是否继续？',
     gangWei: "ตำแหน่ง", 
     suoShuBuMen: "แผนก", 
   },

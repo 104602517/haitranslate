@@ -2,7 +2,7 @@ export default {
   addAwake: {
     sCEEN: "[{val1}] เชื่อมโยงกับ [{val2}]!", 
     bianJiChengGong: "แก้ไขสำเร็จ!", 
-    tianJiaChengGong: "เพิ่มเรียบร้อยแล้ว", 
+    tianJiaChengGong: "เพิ่มสำเร็จ!", 
     qingXuanZeGuanLian: "โปรดเลือกกลุ่มทักษะที่เกี่ยวข้อง", 
     qingXuanZeHuanXing: "โปรดเลือกสถานการณ์ปลุก", 
     queRen: "ยืนยัน", 
@@ -16,7 +16,7 @@ export default {
     huanXingID: "ไอดี ปลุก", 
   },
   awakenIndex: {
-    shanChuChengGong: "ลบสำเร็จ", 
+    shanChuChengGong: "ลบสำเร็จแล้ว", 
     queDing: "ยืนยัน", 
     shuoMingRuGuoShang:
       '说明:如果商户端已调用该ID，删除后客户会直接进入询前页。',

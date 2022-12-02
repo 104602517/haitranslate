@@ -6,10 +6,14 @@ const getPureStr = (str) => {
     str = str.trim()
     str = str.replace(/(.*?)([!！]*)$/, '$1')
     str = str.trim()
+
+    return str
 }
 
 
 const isSameValueInArr = (arr) => {
+    if(!arr.length) return false
+
     let isSame = true;
     const firstPureStr = getPureStr(arr[0].value)
 

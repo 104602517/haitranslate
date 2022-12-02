@@ -4,3 +4,4 @@ export default {
     ThreeMenu2: "เมนูตติยภูมิ2", 
     ThreeMenu1: "เมนูตติยภูมิ1", 
     },
+  };
