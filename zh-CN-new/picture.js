@@ -12,8 +12,7 @@ export default {
     queRen: "ยืนยัน", 
     shangChuan: "อัพโหลด", 
     tongBu: "ซิงค์", 
-    shiYongTongBuGong:
-      '使用同步功能需要在 https://sm.ms/login 中注册账号，并且在 application.yml 文件中修改 Secret Token',
+    shiYongTongBuGong: "หากต้องการซิงค์ คุณต้องลงทะเบียนบัญชีใน https://sm.ms/login และเปลี่ยน Secret Token ในไฟล์ application.yml", 
     jieShuRiQi: "วันที่สิ้นสุด", 
     kaiShiRiQi: "วันที่เริ่มต้น", 
     shuRuWenJianMing: "กรอกชื่อไฟล์", 

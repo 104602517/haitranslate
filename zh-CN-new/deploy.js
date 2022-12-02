@@ -2,8 +2,7 @@ export default {
     wEBSO: "เกิดข้อผิดพลาดในการเชื่อมต่อ WebSocket", 
     xiuGaiChengGong: "แก้ไขเรียบร้อยแล้ว", 
     tianJiaChengGong: "เพิ่มเรียบร้อยแล้ว", 
-  duoGeYingYongShang:
-    '多个应用上传文件名称为all.zip,数据库更新脚本扩展名为.sql,上传成功后系统自动部署系统。',
+    duoGeYingYongShang: "มีการอัปโหลดแอปพลิเคชันหลายรายการด้วยชื่อไฟล์ all.zip และสคริปต์การอัปเดตฐานข้อมูลนามสกุล .sql และระบบจะปรับใช้โดยอัตโนมัติหลังจากอัปโหลดสำเร็จ", 
     yingYongBuShu: "การปรับใช้แอปพลิเคชัน", 
   index: {
     fuWuQiBuNeng: "เซิร์ฟเวอร์ (ห้ามเว้นว่าง)", 

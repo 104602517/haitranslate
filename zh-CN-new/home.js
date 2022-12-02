@@ -40,14 +40,12 @@ export default {
         'dot': ' ⋅ ',
     haoDeYiYongG: "ตกลง ผูกกับ Google Authenticator แล้ว", 
     woYiShiYongG: "\n ฉันใช้ Google Authenticator โดยการสแกนรหัสเพื่อผูก \n", 
-    qingNinXianDaKai:
-      '\n        请您先打开Google验证器，扫码绑定后再登录。\n      ',
+    qingNinXianDaKai: "\n โปรดเปิด Google Authenticator ก่อนแล้วสแกนรหัสเพื่อผูก จากนั้นเข้าสู่ระบบ \n", 
     gaiZhangHuHaiWei: "บัญชียังไม่ได้ผูกกับ Goolge Authenticator และไม่สามารถเข้าสู่ระบบได้", 
     saoMiaoErWeiMa: "สแกนคิวอาร์โค้ด", 
     dengLu: "เข้าสู่ระบบ", 
     jiZhuWo: "\n จำฉันไว้\n", 
-    yanZhengMaXianShi:
-      '验证码显示不出来时，请尝试清除浏览器缓存后重新启动浏览器或者更换浏览器。',
+    yanZhengMaXianShi: "หากรหัสยืนยันไม่ปรากฏขึ้น โปรดลองล้างแคชของเบราว์เซอร์และเข้าเบราว์เซอร์ใหม่หรือเปลี่ยนเบราว์เซอร์", 
     qingShuRuGO: "โปรดป้อนรหัสยืนยันของ Google", 
     yanZhengMa: "รหัสยืนยัน", 
     miMa: "รหัส", 

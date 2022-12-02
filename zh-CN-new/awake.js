@@ -18,10 +18,8 @@ export default {
   awakenIndex: {
     shanChuChengGong: "ลบสำเร็จแล้ว", 
     queDing: "ยืนยัน", 
-    shuoMingRuGuoShang:
-      '说明:如果商户端已调用该ID，删除后客户会直接进入询前页。',
-    ninQueDingShanChu:
-      '您确定删除【{val1}（ID{val2}）】的关联的【{val3}】的记录?',
+    shuoMingRuGuoShang: "หมายเหตุ: หากร้านค้าเรียก ID นี้ ลูกค้าจะเข้าสู่หน้าสอบถามก่อนหน้าโดยตรงหลังจากการลบ", 
+    ninQueDingShanChu: "คุณแน่ใจหรือไม่ที่จะลบบันทึกของ [{val3}] ที่เชื่อมโยงกับ [{val1} (ID{val2})]", 
     shanChuHuanXingChang: "ลบหน้าปลุก", 
     tianJiaHuanXingChang: "เพิ่มหน้าปลุก", 
     bianJiHuanXingChang: "แก้ไขหน้าปลุก", 

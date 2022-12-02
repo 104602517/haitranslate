@@ -47,9 +47,8 @@ export default {
     jieDaiKeFu: "ฝ่ายต้อนรับลูกค้า", 
     keHuZhangHu: "บัญชีลูกค้า", 
     huiHuaID: "ไอดี บทสนทนา", 
-    zanWuShuJuQing:
-      '\n            暂无数据，请重新选择搜索条件进行查询！\n          ',
-        zaiXianKeFu: '在线客服',
+    zanWuShuJuQing: "ไม่มีข้อมูล โปรดเลือกเกณฑ์การค้นหาเพื่อค้นหาอีกครั้ง!", 
+    zaiXianKeFu: "ฝ่ายบริการลูกค้าออนไลน์", 
     quanBuJiNengZu: "กลุ่มทักษะทั้งหมด", 
     quanBuKeFu: "ฝ่ายบริการลูกค้าทั้งหมด", 
     keHuPingJiaJi: "บันทึกการประเมินของลูกค้า", 

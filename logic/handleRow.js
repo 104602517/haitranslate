@@ -106,16 +106,11 @@ function getNewLine(newInfo, line) {
        // 组合newLine
     if (newInfo) {
         
-        if (newInfo.key === 'zuoZheMingCheng') {
-            console.log(newInfo,33)
-        }
+       
         newLine = newInfo.key + ': "' + newInfo.value + '", \n'
     } else {
         
-        if (line.includes('zuoZheMingCheng')) {
-             debugger
-            console.log(line,33)
-        }
+       
         newLine = line ?  line + '\n' : ' '
     }
 

@@ -4,7 +4,6 @@ const path = require('path')
  
 const appenFile = function(filePath, data){
 
-
         fs.appendFile(filePath,data,function(err){
             if(err) {
                 return console.log(err);
@@ -15,7 +14,6 @@ const appenFile = function(filePath, data){
 
 
 const createFile=  async function(filePath){
-   
     
     fs.writeFile(filePath,'' ,function (err) {
         if(err){

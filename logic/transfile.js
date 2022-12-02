@@ -15,18 +15,28 @@ const getKeyValue = require('../util/getKeyValue')
     let lineInfo = {}
     // 上一行如果是 key:value 存储到lastline中
     let lastLine = ''
+    const multiLineStartReg = /(.*):[\s\n\r]*$/
+     
+    /**
+     * 存储key,value在两行的情况， 如
+     *     dianJiDaoRuHou:
+      '点击“导入”后，系统将自动执行，请确认文件是否正确，确认后请点击导入。',
+     */
+    let multiLineStart = ''
 
     for(let i =0; i< fileData.length; i++){
       const item = fileData[i];
 
-      if(item === '\n' || item === '\r'){
+       if (item === '\n' || item === '\r') {
+          if (multiLineStart) {
+             line = multiLineStart + line
+             multiLineStart = ''
+         }
+          
          lineInfo = getKeyValue(line)
  
-
-         const tow = lineInfo && lineInfo.key === "ThreeMenu1"
-
-         if (  tow) {
-            console.log( lineInfo.key)
+         if (multiLineStartReg.test(line)) {
+            multiLineStart = line
          }
 
           // 读到第一行
@@ -46,8 +56,12 @@ const getKeyValue = require('../util/getKeyValue')
             preInfo = lineInfo;
          }
 
-         // 如果当前行不是 key:value, 缓存起来
-         if(!lineInfo){
+          if (multiLineStart) {
+           
+          }
+          else if (!lineInfo) {
+          // 如果当前行不是 key:value, 缓存起来
+             
             line = line + '\n'
             preUnNeedHandleLines += line
          } else {

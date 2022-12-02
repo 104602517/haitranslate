@@ -97,8 +97,7 @@ export default {
     mARKD: "ขึ้นอยู่กับ Markdown", 
   },
   YamlEdit: {
-    zhanShiShuJuRu:
-      '# 展示数据，如需更换主题，请在src/components/YamlEdit 目录中搜索原主题名称进行替换\n',
+    zhanShiShuJuRu: "#แสดงข้อมูล หากคุณต้องการเปลี่ยนธีม โปรดค้นหาชื่อธีมดั้งเดิมในsrc/components/YamlEdit เพื่อแทนที่", 
     zhuTiYuLanDi: "ที่อยู่ดูตัวอย่างธีม", 
     zhuTiYuLanDi2: "ที่อยู่ดูตัวอย่างธีม", 
     yAMLBian: "โปรแกรมแก้ไข Yaml ขึ้นอยู่กับ", 
