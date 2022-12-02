@@ -5,9 +5,9 @@ export default {
     shangChuanHouXiTong: "หลังจากอัปโหลด ระบบจะเรียกใช้สคริปต์ SQL โดยอัตโนมัติ", 
     dianJiShangChuan: "คลิกอัปโหลด", 
     jiangWenJianTuoDao: "ลากและวางไฟล์ที่นี่ หรือ", 
+    zhiXingJiaoBen: "สคริปต์การดำเนินการ", 
   },
   index: {
-    zhiXingJiaoBen: "สคริปต์การดำเนินการ", 
     lianJieShiBai: "การเชื่อมต่อล้มเหลว", 
     lianJieChengGong: "การเชื่อมต่อสำเร็จ", 
     qingShuRuShuJu: "กรุณากรอกรหัสผ่านของฐานข้อมูล", 
@@ -24,6 +24,6 @@ export default {
     jDBCDi: "ที่อยู่ JDBC", 
     lianJieMingCheng: "ชื่อการเชื่อมต่อ", 
     zhiXingJiaoBen: "สคริปต์การดำเนินการ", 
-        moHuSouSuo: '模糊搜索',
+    moHuSouSuo: "ค้นหา", 
   },
 };

@@ -1,12 +1,12 @@
 export default {
   dialogChart: {
+    huiHuaJiNengZu: "สถิติบทสนทนาของกลุ่มทักษะ", 
   },
   index: {
-        daoChuBaoBiao: '导出报表',
-        fenMiao: '0分0秒',
+    daoChuBaoBiao: "รายงานการส่งออก", 
     fenMiao: "0 นาที 0 วินาที", 
     keHuPingJunPing: "คะแนน/คะแนนการประเมินลูกค้าโดยเฉลี่ย", 
-    pingJunXiangYingShi: "เวลาตอบสนองเฉลี่ย/นาที", 
+    pingJunXiangYingShi: "เวลาตอบสนองเฉลี่ย", 
     huiHuaPingJiaLu: "อัตราการประเมินบทสนทนา %", 
     huiHuaZongJieLu: "อัตราสรุปบทสนทนา %", 
     huiHuaShuGe: "จำนวนบทสนทนา/อัน", 
@@ -27,8 +27,8 @@ export default {
     huiHuaQuDaoTong: "สถิติช่องทางกานสนทนา", 
     zanWuShuJu: "ไม่มีข้อมูลในขณะนี้", 
     gengDuo: "มากกว่านี้", 
-        chaXun: '查询',
+    zhongZhi: "รีเซ็ต", 
     chaXun: "ตรวจสอบ", 
-        quanBuKeFuZu: '全部客服组'
+    quanBuKeFuZu: "กลุ่มบริการลูกค้าทั้งหมด", 
   }
 }

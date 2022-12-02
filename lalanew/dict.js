@@ -9,13 +9,13 @@ export default {
     ziDianBiaoQian: "แท็กพจนานุกรม", 
     suoShuZiDian: "พจนานุกรม", 
     shuRuZiDianBiao: "กรอกแท็กพจนานุกรมเพื่อค้นหา", 
+    dianJiZiDianCha: "คลิกที่พจนานุกรมเพื่อดูรายละเอียด", 
   },
   index: {
-    dianJiZiDianCha: "คลิกที่พจนานุกรมเพื่อดูรายละเอียด", 
     miaoShu: "คำอธิบาย", 
     ziDianMingCheng: "ชื่อพจนานุกรม", 
     ziDian: "พจนานุกรม", 
     xinZeng: "เพิ่มใหม่", 
-        shuRuMingChengHuo: '输入名称或者描述搜索',
+    shuRuMingChengHuo: "กรอกชื่อหรือคำอธิบายเพื่อค้นหา", 
   },
 };

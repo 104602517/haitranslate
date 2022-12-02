@@ -4,9 +4,9 @@ export default {
     zhiNengBuNengWei: "ฟังก์ชัน (ห้ามเว้นว่าง)", 
     qingXuanZeZhiNeng: "กรุณาเลือกฟังก์ชั่น", 
     qingXianXuanZeZhi: "กรุณาเลือกฟังก์ชั่นก่อน", 
+    xiuGaiZhiNeng: "แก้ไขฟังก์ชั่น", 
   },
   updateEmail: {
-    xiuGaiZhiNeng: "แก้ไขฟังก์ชั่น", 
     huoQuYanZhengMa: "รับรหัสยืนยัน", 
     youXiangXiuGaiCheng: "แก้ไขอีเมลเรียบร้อยแล้ว", 
     chongXinFaSong: "ส่งใหม่อีกครั้ง", 
@@ -21,12 +21,12 @@ export default {
     xinYouXiangBuNeng2: "อีเมลใหม่ (ห้ามเว้นว่าง)", 
     dangQianMiMa: "รหัสผ่านปัจจุบัน", 
     yanZhengMa: "รหัสยืนยัน", 
+    xinYouXiang: "อีเมลใหม่", 
   },
   updatePass: {
-    xinYouXiang: "อีเมลใหม่", 
+    miMaXiuGaiCheng: "เปลี่ยนรหัสผ่านสำเร็จ กรุณาเข้าสู่ระบบอีกครั้ง", 
     weiYiShangMiMa:
       '8-20位以上密码,数字,字母,字符至少包含两种,不能包含中文和空格',
-    miMaXiuGaiCheng: "เปลี่ยนรหัสผ่านสำเร็จ กรุณาเข้าสู่ระบบอีกครั้ง", 
     weiShuZiZiMu: "8-20 ตัว ประกอบด้วยตัวเลขและตัวอักษรอย่างน้อย 2 ชนิด ห้ามมีภาษาจีนและเว้นวรรค", 
     qingShuRuXinMi: "กรุณาใส่รหัสผ่านใหม่", 
     qingShuRuJiuMi: "กรุณาใส่รหัสผ่านเก่า", 
@@ -38,9 +38,9 @@ export default {
     xinMiMa: "รหัสผ่านใหม่", 
     chuShiMiMa: "รหัสผ่านเริ่มต้น", 
     yuanZhangHuMiMa: "รหัสผ่านบัญชีเดิม", 
+    zhangHu: "บัญชี", 
     weiLeNinDeZhang:
       '为了您的账号安全，请您修改登录密码。修改完成后，需要重新登录。',
-    zhangHu: "บัญชี", 
     xiuGaiMiMa: "เปลี่ยนรหัสผ่าน", 
     xiuGaiZhangHuHe: "แก้ไขบัญชีและรหัสผ่าน", 
   },

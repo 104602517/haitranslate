@@ -12,12 +12,12 @@ export default {
     liuYanRiQi: "วันที่ข้อความ", 
     zhaKan: "ตรวจดู", 
     liuYanTuPian: "รูปภาพข้อความ", 
-        lianxufangshi: '联系方式',
-
+    liuYanNeiRong: "เนื้อหาข้อความ", 
         weiXin: '微信',
+
     weiXin: "วีแชท", 
     shouJi: "โทรศัพท์มือถือ", 
-        nan: '男',
+    nu: "ผู้หญิง", 
     nan: "ผู้ชาย", 
     xingMingXingBie: "ชื่อ/เพศ", 
     ziXunWenTi: "ปรึกษาปัญหา", 
@@ -25,19 +25,19 @@ export default {
     keHuZhangHuNi: "บัญชีลูกค้า/ชื่อเล่น", 
     quanBuKeFu: "ฝ่ายบริการลูกค้าทั้งหมด", 
     suoYouKeFu: "ฝ่ายบริการลูกค้าทั้งหมด", 
-        quanXuanJiNengZu: '全选技能组',
-        quanBuJiNengZu: '全部技能组',
-    quanBuJiNengZu: "กลุ่มทักษะทั้งหมด", 
+    qingShuRuKeHu: "กรุณากรอกบัญชีลูกค้าของคุณ", 
+    quanXuanJiNengZu: "เลือกกลุ่มทักษะทั้งหมด", 
+    quanBuJiNengZu: "ชุดทักษะทั้งหมด", 
     quanBuKeHuV: "ระดับวีไอพีของลูกค้าทั้งหมด", 
-  },
-  lookPicture: {
     quanBuKeHuDeng: "ลูกค้าทุกระดับ", 
   },
-  passwordvalite: {
+  lookPicture: {
     jiaZaiZhong: "กำลังโหลด", 
-    qingShuRuMiMa: "กรุณากรอกรหัสผ่านของคุณ", 
-        dengLuMiMa: '登录密码',
-        dengLuYongHuMing: '登录用户名',
+  },
+  passwordvalite: {
+    qingShuRuMiMa: "กรุณาใส่รหัสผ่านของคุณ", 
+    qingShuRuNinDe: "กรุณากรอกรหัสผ่านเข้าสู่ระบบของคุณ", 
+    dengLuMiMa: "รหัสผ่านในการเข้าสู่ระบบ", 
     dengLuYongHuMing: "เข้าสู่ระบบด้วยชื่อผู้ใช้", 
     zhaKanXiangQingMi: "ตรวจดูรายละเอียดการยืนยันรหัสผ่าน", 
   }

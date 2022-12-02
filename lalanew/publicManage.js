@@ -1,7 +1,7 @@
 export default {
   publicEdit: {
     shanChuNeiRong: "ลบเนื้อหา", 
-    xinZengChengGong: "เพิ่มสำเร็จ!", 
+    xinZengChengGong: "เพิ่มเรียบร้อยแล้ว!", 
     bianJiGongGongKu: "แก้ไขเนื้อหาคลังข้อมูลสาธารณะ", 
     tianJiaGongGongKu: "เพิ่มเนื้อหาคลังข้อมูลสาธารณะ", 
     paiXuZhiBiXu: "ค่าการเรียงลำดับต้องเป็นจำนวนเต็มที่มากกว่า 0 และไม่เกิน 8 ตัว", 
@@ -14,14 +14,14 @@ export default {
     dianJiBiaoQianCha: "คลิกที่แท็กเพื่อดูรายละเอียด", 
     gongGongKuNeiRong3: "ค่าการเรียงลำดับเนื้อหาคลังข้อมูลสาธารณะ", 
     suoShuBiaoQian: "แท็กที่เกี่ยวข้อง", 
+    xinZeng: "เพิ่มใหม่", 
   },
   publicIndex: {
-    xinZeng: "เพิ่มใหม่", 
     qingXianShanChuNei: "กรุณาลบเนื้อหาออกก่อน", 
-    ninQueDingShanChu: "คุณแน่ใจหรือที่จะลบแท็กนี้ [{val1}]?", 
+    ninQueDingShanChu: "คุณแน่ใจหรือไม่ที่จะลบบันทึกของ [{val3}] ที่เชื่อมโยงกับ [{val1} (ID{val2})]", 
     shanChuBiaoQian: "ลบแท็ก", 
     gongGongKuXL: "คลังข้อมูลสาธารณะ.xlsx", 
-    shangChuanWenJianDa: "ขนาดไฟล์อัพโหลดไม่เกิน 10MB!", 
+    shangChuanWenJianDa: "ขนาดไฟล์ที่อัพโหลดต้องไม่เกิน 100MB!", 
     yiCiZhiYunXu: "อนุญาตให้นำเข้าไฟล์ได้ครั้งละหนึ่งไฟล์เท่านั้น!", 
     daoRuChengGong: "นำเข้าเรียบร้อยแล้ว", 
     qingXianXuanZeWen: "กรุณาเลือกไฟล์ก่อน!", 
@@ -29,9 +29,9 @@ export default {
     qingShuRuBiaoQian: "กรุณากรอกชื่อแท็ก", 
     qingShuRuBiaoQian2: "โปรดกรอกค่าการจัดเรียงแท็ก", 
     gongGongKuBiaoQian: "แท็กคลังข้อมูลสาธารณะ", 
+    daoRu: "นำเข้า", 
     dianJiDaoRuHou:
       '点击“导入”后，系统将自动执行，请确认文件是否正确，确认后请点击导入。',
-    daoRu: "นำเข้า", 
     yiCiZhiYunXu2: "อนุญาตให้นำเข้าไฟล์ได้ครั้งละหนึ่งไฟล์เท่านั้น!", 
     dianJiXuanZeWen: "คลิกเพื่อเลือกไฟล์", 
     jiangWenJianTuoDao: "ลากและวางไฟล์ที่นี่ หรือ", 
@@ -39,7 +39,7 @@ export default {
     biaoQianPaiXuI: "ไอดี การจัดเรียงเนื้อหา", 
     daoChuShuJu: "ส่งออกข้อมูล", 
     daoRuShuJu: "นำเข้าข้อมูล", 
-    shuRuGongGongKu: "ป้อนชื่อแท็กคลังข้อมูลสาธารณะเพื่อค้นหา", 
+    shuRuGongGongKu: "ป้อนเนื้อหาคลังข้อมูลสาธารณะเพื่อค้นหา", 
     quanBuBiaoQian: "แท็กทั้งหมด", 
   },
 };

@@ -1,6 +1,6 @@
 export default {
   index: {
-    tongBuChengGong: "ซิงค์สำเร็จ", 
+    tongBuChengGong: "การซิงโครไนซ์สำเร็จ", 
     tuPian: "รูปภาพ", 
     chuangJianRiQi: "วันที่สร้าง", 
     kuanDu: "ความกว้าง", 
@@ -10,12 +10,12 @@ export default {
     shangChuanZhe: "ผู้อัปโหลด", 
     wenJianMing: "ชื่อไฟล์", 
     queRen: "ยืนยัน", 
-    shangChuan: "อัพโหลด", 
+    shangChuan: "อัปโหลด \n", 
+    tongBu: "การซิงโครไนซ์", 
     shiYongTongBuGong:
       '使用同步功能需要在 https://sm.ms/login 中注册账号，并且在 application.yml 文件中修改 Secret Token',
-        jieShuRiQi: '结束日期',
-        kaiShiRiQi: '开始日期',
+    jieShuRiQi: "วันที่สิ้นสุด", 
     kaiShiRiQi: "วันที่เริ่มต้น", 
-        shuRuWenJianMing: '输入文件名',
+    shuRuWenJianMing: "กรอกชื่อไฟล์", 
   },
 };

@@ -2,7 +2,7 @@ export default {
   index: {
     guanBiQuanBu: "ปิดทั้งหมด", 
     guanBiQiTa: "ปิดอื่น ๆ", 
-    guanBi: "ปิด", 
-        shuaXin: '刷新',
+    guanBi: "ปิดทิ้ง", 
+    shuaXin: "รีเฟรช", 
   },
 };

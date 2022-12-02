@@ -42,12 +42,14 @@ const getKeyValue = require('../util/getKeyValue')
          if(!lineInfo){
             line = line + '\n'
             preUnNeedHandleLines += line
-         }else{
-            newData += preUnNeedHandleLines;
-
+         } else {
+            
             if(newLine){
                newData += '    ' + newLine;
             }
+            newData += preUnNeedHandleLines;
+
+          
             newLine = '';
          
             preUnNeedHandleLines = '';

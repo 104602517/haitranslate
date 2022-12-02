@@ -1,5 +1,5 @@
 export default {
   EditInput: {
-        biaoTi: '标题',
+    biaoTi: "หัวข้อเรื่อง", 
   },
 };

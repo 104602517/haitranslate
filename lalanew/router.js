@@ -3,6 +3,6 @@ export default {
     keHuXiangQing: "รายละเอียดลูกค้า", 
     geRenZhongXin: "บัญชีของฉัน", 
     shouYe: "หน้าหลัก", 
-        dengLu: '登录',
+    dengLu: "เข้าสู่ระบบ", 
   },
 };

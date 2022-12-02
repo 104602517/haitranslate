@@ -1,16 +1,16 @@
 export default {
   BarMore: {
-        liKai: '离开',
-        xiLie: '系列2',
-        dengLuZhuangTaiM: '登录状态(min)',
-        zhanBi: '占比：',
-        dengLuShiChang: '登录时长:',
-        zaiXian: '在线',
+    zhiMang: "ยุ่ง", 
+    liKai: "ออก", 
+    xiLie: "ชุดที่ 2", 
+    dengLuZhuangTaiM: "สถานะการเข้าสู่ระบบ (ขั้นต่ำ)", 
+    zhanBi: "สัดส่วน:", 
+    dengLuShiChang: "ระยะเวลาเข้าสู่ระบบ:", 
     zaiXian: "ออนไลน์", 
     fanMang: "ยุ่ง", 
+    tHISB: "{val1}การวิเคราะห์การควบคุมคุณภาพ", 
   },
   tapChart: {
-    tHISB: "{val1}ระยะเวลาการเข้าสู่ระบบ", 
     dengLuShiChangM: "เวลาเข้าสู่ระบบ/นาที", 
   },
 };

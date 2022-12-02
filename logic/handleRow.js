@@ -1,6 +1,6 @@
 
 const {appenFile} = require('../util/file.js')
-
+const {isSameValueInArr} = require('../util/arr')
  const noMatchPath = './noMatch.js'
  
 
@@ -30,12 +30,13 @@ const {appenFile} = require('../util/file.js')
     }
 
  }
+ 
 
 module.exports = function handleRow({handleInfo, preInfo, afterInfo, line, fileName, TRANSLATION_ORIGINN_DATA}){
     let newLine = null;
     let newInfo = null;
     let matchedResults = []
-    let PreMatches = []
+    let preMatches = []
     let afterMatches = []
     let preAfterMatches = []
 
@@ -49,42 +50,37 @@ module.exports = function handleRow({handleInfo, preInfo, afterInfo, line, fileN
     
     matchedResults = TRANSLATION_ORIGINN_DATA.filter((translation, index) => equalCur(index))
     const matchedLength = matchedResults.length
+    const canUseMatchRes = matchedLength === 1 || (matchedLength > 1 && isSameValueInArr(matchedResults))
 
-    if (matchedLength === 1) {
+    if ( canUseMatchRes){
         newInfo = matchedResults[0]
-
         return getNewLine(newInfo, line)
     }
 
-    if(matchedLength > 1){
-
-        PreMatches = TRANSLATION_ORIGINN_DATA.filter((translation, index) =>  equalCur(index) && equalPre(index-1))
-
-         if(PreMatches.length > 1){
-            // 对比前后
-            preAfterMatches = TRANSLATION_ORIGINN_DATA.filter((translation, index) =>  equalCur(index) && equalPre(index-1) && equalAfter(index+1))
-           
-            if(preAfterMatches.length ===1 ){
-             newInfo = preAfterMatches[0]
-            }else{
-                       appendToNoMatch({noMatchPath, line, fileName})
-
-
-            }
-
-         }else if(preAfterMatches.length === 1){
-             newInfo = PreMatches[0]
-         }else{
-              // 对比后面
-              afterMatches = TRANSLATION_ORIGINN_DATA.filter((translation, index) =>  equalCur(index) && equalAfter(index+1))
-
-              if(afterMatches.length === 1){
-                 newInfo = afterMatches[0]
-              }else{
-                appendToNoMatch({noMatchPath, line, fileName})
+    if (matchedLength > 1) {
+        
+        preMatches = TRANSLATION_ORIGINN_DATA.filter((translation, index) =>  equalCur(index) && equalPre(index-1))
+        afterMatches = TRANSLATION_ORIGINN_DATA.filter((translation, index) =>  equalCur(index) && equalAfter(index+1))
+        preAfterMatches = TRANSLATION_ORIGINN_DATA.filter((translation, index) =>  equalCur(index) && equalPre(index-1) &&  equalAfter(index+1))
+        
+        const canUsePreMatchRes = preMatches.length === 1 || (preMatches.length > 1 && isSameValueInArr(preMatches) )
+        const canUseAfterMatchRes = preMatches.length === 1 || (preMatches.length > 1 && isSameValueInArr(preAfterMatches) )
+        const canUsePreAfterMatchRes = preAfterMatches.length === 1 || (preAfterMatches.length > 1 && isSameValueInArr(preAfterMatches) )
+      
+        if (canUsePreMatchRes) {
+            return getNewLine(preMatches[0], line)  
+        }
  
-              }
+         if (canUseAfterMatchRes) {
+            return getNewLine(afterMatches[0], line)  
          }
+        
+         if (canUsePreAfterMatchRes) {
+            return getNewLine(preAfterMatches[0], line)  
+         }
+        
+        appendToNoMatch({noMatchPath, line, fileName})
+        
 
     }
     else {

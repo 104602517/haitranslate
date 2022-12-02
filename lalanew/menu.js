@@ -3,7 +3,7 @@ export default {
     dingJiLeiMu: "หมวดหมู่ยอดนิยม", 
     qingShuRuDiZhi: "กรุณากรอกที่อยู่", 
     caiDan: "เมนู", 
-        fou: '否',
+    shi: "ใช่", 
     fou: "ไม่", 
     keJian: "มองเห็นได้", 
     huanCun: "แคช", 
@@ -27,6 +27,6 @@ export default {
     anNiu: "ปุ่ม", 
     muLu: "ไดเรกทอรี", 
     caiDanLeiXing: "ประเภทเมนู", 
-        moHuSouSuo: '模糊搜索',
+    moHuSouSuo: "ค้นหา", 
   },
 };
