@@ -1,11 +1,9 @@
 // const igoreSymbols = ['!', '！']
 
 
-// 排除不重要的差异， 如叹号， 空格， \n
+// 排除不重要的差异， 如叹号 
 const getPureStr = (str) => {
-    str = str.trim()
     str = str.replace(/(.*?)([!！]*)$/, '$1')
-    str = str.trim()
 
     return str
 }

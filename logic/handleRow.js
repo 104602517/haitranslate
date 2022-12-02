@@ -41,10 +41,6 @@ module.exports = function handleRow({handleInfo, preInfo, afterInfo, line, fileN
     let afterMatches = []
     let preAfterMatches = []
 
-    if (handleInfo.key === 'sheZhiKanBanCan') {
-        debugger
-    }
-
 
     TRANSLATION_ORIGINN_DATA = [...TRANSLATION_ORIGINN_DATA]
 
