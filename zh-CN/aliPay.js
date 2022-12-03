@@ -1,9 +1,9 @@
 export default {
   config: {
     xiuGaiChengGong: '修改失败',
-    huiTiaoDiZhiBu: '回调地址不能为空',
-    zhiFuBaoGongYao: '支付宝公钥不能为空',
-    shangHuSiYaoBu: '商户私钥不能为空',
+    huiTiaoDiZhiBu: '\n回调地址\n不能为空 ',
+    zhiFuBaoGongYao: ' \n 支付宝公钥不能为空',
+    shangHuSiYaoBu: '商户私钥\n不能为空',
     qingShuRuShangJia: '请输入商家账号',
     qingShuRuAP: '请输入appID',
     baoCunPeiZhi: '保存配置',

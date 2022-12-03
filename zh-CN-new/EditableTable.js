@@ -1,5 +1,5 @@
 export default {
   EditInput: {
-    biaoTi: "หัวข้อเรื่อง", 
+    biaoTi:  ' หัวข้อเรื่อง ', 
   },
 };

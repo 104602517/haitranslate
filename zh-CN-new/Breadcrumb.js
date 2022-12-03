@@ -1,5 +1,5 @@
 export default {
   index: {
-    shouYe: "หน้าหลัก", 
+    shouYe:  ' หน้าหลัก ', 
   },
 };

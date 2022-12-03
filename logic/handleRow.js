@@ -55,7 +55,7 @@ module.exports = function handleRow({handleInfo, preInfo, afterInfo, line, fileN
 
     if ( canUseMatchRes){
         newInfo = matchedResults[0]
-        return getNewLine(newInfo, line)
+        return getNewLine({newInfo, line, handleInfo})
     }
 
     if (matchedLength > 1) {
@@ -88,7 +88,7 @@ module.exports = function handleRow({handleInfo, preInfo, afterInfo, line, fileN
         appendToNoMatch({noMatchPath, line, fileName})
     }
  
-    return getNewLine(newInfo, line)
+    return getNewLine({newInfo, line, handleInfo})
 
 }
 
@@ -99,18 +99,29 @@ function  appendToNoMatch({noMatchPath, line, fileName}){
         }
 }
 
-function getNewLine(newInfo, line) {
+function getNewLine({newInfo, line, handleInfo}) {
     let newLine = ''
-
+ 
 
        // 组合newLine
     if (newInfo) {
-        
-       
-        newLine = newInfo.key + ': "' + newInfo.value + '", \n'
+        const {  value: handleValue } = handleInfo;
+        const startNReg = /^\s*(\\n).*(\\n)*.*(\\n)*$/
+        const endNreg = /^\s*(\\n)*.*(\\n)*.*(\\n)\s*$/
+
+        if (handleValue.indexOf('\\n')>-1) {
+            debugger
+        }
+
+        const preStr = startNReg.test(handleValue) ? '\\n' : ''
+        const endStr = endNreg.test(handleValue) ? '\\n' : ''
+
+        if(startNReg.test(handleValue) ){debugger}
+
+
+        newLine = `${newInfo.key}:  '${preStr} ${newInfo.value} ${endStr}', \n`
     } else {
         
-       
         newLine = line ?  line + '\n' : ' '
     }
 

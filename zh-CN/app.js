@@ -1,10 +1,10 @@
 export default {
   index: {
-    qingShuRuBuShu: '请输入部署脚本',
+    qingShuRuBuShu: '\n请输入\n部署脚本\n',
     qingShuRuQiDong: '请输入启动脚本',
     qingShuRuBeiFen: '请输入备份目录',
     qingShuRuBuShu2: '请输入部署目录',
-    qingShuRuShangChuan: '请输入上传目录',
+    qingShuRuShangChuan: '\n请输入上传目录',
     qingShuRuYingYong: '请输入应用端口',
     qingShuRuYingYong2: '请输入应用名称',
     yingYong: '应用',
