@@ -4,7 +4,7 @@ export default {
               iTEMV:  ' {val1} ({val2}) ', 
     tuiGuangShangKeHu:  ' ลูกค้าจากผู้สนับสนุน ', 
          zhuXuanXiangZhiHui:  ' (หมายเหตุ: ตัวแทนที่เป็นสีเทาถูกเพิ่มในรายการ) ', 
-    qingXuanZeKeHu:  ' กรุณาเลือกประเภทลูกค้า \n \n', 
+    qingXuanZeKeHu:  ' กรุณาเลือกประเภทลูกค้า \n ', 
     chaXun:  ' ตรวจสอบ ', 
                  },
 };

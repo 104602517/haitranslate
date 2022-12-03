@@ -10,7 +10,7 @@ export default {
     dengLuDiDian:  ' ที่ตั้งเข้าสู่ระบบ ', 
     dengLuIP:  ' IP เข้าสู่ระบบ ', 
     gangWei:  ' ตำแหน่ง ', 
-         qiangTui2:  '\n \n บังคับออก \n \n', 
+         qiangTui2:  ' \n บังคับออก \n ', 
     quanBiaoMoHuSou:  ' การค้นหาแบบเต็มตาราง ', 
   },
 };

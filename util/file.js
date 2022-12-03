@@ -24,7 +24,7 @@ const createFile=  async function(filePath){
 }
 
 
-const createDir=  async function(filePath){
+const createDir =  async function(filePath){
    
     if(fs.existsSync(filePath)){
         removeDir(filePath)

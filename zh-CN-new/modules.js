@@ -27,7 +27,7 @@ export default {
     jiNengZuHuanYing:  ' ข้อความต้อนรับสำหรับกลุ่มทักษะ: ', 
     shiFouQiYongLei:  ' เปิดใช้งานการจับคู่ประเภทหรือไม่ ', 
     tuiGuangShangShiFou:  ' มองเห็นผู้สนับสนุนหรือไม่ ', 
-    xianShiZeYongHu:  ' ถ้าแสดง ผู้ใช้สามารถเห็นคำถาม; ถ้าไม่แสดง ผู้ใช้จะไม่เห็นคำถาม \n \n', 
+    xianShiZeYongHu:  ' ถ้าแสดง ผู้ใช้สามารถเห็นคำถาม; ถ้าไม่แสดง ผู้ใช้จะไม่เห็นคำถาม \n ', 
     xianShiZeYongHu2:  ' ถ้าแสดง ผู้ใช้สามารถเห็นคำถาม; ถ้าไม่แสดง ผู้ใช้จะไม่เห็นคำถาม \n ', 
               qingShuRuJiNeng2:  ' โปรดป้อนชื่อกลุ่มทักษะ ', 
   },
@@ -47,9 +47,9 @@ export default {
   },
   members: {
     chengYuanYiChu:  ' ลบสมาชิก ', 
-    congGaiJiNengZu:  ' 】นำออกจากกลุ่มทักษะนี้หรือไม่ \n \n', 
+    congGaiJiNengZu:  ' 】นำออกจากกลุ่มทักษะนี้หรือไม่ \n ', 
     congGaiJiNengZu2:  ' 】นำออกจากกลุ่มทักษะนี้หรือไม่ ', 
-    queDingJiangKeFu:  '\n \n ยืนยันว่าบริการลูกค้า【 ', 
+    queDingJiangKeFu:  ' \n ยืนยันว่าบริการลูกค้า【 ', 
     zuiJinDengLuShi:  ' เวลาเข้าสู่ระบบครั้งล่าสุด ', 
   },
   skillDialog: {
@@ -68,8 +68,8 @@ export default {
   },
   infoDetail1: {
     fuZhiChengGong:  ' คัดลอกสำเร็จ ', 
-         iMEIT:  '\n \n IMEI: {val1}\n ความสูงของหน้าจอ: {val2}\n จำนวน CPU ทั้งหมด: {val3}\n ข้อมูลหน่วยความจำ: {val4}\n ความกว้างหน้าจอ: {val5}\n มีการ์ด SD หรือไม่: {val6 }\n อัตราส่วนการใช้งาน CPU: {val7}\n ... : ... \n \n', 
-         keHuDuanLeiBie2:  '\n \n หมวดหมู่ไคลเอ็นต์: {val1}\n เวอร์ชันไคลเอนต์: {val2}\n อินเทอร์เฟซคำขอเริ่มต้น: {val3}\n เส้นทางคำขอเริ่มต้น: {val4}\n ประเภทคำถามสอบถาม: {val5}\n \n', 
+         iMEIT:  ' \n IMEI: {val1}\n ความสูงของหน้าจอ: {val2}\n จำนวน CPU ทั้งหมด: {val3}\n ข้อมูลหน่วยความจำ: {val4}\n ความกว้างหน้าจอ: {val5}\n มีการ์ด SD หรือไม่: {val6 }\n อัตราส่วนการใช้งาน CPU: {val7}\n ... : ... \n ', 
+         keHuDuanLeiBie2:  ' \n หมวดหมู่ไคลเอ็นต์: {val1}\n เวอร์ชันไคลเอนต์: {val2}\n อินเทอร์เฟซคำขอเริ่มต้น: {val3}\n เส้นทางคำขอเริ่มต้น: {val4}\n ประเภทคำถามสอบถาม: {val5}\n ', 
     suoShuBuMenBu:  ' แผนก(ห้ามเว้นว่าง) ', 
     qingShuRuXuHao:  ' กรุณากรอกหมายเลขซีเรียล ', 
     qingShuRuMingCheng:  ' กรุณากรอกชื่อ ', 

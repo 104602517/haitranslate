@@ -1,10 +1,10 @@
 export default {
   'fourToOne': {
-    huiShouYe:  '\n \n กลับสู่หน้าหลัก \n \n', 
+    huiShouYe:  ' \n กลับสู่หน้าหลัก \n ', 
     huoZheNiKeYi:  ' หรือคุณสามารถไปที่: ', 
     ruYouBuManQing:  ' โปรดติดต่อหัวหน้าของคุณหากคุณไม่พอใจ ', 
     niMeiYouQuanXian:  ' คุณไม่ได้รับอนุญาตให้ไปที่หน้านั้น ', 
-    fanHui:  '\n \n ย้อนกลับ \n \n', 
+    fanHui:  ' \n ย้อนกลับ \n ', 
   },
   'fourToFour': {
     wangGuanShuoZheGe:  ' เว็บมาสเตอร์แจ้งว่าคุณเข้าหน้านี้ไม่ได้... ', 

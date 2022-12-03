@@ -106,21 +106,18 @@ function getNewLine({newInfo, line, handleInfo}) {
 
        // 组合newLine
     if (newInfo) {
-        const {  value: handleValue } = handleInfo;
+        const { value: handleInfoValue } = handleInfo;
+        const {value: newInfoValue} = newInfo
         const startNReg = /^\s*(\\n).*(\\n)*.*(\\n)*$/
         const endNreg = /^\s*(\\n)*.*(\\n)*.*(\\n)\s*$/
 
-        if (handleValue.indexOf('\\n')>-1) {
-            debugger
-        }
-
-        const preStr = startNReg.test(handleValue) ? '\\n' : ''
-        const endStr = endNreg.test(handleValue) ? '\\n' : ''
-
-        if(startNReg.test(handleValue) ){debugger}
+        const newInfoStartN = startNReg.test(newInfoValue)
+        const newInfoEndN = endNreg.test(newInfoValue)
+        const preStr = startNReg.test(handleInfoValue) && !newInfoStartN ? '\\n' : ''
+        const endStr = endNreg.test(handleInfoValue) && !newInfoEndN ? '\\n' : ''
 
 
-        newLine = `${newInfo.key}:  '${preStr} ${newInfo.value} ${endStr}', \n`
+        newLine = `${newInfo.key}:  '${preStr} ${newInfoValue} ${endStr}', \n`
     } else {
         
         newLine = line ?  line + '\n' : ' '

@@ -63,7 +63,7 @@ export default {
     jieShuRiQi:  ' วันที่สิ้นสุด ', 
     kaiShiRiQi:  ' วันที่เริ่มต้น ', 
     shangJiaShiDuan:  ' ระยะเวลาการเอาขึ้น ', 
-    buShangJia2:  '\n \n ไม่เอาขึ้น \n \n', 
+    buShangJia2:  ' \n ไม่เอาขึ้น \n ', 
     shiFouShangJia:  ' เอาขึ้นหรือไม่ ', 
     xuTongZhiDeJi:  ' กลุ่มทักษที่ต้องการแจ้งให้ทราบ: ', 
     lianJieLuJing:  ' เส้นทางลิงก์ ', 

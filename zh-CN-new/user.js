@@ -8,7 +8,7 @@ export default {
     yongHuNiChengBu:  ' ชื่อเล่นผู้ใช้ไม่ได้ใช้สำหรับการเข้าสู่ระบบ ', 
     niCheng:  ' ชื่อเล่น ', 
     yongHuZiLiao:  ' ข้อมูลผู้ใช้ ', 
-              anQuanSheZhi:  ' การตั้งค่าความปลอดภัย\n \n', 
+              anQuanSheZhi:  ' การตั้งค่าความปลอดภัย\n ', 
     suoShuBuMen:  ' แผนก ', 
     yongHuYouXiang:  ' อีเมลผู้ใช้ ', 
     shouJiHaoMa:  ' หมายเลขโทรศัพท์ ', 

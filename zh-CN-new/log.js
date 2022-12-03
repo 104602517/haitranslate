@@ -9,7 +9,7 @@ export default {
     yongHuMing:  ' ชื่อผู้ใช้ ', 
     qingQiuCanShu:  ' ขอพารามิเตอร์ ', 
     qingQiuFangFa:  ' วิธีการขอ ', 
-    qingKong:  '\n \n ลบ \n \n', 
+    qingKong:  ' \n ลบ \n ', 
     sureEmpty:  ' ยืนยันที่จะล้างบันทึกการดำเนินการทั้งหมดหรือไม่ ', 
     sureEmpty2: `确认清空所有异常日志吗?`
   },
