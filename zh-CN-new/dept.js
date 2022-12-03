@@ -2,7 +2,8 @@ export default {
   index: {
         vipDengji: 'VIP等级',
     chengGong:  ' สำเร็จ ', 
-             queDing: '确定',
+    quXiao:  ' ยกเลิก ', 
+    queDing:  ' ยืนยัน ', 
          buMenShiFouJi:  ' แผนก คุณต้องการดำเนินการต่อหรือไม่? ', 
     ciCaoZuoJiang:  ' การดำเนินการนี้จะ ', 
     shangJiBuMenBu:  ' หัวหน้าแผนก ห้ามเว้นว่าง ', 

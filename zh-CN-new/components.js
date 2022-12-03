@@ -1,7 +1,9 @@
 export default {
   badReason: {
         shanChuChengGong: '删除成功',
-              shanChuChaPingYuan:  ' ลบประเภทของเหตุผลแบบประเมินที่ไม่ดี ', 
+    quXiao:  ' ยกเลิก ', 
+    queDing:  ' ยืนยัน ', 
+    shanChuChaPingYuan:  ' ลบประเภทของเหตุผลแบบประเมินที่ไม่ดี ', 
               youYiTiaoJiLu:  ' มีหนึ่งบันทึกที่กำลังแก้ไข ', 
     tianJiaChaPingYuan:  ' เพิ่มประเภทเหตุผลแบบประเมินที่ไม่ดี \n', 
          baoCun:  ' บันทึก ', 
@@ -27,8 +29,8 @@ export default {
         dot: ' ⋅ '
   },
   Navbar: {
-        quXiao: '取消',
-        queDing: '确定',
+    quXiao:  ' ยกเลิก ', 
+    queDing:  ' ยืนยัน ', 
          queDingZhuXiaoBing:  ' แน่ใจว่าจะล็อกเอาท์และออกจากระบบ? ', 
     keFuHouTaiGuan:  ' บริการจัดการระบบหลังบ้านของฝ่ายบริการลูกค้า ', 
     jinRu:  '\n เข้าสู่ ', 

@@ -1,8 +1,8 @@
 export default {
   CRUD: {
     qingZhiShaoXuanZe:  ' โปรดเลือกอย่างน้อยหนึ่งรายการ ', 
-        quXiao: '取消',
-        queDing: '确定',
+    quXiao:  ' ยกเลิก ', 
+    queDing:  ' ยืนยัน ', 
         tiShi: '提示',
     queRenShanChuXuan:  ' ยืนยันการลบข้อมูล {val1} ที่เลือกไหม ', 
                         yongHuMiMa:  ' รหัสผ่านผู้ใช้ ', 

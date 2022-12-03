@@ -1,7 +1,7 @@
 export default {
   index: {
-        quXiao: '取消',
-        queDing: '确定',
+    quXiao:  ' ยกเลิก ', 
+    queDing:  ' ยืนยัน ', 
          queRenQiangTuiXuan:  ' ยืนยันการบังคับออกจากระบบของผู้ใช้ {val1} หรือไม่ ', 
                    yiZongJie:  ' สรุปผลแล้ว ', 
     weiJieJue:  ' ยังไม่ได้แก้ไข ', 

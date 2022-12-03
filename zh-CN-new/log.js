@@ -1,7 +1,7 @@
 export default {
   errorLog: {
-        quXiao: '取消',
-        queDing: '确定',
+    quXiao:  ' ยกเลิก ', 
+    queDing:  ' ยืนยัน ', 
          yiChangRiZhi:  ' บันทึกผิดปกติ ', 
                    liuLanQi:  ' เบราว์เซอร์ ', 
     miaoShu:  ' คำอธิบาย ', 

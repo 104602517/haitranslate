@@ -1,7 +1,8 @@
 export default {
   index: {
-        quXiao: '取消',
-         jieChuYongHuHei:  ' ปลดบล็อกรายการบัญชีผู้ใช้ ', 
+    quXiao:  ' ยกเลิก ', 
+    queDing:  ' ยืนยัน ', 
+    jieChuYongHuHei:  ' ปลดบล็อกรายการบัญชีผู้ใช้ ', 
          puTongKeHu:  ' ลูกค้าทั่วไป ', 
     fou:  ' ไม่ ', 
               keHuZhangHuMing:  ' ชื่อบัญชีลูกค้า ', 

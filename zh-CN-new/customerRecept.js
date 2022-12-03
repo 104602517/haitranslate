@@ -1,7 +1,9 @@
 export default {
   autoAcceptCustomerType: {
         shanChuChengGong: '删除成功',
-                   shiFouShanChu:  ' ลบหรือไม่ ', 
+    quXiao:  ' ยกเลิก ', 
+    queDing:  ' ยืนยัน ', 
+         shiFouShanChu:  ' ลบหรือไม่ ', 
     queRenShanChu:  ' ยืนยันการลบ ', 
     yaoQingJieDaiLie:  ' รายการรับเชิญ ', 
          caoZuo:  ' การดำเนินการ ', 

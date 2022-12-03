@@ -4,7 +4,8 @@ export default {
   },
   a: {
     danXuan:  ' เลือกเดี่ยว ', 
-                      },
+         quXiao:  ' ยกเลิก ', 
+            },
   barOne: {
     shiChang:  ' ระยะเวลา ', 
   },
@@ -92,7 +93,9 @@ export default {
     yiBan:  ' ทั่วไป ', 
     manYi:  ' พอใจ ', 
     feiChangManYi:  ' พอใจมาก ', 
-                             feiWuXingDuSuan:  ' ที่ไม่ใช่ห้าดาวถือเป็นแบบประเมินที่ไม่ดี ', 
+              queDing:  ' ยืนยัน ', 
+    quXiao:  ' ยกเลิก ', 
+         feiWuXingDuSuan:  ' ที่ไม่ใช่ห้าดาวถือเป็นแบบประเมินที่ไม่ดี ', 
     keHuChaPingYuan2:  ' เหตุผลสำหรับแบบประเมินที่ไม่ดีจากลูกค้า: ', 
     zhiJianYiJian:  ' แบบประเมินจากคนตรวจสอบคุณภาพ ', 
                    zhiJianJieGuo2:  ' ผลการตรวจสอบคุณภาพ. ', 

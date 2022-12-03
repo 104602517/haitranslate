@@ -8,6 +8,11 @@ const getPureStr = (str) => {
     return str
 }
 
+const isSimpleKey = (key) => {
+    const simpleKeys = ['quXiao', 'queDing']
+    
+    return simpleKeys.includes(key)
+}
 
 const isSameValueInArr = (arr) => {
     if(!arr.length) return false
@@ -17,7 +22,11 @@ const isSameValueInArr = (arr) => {
 
     if (arr.length > 0) {
        isSame = arr.every((item) => {
-           const {  value } = item;
+           const { key, value } = item;
+
+           if (isSimpleKey(key)) {
+               return true
+           }
            return getPureStr(value) === firstPureStr
         })
     } 

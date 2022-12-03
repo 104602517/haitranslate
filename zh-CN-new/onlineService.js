@@ -7,7 +7,9 @@ export default {
     miao2:  ' (วินาที) ', 
   },
   index: {
-                   qiangZhiXiaXian:  ' บังคับออฟไลน์ ', 
+         quXiao:  ' ยกเลิก ', 
+    queDing:  ' ยืนยัน ', 
+    qiangZhiXiaXian:  ' บังคับออฟไลน์ ', 
     queRenJiangGaiKe:  ' คุณแน่ใจหรือไม่ว่าจะบังคับบริการลูกค้านี้ให้ออฟไลน์ ', 
          tuiChuPaiDui:  ' ออกจากคิว ', 
     jinRuHuiHua:  ' ออกจากบทสนทนา ', 
