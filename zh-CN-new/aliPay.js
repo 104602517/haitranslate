@@ -1,7 +1,7 @@
 export default {
   config: {
         xiuGaiChengGong: '修改失败',
-    huiTiaoDiZhiBu:  '\n ที่อยู่ติดต่อกลับ (ห้ามเว้นว่าง) ', 
+    huiTiaoDiZhiBu:  '\n ที่อยู่ติดต่อกลับ (ห้ามเว้นว่าง) \n', 
     zhiFuBaoGongYao:  '\n คีย์สาธารณะของอาลีเพย์ (ห้ามเว้นว่าง) ', 
     shangHuSiYaoBu:  ' คีย์ส่วนตัวขอร้านค้า (ห้ามเว้นว่าง) ', 
     qingShuRuShangJia:  ' กรุณากรอกเลขที่บัญชีร้านค้า ', 

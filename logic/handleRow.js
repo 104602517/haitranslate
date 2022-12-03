@@ -41,6 +41,7 @@ module.exports = function handleRow({handleInfo, preInfo, afterInfo, line, fileN
     let afterMatches = []
     let preAfterMatches = []
 
+    handleHasNewLineRow({handleInfo, fileName, line})
 
     TRANSLATION_ORIGINN_DATA = [...TRANSLATION_ORIGINN_DATA]
 
@@ -127,4 +128,14 @@ function getNewLine({newInfo, line, handleInfo}) {
 
     return newLine
 
+}
+
+
+function handleHasNewLineRow({handleInfo, fileName, line}) {
+    const hasNInMiddleReg = /^\s*(\\n)*.+(\\n).+(\\n)*$/
+    const { value } = handleInfo
+    
+    if (hasNInMiddleReg.test(value.trim())) {
+            appenFile('checkNewLine.js', line + ' \\\\' + fileName  + ' \n  ')
+    }
 }

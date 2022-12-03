@@ -7,6 +7,7 @@ const path = require('path')
   
 createDir(resolve('zh-CN-new'))
 createFile(resolve('noMatch.js'))
+createFile(resolve('checkNewLine.js'))
 
 update('zh-CN')
 
