@@ -51,14 +51,9 @@ function getAssebleData(fileData) {
         line = multiLineStart + line;
         multiLineStart = "";
         newData += line + "\n";
-        break;
-      }
-
-      if (multiLineStartReg.test(line)) {
+      } else if (multiLineStartReg.test(line)) {
         multiLineStart = line;
-      }
-
-      if (keyValueReg.test(line)) {
+      } else if (keyValueReg.test(line)) {
         newData += line + "\n";
       }
 
