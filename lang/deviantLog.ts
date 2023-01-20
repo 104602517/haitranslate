@@ -1,0 +1,15 @@
+export default {
+  uSDTDi: 'USDT地址详情',
+  yinHangKaXiangQing: '银行卡详情',
+  suoDingJieSuoYuan: '锁定/解锁原因',
+  suoDingJieSuoFang: '锁定/解锁方式',
+  uSDTDi2: 'USDT地址',
+  yinHangKa: '银行卡',
+  suoDingJieSuoShi: '锁定/解锁时间',
+  yongHuCengJi: '用户层级',
+  zhangHaoLeiXing: '账号类型',
+  zhangHaoMing: '账号名',
+  qingShuRuHuiYuan: '请输入会员账号',
+  qingShuRuZhangHao: '请输入账号名',
+  suoDingShiJian: '锁定时间',
+};

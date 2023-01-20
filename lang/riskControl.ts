@@ -1,0 +1,17 @@
+export default {
+  zhangBianHouYuE: '账变后余额',
+  zhangBianQianYuE: '账变前余额',
+  yingDaoZhang: '应到账',
+  jinE: '金额',
+  fuKuanRenTE: '付款人：{val1}',
+  caoZuoDongZuo: '操作动作',
+  jiaoYiLeiXing: '交易类型',
+  zhuDanHao: '注单号',
+  jiaoYiHao: '交易号',
+  qingXuanZeZhangHu: '请选择账户类型',
+  qingXuanZeXiFen: '请选择细分类型',
+  qingXuanZeJiaoYi: '请选择交易类型',
+  qingShuRuZhangHu: '请输入账户名',
+  qingShuRuZhuDan: '请输入注单号',
+  qingShuRuJiaoYi: '请输入交易号',
+};

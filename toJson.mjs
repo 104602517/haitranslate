@@ -8,7 +8,7 @@ import fs from "fs";
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
 async function run() {
-  const files = await glob("aa/**/*.js");
+  const files = await glob("lang/**/*.ts");
   let res = "{\n";
   createFile(resolve("res.json"));
   __dirname;
