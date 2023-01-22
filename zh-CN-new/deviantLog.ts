@@ -1,0 +1,15 @@
+export default {
+    uSDTDi:  'USDT address details', 
+    yinHangKaXiangQing:  'bank card details', 
+    suoDingJieSuoYuan:  'Lock/Unlock Reason', 
+    suoDingJieSuoFang:  'Lock/Unlock Method', 
+    uSDTDi2:  'USDT address', 
+    yinHangKa:  'bank card', 
+    suoDingJieSuoShi:  'lock/unlock time', 
+    yongHuCengJi:  'user level', 
+    zhangHaoLeiXing:  'account type', 
+    zhangHaoMing:  'account name', 
+    qingShuRuHuiYuan:  'Please enter member account', 
+    qingShuRuZhangHao:  'Please enter account name', 
+    suoDingShiJian:  'locking time', 
+};

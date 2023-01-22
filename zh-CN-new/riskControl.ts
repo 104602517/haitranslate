@@ -1,0 +1,17 @@
+export default {
+    zhangBianHouYuE:  'Balance after account change', 
+    zhangBianQianYuE:  'Balance before account change', 
+    yingDaoZhang:  'receivable', 
+    jinE:  'amount', 
+    fuKuanRenTE:  'drawee：{val1}', 
+    caoZuoDongZuo:  'operational motion', 
+    jiaoYiLeiXing:  'transaction type', 
+    zhuDanHao:  'order number', 
+    jiaoYiHao:  'transaction number', 
+    qingXuanZeZhangHu:  'please choose the account type', 
+    qingXuanZeXiFen:  'please choose the distinguish type', 
+    qingXuanZeJiaoYi:  'please choose the transaction type', 
+    qingShuRuZhangHu:  'please enter the account name', 
+    qingShuRuZhuDan:  'please enter the order number', 
+    qingShuRuJiaoYi:  'please enter the transaction number', 
+};
