@@ -4,7 +4,7 @@ export default {
   qingShuRuYanZheng: '请输入验证码!',
   dengLuMiMa: '登录密码',
   dengLuZhangHao: '登录账号',
-  houTaiGuanLiXi: '后台管理系统',
-  mLShiChangBu: 'B体育 市场部',
+  houTaiGuanLiXi: '',
+  mLShiChangBu: 'B体育',
   qingXianDaKaiNin: '请先打开您手机上的google Authenticator，扫描以下二维码',
 };

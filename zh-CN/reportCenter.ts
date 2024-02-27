@@ -2,7 +2,7 @@ export default {
   jiaoYiBianHao: '交易编号',
   qingShuRuZhangHao: '请输入帐号',
   daiLiShuYingBao: '代理输赢报表',
-  huiYuanJiaoYiJi: '會員交易紀錄',
+  huiYuanJiaoYiJi: '会员交易纪录',
   daiChongMingXi: '代充明细',
   ziJinTiaoZhengJian: '资金调整-减币',
   ziJinTiaoZhengJia: '资金调整-加币',

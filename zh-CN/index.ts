@@ -1,4 +1,8 @@
 import authority from './authority';
+import utils from './utils';
+import consts from './const';
+import withdrawMerchantSet from './withdrawMerchantSet';
+import components from './components';
 import rechargeMerchantSet from './rechargeMerchantSet';
 import withdrawPayment from './withdrawPayment';
 import modules from './modules';
@@ -44,5 +48,9 @@ export default Object.assign(
     modules,
     withdrawPayment,
     rechargeMerchantSet,
+    components,
+    withdrawMerchantSet,
+    consts,
+    utils,
   },
 );

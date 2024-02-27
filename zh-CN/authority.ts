@@ -87,7 +87,7 @@ export default {
   qingShuRuGangWei: '请输入岗位名称!',
   gangWeiMingChengI: '岗位名称{val1}',
   qingShuRuBeiZhu: '请输入备注!',
-  gangWeiMingChengN: '岗位名称0&nbsp;',
+  gangWeiMingChengN: '岗位名称;',
   qingShuRuBeiZhu2: '请输入备注：!',
   qingShuRuBuMen: '请输入部门名称!',
   buMenMingCheng2: '部门名称：',

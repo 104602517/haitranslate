@@ -107,7 +107,9 @@ module.exports = function getHandledRow({
       return getNewLine({ newInfo: preAfterMatches[0], line, handleInfo });
     }
 
-    appendToNoMatch({ noMatchPath, line, fileName });
+    return getNewLine({ newInfo: preMatches[0], line, handleInfo });
+
+    // appendToNoMatch({ noMatchPath, line, fileName });
   } else {
     appendToNoMatch({ noMatchPath, line, fileName });
   }

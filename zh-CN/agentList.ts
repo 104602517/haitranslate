@@ -303,7 +303,7 @@ export default {
   pREVChuang: '{val1}创建代理权限审核中，请耐心等待！',
   pREVHui: '{val1}会员代充权限审核中，请耐心等待！',
   bianGengShouXuFei: '变更手续费方案审核中，请耐心等待！',
-  fORMA: '{val1})}人',
+  fORMA: '{val1}人',
   xiaJiDaiLiSan: '下级代理（三级）',
   xiaJiDaiLiEr: '下级代理（二级）',
   xiaXianHuiYuan: '下线会员',
@@ -726,4 +726,7 @@ export default {
   shenQingPiLiangSuo: '申请批量: 锁定',
   chuXianWeiZhiCuoWu: '出现未知错误！错误码为',
   piLiangBeiZhu: '批量备注',
+  cOINI: '{val1}汇总：',
+  zuiJinQiTian: '最近七天',
+  zuiJinShiSiTian: '最近十四天',
 };
